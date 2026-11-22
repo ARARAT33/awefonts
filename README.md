@@ -13,3 +13,9 @@ Deploy on Cloudflare Pages with no build command and output directory /.
 Deploy `api-site/` as a second Cloudflare Pages project (root directory `api-site`, no build command, output directory `.`) and attach `fonts.api.aweconnect.dpdns.org`. Keep the main UI Pages project rooted at repository root for `fonts.aweconnect.dpdns.org`. API documentation and embed example are in `api-site/README.md`.
 
 Production UI Pages project now serves this feature branch on `fonts.aweconnect.dpdns.org`; API-only Pages project serves `api-site/` on `fonts.api.aweconnect.dpdns.org`.
+
+
+## Global source directory and multilingual studio
+The source directory indexes every platform supplied in the project brief. Only fonts with redistribution rights are mirrored in the downloadable catalogue; commercial and mixed archives remain linked and are not scraped or republished without permission. The library preview uses script-specific specimen strings and explicit font loading. The local studio offers glyph grids for 30+ writing systems and generates self-contained CSS `@font-face` embeds using a data URL from a locally exported TTF. Complex-script shaping (ligatures, contextual forms and mark positioning) requires a full OpenType shaping editor; this pixel-grid tool is a local glyph prototyping studio.
+
+API v4 options: `data-font`, `data-weights`, `data-selector`, `data-apply`, `data-size`, `data-line-height`, `data-letter-spacing`.
