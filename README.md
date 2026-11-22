@@ -9,14 +9,14 @@ AWEFonts is a static font discovery and local font-authoring experience.
 - /api/v1/fonts.json — bundled curated Google Fonts subset.
 - /api/v1/providers.json — provider registry.
 - /api/v1/openapi.json — static API description.
-- /api/css/{family}.css — pre-generated static CSS for bundled families.
+- /api/css/{family}.css — pre-generated static CSS for all 2,103 catalog families.
 
 ## Architecture constraints
 - Static HTML, CSS, JavaScript and JSON only.
 - No Cloudflare Workers, Pages Functions, server, database, authentication, scheduled jobs or upload endpoints.
 - No server-side processing. FontStudio drawing, tracing, project save and font compilation run on the visitor's device.
 - Catalog discovery uses public upstream sources directly from the browser. If an upstream provider is unavailable or blocks CORS, the bundled catalog remains available.
-- The full font binaries are not mirrored by this project. Google Fonts and Fontsource deliver their own files. Each font's license must be checked individually.
+- Every catalog family has an AWEFonts-hosted static CSS preset. The underlying font binaries are delivered by Google Fonts or Fontsource; this repository does not mirror all binary font files. Each font's license must be checked individually.
 
 ## Deploy
 Cloudflare Pages: no build command; output directory /. The API subdomain can point to the same Pages project. Do not add Workers or Functions.
