@@ -47,7 +47,7 @@
     },
     "/api/css/{family}.css": {
       "get": {
-        "summary": "Get a pre-generated static CSS preset for any family in the full catalog",
+        "summary": "Get a pre-generated static CSS preset for any of the 2,105 catalog families",
         "parameters": [
           {
             "name": "family",
@@ -74,7 +74,7 @@
     },
     "/api/v1/catalog.json": {
       "get": {
-        "summary": "Get the full static open font family index (2,103 families)",
+        "summary": "Get the full static Google Fonts and Fontsource index (2,105 families)",
         "responses": {
           "200": {
             "description": "Static JSON catalog",
