@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset for Roboto. Font binaries are served by Google Fonts. */
+/* AWEFonts static CSS preset for Roboto. Google Fonts serves font binaries. */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 :root { --awe-font-roboto: "Roboto", sans-serif; }
