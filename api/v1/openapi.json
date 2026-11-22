@@ -47,7 +47,7 @@
     },
     "/api/css/{family}.css": {
       "get": {
-        "summary": "Get a pre-generated static CSS preset for a bundled family",
+        "summary": "Get a pre-generated static CSS preset for any family in the full catalog",
         "parameters": [
           {
             "name": "family",
