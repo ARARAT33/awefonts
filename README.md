@@ -5,11 +5,11 @@ AWEFonts is a static font discovery and local font-authoring experience.
 ## Pages
 - /fonts/ — searchable catalog. It merges the bundled catalog with the public Fontsource registry/API in the visitor's browser. Google Fonts and Fontsource assets are requested directly from their providers.
 - /fontsstudio/ — local glyph designer. Draw glyphs, import raster/SVG images or AWE glyph projects, and export TTF, OTF, WOFF and WOFF2 in-browser.
-- /api/v1/catalog.json — full static index of 2,103 open-source font families.
+- /api/v1/catalog.json — full static index of 2,105 font families: 1,960 Google Fonts families plus 145 additional Fontsource open-source families.
 - /api/v1/fonts.json — bundled curated Google Fonts subset.
 - /api/v1/providers.json — provider registry.
 - /api/v1/openapi.json — static API description.
-- /api/css/{family}.css — pre-generated static CSS for all 2,103 catalog families.
+- /api/css/{family}.css — pre-generated static CSS for all 2,105 catalog families.
 
 ## Architecture constraints
 - Static HTML, CSS, JavaScript and JSON only.
