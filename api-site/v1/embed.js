@@ -9,7 +9,7 @@ var familyStack=[];
 function addStyle(css){var s=document.createElement("style");s.setAttribute("data-awefonts","");s.textContent=css;document.head.appendChild(s);}
 function addLink(href){if(document.querySelector('link[data-awefonts-href="'+href.replace(/"/g,"%22")+'"]'))return;var l=document.createElement("link");l.rel="stylesheet";l.href=href;l.setAttribute("data-awefonts-href",href);document.head.appendChild(l);}
 function slug(s){return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");}
-function googleCss(f){var w=weights.filter(function(x){return (f.weights||[]).map(String).indexOf(x)>=0;});if(!w.length)w=(f.weights||[400]).slice(0,1).map(String);var fam=encodeURIComponent(f.family).replace(/%20/g,"+");return "https://fonts.googleapis.com/css2?family="+fam+(w.length?":wght@"+w.join(";"):"")+"&display=swap";}
+function googleCss(f){var available=(f.weights||[400]).map(Number).filter(function(x){return Number.isFinite(x);});if(!available.length)available=[400];var low=Math.min.apply(null,available),high=Math.max.apply(null,available);var w=weights.map(Number).filter(function(x){return Number.isFinite(x)&&(available.indexOf(x)>=0||(f.variable&&x>=low&&x<=high));});if(!w.length)w=f.variable&&available.length>1?[low,high]:[available[0]];var fam=encodeURIComponent(f.family).replace(/%20/g,"+");return "https://fonts.googleapis.com/css2?family="+fam+(w.length?":wght@"+w.join(";"):"")+"&display=swap";}
 fetch(api+"/v1/catalog.json",{mode:"cors"}).then(function(r){if(!r.ok)throw Error("AWEFonts catalog "+r.status);return r.json();}).then(function(data){
  var catalog=data.fonts||[];
  names.forEach(function(name){
