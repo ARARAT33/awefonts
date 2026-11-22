@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-za */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-za/index.css");
+.awe-font-playwrite-za { font-family: "Playwrite Za", sans-serif; }

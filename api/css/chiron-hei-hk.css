@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chiron-hei-hk */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chiron-hei-hk/index.css");
+.awe-font-chiron-hei-hk { font-family: "Chiron Hei Hk", sans-serif; }

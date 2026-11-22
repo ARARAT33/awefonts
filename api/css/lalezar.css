@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lalezar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lalezar/index.css");
+.awe-font-lalezar { font-family: "Lalezar", sans-serif; }

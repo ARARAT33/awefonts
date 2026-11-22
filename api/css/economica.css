@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: economica */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/economica/index.css");
+.awe-font-economica { font-family: "Economica", sans-serif; }

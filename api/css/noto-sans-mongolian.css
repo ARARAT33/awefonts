@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-mongolian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-mongolian/index.css");
+.awe-font-noto-sans-mongolian { font-family: "Noto Sans Mongolian", sans-serif; }

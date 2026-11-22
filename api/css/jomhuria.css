@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jomhuria */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jomhuria/index.css");
+.awe-font-jomhuria { font-family: "Jomhuria", sans-serif; }

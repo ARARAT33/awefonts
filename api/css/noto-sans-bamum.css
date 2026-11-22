@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-bamum */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-bamum/index.css");
+.awe-font-noto-sans-bamum { font-family: "Noto Sans Bamum", sans-serif; }

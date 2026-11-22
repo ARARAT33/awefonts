@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-tangut */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-tangut/index.css");
+.awe-font-noto-serif-tangut { font-family: "Noto Serif Tangut", sans-serif; }

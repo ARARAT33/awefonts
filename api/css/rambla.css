@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rambla */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rambla/index.css");
+.awe-font-rambla { font-family: "Rambla", sans-serif; }

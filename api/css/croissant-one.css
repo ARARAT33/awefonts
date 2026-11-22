@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: croissant-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/croissant-one/index.css");
+.awe-font-croissant-one { font-family: "Croissant One", sans-serif; }

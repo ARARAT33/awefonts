@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: birthstone-bounce */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/birthstone-bounce/index.css");
+.awe-font-birthstone-bounce { font-family: "Birthstone Bounce", sans-serif; }

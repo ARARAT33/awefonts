@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tai-heritage-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tai-heritage-pro/index.css");
+.awe-font-tai-heritage-pro { font-family: "Tai Heritage Pro", sans-serif; }

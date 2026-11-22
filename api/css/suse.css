@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: suse */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/suse/index.css");
+.awe-font-suse { font-family: "Suse", sans-serif; }

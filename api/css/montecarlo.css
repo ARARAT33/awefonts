@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: montecarlo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montecarlo/index.css");
+.awe-font-montecarlo { font-family: "Montecarlo", sans-serif; }

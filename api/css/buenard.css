@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: buenard */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/buenard/index.css");
+.awe-font-buenard { font-family: "Buenard", sans-serif; }

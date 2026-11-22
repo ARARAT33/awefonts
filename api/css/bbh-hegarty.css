@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bbh-hegarty */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bbh-hegarty/index.css");
+.awe-font-bbh-hegarty { font-family: "Bbh Hegarty", sans-serif; }

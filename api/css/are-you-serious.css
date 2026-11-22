@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: are-you-serious */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/are-you-serious/index.css");
+.awe-font-are-you-serious { font-family: "Are You Serious", sans-serif; }

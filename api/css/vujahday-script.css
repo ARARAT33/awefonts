@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vujahday-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vujahday-script/index.css");
+.awe-font-vujahday-script { font-family: "Vujahday Script", sans-serif; }

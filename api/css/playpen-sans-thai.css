@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playpen-sans-thai */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playpen-sans-thai/index.css");
+.awe-font-playpen-sans-thai { font-family: "Playpen Sans Thai", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: laila */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/laila/index.css");
+.awe-font-laila { font-family: "Laila", sans-serif; }

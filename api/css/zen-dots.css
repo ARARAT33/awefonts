@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zen-dots */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zen-dots/index.css");
+.awe-font-zen-dots { font-family: "Zen Dots", sans-serif; }

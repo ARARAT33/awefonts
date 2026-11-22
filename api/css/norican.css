@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: norican */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/norican/index.css");
+.awe-font-norican { font-family: "Norican", sans-serif; }

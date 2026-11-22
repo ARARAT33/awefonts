@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nanum-gothic-coding */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nanum-gothic-coding/index.css");
+.awe-font-nanum-gothic-coding { font-family: "Nanum Gothic Coding", sans-serif; }

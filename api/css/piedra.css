@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: piedra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/piedra/index.css");
+.awe-font-piedra { font-family: "Piedra", sans-serif; }

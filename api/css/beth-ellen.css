@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: beth-ellen */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/beth-ellen/index.css");
+.awe-font-beth-ellen { font-family: "Beth Ellen", sans-serif; }

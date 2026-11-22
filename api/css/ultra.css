@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ultra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ultra/index.css");
+.awe-font-ultra { font-family: "Ultra", sans-serif; }

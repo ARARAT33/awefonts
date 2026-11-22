@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: syne */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/syne/index.css");
+.awe-font-syne { font-family: "Syne", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playfair */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playfair/index.css");
+.awe-font-playfair { font-family: "Playfair", sans-serif; }

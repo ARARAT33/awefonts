@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fresca */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fresca/index.css");
+.awe-font-fresca { font-family: "Fresca", sans-serif; }

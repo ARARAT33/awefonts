@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mea-culpa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mea-culpa/index.css");
+.awe-font-mea-culpa { font-family: "Mea Culpa", sans-serif; }

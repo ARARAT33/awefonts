@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: betania-patmos-in */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/betania-patmos-in/index.css");
+.awe-font-betania-patmos-in { font-family: "Betania Patmos In", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: blinker */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/blinker/index.css");
+.awe-font-blinker { font-family: "Blinker", sans-serif; }

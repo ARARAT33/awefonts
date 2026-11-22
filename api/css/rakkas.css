@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rakkas */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rakkas/index.css");
+.awe-font-rakkas { font-family: "Rakkas", sans-serif; }

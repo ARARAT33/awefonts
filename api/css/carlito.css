@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: carlito */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/carlito/index.css");
+.awe-font-carlito { font-family: "Carlito", sans-serif; }

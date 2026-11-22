@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: biorhyme */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/biorhyme/index.css");
+.awe-font-biorhyme { font-family: "Biorhyme", sans-serif; }

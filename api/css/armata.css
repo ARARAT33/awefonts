@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: armata */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/armata/index.css");
+.awe-font-armata { font-family: "Armata", sans-serif; }

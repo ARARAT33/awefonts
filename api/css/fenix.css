@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fenix */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fenix/index.css");
+.awe-font-fenix { font-family: "Fenix", sans-serif; }

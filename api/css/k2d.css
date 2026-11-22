@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: k2d */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/k2d/index.css");
+.awe-font-k2d { font-family: "K2d", sans-serif; }

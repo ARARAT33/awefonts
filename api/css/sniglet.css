@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sniglet */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sniglet/index.css");
+.awe-font-sniglet { font-family: "Sniglet", sans-serif; }

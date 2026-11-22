@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pathway-extreme */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pathway-extreme/index.css");
+.awe-font-pathway-extreme { font-family: "Pathway Extreme", sans-serif; }

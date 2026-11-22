@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: wittgenstein */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/wittgenstein/index.css");
+.awe-font-wittgenstein { font-family: "Wittgenstein", sans-serif; }

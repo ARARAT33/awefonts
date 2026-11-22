@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: charm */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/charm/index.css");
+.awe-font-charm { font-family: "Charm", sans-serif; }

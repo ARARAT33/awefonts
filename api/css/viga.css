@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: viga */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/viga/index.css");
+.awe-font-viga { font-family: "Viga", sans-serif; }

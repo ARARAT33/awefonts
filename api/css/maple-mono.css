@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: maple-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/maple-mono/index.css");
+.awe-font-maple-mono { font-family: "Maple Mono", sans-serif; }

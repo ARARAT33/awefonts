@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-lines */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-lines/index.css");
+.awe-font-rubik-lines { font-family: "Rubik Lines", sans-serif; }

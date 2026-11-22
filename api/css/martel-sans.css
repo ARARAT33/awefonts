@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: martel-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/martel-sans/index.css");
+.awe-font-martel-sans { font-family: "Martel Sans", sans-serif; }

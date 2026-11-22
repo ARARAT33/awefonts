@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chocolate-classical-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chocolate-classical-sans/index.css");
+.awe-font-chocolate-classical-sans { font-family: "Chocolate Classical Sans", sans-serif; }

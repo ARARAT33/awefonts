@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ramaraja */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ramaraja/index.css");
+.awe-font-ramaraja { font-family: "Ramaraja", sans-serif; }

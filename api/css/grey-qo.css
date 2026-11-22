@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: grey-qo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/grey-qo/index.css");
+.awe-font-grey-qo { font-family: "Grey Qo", sans-serif; }

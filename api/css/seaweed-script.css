@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: seaweed-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/seaweed-script/index.css");
+.awe-font-seaweed-script { font-family: "Seaweed Script", sans-serif; }

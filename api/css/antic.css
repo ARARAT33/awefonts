@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: antic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/antic/index.css");
+.awe-font-antic { font-family: "Antic", sans-serif; }

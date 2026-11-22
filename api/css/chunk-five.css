@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chunk-five */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chunk-five/index.css");
+.awe-font-chunk-five { font-family: "Chunk Five", sans-serif; }

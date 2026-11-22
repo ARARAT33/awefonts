@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-fr-trad-guides */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-fr-trad-guides/index.css");
+.awe-font-playwrite-fr-trad-guides { font-family: "Playwrite Fr Trad Guides", sans-serif; }

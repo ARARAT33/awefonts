@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: athiti */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/athiti/index.css");
+.awe-font-athiti { font-family: "Athiti", sans-serif; }

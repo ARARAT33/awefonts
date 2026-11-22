@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sixtyfour-convergence */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sixtyfour-convergence/index.css");
+.awe-font-sixtyfour-convergence { font-family: "Sixtyfour Convergence", sans-serif; }

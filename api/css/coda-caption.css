@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: coda-caption */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/coda-caption/index.css");
+.awe-font-coda-caption { font-family: "Coda Caption", sans-serif; }

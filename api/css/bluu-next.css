@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bluu-next */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bluu-next/index.css");
+.awe-font-bluu-next { font-family: "Bluu Next", sans-serif; }

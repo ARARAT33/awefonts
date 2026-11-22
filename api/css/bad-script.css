@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bad-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bad-script/index.css");
+.awe-font-bad-script { font-family: "Bad Script", sans-serif; }

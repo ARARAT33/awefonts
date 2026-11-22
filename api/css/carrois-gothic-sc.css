@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: carrois-gothic-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/carrois-gothic-sc/index.css");
+.awe-font-carrois-gothic-sc { font-family: "Carrois Gothic Sc", sans-serif; }

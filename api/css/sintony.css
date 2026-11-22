@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sintony */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sintony/index.css");
+.awe-font-sintony { font-family: "Sintony", sans-serif; }

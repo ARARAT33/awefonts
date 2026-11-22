@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bigshot-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bigshot-one/index.css");
+.awe-font-bigshot-one { font-family: "Bigshot One", sans-serif; }

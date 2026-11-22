@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arizonia */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arizonia/index.css");
+.awe-font-arizonia { font-family: "Arizonia", sans-serif; }

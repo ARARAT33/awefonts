@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alien-block */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alien-block/index.css");
+.awe-font-alien-block { font-family: "Alien Block", sans-serif; }

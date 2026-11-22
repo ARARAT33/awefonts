@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: life-savers */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/life-savers/index.css");
+.awe-font-life-savers { font-family: "Life Savers", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-ahom */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-ahom/index.css");
+.awe-font-noto-serif-ahom { font-family: "Noto Serif Ahom", sans-serif; }

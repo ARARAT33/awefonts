@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jaldi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jaldi/index.css");
+.awe-font-jaldi { font-family: "Jaldi", sans-serif; }

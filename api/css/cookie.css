@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cookie */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cookie/index.css");
+.awe-font-cookie { font-family: "Cookie", sans-serif; }

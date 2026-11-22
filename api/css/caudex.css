@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: caudex */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/caudex/index.css");
+.awe-font-caudex { font-family: "Caudex", sans-serif; }

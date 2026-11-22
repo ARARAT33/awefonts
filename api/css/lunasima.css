@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lunasima */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lunasima/index.css");
+.awe-font-lunasima { font-family: "Lunasima", sans-serif; }

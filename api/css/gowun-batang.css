@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gowun-batang */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gowun-batang/index.css");
+.awe-font-gowun-batang { font-family: "Gowun Batang", sans-serif; }

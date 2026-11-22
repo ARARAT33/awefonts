@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sevillana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sevillana/index.css");
+.awe-font-sevillana { font-family: "Sevillana", sans-serif; }

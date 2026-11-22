@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mystery-quest */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mystery-quest/index.css");
+.awe-font-mystery-quest { font-family: "Mystery Quest", sans-serif; }

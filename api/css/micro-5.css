@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: micro-5 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/micro-5/index.css");
+.awe-font-micro-5 { font-family: "Micro 5", sans-serif; }

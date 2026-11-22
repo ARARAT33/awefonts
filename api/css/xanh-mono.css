@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: xanh-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/xanh-mono/index.css");
+.awe-font-xanh-mono { font-family: "Xanh Mono", sans-serif; }

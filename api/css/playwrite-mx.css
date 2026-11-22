@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-mx */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-mx/index.css");
+.awe-font-playwrite-mx { font-family: "Playwrite Mx", sans-serif; }

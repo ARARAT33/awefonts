@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: emilys-candy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/emilys-candy/index.css");
+.awe-font-emilys-candy { font-family: "Emilys Candy", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shojumaru */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shojumaru/index.css");
+.awe-font-shojumaru { font-family: "Shojumaru", sans-serif; }

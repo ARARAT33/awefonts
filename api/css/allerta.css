@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: allerta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/allerta/index.css");
+.awe-font-allerta { font-family: "Allerta", sans-serif; }

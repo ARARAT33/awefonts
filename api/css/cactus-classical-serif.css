@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cactus-classical-serif */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cactus-classical-serif/index.css");
+.awe-font-cactus-classical-serif { font-family: "Cactus Classical Serif", sans-serif; }

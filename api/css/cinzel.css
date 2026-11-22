@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cinzel */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cinzel/index.css");
+.awe-font-cinzel { font-family: "Cinzel", sans-serif; }

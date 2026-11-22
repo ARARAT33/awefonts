@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-meroitic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-meroitic/index.css");
+.awe-font-noto-sans-meroitic { font-family: "Noto Sans Meroitic", sans-serif; }

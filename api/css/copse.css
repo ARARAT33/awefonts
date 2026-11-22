@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: copse */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/copse/index.css");
+.awe-font-copse { font-family: "Copse", sans-serif; }

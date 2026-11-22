@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: allison */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/allison/index.css");
+.awe-font-allison { font-family: "Allison", sans-serif; }

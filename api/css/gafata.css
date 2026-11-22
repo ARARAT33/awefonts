@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gafata */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gafata/index.css");
+.awe-font-gafata { font-family: "Gafata", sans-serif; }

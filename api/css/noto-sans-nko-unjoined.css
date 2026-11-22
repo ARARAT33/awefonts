@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-nko-unjoined */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-nko-unjoined/index.css");
+.awe-font-noto-sans-nko-unjoined { font-family: "Noto Sans Nko Unjoined", sans-serif; }

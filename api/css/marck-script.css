@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: marck-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/marck-script/index.css");
+.awe-font-marck-script { font-family: "Marck Script", sans-serif; }

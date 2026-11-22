@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lexend-peta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lexend-peta/index.css");
+.awe-font-lexend-peta { font-family: "Lexend Peta", sans-serif; }

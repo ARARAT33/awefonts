@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: paprika */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/paprika/index.css");
+.awe-font-paprika { font-family: "Paprika", sans-serif; }

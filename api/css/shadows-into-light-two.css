@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shadows-into-light-two */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shadows-into-light-two/index.css");
+.awe-font-shadows-into-light-two { font-family: "Shadows Into Light Two", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-grantha */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-grantha/index.css");
+.awe-font-noto-sans-grantha { font-family: "Noto Sans Grantha", sans-serif; }

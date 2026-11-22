@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: karma */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/karma/index.css");
+.awe-font-karma { font-family: "Karma", sans-serif; }

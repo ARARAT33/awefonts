@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: istok-web */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/istok-web/index.css");
+.awe-font-istok-web { font-family: "Istok Web", sans-serif; }

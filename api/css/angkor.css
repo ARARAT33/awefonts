@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: angkor */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/angkor/index.css");
+.awe-font-angkor { font-family: "Angkor", sans-serif; }

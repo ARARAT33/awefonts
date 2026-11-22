@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: passion-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/passion-one/index.css");
+.awe-font-passion-one { font-family: "Passion One", sans-serif; }

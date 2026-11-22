@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-kr */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-kr/index.css");
+.awe-font-noto-serif-kr { font-family: "Noto Serif Kr", sans-serif; }

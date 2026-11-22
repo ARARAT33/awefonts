@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stack-sans-notch */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stack-sans-notch/index.css");
+.awe-font-stack-sans-notch { font-family: "Stack Sans Notch", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-vithkuqi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-vithkuqi/index.css");
+.awe-font-noto-serif-vithkuqi { font-family: "Noto Serif Vithkuqi", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-cham */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-cham/index.css");
+.awe-font-noto-sans-cham { font-family: "Noto Sans Cham", sans-serif; }

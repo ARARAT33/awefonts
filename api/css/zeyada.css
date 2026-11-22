@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zeyada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zeyada/index.css");
+.awe-font-zeyada { font-family: "Zeyada", sans-serif; }

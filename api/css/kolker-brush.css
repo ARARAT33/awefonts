@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kolker-brush */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kolker-brush/index.css");
+.awe-font-kolker-brush { font-family: "Kolker Brush", sans-serif; }

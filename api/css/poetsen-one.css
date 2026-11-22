@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: poetsen-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/poetsen-one/index.css");
+.awe-font-poetsen-one { font-family: "Poetsen One", sans-serif; }

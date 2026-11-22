@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: condiment */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/condiment/index.css");
+.awe-font-condiment { font-family: "Condiment", sans-serif; }

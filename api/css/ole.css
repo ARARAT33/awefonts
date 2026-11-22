@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ole */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ole/index.css");
+.awe-font-ole { font-family: "Ole", sans-serif; }

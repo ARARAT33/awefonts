@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: acme */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/acme/index.css");
+.awe-font-acme { font-family: "Acme", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: graduate */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/graduate/index.css");
+.awe-font-graduate { font-family: "Graduate", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bigelow-rules */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bigelow-rules/index.css");
+.awe-font-bigelow-rules { font-family: "Bigelow Rules", sans-serif; }

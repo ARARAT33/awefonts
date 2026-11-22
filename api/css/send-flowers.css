@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: send-flowers */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/send-flowers/index.css");
+.awe-font-send-flowers { font-family: "Send Flowers", sans-serif; }

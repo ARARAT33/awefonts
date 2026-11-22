@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: windsong */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/windsong/index.css");
+.awe-font-windsong { font-family: "Windsong", sans-serif; }

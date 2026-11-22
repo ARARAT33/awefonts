@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rosario */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rosario/index.css");
+.awe-font-rosario { font-family: "Rosario", sans-serif; }

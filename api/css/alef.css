@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alef */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alef/index.css");
+.awe-font-alef { font-family: "Alef", sans-serif; }

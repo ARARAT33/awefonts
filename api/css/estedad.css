@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: estedad */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/estedad/index.css");
+.awe-font-estedad { font-family: "Estedad", sans-serif; }

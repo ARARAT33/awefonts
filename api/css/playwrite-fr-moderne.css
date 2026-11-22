@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-fr-moderne */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-fr-moderne/index.css");
+.awe-font-playwrite-fr-moderne { font-family: "Playwrite Fr Moderne", sans-serif; }

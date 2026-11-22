@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: battambang */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/battambang/index.css");
+.awe-font-battambang { font-family: "Battambang", sans-serif; }

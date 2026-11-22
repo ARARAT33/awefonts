@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-phagspa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-phagspa/index.css");
+.awe-font-noto-sans-phagspa { font-family: "Noto Sans Phagspa", sans-serif; }

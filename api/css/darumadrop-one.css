@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: darumadrop-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/darumadrop-one/index.css");
+.awe-font-darumadrop-one { font-family: "Darumadrop One", sans-serif; }

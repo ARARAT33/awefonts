@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-inscriptional-parthian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-inscriptional-parthian/index.css");
+.awe-font-noto-sans-inscriptional-parthian { font-family: "Noto Sans Inscriptional Parthian", sans-serif; }

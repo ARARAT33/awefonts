@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-myanmar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-myanmar/index.css");
+.awe-font-noto-sans-myanmar { font-family: "Noto Sans Myanmar", sans-serif; }

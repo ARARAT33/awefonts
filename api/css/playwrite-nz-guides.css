@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-nz-guides */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-nz-guides/index.css");
+.awe-font-playwrite-nz-guides { font-family: "Playwrite Nz Guides", sans-serif; }

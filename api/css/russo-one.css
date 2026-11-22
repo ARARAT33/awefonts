@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: russo-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/russo-one/index.css");
+.awe-font-russo-one { font-family: "Russo One", sans-serif; }

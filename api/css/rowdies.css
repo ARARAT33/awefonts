@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rowdies */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rowdies/index.css");
+.awe-font-rowdies { font-family: "Rowdies", sans-serif; }

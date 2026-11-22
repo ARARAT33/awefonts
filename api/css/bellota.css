@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bellota */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bellota/index.css");
+.awe-font-bellota { font-family: "Bellota", sans-serif; }

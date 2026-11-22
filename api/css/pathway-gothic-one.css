@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pathway-gothic-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pathway-gothic-one/index.css");
+.awe-font-pathway-gothic-one { font-family: "Pathway Gothic One", sans-serif; }

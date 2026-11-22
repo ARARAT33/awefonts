@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: frank-ruhl-libre */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/frank-ruhl-libre/index.css");
+.awe-font-frank-ruhl-libre { font-family: "Frank Ruhl Libre", sans-serif; }

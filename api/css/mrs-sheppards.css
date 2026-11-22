@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mrs-sheppards */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mrs-sheppards/index.css");
+.awe-font-mrs-sheppards { font-family: "Mrs Sheppards", sans-serif; }

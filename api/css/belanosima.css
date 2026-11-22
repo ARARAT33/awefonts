@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: belanosima */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/belanosima/index.css");
+.awe-font-belanosima { font-family: "Belanosima", sans-serif; }

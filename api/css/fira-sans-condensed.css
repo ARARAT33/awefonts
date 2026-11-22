@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fira-sans-condensed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fira-sans-condensed/index.css");
+.awe-font-fira-sans-condensed { font-family: "Fira Sans Condensed", sans-serif; }

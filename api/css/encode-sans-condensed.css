@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: encode-sans-condensed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/encode-sans-condensed/index.css");
+.awe-font-encode-sans-condensed { font-family: "Encode Sans Condensed", sans-serif; }

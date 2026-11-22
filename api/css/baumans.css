@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: baumans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/baumans/index.css");
+.awe-font-baumans { font-family: "Baumans", sans-serif; }

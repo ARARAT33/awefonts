@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monomakh */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monomakh/index.css");
+.awe-font-monomakh { font-family: "Monomakh", sans-serif; }

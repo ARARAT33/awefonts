@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: triodion */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/triodion/index.css");
+.awe-font-triodion { font-family: "Triodion", sans-serif; }

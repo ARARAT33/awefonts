@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: geist */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/geist/index.css");
+.awe-font-geist { font-family: "Geist", sans-serif; }

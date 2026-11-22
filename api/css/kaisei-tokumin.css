@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kaisei-tokumin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kaisei-tokumin/index.css");
+.awe-font-kaisei-tokumin { font-family: "Kaisei Tokumin", sans-serif; }

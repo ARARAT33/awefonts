@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vibes */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vibes/index.css");
+.awe-font-vibes { font-family: "Vibes", sans-serif; }

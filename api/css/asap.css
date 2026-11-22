@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: asap */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/asap/index.css");
+.awe-font-asap { font-family: "Asap", sans-serif; }

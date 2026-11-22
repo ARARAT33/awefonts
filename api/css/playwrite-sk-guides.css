@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-sk-guides */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-sk-guides/index.css");
+.awe-font-playwrite-sk-guides { font-family: "Playwrite Sk Guides", sans-serif; }

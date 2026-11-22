@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: share-tech */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/share-tech/index.css");
+.awe-font-share-tech { font-family: "Share Tech", sans-serif; }

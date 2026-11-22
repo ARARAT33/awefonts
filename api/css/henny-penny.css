@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: henny-penny */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/henny-penny/index.css");
+.awe-font-henny-penny { font-family: "Henny Penny", sans-serif; }

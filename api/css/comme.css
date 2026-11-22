@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: comme */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/comme/index.css");
+.awe-font-comme { font-family: "Comme", sans-serif; }

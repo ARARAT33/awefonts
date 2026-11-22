@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: trispace */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/trispace/index.css");
+.awe-font-trispace { font-family: "Trispace", sans-serif; }

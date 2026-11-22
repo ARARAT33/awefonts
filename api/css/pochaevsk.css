@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pochaevsk */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pochaevsk/index.css");
+.awe-font-pochaevsk { font-family: "Pochaevsk", sans-serif; }

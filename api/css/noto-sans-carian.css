@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-carian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-carian/index.css");
+.awe-font-noto-sans-carian { font-family: "Noto Sans Carian", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tac-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tac-one/index.css");
+.awe-font-tac-one { font-family: "Tac One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monaspace-radon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monaspace-radon/index.css");
+.awe-font-monaspace-radon { font-family: "Monaspace Radon", sans-serif; }

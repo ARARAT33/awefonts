@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: annapurna-sil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/annapurna-sil/index.css");
+.awe-font-annapurna-sil { font-family: "Annapurna Sil", sans-serif; }

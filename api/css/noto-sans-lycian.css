@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-lycian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-lycian/index.css");
+.awe-font-noto-sans-lycian { font-family: "Noto Sans Lycian", sans-serif; }

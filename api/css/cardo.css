@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cardo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cardo/index.css");
+.awe-font-cardo { font-family: "Cardo", sans-serif; }

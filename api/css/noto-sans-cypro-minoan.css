@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-cypro-minoan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-cypro-minoan/index.css");
+.awe-font-noto-sans-cypro-minoan { font-family: "Noto Sans Cypro Minoan", sans-serif; }

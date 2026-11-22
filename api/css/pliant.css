@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pliant */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pliant/index.css");
+.awe-font-pliant { font-family: "Pliant", sans-serif; }

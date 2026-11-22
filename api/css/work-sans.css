@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: work-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/work-sans/index.css");
+.awe-font-work-sans { font-family: "Work Sans", sans-serif; }

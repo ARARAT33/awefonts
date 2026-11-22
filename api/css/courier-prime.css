@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: courier-prime */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/courier-prime/index.css");
+.awe-font-courier-prime { font-family: "Courier Prime", sans-serif; }

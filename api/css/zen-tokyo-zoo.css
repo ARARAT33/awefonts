@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zen-tokyo-zoo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zen-tokyo-zoo/index.css");
+.awe-font-zen-tokyo-zoo { font-family: "Zen Tokyo Zoo", sans-serif; }

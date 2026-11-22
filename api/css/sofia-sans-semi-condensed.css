@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sofia-sans-semi-condensed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sofia-sans-semi-condensed/index.css");
+.awe-font-sofia-sans-semi-condensed { font-family: "Sofia Sans Semi Condensed", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: notable */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/notable/index.css");
+.awe-font-notable { font-family: "Notable", sans-serif; }

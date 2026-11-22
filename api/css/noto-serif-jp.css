@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-jp */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-jp/index.css");
+.awe-font-noto-serif-jp { font-family: "Noto Serif Jp", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rasa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rasa/index.css");
+.awe-font-rasa { font-family: "Rasa", sans-serif; }

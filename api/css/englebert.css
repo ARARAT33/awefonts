@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: englebert */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/englebert/index.css");
+.awe-font-englebert { font-family: "Englebert", sans-serif; }

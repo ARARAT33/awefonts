@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: margarine */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/margarine/index.css");
+.awe-font-margarine { font-family: "Margarine", sans-serif; }

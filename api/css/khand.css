@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: khand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/khand/index.css");
+.awe-font-khand { font-family: "Khand", sans-serif; }

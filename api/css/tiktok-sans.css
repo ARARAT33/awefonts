@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tiktok-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tiktok-sans/index.css");
+.awe-font-tiktok-sans { font-family: "Tiktok Sans", sans-serif; }

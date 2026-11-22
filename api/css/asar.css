@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: asar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/asar/index.css");
+.awe-font-asar { font-family: "Asar", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-shavian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-shavian/index.css");
+.awe-font-noto-sans-shavian { font-family: "Noto Sans Shavian", sans-serif; }

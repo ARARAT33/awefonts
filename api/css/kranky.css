@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kranky */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kranky/index.css");
+.awe-font-kranky { font-family: "Kranky", sans-serif; }

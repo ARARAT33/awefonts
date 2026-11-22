@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: boogaloo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/boogaloo/index.css");
+.awe-font-boogaloo { font-family: "Boogaloo", sans-serif; }

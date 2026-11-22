@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-gothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-gothic/index.css");
+.awe-font-noto-sans-gothic { font-family: "Noto Sans Gothic", sans-serif; }

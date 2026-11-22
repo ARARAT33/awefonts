@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-todhri */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-todhri/index.css");
+.awe-font-noto-serif-todhri { font-family: "Noto Serif Todhri", sans-serif; }

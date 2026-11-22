@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alumni-sans-pinstripe */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alumni-sans-pinstripe/index.css");
+.awe-font-alumni-sans-pinstripe { font-family: "Alumni Sans Pinstripe", sans-serif; }

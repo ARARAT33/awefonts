@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playpen-sans-deva */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playpen-sans-deva/index.css");
+.awe-font-playpen-sans-deva { font-family: "Playpen Sans Deva", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-moonrocks */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-moonrocks/index.css");
+.awe-font-rubik-moonrocks { font-family: "Rubik Moonrocks", sans-serif; }

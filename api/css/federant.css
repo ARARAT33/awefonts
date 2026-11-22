@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: federant */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/federant/index.css");
+.awe-font-federant { font-family: "Federant", sans-serif; }

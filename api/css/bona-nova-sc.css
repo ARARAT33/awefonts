@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bona-nova-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bona-nova-sc/index.css");
+.awe-font-bona-nova-sc { font-family: "Bona Nova Sc", sans-serif; }

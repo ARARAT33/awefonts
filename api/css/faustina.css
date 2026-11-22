@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: faustina */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/faustina/index.css");
+.awe-font-faustina { font-family: "Faustina", sans-serif; }

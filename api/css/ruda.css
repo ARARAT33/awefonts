@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ruda */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ruda/index.css");
+.awe-font-ruda { font-family: "Ruda", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gorditas */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gorditas/index.css");
+.awe-font-gorditas { font-family: "Gorditas", sans-serif; }

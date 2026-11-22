@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cause */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cause/index.css");
+.awe-font-cause { font-family: "Cause", sans-serif; }

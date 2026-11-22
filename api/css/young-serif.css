@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: young-serif */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/young-serif/index.css");
+.awe-font-young-serif { font-family: "Young Serif", sans-serif; }

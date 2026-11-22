@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: junction */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/junction/index.css");
+.awe-font-junction { font-family: "Junction", sans-serif; }

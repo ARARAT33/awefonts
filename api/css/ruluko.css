@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ruluko */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ruluko/index.css");
+.awe-font-ruluko { font-family: "Ruluko", sans-serif; }

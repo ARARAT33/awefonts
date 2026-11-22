@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bubblegum-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bubblegum-sans/index.css");
+.awe-font-bubblegum-sans { font-family: "Bubblegum Sans", sans-serif; }

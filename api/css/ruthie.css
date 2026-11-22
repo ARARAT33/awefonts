@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ruthie */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ruthie/index.css");
+.awe-font-ruthie { font-family: "Ruthie", sans-serif; }

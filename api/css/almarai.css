@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: almarai */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/almarai/index.css");
+.awe-font-almarai { font-family: "Almarai", sans-serif; }

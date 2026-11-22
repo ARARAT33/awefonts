@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kings */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kings/index.css");
+.awe-font-kings { font-family: "Kings", sans-serif; }

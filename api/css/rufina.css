@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rufina */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rufina/index.css");
+.awe-font-rufina { font-family: "Rufina", sans-serif; }

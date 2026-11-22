@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: crimson-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/crimson-pro/index.css");
+.awe-font-crimson-pro { font-family: "Crimson Pro", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: miriam-libre */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/miriam-libre/index.css");
+.awe-font-miriam-libre { font-family: "Miriam Libre", sans-serif; }

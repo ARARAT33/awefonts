@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: wallpoet */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/wallpoet/index.css");
+.awe-font-wallpoet { font-family: "Wallpoet", sans-serif; }

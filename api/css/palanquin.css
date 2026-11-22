@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: palanquin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/palanquin/index.css");
+.awe-font-palanquin { font-family: "Palanquin", sans-serif; }

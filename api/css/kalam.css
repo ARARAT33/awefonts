@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kalam */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kalam/index.css");
+.awe-font-kalam { font-family: "Kalam", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shrikhand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shrikhand/index.css");
+.awe-font-shrikhand { font-family: "Shrikhand", sans-serif; }

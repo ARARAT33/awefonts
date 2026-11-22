@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alumni-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alumni-sans/index.css");
+.awe-font-alumni-sans { font-family: "Alumni Sans", sans-serif; }

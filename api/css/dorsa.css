@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dorsa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dorsa/index.css");
+.awe-font-dorsa { font-family: "Dorsa", sans-serif; }

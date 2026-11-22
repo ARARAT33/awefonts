@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sriracha */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sriracha/index.css");
+.awe-font-sriracha { font-family: "Sriracha", sans-serif; }

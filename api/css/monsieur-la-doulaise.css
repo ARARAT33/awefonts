@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monsieur-la-doulaise */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monsieur-la-doulaise/index.css");
+.awe-font-monsieur-la-doulaise { font-family: "Monsieur La Doulaise", sans-serif; }

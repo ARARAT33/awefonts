@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: combo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/combo/index.css");
+.awe-font-combo { font-family: "Combo", sans-serif; }

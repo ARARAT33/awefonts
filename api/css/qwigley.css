@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: qwigley */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/qwigley/index.css");
+.awe-font-qwigley { font-family: "Qwigley", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arvo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arvo/index.css");
+.awe-font-arvo { font-family: "Arvo", sans-serif; }

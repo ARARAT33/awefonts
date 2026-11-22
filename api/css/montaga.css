@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: montaga */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montaga/index.css");
+.awe-font-montaga { font-family: "Montaga", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-siddham */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-siddham/index.css");
+.awe-font-noto-sans-siddham { font-family: "Noto Sans Siddham", sans-serif; }

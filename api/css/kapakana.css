@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kapakana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kapakana/index.css");
+.awe-font-kapakana { font-family: "Kapakana", sans-serif; }

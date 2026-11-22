@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-devanagari */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-devanagari/index.css");
+.awe-font-noto-serif-devanagari { font-family: "Noto Serif Devanagari", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: waterfall */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/waterfall/index.css");
+.awe-font-waterfall { font-family: "Waterfall", sans-serif; }

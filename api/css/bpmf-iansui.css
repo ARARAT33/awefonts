@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bpmf-iansui */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bpmf-iansui/index.css");
+.awe-font-bpmf-iansui { font-family: "Bpmf Iansui", sans-serif; }

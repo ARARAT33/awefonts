@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: finger-paint */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/finger-paint/index.css");
+.awe-font-finger-paint { font-family: "Finger Paint", sans-serif; }

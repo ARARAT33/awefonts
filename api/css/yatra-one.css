@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yatra-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yatra-one/index.css");
+.awe-font-yatra-one { font-family: "Yatra One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: marcellus-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/marcellus-sc/index.css");
+.awe-font-marcellus-sc { font-family: "Marcellus Sc", sans-serif; }

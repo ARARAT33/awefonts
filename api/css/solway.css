@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: solway */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/solway/index.css");
+.awe-font-solway { font-family: "Solway", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ingrid-darling */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ingrid-darling/index.css");
+.awe-font-ingrid-darling { font-family: "Ingrid Darling", sans-serif; }

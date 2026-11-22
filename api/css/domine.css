@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: domine */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/domine/index.css");
+.awe-font-domine { font-family: "Domine", sans-serif; }

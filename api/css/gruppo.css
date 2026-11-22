@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gruppo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gruppo/index.css");
+.awe-font-gruppo { font-family: "Gruppo", sans-serif; }

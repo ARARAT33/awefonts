@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: varela-round */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/varela-round/index.css");
+.awe-font-varela-round { font-family: "Varela Round", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: meddon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/meddon/index.css");
+.awe-font-meddon { font-family: "Meddon", sans-serif; }

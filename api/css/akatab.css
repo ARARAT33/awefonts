@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: akatab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/akatab/index.css");
+.awe-font-akatab { font-family: "Akatab", sans-serif; }

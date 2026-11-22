@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gantari */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gantari/index.css");
+.awe-font-gantari { font-family: "Gantari", sans-serif; }

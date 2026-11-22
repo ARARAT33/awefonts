@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: waiting-for-the-sunrise */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/waiting-for-the-sunrise/index.css");
+.awe-font-waiting-for-the-sunrise { font-family: "Waiting For The Sunrise", sans-serif; }

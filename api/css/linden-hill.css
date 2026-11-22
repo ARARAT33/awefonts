@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: linden-hill */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/linden-hill/index.css");
+.awe-font-linden-hill { font-family: "Linden Hill", sans-serif; }

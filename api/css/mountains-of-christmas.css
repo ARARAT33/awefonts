@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mountains-of-christmas */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mountains-of-christmas/index.css");
+.awe-font-mountains-of-christmas { font-family: "Mountains Of Christmas", sans-serif; }

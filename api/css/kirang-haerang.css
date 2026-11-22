@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kirang-haerang */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kirang-haerang/index.css");
+.awe-font-kirang-haerang { font-family: "Kirang Haerang", sans-serif; }

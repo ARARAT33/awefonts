@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: google-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/google-sans/index.css");
+.awe-font-google-sans { font-family: "Google Sans", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: strait */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/strait/index.css");
+.awe-font-strait { font-family: "Strait", sans-serif; }

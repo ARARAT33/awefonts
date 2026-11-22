@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hedvig-letters-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hedvig-letters-sans/index.css");
+.awe-font-hedvig-letters-sans { font-family: "Hedvig Letters Sans", sans-serif; }

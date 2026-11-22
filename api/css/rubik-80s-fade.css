@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-80s-fade */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-80s-fade/index.css");
+.awe-font-rubik-80s-fade { font-family: "Rubik 80s Fade", sans-serif; }

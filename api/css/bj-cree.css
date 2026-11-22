@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bj-cree */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bj-cree/index.css");
+.awe-font-bj-cree { font-family: "Bj Cree", sans-serif; }

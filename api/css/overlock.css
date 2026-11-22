@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: overlock */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/overlock/index.css");
+.awe-font-overlock { font-family: "Overlock", sans-serif; }

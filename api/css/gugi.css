@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gugi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gugi/index.css");
+.awe-font-gugi { font-family: "Gugi", sans-serif; }

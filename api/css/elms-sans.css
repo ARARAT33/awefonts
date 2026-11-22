@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: elms-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/elms-sans/index.css");
+.awe-font-elms-sans { font-family: "Elms Sans", sans-serif; }

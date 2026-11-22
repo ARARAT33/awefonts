@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: instrument-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/instrument-sans/index.css");
+.awe-font-instrument-sans { font-family: "Instrument Sans", sans-serif; }

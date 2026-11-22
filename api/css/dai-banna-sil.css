@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dai-banna-sil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dai-banna-sil/index.css");
+.awe-font-dai-banna-sil { font-family: "Dai Banna Sil", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: contrail-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/contrail-one/index.css");
+.awe-font-contrail-one { font-family: "Contrail One", sans-serif; }

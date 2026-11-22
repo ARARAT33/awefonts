@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: peddana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/peddana/index.css");
+.awe-font-peddana { font-family: "Peddana", sans-serif; }

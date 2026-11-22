@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jacquard-24 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jacquard-24/index.css");
+.awe-font-jacquard-24 { font-family: "Jacquard 24", sans-serif; }

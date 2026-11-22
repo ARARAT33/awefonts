@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: long-cang */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/long-cang/index.css");
+.awe-font-long-cang { font-family: "Long Cang", sans-serif; }

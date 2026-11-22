@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: redacted-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/redacted-script/index.css");
+.awe-font-redacted-script { font-family: "Redacted Script", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bitcount-ink */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bitcount-ink/index.css");
+.awe-font-bitcount-ink { font-family: "Bitcount Ink", sans-serif; }

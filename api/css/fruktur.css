@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fruktur */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fruktur/index.css");
+.awe-font-fruktur { font-family: "Fruktur", sans-serif; }

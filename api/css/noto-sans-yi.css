@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-yi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-yi/index.css");
+.awe-font-noto-sans-yi { font-family: "Noto Sans Yi", sans-serif; }

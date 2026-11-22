@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gaegu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gaegu/index.css");
+.awe-font-gaegu { font-family: "Gaegu", sans-serif; }

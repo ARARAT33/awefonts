@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-nushu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-nushu/index.css");
+.awe-font-noto-sans-nushu { font-family: "Noto Sans Nushu", sans-serif; }

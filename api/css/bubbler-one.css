@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bubbler-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bubbler-one/index.css");
+.awe-font-bubbler-one { font-family: "Bubbler One", sans-serif; }

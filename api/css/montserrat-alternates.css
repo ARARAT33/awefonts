@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: montserrat-alternates */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montserrat-alternates/index.css");
+.awe-font-montserrat-alternates { font-family: "Montserrat Alternates", sans-serif; }

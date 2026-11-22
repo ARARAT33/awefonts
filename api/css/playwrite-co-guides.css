@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-co-guides */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-co-guides/index.css");
+.awe-font-playwrite-co-guides { font-family: "Playwrite Co Guides", sans-serif; }

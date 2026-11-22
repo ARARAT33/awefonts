@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lavishly-yours */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lavishly-yours/index.css");
+.awe-font-lavishly-yours { font-family: "Lavishly Yours", sans-serif; }

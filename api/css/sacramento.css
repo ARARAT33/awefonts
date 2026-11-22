@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sacramento */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sacramento/index.css");
+.awe-font-sacramento { font-family: "Sacramento", sans-serif; }

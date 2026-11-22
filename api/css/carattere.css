@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: carattere */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/carattere/index.css");
+.awe-font-carattere { font-family: "Carattere", sans-serif; }

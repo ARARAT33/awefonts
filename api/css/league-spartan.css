@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: league-spartan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/league-spartan/index.css");
+.awe-font-league-spartan { font-family: "League Spartan", sans-serif; }

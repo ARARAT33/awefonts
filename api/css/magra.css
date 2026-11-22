@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: magra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/magra/index.css");
+.awe-font-magra { font-family: "Magra", sans-serif; }

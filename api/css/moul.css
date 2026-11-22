@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: moul */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/moul/index.css");
+.awe-font-moul { font-family: "Moul", sans-serif; }

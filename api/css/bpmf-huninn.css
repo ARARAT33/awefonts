@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bpmf-huninn */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bpmf-huninn/index.css");
+.awe-font-bpmf-huninn { font-family: "Bpmf Huninn", sans-serif; }

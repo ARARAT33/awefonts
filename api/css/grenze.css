@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: grenze */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/grenze/index.css");
+.awe-font-grenze { font-family: "Grenze", sans-serif; }

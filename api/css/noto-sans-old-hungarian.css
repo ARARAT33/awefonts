@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-old-hungarian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-old-hungarian/index.css");
+.awe-font-noto-sans-old-hungarian { font-family: "Noto Sans Old Hungarian", sans-serif; }

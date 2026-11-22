@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alkalami */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alkalami/index.css");
+.awe-font-alkalami { font-family: "Alkalami", sans-serif; }

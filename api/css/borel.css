@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: borel */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/borel/index.css");
+.awe-font-borel { font-family: "Borel", sans-serif; }

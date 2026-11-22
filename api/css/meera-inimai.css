@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: meera-inimai */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/meera-inimai/index.css");
+.awe-font-meera-inimai { font-family: "Meera Inimai", sans-serif; }

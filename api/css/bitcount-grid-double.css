@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bitcount-grid-double */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bitcount-grid-double/index.css");
+.awe-font-bitcount-grid-double { font-family: "Bitcount Grid Double", sans-serif; }

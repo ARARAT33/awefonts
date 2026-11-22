@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: akaya-kanadaka */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/akaya-kanadaka/index.css");
+.awe-font-akaya-kanadaka { font-family: "Akaya Kanadaka", sans-serif; }

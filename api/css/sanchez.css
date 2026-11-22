@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sanchez */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sanchez/index.css");
+.awe-font-sanchez { font-family: "Sanchez", sans-serif; }

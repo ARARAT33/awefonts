@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: niramit */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/niramit/index.css");
+.awe-font-niramit { font-family: "Niramit", sans-serif; }

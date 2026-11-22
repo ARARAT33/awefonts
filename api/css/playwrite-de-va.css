@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-de-va */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-de-va/index.css");
+.awe-font-playwrite-de-va { font-family: "Playwrite De Va", sans-serif; }

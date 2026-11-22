@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: protest-revolution */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/protest-revolution/index.css");
+.awe-font-protest-revolution { font-family: "Protest Revolution", sans-serif; }

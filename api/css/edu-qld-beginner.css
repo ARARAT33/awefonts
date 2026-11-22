@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: edu-qld-beginner */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/edu-qld-beginner/index.css");
+.awe-font-edu-qld-beginner { font-family: "Edu Qld Beginner", sans-serif; }

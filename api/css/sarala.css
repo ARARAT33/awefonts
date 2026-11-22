@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sarala */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sarala/index.css");
+.awe-font-sarala { font-family: "Sarala", sans-serif; }

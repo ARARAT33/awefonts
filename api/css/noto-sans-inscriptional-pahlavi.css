@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-inscriptional-pahlavi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-inscriptional-pahlavi/index.css");
+.awe-font-noto-sans-inscriptional-pahlavi { font-family: "Noto Sans Inscriptional Pahlavi", sans-serif; }

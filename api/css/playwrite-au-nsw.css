@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-au-nsw */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-au-nsw/index.css");
+.awe-font-playwrite-au-nsw { font-family: "Playwrite Au Nsw", sans-serif; }

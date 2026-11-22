@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: funnel-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/funnel-sans/index.css");
+.awe-font-funnel-sans { font-family: "Funnel Sans", sans-serif; }

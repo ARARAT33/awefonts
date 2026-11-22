@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-hebrew */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-hebrew/index.css");
+.awe-font-noto-serif-hebrew { font-family: "Noto Serif Hebrew", sans-serif; }

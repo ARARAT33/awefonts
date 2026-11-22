@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: black-han-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/black-han-sans/index.css");
+.awe-font-black-han-sans { font-family: "Black Han Sans", sans-serif; }

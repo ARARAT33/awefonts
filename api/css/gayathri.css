@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gayathri */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gayathri/index.css");
+.awe-font-gayathri { font-family: "Gayathri", sans-serif; }

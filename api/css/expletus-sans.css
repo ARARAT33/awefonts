@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: expletus-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/expletus-sans/index.css");
+.awe-font-expletus-sans { font-family: "Expletus Sans", sans-serif; }

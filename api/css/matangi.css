@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: matangi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/matangi/index.css");
+.awe-font-matangi { font-family: "Matangi", sans-serif; }

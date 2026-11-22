@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: unifrakturmaguntia */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/unifrakturmaguntia/index.css");
+.awe-font-unifrakturmaguntia { font-family: "Unifrakturmaguntia", sans-serif; }

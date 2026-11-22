@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cairo-play */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cairo-play/index.css");
+.awe-font-cairo-play { font-family: "Cairo Play", sans-serif; }

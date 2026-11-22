@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-hk */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-hk/index.css");
+.awe-font-noto-serif-hk { font-family: "Noto Serif Hk", sans-serif; }

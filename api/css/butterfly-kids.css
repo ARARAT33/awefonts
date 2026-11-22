@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: butterfly-kids */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/butterfly-kids/index.css");
+.awe-font-butterfly-kids { font-family: "Butterfly Kids", sans-serif; }

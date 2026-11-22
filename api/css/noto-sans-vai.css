@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-vai */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-vai/index.css");
+.awe-font-noto-sans-vai { font-family: "Noto Sans Vai", sans-serif; }

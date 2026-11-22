@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: aldrich */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aldrich/index.css");
+.awe-font-aldrich { font-family: "Aldrich", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: averia-serif-libre */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/averia-serif-libre/index.css");
+.awe-font-averia-serif-libre { font-family: "Averia Serif Libre", sans-serif; }

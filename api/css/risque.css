@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: risque */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/risque/index.css");
+.awe-font-risque { font-family: "Risque", sans-serif; }

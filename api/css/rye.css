@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rye */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rye/index.css");
+.awe-font-rye { font-family: "Rye", sans-serif; }

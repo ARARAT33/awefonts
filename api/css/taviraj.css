@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: taviraj */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/taviraj/index.css");
+.awe-font-taviraj { font-family: "Taviraj", sans-serif; }

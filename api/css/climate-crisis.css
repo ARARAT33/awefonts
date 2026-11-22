@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: climate-crisis */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/climate-crisis/index.css");
+.awe-font-climate-crisis { font-family: "Climate Crisis", sans-serif; }

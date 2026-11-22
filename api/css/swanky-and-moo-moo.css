@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: swanky-and-moo-moo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/swanky-and-moo-moo/index.css");
+.awe-font-swanky-and-moo-moo { font-family: "Swanky And Moo Moo", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: modern-antiqua */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/modern-antiqua/index.css");
+.awe-font-modern-antiqua { font-family: "Modern Antiqua", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bonbon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bonbon/index.css");
+.awe-font-bonbon { font-family: "Bonbon", sans-serif; }

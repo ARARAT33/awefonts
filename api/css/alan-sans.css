@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alan-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alan-sans/index.css");
+.awe-font-alan-sans { font-family: "Alan Sans", sans-serif; }

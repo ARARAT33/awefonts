@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libertinus-math */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libertinus-math/index.css");
+.awe-font-libertinus-math { font-family: "Libertinus Math", sans-serif; }

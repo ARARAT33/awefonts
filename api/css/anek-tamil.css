@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anek-tamil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-tamil/index.css");
+.awe-font-anek-tamil { font-family: "Anek Tamil", sans-serif; }

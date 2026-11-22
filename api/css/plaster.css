@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: plaster */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/plaster/index.css");
+.awe-font-plaster { font-family: "Plaster", sans-serif; }

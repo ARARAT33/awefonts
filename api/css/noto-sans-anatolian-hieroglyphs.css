@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-anatolian-hieroglyphs */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-anatolian-hieroglyphs/index.css");
+.awe-font-noto-sans-anatolian-hieroglyphs { font-family: "Noto Sans Anatolian Hieroglyphs", sans-serif; }

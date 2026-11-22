@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hepta-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hepta-slab/index.css");
+.awe-font-hepta-slab { font-family: "Hepta Slab", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: orelega-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/orelega-one/index.css");
+.awe-font-orelega-one { font-family: "Orelega One", sans-serif; }

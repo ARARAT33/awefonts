@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: julius-sans-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/julius-sans-one/index.css");
+.awe-font-julius-sans-one { font-family: "Julius Sans One", sans-serif; }

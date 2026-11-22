@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gideon-roman */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gideon-roman/index.css");
+.awe-font-gideon-roman { font-family: "Gideon Roman", sans-serif; }

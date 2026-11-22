@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: grenze-gotisch */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/grenze-gotisch/index.css");
+.awe-font-grenze-gotisch { font-family: "Grenze Gotisch", sans-serif; }

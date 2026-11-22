@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: uchen */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/uchen/index.css");
+.awe-font-uchen { font-family: "Uchen", sans-serif; }

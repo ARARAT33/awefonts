@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: science-gothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/science-gothic/index.css");
+.awe-font-science-gothic { font-family: "Science Gothic", sans-serif; }

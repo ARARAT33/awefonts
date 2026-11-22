@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: readex-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/readex-pro/index.css");
+.awe-font-readex-pro { font-family: "Readex Pro", sans-serif; }

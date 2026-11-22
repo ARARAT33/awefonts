@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chewy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chewy/index.css");
+.awe-font-chewy { font-family: "Chewy", sans-serif; }

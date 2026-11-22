@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alegreya-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alegreya-sc/index.css");
+.awe-font-alegreya-sc { font-family: "Alegreya Sc", sans-serif; }

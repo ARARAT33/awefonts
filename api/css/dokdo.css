@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dokdo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dokdo/index.css");
+.awe-font-dokdo { font-family: "Dokdo", sans-serif; }

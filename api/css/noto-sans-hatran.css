@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-hatran */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-hatran/index.css");
+.awe-font-noto-sans-hatran { font-family: "Noto Sans Hatran", sans-serif; }

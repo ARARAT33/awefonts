@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: babylonica */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/babylonica/index.css");
+.awe-font-babylonica { font-family: "Babylonica", sans-serif; }

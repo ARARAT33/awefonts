@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monofett */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monofett/index.css");
+.awe-font-monofett { font-family: "Monofett", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: damion */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/damion/index.css");
+.awe-font-damion { font-family: "Damion", sans-serif; }

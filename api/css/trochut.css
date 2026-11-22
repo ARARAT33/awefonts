@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: trochut */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/trochut/index.css");
+.awe-font-trochut { font-family: "Trochut", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-gemstones */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-gemstones/index.css");
+.awe-font-rubik-gemstones { font-family: "Rubik Gemstones", sans-serif; }

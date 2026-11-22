@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playball */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playball/index.css");
+.awe-font-playball { font-family: "Playball", sans-serif; }

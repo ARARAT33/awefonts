@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libre-barcode-39 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libre-barcode-39/index.css");
+.awe-font-libre-barcode-39 { font-family: "Libre Barcode 39", sans-serif; }

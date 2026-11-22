@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: quintessential */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/quintessential/index.css");
+.awe-font-quintessential { font-family: "Quintessential", sans-serif; }

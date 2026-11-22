@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mrs-saint-delafield */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mrs-saint-delafield/index.css");
+.awe-font-mrs-saint-delafield { font-family: "Mrs Saint Delafield", sans-serif; }

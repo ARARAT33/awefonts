@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: aguafina-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aguafina-script/index.css");
+.awe-font-aguafina-script { font-family: "Aguafina Script", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: figtree */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/figtree/index.css");
+.awe-font-figtree { font-family: "Figtree", sans-serif; }

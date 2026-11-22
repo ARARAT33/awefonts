@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-vinyl */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-vinyl/index.css");
+.awe-font-rubik-vinyl { font-family: "Rubik Vinyl", sans-serif; }

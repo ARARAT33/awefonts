@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hurricane */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hurricane/index.css");
+.awe-font-hurricane { font-family: "Hurricane", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-ugaritic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-ugaritic/index.css");
+.awe-font-noto-sans-ugaritic { font-family: "Noto Sans Ugaritic", sans-serif; }

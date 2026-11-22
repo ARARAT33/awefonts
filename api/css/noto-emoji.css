@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-emoji */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-emoji/index.css");
+.awe-font-noto-emoji { font-family: "Noto Emoji", sans-serif; }

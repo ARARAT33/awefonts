@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: purple-purse */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/purple-purse/index.css");
+.awe-font-purple-purse { font-family: "Purple Purse", sans-serif; }

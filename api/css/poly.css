@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: poly */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/poly/index.css");
+.awe-font-poly { font-family: "Poly", sans-serif; }

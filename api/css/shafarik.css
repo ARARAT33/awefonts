@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shafarik */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shafarik/index.css");
+.awe-font-shafarik { font-family: "Shafarik", sans-serif; }

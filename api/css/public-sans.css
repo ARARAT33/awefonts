@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: public-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/public-sans/index.css");
+.awe-font-public-sans { font-family: "Public Sans", sans-serif; }

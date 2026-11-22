@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: archivo-narrow */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/archivo-narrow/index.css");
+.awe-font-archivo-narrow { font-family: "Archivo Narrow", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-malayalam */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-malayalam/index.css");
+.awe-font-noto-serif-malayalam { font-family: "Noto Serif Malayalam", sans-serif; }

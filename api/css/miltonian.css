@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: miltonian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/miltonian/index.css");
+.awe-font-miltonian { font-family: "Miltonian", sans-serif; }

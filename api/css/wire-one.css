@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: wire-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/wire-one/index.css");
+.awe-font-wire-one { font-family: "Wire One", sans-serif; }

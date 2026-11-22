@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bentham */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bentham/index.css");
+.awe-font-bentham { font-family: "Bentham", sans-serif; }

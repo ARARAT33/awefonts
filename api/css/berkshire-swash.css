@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: berkshire-swash */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/berkshire-swash/index.css");
+.awe-font-berkshire-swash { font-family: "Berkshire Swash", sans-serif; }

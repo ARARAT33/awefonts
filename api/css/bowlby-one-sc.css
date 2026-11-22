@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bowlby-one-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bowlby-one-sc/index.css");
+.awe-font-bowlby-one-sc { font-family: "Bowlby One Sc", sans-serif; }

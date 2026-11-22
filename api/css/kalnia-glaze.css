@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kalnia-glaze */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kalnia-glaze/index.css");
+.awe-font-kalnia-glaze { font-family: "Kalnia Glaze", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-one/index.css");
+.awe-font-rubik-one { font-family: "Rubik One", sans-serif; }

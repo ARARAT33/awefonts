@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-hr */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-hr/index.css");
+.awe-font-playwrite-hr { font-family: "Playwrite Hr", sans-serif; }

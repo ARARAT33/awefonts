@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-multani */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-multani/index.css");
+.awe-font-noto-sans-multani { font-family: "Noto Sans Multani", sans-serif; }

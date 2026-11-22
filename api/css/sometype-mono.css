@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sometype-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sometype-mono/index.css");
+.awe-font-sometype-mono { font-family: "Sometype Mono", sans-serif; }

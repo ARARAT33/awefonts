@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ubuntu-sans-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ubuntu-sans-mono/index.css");
+.awe-font-ubuntu-sans-mono { font-family: "Ubuntu Sans Mono", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: duru-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/duru-sans/index.css");
+.awe-font-duru-sans { font-family: "Duru Sans", sans-serif; }

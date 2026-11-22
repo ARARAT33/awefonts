@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: montez */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montez/index.css");
+.awe-font-montez { font-family: "Montez", sans-serif; }

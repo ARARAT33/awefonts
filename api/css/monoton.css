@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monoton */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monoton/index.css");
+.awe-font-monoton { font-family: "Monoton", sans-serif; }

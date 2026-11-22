@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vazirmatn */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vazirmatn/index.css");
+.awe-font-vazirmatn { font-family: "Vazirmatn", sans-serif; }

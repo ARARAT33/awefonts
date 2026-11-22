@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yanone-kaffeesatz */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yanone-kaffeesatz/index.css");
+.awe-font-yanone-kaffeesatz { font-family: "Yanone Kaffeesatz", sans-serif; }

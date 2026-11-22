@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anek-gujarati */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-gujarati/index.css");
+.awe-font-anek-gujarati { font-family: "Anek Gujarati", sans-serif; }

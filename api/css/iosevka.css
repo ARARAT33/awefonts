@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: iosevka */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css");
+.awe-font-iosevka { font-family: "Iosevka", sans-serif; }

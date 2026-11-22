@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: julee */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/julee/index.css");
+.awe-font-julee { font-family: "Julee", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lovers-quarrel */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lovers-quarrel/index.css");
+.awe-font-lovers-quarrel { font-family: "Lovers Quarrel", sans-serif; }

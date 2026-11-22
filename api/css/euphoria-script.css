@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: euphoria-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/euphoria-script/index.css");
+.awe-font-euphoria-script { font-family: "Euphoria Script", sans-serif; }

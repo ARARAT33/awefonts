@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libertinus-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libertinus-sans/index.css");
+.awe-font-libertinus-sans { font-family: "Libertinus Sans", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: concert-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/concert-one/index.css");
+.awe-font-concert-one { font-family: "Concert One", sans-serif; }

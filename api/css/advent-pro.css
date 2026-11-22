@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: advent-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/advent-pro/index.css");
+.awe-font-advent-pro { font-family: "Advent Pro", sans-serif; }

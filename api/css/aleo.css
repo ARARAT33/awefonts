@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: aleo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aleo/index.css");
+.awe-font-aleo { font-family: "Aleo", sans-serif; }

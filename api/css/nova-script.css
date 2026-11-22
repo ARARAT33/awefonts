@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nova-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nova-script/index.css");
+.awe-font-nova-script { font-family: "Nova Script", sans-serif; }

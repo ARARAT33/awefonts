@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: habibi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/habibi/index.css");
+.awe-font-habibi { font-family: "Habibi", sans-serif; }

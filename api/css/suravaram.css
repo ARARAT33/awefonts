@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: suravaram */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/suravaram/index.css");
+.awe-font-suravaram { font-family: "Suravaram", sans-serif; }

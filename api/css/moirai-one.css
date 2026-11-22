@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: moirai-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/moirai-one/index.css");
+.awe-font-moirai-one { font-family: "Moirai One", sans-serif; }

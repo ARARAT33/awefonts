@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fuzzy-bubbles */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fuzzy-bubbles/index.css");
+.awe-font-fuzzy-bubbles { font-family: "Fuzzy Bubbles", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: spectral-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/spectral-sc/index.css");
+.awe-font-spectral-sc { font-family: "Spectral Sc", sans-serif; }

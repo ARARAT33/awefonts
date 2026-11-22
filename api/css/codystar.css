@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: codystar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/codystar/index.css");
+.awe-font-codystar { font-family: "Codystar", sans-serif; }

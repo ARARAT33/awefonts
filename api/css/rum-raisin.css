@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rum-raisin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rum-raisin/index.css");
+.awe-font-rum-raisin { font-family: "Rum Raisin", sans-serif; }

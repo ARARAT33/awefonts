@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arapey */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arapey/index.css");
+.awe-font-arapey { font-family: "Arapey", sans-serif; }

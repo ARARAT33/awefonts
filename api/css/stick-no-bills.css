@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stick-no-bills */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stick-no-bills/index.css");
+.awe-font-stick-no-bills { font-family: "Stick No Bills", sans-serif; }

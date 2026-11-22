@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: artifika */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/artifika/index.css");
+.awe-font-artifika { font-family: "Artifika", sans-serif; }

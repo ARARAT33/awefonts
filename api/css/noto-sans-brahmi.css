@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-brahmi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-brahmi/index.css");
+.awe-font-noto-sans-brahmi { font-family: "Noto Sans Brahmi", sans-serif; }

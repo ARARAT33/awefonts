@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: voces */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/voces/index.css");
+.awe-font-voces { font-family: "Voces", sans-serif; }

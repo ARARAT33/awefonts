@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: antonio */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/antonio/index.css");
+.awe-font-antonio { font-family: "Antonio", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: petemoss */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/petemoss/index.css");
+.awe-font-petemoss { font-family: "Petemoss", sans-serif; }

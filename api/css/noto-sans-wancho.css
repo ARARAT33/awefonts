@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-wancho */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-wancho/index.css");
+.awe-font-noto-sans-wancho { font-family: "Noto Sans Wancho", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: spinnaker */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/spinnaker/index.css");
+.awe-font-spinnaker { font-family: "Spinnaker", sans-serif; }

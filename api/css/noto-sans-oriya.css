@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-oriya */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-oriya/index.css");
+.awe-font-noto-sans-oriya { font-family: "Noto Sans Oriya", sans-serif; }

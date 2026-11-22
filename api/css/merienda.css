@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: merienda */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/merienda/index.css");
+.awe-font-merienda { font-family: "Merienda", sans-serif; }

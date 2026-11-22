@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: indie-flower */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/indie-flower/index.css");
+.awe-font-indie-flower { font-family: "Indie Flower", sans-serif; }

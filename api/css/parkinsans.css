@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: parkinsans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/parkinsans/index.css");
+.awe-font-parkinsans { font-family: "Parkinsans", sans-serif; }

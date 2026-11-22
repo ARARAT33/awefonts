@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bellefair */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bellefair/index.css");
+.awe-font-bellefair { font-family: "Bellefair", sans-serif; }

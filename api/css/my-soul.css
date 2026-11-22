@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: my-soul */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/my-soul/index.css");
+.awe-font-my-soul { font-family: "My Soul", sans-serif; }

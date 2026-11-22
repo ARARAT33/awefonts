@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fascinate-inline */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fascinate-inline/index.css");
+.awe-font-fascinate-inline { font-family: "Fascinate Inline", sans-serif; }

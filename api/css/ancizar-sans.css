@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ancizar-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ancizar-sans/index.css");
+.awe-font-ancizar-sans { font-family: "Ancizar Sans", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ibm-plex-sans-jp */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans-jp/index.css");
+.awe-font-ibm-plex-sans-jp { font-family: "Ibm Plex Sans Jp", sans-serif; }

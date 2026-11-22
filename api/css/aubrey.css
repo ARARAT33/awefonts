@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: aubrey */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aubrey/index.css");
+.awe-font-aubrey { font-family: "Aubrey", sans-serif; }

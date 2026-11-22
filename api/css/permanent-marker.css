@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: permanent-marker */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/permanent-marker/index.css");
+.awe-font-permanent-marker { font-family: "Permanent Marker", sans-serif; }

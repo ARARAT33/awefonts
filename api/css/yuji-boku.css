@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yuji-boku */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yuji-boku/index.css");
+.awe-font-yuji-boku { font-family: "Yuji Boku", sans-serif; }

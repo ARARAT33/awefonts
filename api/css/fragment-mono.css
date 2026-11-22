@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fragment-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fragment-mono/index.css");
+.awe-font-fragment-mono { font-family: "Fragment Mono", sans-serif; }

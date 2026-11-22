@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rocknroll-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rocknroll-one/index.css");
+.awe-font-rocknroll-one { font-family: "Rocknroll One", sans-serif; }

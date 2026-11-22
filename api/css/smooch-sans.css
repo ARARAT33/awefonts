@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: smooch-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/smooch-sans/index.css");
+.awe-font-smooch-sans { font-family: "Smooch Sans", sans-serif; }

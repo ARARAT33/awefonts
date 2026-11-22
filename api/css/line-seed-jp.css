@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: line-seed-jp */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/line-seed-jp/index.css");
+.awe-font-line-seed-jp { font-family: "Line Seed Jp", sans-serif; }

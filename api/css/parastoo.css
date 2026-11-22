@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: parastoo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/parastoo/index.css");
+.awe-font-parastoo { font-family: "Parastoo", sans-serif; }

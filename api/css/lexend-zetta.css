@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lexend-zetta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lexend-zetta/index.css");
+.awe-font-lexend-zetta { font-family: "Lexend Zetta", sans-serif; }

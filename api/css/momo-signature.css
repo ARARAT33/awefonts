@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: momo-signature */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/momo-signature/index.css");
+.awe-font-momo-signature { font-family: "Momo Signature", sans-serif; }

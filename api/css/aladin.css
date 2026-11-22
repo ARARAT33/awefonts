@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: aladin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aladin/index.css");
+.awe-font-aladin { font-family: "Aladin", sans-serif; }

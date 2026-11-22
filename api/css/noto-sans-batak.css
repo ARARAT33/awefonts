@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-batak */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-batak/index.css");
+.awe-font-noto-sans-batak { font-family: "Noto Sans Batak", sans-serif; }

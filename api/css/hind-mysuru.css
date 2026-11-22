@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hind-mysuru */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hind-mysuru/index.css");
+.awe-font-hind-mysuru { font-family: "Hind Mysuru", sans-serif; }

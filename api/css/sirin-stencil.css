@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sirin-stencil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sirin-stencil/index.css");
+.awe-font-sirin-stencil { font-family: "Sirin Stencil", sans-serif; }

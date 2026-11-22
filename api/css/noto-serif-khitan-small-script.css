@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-khitan-small-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-khitan-small-script/index.css");
+.awe-font-noto-serif-khitan-small-script { font-family: "Noto Serif Khitan Small Script", sans-serif; }

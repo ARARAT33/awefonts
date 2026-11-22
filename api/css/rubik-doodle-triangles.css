@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-doodle-triangles */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-doodle-triangles/index.css");
+.awe-font-rubik-doodle-triangles { font-family: "Rubik Doodle Triangles", sans-serif; }

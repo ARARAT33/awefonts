@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: darker-grotesque */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/darker-grotesque/index.css");
+.awe-font-darker-grotesque { font-family: "Darker Grotesque", sans-serif; }

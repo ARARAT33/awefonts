@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arya */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arya/index.css");
+.awe-font-arya { font-family: "Arya", sans-serif; }

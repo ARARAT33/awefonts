@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: engagement */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/engagement/index.css");
+.awe-font-engagement { font-family: "Engagement", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-tangsa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-tangsa/index.css");
+.awe-font-noto-sans-tangsa { font-family: "Noto Sans Tangsa", sans-serif; }

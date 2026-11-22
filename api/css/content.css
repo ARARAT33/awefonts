@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: content */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/content/index.css");
+.awe-font-content { font-family: "Content", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: montenegrin-gothic-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montenegrin-gothic-one/index.css");
+.awe-font-montenegrin-gothic-one { font-family: "Montenegrin Gothic One", sans-serif; }

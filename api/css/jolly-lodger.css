@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jolly-lodger */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jolly-lodger/index.css");
+.awe-font-jolly-lodger { font-family: "Jolly Lodger", sans-serif; }

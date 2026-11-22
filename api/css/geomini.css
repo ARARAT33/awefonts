@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: geomini */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/geomini/index.css");
+.awe-font-geomini { font-family: "Geomini", sans-serif; }

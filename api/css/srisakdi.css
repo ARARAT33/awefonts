@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: srisakdi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/srisakdi/index.css");
+.awe-font-srisakdi { font-family: "Srisakdi", sans-serif; }

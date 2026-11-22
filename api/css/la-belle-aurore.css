@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: la-belle-aurore */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/la-belle-aurore/index.css");
+.awe-font-la-belle-aurore { font-family: "La Belle Aurore", sans-serif; }

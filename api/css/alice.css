@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alice */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alice/index.css");
+.awe-font-alice { font-family: "Alice", sans-serif; }

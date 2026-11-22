@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: snowburst-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/snowburst-one/index.css");
+.awe-font-snowburst-one { font-family: "Snowburst One", sans-serif; }

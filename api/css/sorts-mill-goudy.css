@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sorts-mill-goudy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sorts-mill-goudy/index.css");
+.awe-font-sorts-mill-goudy { font-family: "Sorts Mill Goudy", sans-serif; }

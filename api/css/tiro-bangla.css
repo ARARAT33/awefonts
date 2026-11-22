@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tiro-bangla */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tiro-bangla/index.css");
+.awe-font-tiro-bangla { font-family: "Tiro Bangla", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: doppio-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/doppio-one/index.css");
+.awe-font-doppio-one { font-family: "Doppio One", sans-serif; }

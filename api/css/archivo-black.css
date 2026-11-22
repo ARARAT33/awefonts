@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: archivo-black */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/archivo-black/index.css");
+.awe-font-archivo-black { font-family: "Archivo Black", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-sogdian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sogdian/index.css");
+.awe-font-noto-sans-sogdian { font-family: "Noto Sans Sogdian", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zilla-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zilla-slab/index.css");
+.awe-font-zilla-slab { font-family: "Zilla Slab", sans-serif; }

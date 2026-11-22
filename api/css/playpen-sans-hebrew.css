@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playpen-sans-hebrew */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playpen-sans-hebrew/index.css");
+.awe-font-playpen-sans-hebrew { font-family: "Playpen Sans Hebrew", sans-serif; }

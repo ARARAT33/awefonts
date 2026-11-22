@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sumana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sumana/index.css");
+.awe-font-sumana { font-family: "Sumana", sans-serif; }

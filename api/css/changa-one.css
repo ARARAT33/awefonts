@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: changa-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/changa-one/index.css");
+.awe-font-changa-one { font-family: "Changa One", sans-serif; }

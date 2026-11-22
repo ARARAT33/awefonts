@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nanum-myeongjo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nanum-myeongjo/index.css");
+.awe-font-nanum-myeongjo { font-family: "Nanum Myeongjo", sans-serif; }

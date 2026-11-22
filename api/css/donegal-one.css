@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: donegal-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/donegal-one/index.css");
+.awe-font-donegal-one { font-family: "Donegal One", sans-serif; }

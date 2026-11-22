@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nothing-you-could-do */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nothing-you-could-do/index.css");
+.awe-font-nothing-you-could-do { font-family: "Nothing You Could Do", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chango */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chango/index.css");
+.awe-font-chango { font-family: "Chango", sans-serif; }

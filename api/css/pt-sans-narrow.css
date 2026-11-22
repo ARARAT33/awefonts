@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pt-sans-narrow */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pt-sans-narrow/index.css");
+.awe-font-pt-sans-narrow { font-family: "Pt Sans Narrow", sans-serif; }

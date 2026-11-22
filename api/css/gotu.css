@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gotu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gotu/index.css");
+.awe-font-gotu { font-family: "Gotu", sans-serif; }

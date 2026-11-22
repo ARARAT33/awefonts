@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: corben */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/corben/index.css");
+.awe-font-corben { font-family: "Corben", sans-serif; }

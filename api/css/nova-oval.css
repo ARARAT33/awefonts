@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nova-oval */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nova-oval/index.css");
+.awe-font-nova-oval { font-family: "Nova Oval", sans-serif; }

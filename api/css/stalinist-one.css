@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stalinist-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stalinist-one/index.css");
+.awe-font-stalinist-one { font-family: "Stalinist One", sans-serif; }

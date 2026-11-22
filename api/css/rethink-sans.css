@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rethink-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rethink-sans/index.css");
+.awe-font-rethink-sans { font-family: "Rethink Sans", sans-serif; }

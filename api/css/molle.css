@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: molle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/molle/index.css");
+.awe-font-molle { font-family: "Molle", sans-serif; }

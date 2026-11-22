@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: uncial-antiqua */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/uncial-antiqua/index.css");
+.awe-font-uncial-antiqua { font-family: "Uncial Antiqua", sans-serif; }

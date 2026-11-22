@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-linear-b */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-linear-b/index.css");
+.awe-font-noto-sans-linear-b { font-family: "Noto Sans Linear B", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: love-light */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/love-light/index.css");
+.awe-font-love-light { font-family: "Love Light", sans-serif; }

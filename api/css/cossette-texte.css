@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cossette-texte */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cossette-texte/index.css");
+.awe-font-cossette-texte { font-family: "Cossette Texte", sans-serif; }

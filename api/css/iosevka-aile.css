@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: iosevka-aile */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka-aile/index.css");
+.awe-font-iosevka-aile { font-family: "Iosevka Aile", sans-serif; }

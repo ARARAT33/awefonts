@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: odibee-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/odibee-sans/index.css");
+.awe-font-odibee-sans { font-family: "Odibee Sans", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sancreek */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sancreek/index.css");
+.awe-font-sancreek { font-family: "Sancreek", sans-serif; }

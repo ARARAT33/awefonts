@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lumanosimo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lumanosimo/index.css");
+.awe-font-lumanosimo { font-family: "Lumanosimo", sans-serif; }

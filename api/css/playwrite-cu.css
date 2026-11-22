@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-cu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-cu/index.css");
+.awe-font-playwrite-cu { font-family: "Playwrite Cu", sans-serif; }

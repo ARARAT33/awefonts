@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bruno-ace */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bruno-ace/index.css");
+.awe-font-bruno-ace { font-family: "Bruno Ace", sans-serif; }

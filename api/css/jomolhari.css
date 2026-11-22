@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jomolhari */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jomolhari/index.css");
+.awe-font-jomolhari { font-family: "Jomolhari", sans-serif; }

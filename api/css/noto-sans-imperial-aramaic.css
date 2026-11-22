@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-imperial-aramaic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-imperial-aramaic/index.css");
+.awe-font-noto-sans-imperial-aramaic { font-family: "Noto Sans Imperial Aramaic", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: headland-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/headland-one/index.css");
+.awe-font-headland-one { font-family: "Headland One", sans-serif; }

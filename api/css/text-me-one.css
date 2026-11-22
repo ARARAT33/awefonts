@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: text-me-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/text-me-one/index.css");
+.awe-font-text-me-one { font-family: "Text Me One", sans-serif; }

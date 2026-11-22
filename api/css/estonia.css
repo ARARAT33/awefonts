@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: estonia */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/estonia/index.css");
+.awe-font-estonia { font-family: "Estonia", sans-serif; }

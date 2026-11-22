@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-linear-a */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-linear-a/index.css");
+.awe-font-noto-sans-linear-a { font-family: "Noto Sans Linear A", sans-serif; }

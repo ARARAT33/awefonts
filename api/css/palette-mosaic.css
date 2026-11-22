@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: palette-mosaic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/palette-mosaic/index.css");
+.awe-font-palette-mosaic { font-family: "Palette Mosaic", sans-serif; }

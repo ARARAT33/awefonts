@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: prompt */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/prompt/index.css");
+.awe-font-prompt { font-family: "Prompt", sans-serif; }

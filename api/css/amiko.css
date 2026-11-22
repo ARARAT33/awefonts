@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: amiko */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/amiko/index.css");
+.awe-font-amiko { font-family: "Amiko", sans-serif; }

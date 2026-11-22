@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playpen-sans-arabic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playpen-sans-arabic/index.css");
+.awe-font-playpen-sans-arabic { font-family: "Playpen Sans Arabic", sans-serif; }

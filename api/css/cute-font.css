@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cute-font */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cute-font/index.css");
+.awe-font-cute-font { font-family: "Cute Font", sans-serif; }

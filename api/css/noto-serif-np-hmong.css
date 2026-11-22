@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-np-hmong */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-np-hmong/index.css");
+.awe-font-noto-serif-np-hmong { font-family: "Noto Serif Np Hmong", sans-serif; }

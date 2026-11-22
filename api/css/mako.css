@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mako */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mako/index.css");
+.awe-font-mako { font-family: "Mako", sans-serif; }

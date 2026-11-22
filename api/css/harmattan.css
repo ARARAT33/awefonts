@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: harmattan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/harmattan/index.css");
+.awe-font-harmattan { font-family: "Harmattan", sans-serif; }

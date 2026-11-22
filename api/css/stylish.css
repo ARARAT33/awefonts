@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stylish */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stylish/index.css");
+.awe-font-stylish { font-family: "Stylish", sans-serif; }

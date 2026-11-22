@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anta/index.css");
+.awe-font-anta { font-family: "Anta", sans-serif; }

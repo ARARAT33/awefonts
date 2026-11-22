@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: flow-rounded */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/flow-rounded/index.css");
+.awe-font-flow-rounded { font-family: "Flow Rounded", sans-serif; }

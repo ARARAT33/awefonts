@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gurajada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gurajada/index.css");
+.awe-font-gurajada { font-family: "Gurajada", sans-serif; }

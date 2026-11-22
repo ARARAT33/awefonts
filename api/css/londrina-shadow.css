@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: londrina-shadow */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/londrina-shadow/index.css");
+.awe-font-londrina-shadow { font-family: "Londrina Shadow", sans-serif; }

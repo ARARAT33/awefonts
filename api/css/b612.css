@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: b612 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/b612/index.css");
+.awe-font-b612 { font-family: "B612", sans-serif; }

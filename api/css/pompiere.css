@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pompiere */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pompiere/index.css");
+.awe-font-pompiere { font-family: "Pompiere", sans-serif; }

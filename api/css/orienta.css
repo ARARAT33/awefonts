@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: orienta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/orienta/index.css");
+.awe-font-orienta { font-family: "Orienta", sans-serif; }

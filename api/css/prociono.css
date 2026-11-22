@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: prociono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/prociono/index.css");
+.awe-font-prociono { font-family: "Prociono", sans-serif; }

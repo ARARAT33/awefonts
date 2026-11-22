@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: maitree */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/maitree/index.css");
+.awe-font-maitree { font-family: "Maitree", sans-serif; }

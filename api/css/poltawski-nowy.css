@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: poltawski-nowy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/poltawski-nowy/index.css");
+.awe-font-poltawski-nowy { font-family: "Poltawski Nowy", sans-serif; }

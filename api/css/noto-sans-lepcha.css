@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-lepcha */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-lepcha/index.css");
+.awe-font-noto-sans-lepcha { font-family: "Noto Sans Lepcha", sans-serif; }

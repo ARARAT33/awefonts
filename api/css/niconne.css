@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: niconne */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/niconne/index.css");
+.awe-font-niconne { font-family: "Niconne", sans-serif; }

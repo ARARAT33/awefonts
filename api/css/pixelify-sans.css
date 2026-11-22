@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pixelify-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pixelify-sans/index.css");
+.awe-font-pixelify-sans { font-family: "Pixelify Sans", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-old-turkic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-old-turkic/index.css");
+.awe-font-noto-sans-old-turkic { font-family: "Noto Sans Old Turkic", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kaisei-harunoumi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kaisei-harunoumi/index.css");
+.awe-font-kaisei-harunoumi { font-family: "Kaisei Harunoumi", sans-serif; }

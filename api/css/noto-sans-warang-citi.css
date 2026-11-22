@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-warang-citi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-warang-citi/index.css");
+.awe-font-noto-sans-warang-citi { font-family: "Noto Sans Warang Citi", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: square-peg */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/square-peg/index.css");
+.awe-font-square-peg { font-family: "Square Peg", sans-serif; }

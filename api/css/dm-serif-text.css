@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dm-serif-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dm-serif-text/index.css");
+.awe-font-dm-serif-text { font-family: "Dm Serif Text", sans-serif; }

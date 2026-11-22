@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pt-serif-caption */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pt-serif-caption/index.css");
+.awe-font-pt-serif-caption { font-family: "Pt Serif Caption", sans-serif; }

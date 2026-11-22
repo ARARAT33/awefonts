@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gfs-didot */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gfs-didot/index.css");
+.awe-font-gfs-didot { font-family: "Gfs Didot", sans-serif; }

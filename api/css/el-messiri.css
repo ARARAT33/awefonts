@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: el-messiri */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/el-messiri/index.css");
+.awe-font-el-messiri { font-family: "El Messiri", sans-serif; }

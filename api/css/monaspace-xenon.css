@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monaspace-xenon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monaspace-xenon/index.css");
+.awe-font-monaspace-xenon { font-family: "Monaspace Xenon", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: amatic-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/amatic-sc/index.css");
+.awe-font-amatic-sc { font-family: "Amatic Sc", sans-serif; }

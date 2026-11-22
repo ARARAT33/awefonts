@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yrsa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yrsa/index.css");
+.awe-font-yrsa { font-family: "Yrsa", sans-serif; }

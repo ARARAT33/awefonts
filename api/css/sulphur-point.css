@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sulphur-point */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sulphur-point/index.css");
+.awe-font-sulphur-point { font-family: "Sulphur Point", sans-serif; }

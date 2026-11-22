@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-gurmukhi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-gurmukhi/index.css");
+.awe-font-noto-serif-gurmukhi { font-family: "Noto Serif Gurmukhi", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: balsamiq-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/balsamiq-sans/index.css");
+.awe-font-balsamiq-sans { font-family: "Balsamiq Sans", sans-serif; }

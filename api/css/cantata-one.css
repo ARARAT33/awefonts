@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cantata-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cantata-one/index.css");
+.awe-font-cantata-one { font-family: "Cantata One", sans-serif; }

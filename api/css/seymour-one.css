@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: seymour-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/seymour-one/index.css");
+.awe-font-seymour-one { font-family: "Seymour One", sans-serif; }

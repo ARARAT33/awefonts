@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: capriola */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/capriola/index.css");
+.awe-font-capriola { font-family: "Capriola", sans-serif; }

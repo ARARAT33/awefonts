@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: satisfy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/satisfy/index.css");
+.awe-font-satisfy { font-family: "Satisfy", sans-serif; }

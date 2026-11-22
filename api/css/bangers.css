@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bangers */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bangers/index.css");
+.awe-font-bangers { font-family: "Bangers", sans-serif; }

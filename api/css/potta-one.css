@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: potta-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/potta-one/index.css");
+.awe-font-potta-one { font-family: "Potta One", sans-serif; }

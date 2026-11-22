@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: murecho */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/murecho/index.css");
+.awe-font-murecho { font-family: "Murecho", sans-serif; }

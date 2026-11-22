@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: syncopate */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/syncopate/index.css");
+.awe-font-syncopate { font-family: "Syncopate", sans-serif; }

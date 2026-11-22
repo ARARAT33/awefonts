@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mr-bedfort */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mr-bedfort/index.css");
+.awe-font-mr-bedfort { font-family: "Mr Bedfort", sans-serif; }

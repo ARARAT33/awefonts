@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: unlock */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/unlock/index.css");
+.awe-font-unlock { font-family: "Unlock", sans-serif; }

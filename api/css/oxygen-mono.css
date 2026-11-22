@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: oxygen-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/oxygen-mono/index.css");
+.awe-font-oxygen-mono { font-family: "Oxygen Mono", sans-serif; }

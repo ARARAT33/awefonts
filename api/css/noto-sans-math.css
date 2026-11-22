@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-math */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-math/index.css");
+.awe-font-noto-sans-math { font-family: "Noto Sans Math", sans-serif; }

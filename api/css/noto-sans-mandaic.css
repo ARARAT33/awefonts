@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-mandaic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-mandaic/index.css");
+.awe-font-noto-sans-mandaic { font-family: "Noto Sans Mandaic", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: unbounded */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/unbounded/index.css");
+.awe-font-unbounded { font-family: "Unbounded", sans-serif; }

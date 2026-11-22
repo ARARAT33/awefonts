@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vampiro-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vampiro-one/index.css");
+.awe-font-vampiro-one { font-family: "Vampiro One", sans-serif; }

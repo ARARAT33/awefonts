@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alatsi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alatsi/index.css");
+.awe-font-alatsi { font-family: "Alatsi", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bjcree */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bjcree/index.css");
+.awe-font-bjcree { font-family: "Bjcree", sans-serif; }

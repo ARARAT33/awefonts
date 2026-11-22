@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tomorrow */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tomorrow/index.css");
+.awe-font-tomorrow { font-family: "Tomorrow", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tasa-explorer */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tasa-explorer/index.css");
+.awe-font-tasa-explorer { font-family: "Tasa Explorer", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mouse-memoirs */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mouse-memoirs/index.css");
+.awe-font-mouse-memoirs { font-family: "Mouse Memoirs", sans-serif; }

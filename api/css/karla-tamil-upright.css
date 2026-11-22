@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: karla-tamil-upright */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/karla-tamil-upright/index.css");
+.awe-font-karla-tamil-upright { font-family: "Karla Tamil Upright", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: diplomata-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/diplomata-sc/index.css");
+.awe-font-diplomata-sc { font-family: "Diplomata Sc", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nova-cut */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nova-cut/index.css");
+.awe-font-nova-cut { font-family: "Nova Cut", sans-serif; }

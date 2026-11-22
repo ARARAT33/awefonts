@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shippori-antique-b1 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shippori-antique-b1/index.css");
+.awe-font-shippori-antique-b1 { font-family: "Shippori Antique B1", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: josefin-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/josefin-slab/index.css");
+.awe-font-josefin-slab { font-family: "Josefin Slab", sans-serif; }

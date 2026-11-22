@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: iceland */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iceland/index.css");
+.awe-font-iceland { font-family: "Iceland", sans-serif; }

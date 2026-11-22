@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alumni-sans-collegiate-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alumni-sans-collegiate-one/index.css");
+.awe-font-alumni-sans-collegiate-one { font-family: "Alumni Sans Collegiate One", sans-serif; }

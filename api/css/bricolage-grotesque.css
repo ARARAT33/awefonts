@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bricolage-grotesque */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bricolage-grotesque/index.css");
+.awe-font-bricolage-grotesque { font-family: "Bricolage Grotesque", sans-serif; }

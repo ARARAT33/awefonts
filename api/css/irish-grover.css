@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: irish-grover */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/irish-grover/index.css");
+.awe-font-irish-grover { font-family: "Irish Grover", sans-serif; }

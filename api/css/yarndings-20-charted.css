@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yarndings-20-charted */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yarndings-20-charted/index.css");
+.awe-font-yarndings-20-charted { font-family: "Yarndings 20 Charted", sans-serif; }

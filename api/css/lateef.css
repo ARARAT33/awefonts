@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lateef */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lateef/index.css");
+.awe-font-lateef { font-family: "Lateef", sans-serif; }

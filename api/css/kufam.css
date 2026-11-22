@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kufam */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kufam/index.css");
+.awe-font-kufam { font-family: "Kufam", sans-serif; }

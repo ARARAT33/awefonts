@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pinyon-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pinyon-script/index.css");
+.awe-font-pinyon-script { font-family: "Pinyon Script", sans-serif; }

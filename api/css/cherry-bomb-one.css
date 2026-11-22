@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cherry-bomb-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cherry-bomb-one/index.css");
+.awe-font-cherry-bomb-one { font-family: "Cherry Bomb One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: reenie-beanie */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/reenie-beanie/index.css");
+.awe-font-reenie-beanie { font-family: "Reenie Beanie", sans-serif; }

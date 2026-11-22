@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: carme */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/carme/index.css");
+.awe-font-carme { font-family: "Carme", sans-serif; }

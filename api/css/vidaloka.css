@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vidaloka */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vidaloka/index.css");
+.awe-font-vidaloka { font-family: "Vidaloka", sans-serif; }

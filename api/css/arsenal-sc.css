@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arsenal-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arsenal-sc/index.css");
+.awe-font-arsenal-sc { font-family: "Arsenal Sc", sans-serif; }

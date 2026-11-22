@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: recursive */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/recursive/index.css");
+.awe-font-recursive { font-family: "Recursive", sans-serif; }

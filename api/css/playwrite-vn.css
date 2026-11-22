@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-vn */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-vn/index.css");
+.awe-font-playwrite-vn { font-family: "Playwrite Vn", sans-serif; }

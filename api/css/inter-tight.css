@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: inter-tight */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/inter-tight/index.css");
+.awe-font-inter-tight { font-family: "Inter Tight", sans-serif; }

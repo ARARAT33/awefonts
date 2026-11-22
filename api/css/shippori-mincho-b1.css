@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shippori-mincho-b1 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shippori-mincho-b1/index.css");
+.awe-font-shippori-mincho-b1 { font-family: "Shippori Mincho B1", sans-serif; }

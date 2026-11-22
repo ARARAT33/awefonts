@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: asul */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/asul/index.css");
+.awe-font-asul { font-family: "Asul", sans-serif; }

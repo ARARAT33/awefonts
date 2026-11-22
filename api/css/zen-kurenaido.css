@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zen-kurenaido */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zen-kurenaido/index.css");
+.awe-font-zen-kurenaido { font-family: "Zen Kurenaido", sans-serif; }

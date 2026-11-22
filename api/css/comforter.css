@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: comforter */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/comforter/index.css");
+.awe-font-comforter { font-family: "Comforter", sans-serif; }

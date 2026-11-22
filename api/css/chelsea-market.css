@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chelsea-market */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chelsea-market/index.css");
+.awe-font-chelsea-market { font-family: "Chelsea Market", sans-serif; }

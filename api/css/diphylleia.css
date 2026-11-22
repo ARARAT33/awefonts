@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: diphylleia */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/diphylleia/index.css");
+.awe-font-diphylleia { font-family: "Diphylleia", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sansita-swashed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sansita-swashed/index.css");
+.awe-font-sansita-swashed { font-family: "Sansita Swashed", sans-serif; }

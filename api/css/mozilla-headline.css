@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mozilla-headline */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mozilla-headline/index.css");
+.awe-font-mozilla-headline { font-family: "Mozilla Headline", sans-serif; }

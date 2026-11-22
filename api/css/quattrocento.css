@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: quattrocento */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/quattrocento/index.css");
+.awe-font-quattrocento { font-family: "Quattrocento", sans-serif; }

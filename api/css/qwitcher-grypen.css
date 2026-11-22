@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: qwitcher-grypen */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/qwitcher-grypen/index.css");
+.awe-font-qwitcher-grypen { font-family: "Qwitcher Grypen", sans-serif; }

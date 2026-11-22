@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mozilla-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mozilla-text/index.css");
+.awe-font-mozilla-text { font-family: "Mozilla Text", sans-serif; }

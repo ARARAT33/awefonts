@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-music */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-music/index.css");
+.awe-font-noto-music { font-family: "Noto Music", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bahianita */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bahianita/index.css");
+.awe-font-bahianita { font-family: "Bahianita", sans-serif; }

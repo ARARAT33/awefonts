@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tillana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tillana/index.css");
+.awe-font-tillana { font-family: "Tillana", sans-serif; }

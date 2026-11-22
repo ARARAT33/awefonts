@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: momo-trust-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/momo-trust-sans/index.css");
+.awe-font-momo-trust-sans { font-family: "Momo Trust Sans", sans-serif; }

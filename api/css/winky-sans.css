@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: winky-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/winky-sans/index.css");
+.awe-font-winky-sans { font-family: "Winky Sans", sans-serif; }

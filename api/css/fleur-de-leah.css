@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fleur-de-leah */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fleur-de-leah/index.css");
+.awe-font-fleur-de-leah { font-family: "Fleur De Leah", sans-serif; }

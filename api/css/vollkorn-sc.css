@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vollkorn-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vollkorn-sc/index.css");
+.awe-font-vollkorn-sc { font-family: "Vollkorn Sc", sans-serif; }

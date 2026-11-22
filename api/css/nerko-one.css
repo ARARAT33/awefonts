@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nerko-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nerko-one/index.css");
+.awe-font-nerko-one { font-family: "Nerko One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: road-rage */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/road-rage/index.css");
+.awe-font-road-rage { font-family: "Road Rage", sans-serif; }

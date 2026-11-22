@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lily-script-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lily-script-one/index.css");
+.awe-font-lily-script-one { font-family: "Lily Script One", sans-serif; }

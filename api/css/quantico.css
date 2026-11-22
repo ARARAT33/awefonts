@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: quantico */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/quantico/index.css");
+.awe-font-quantico { font-family: "Quantico", sans-serif; }

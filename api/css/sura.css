@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sura */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sura/index.css");
+.awe-font-sura { font-family: "Sura", sans-serif; }

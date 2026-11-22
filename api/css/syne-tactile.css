@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: syne-tactile */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/syne-tactile/index.css");
+.awe-font-syne-tactile { font-family: "Syne Tactile", sans-serif; }

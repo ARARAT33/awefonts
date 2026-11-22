@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: new-amsterdam */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/new-amsterdam/index.css");
+.awe-font-new-amsterdam { font-family: "New Amsterdam", sans-serif; }

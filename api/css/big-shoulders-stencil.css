@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: big-shoulders-stencil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/big-shoulders-stencil/index.css");
+.awe-font-big-shoulders-stencil { font-family: "Big Shoulders Stencil", sans-serif; }

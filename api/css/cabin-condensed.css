@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cabin-condensed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cabin-condensed/index.css");
+.awe-font-cabin-condensed { font-family: "Cabin Condensed", sans-serif; }

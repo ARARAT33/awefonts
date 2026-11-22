@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: poiret-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/poiret-one/index.css");
+.awe-font-poiret-one { font-family: "Poiret One", sans-serif; }

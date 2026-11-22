@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: source-sans-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/source-sans-pro/index.css");
+.awe-font-source-sans-pro { font-family: "Source Sans Pro", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-au-tas */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-au-tas/index.css");
+.awe-font-playwrite-au-tas { font-family: "Playwrite Au Tas", sans-serif; }

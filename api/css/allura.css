@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: allura */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/allura/index.css");
+.awe-font-allura { font-family: "Allura", sans-serif; }

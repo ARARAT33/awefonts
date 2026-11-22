@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: passero-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/passero-one/index.css");
+.awe-font-passero-one { font-family: "Passero One", sans-serif; }

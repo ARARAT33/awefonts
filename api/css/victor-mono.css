@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: victor-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/victor-mono/index.css");
+.awe-font-victor-mono { font-family: "Victor Mono", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: madimi-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/madimi-one/index.css");
+.awe-font-madimi-one { font-family: "Madimi One", sans-serif; }

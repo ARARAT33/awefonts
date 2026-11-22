@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-buhid */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-buhid/index.css");
+.awe-font-noto-sans-buhid { font-family: "Noto Sans Buhid", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lacquer */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lacquer/index.css");
+.awe-font-lacquer { font-family: "Lacquer", sans-serif; }

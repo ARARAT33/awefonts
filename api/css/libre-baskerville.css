@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libre-baskerville */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libre-baskerville/index.css");
+.awe-font-libre-baskerville { font-family: "Libre Baskerville", sans-serif; }

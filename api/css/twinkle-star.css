@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: twinkle-star */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/twinkle-star/index.css");
+.awe-font-twinkle-star { font-family: "Twinkle Star", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sansation */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sansation/index.css");
+.awe-font-sansation { font-family: "Sansation", sans-serif; }

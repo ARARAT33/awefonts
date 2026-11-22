@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-tifinagh */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-tifinagh/index.css");
+.awe-font-noto-sans-tifinagh { font-family: "Noto Sans Tifinagh", sans-serif; }

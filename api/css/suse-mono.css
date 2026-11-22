@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: suse-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/suse-mono/index.css");
+.awe-font-suse-mono { font-family: "Suse Mono", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stack-sans-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stack-sans-text/index.css");
+.awe-font-stack-sans-text { font-family: "Stack Sans Text", sans-serif; }

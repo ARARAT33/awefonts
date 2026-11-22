@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mallanna */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mallanna/index.css");
+.awe-font-mallanna { font-family: "Mallanna", sans-serif; }

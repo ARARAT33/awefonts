@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hammersmith-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hammersmith-one/index.css");
+.awe-font-hammersmith-one { font-family: "Hammersmith One", sans-serif; }

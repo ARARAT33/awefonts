@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: squada-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/squada-one/index.css");
+.awe-font-squada-one { font-family: "Squada One", sans-serif; }

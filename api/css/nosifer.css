@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nosifer */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nosifer/index.css");
+.awe-font-nosifer { font-family: "Nosifer", sans-serif; }

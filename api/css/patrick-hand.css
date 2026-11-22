@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: patrick-hand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/patrick-hand/index.css");
+.awe-font-patrick-hand { font-family: "Patrick Hand", sans-serif; }

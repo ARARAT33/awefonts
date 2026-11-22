@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nokora */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nokora/index.css");
+.awe-font-nokora { font-family: "Nokora", sans-serif; }

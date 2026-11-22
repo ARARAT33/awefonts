@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: staatliches */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/staatliches/index.css");
+.awe-font-staatliches { font-family: "Staatliches", sans-serif; }

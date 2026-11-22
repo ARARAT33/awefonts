@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gabarito */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gabarito/index.css");
+.awe-font-gabarito { font-family: "Gabarito", sans-serif; }

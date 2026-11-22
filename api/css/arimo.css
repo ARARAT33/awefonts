@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arimo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arimo/index.css");
+.awe-font-arimo { font-family: "Arimo", sans-serif; }

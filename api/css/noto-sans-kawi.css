@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-kawi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-kawi/index.css");
+.awe-font-noto-sans-kawi { font-family: "Noto Sans Kawi", sans-serif; }

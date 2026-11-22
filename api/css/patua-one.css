@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: patua-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/patua-one/index.css");
+.awe-font-patua-one { font-family: "Patua One", sans-serif; }

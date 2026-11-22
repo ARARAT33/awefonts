@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stix-two-math */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stix-two-math/index.css");
+.awe-font-stix-two-math { font-family: "Stix Two Math", sans-serif; }

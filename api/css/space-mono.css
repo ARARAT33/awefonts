@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: space-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/space-mono/index.css");
+.awe-font-space-mono { font-family: "Space Mono", sans-serif; }

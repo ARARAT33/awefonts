@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sen */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sen/index.css");
+.awe-font-sen { font-family: "Sen", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: megrim */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/megrim/index.css");
+.awe-font-megrim { font-family: "Megrim", sans-serif; }

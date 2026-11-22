@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: moo-lah-lah */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/moo-lah-lah/index.css");
+.awe-font-moo-lah-lah { font-family: "Moo Lah Lah", sans-serif; }

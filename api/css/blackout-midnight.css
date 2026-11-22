@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: blackout-midnight */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/blackout-midnight/index.css");
+.awe-font-blackout-midnight { font-family: "Blackout Midnight", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: qahiri */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/qahiri/index.css");
+.awe-font-qahiri { font-family: "Qahiri", sans-serif; }

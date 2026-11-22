@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cambo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cambo/index.css");
+.awe-font-cambo { font-family: "Cambo", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: glegoo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/glegoo/index.css");
+.awe-font-glegoo { font-family: "Glegoo", sans-serif; }

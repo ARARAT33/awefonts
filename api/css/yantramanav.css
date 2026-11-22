@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yantramanav */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yantramanav/index.css");
+.awe-font-yantramanav { font-family: "Yantramanav", sans-serif; }

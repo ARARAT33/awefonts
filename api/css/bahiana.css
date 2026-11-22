@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bahiana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bahiana/index.css");
+.awe-font-bahiana { font-family: "Bahiana", sans-serif; }

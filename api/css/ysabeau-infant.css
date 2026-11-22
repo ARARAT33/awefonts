@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ysabeau-infant */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ysabeau-infant/index.css");
+.awe-font-ysabeau-infant { font-family: "Ysabeau Infant", sans-serif; }

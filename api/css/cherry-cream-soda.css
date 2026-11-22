@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cherry-cream-soda */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cherry-cream-soda/index.css");
+.awe-font-cherry-cream-soda { font-family: "Cherry Cream Soda", sans-serif; }

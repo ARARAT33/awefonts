@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: biz-udgothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/biz-udgothic/index.css");
+.awe-font-biz-udgothic { font-family: "Biz Udgothic", sans-serif; }

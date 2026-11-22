@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-soyombo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-soyombo/index.css");
+.awe-font-noto-sans-soyombo { font-family: "Noto Sans Soyombo", sans-serif; }

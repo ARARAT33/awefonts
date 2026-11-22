@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-avestan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-avestan/index.css");
+.awe-font-noto-sans-avestan { font-family: "Noto Sans Avestan", sans-serif; }

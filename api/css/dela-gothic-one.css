@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dela-gothic-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dela-gothic-one/index.css");
+.awe-font-dela-gothic-one { font-family: "Dela Gothic One", sans-serif; }

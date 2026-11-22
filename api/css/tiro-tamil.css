@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tiro-tamil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tiro-tamil/index.css");
+.awe-font-tiro-tamil { font-family: "Tiro Tamil", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: coral-pixels */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/coral-pixels/index.css");
+.awe-font-coral-pixels { font-family: "Coral Pixels", sans-serif; }

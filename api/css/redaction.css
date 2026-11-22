@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: redaction */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/redaction/index.css");
+.awe-font-redaction { font-family: "Redaction", sans-serif; }

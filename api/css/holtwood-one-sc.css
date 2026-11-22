@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: holtwood-one-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/holtwood-one-sc/index.css");
+.awe-font-holtwood-one-sc { font-family: "Holtwood One Sc", sans-serif; }

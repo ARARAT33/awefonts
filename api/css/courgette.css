@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: courgette */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/courgette/index.css");
+.awe-font-courgette { font-family: "Courgette", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: georama */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/georama/index.css");
+.awe-font-georama { font-family: "Georama", sans-serif; }

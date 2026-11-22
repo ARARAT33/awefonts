@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-balinese */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-balinese/index.css");
+.awe-font-noto-serif-balinese { font-family: "Noto Serif Balinese", sans-serif; }

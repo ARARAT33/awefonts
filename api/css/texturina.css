@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: texturina */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/texturina/index.css");
+.awe-font-texturina { font-family: "Texturina", sans-serif; }

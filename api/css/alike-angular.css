@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alike-angular */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alike-angular/index.css");
+.awe-font-alike-angular { font-family: "Alike Angular", sans-serif; }

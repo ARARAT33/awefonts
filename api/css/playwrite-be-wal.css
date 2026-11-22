@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-be-wal */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-be-wal/index.css");
+.awe-font-playwrite-be-wal { font-family: "Playwrite Be Wal", sans-serif; }

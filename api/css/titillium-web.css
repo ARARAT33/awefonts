@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: titillium-web */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/titillium-web/index.css");
+.awe-font-titillium-web { font-family: "Titillium Web", sans-serif; }

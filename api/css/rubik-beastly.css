@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-beastly */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-beastly/index.css");
+.awe-font-rubik-beastly { font-family: "Rubik Beastly", sans-serif; }

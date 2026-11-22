@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: material-symbols-rounded */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-symbols-rounded/index.css");
+.awe-font-material-symbols-rounded { font-family: "Material Symbols Rounded", sans-serif; }

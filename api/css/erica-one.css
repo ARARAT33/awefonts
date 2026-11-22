@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: erica-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/erica-one/index.css");
+.awe-font-erica-one { font-family: "Erica One", sans-serif; }

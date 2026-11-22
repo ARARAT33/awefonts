@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: wdxl-lubrifont-tc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/wdxl-lubrifont-tc/index.css");
+.awe-font-wdxl-lubrifont-tc { font-family: "Wdxl Lubrifont Tc", sans-serif; }

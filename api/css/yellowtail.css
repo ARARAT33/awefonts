@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yellowtail */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yellowtail/index.css");
+.awe-font-yellowtail { font-family: "Yellowtail", sans-serif; }

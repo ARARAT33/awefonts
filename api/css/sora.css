@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sora */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sora/index.css");
+.awe-font-sora { font-family: "Sora", sans-serif; }

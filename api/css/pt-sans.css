@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pt-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pt-sans/index.css");
+.awe-font-pt-sans { font-family: "Pt Sans", sans-serif; }

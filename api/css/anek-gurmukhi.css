@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anek-gurmukhi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-gurmukhi/index.css");
+.awe-font-anek-gurmukhi { font-family: "Anek Gurmukhi", sans-serif; }

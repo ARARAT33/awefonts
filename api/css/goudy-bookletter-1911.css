@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: goudy-bookletter-1911 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/goudy-bookletter-1911/index.css");
+.awe-font-goudy-bookletter-1911 { font-family: "Goudy Bookletter 1911", sans-serif; }

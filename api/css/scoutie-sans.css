@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: scoutie-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/scoutie-sans/index.css");
+.awe-font-scoutie-sans { font-family: "Scoutie Sans", sans-serif; }

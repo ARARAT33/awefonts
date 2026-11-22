@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: klee-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/klee-one/index.css");
+.awe-font-klee-one { font-family: "Klee One", sans-serif; }

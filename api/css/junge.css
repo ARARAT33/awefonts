@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: junge */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/junge/index.css");
+.awe-font-junge { font-family: "Junge", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: the-nautigal */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/the-nautigal/index.css");
+.awe-font-the-nautigal { font-family: "The Nautigal", sans-serif; }

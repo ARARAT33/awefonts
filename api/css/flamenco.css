@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: flamenco */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/flamenco/index.css");
+.awe-font-flamenco { font-family: "Flamenco", sans-serif; }

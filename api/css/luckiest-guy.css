@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: luckiest-guy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/luckiest-guy/index.css");
+.awe-font-luckiest-guy { font-family: "Luckiest Guy", sans-serif; }

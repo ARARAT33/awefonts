@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: adwaita-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/adwaita-mono/index.css");
+.awe-font-adwaita-mono { font-family: "Adwaita Mono", sans-serif; }

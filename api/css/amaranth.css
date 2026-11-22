@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: amaranth */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/amaranth/index.css");
+.awe-font-amaranth { font-family: "Amaranth", sans-serif; }

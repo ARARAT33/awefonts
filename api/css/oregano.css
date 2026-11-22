@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: oregano */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/oregano/index.css");
+.awe-font-oregano { font-family: "Oregano", sans-serif; }

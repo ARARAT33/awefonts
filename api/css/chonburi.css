@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chonburi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chonburi/index.css");
+.awe-font-chonburi { font-family: "Chonburi", sans-serif; }

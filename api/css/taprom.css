@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: taprom */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/taprom/index.css");
+.awe-font-taprom { font-family: "Taprom", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kavoon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kavoon/index.css");
+.awe-font-kavoon { font-family: "Kavoon", sans-serif; }

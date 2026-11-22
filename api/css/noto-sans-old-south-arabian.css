@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-old-south-arabian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-old-south-arabian/index.css");
+.awe-font-noto-sans-old-south-arabian { font-family: "Noto Sans Old South Arabian", sans-serif; }

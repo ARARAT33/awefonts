@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: farsan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/farsan/index.css");
+.awe-font-farsan { font-family: "Farsan", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tirra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tirra/index.css");
+.awe-font-tirra { font-family: "Tirra", sans-serif; }

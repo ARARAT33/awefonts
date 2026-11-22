@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: grandiflora-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/grandiflora-one/index.css");
+.awe-font-grandiflora-one { font-family: "Grandiflora One", sans-serif; }

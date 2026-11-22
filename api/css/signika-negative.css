@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: signika-negative */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/signika-negative/index.css");
+.awe-font-signika-negative { font-family: "Signika Negative", sans-serif; }

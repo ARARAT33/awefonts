@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-gujarati */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-gujarati/index.css");
+.awe-font-noto-serif-gujarati { font-family: "Noto Serif Gujarati", sans-serif; }

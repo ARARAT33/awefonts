@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: share */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/share/index.css");
+.awe-font-share { font-family: "Share", sans-serif; }

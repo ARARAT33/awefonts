@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nata-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nata-sans/index.css");
+.awe-font-nata-sans { font-family: "Nata Sans", sans-serif; }

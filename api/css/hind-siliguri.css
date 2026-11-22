@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hind-siliguri */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hind-siliguri/index.css");
+.awe-font-hind-siliguri { font-family: "Hind Siliguri", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: great-vibes */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/great-vibes/index.css");
+.awe-font-great-vibes { font-family: "Great Vibes", sans-serif; }

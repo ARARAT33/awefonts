@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-old-persian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-old-persian/index.css");
+.awe-font-noto-sans-old-persian { font-family: "Noto Sans Old Persian", sans-serif; }

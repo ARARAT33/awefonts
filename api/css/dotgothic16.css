@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dotgothic16 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dotgothic16/index.css");
+.awe-font-dotgothic16 { font-family: "Dotgothic16", sans-serif; }

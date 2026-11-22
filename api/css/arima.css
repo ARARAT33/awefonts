@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arima */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arima/index.css");
+.awe-font-arima { font-family: "Arima", sans-serif; }

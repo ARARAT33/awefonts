@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-pau-cin-hau */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-pau-cin-hau/index.css");
+.awe-font-noto-sans-pau-cin-hau { font-family: "Noto Sans Pau Cin Hau", sans-serif; }

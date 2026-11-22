@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ma-shan-zheng */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ma-shan-zheng/index.css");
+.awe-font-ma-shan-zheng { font-family: "Ma Shan Zheng", sans-serif; }

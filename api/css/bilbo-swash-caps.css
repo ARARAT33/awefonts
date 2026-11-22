@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bilbo-swash-caps */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bilbo-swash-caps/index.css");
+.awe-font-bilbo-swash-caps { font-family: "Bilbo Swash Caps", sans-serif; }

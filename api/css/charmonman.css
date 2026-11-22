@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: charmonman */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/charmonman/index.css");
+.awe-font-charmonman { font-family: "Charmonman", sans-serif; }

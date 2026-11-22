@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: passions-conflict */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/passions-conflict/index.css");
+.awe-font-passions-conflict { font-family: "Passions Conflict", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cambay */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cambay/index.css");
+.awe-font-cambay { font-family: "Cambay", sans-serif; }

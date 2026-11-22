@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: amarna */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/amarna/index.css");
+.awe-font-amarna { font-family: "Amarna", sans-serif; }

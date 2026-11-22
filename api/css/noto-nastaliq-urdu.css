@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-nastaliq-urdu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-nastaliq-urdu/index.css");
+.awe-font-noto-nastaliq-urdu { font-family: "Noto Nastaliq Urdu", sans-serif; }

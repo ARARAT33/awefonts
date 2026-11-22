@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mirza */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mirza/index.css");
+.awe-font-mirza { font-family: "Mirza", sans-serif; }

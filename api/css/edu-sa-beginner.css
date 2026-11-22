@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: edu-sa-beginner */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/edu-sa-beginner/index.css");
+.awe-font-edu-sa-beginner { font-family: "Edu Sa Beginner", sans-serif; }

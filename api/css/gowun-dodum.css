@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gowun-dodum */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gowun-dodum/index.css");
+.awe-font-gowun-dodum { font-family: "Gowun Dodum", sans-serif; }

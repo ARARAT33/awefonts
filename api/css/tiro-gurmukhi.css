@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tiro-gurmukhi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tiro-gurmukhi/index.css");
+.awe-font-tiro-gurmukhi { font-family: "Tiro Gurmukhi", sans-serif; }

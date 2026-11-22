@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-bubbles */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-bubbles/index.css");
+.awe-font-rubik-bubbles { font-family: "Rubik Bubbles", sans-serif; }

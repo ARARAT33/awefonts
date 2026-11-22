@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tilt-prism */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tilt-prism/index.css");
+.awe-font-tilt-prism { font-family: "Tilt Prism", sans-serif; }

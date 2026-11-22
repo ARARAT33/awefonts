@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anek-kannada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-kannada/index.css");
+.awe-font-anek-kannada { font-family: "Anek Kannada", sans-serif; }

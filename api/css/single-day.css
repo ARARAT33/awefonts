@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: single-day */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/single-day/index.css");
+.awe-font-single-day { font-family: "Single Day", sans-serif; }

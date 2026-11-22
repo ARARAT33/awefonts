@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: freeman */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/freeman/index.css");
+.awe-font-freeman { font-family: "Freeman", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gfs-neohellenic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gfs-neohellenic/index.css");
+.awe-font-gfs-neohellenic { font-family: "Gfs Neohellenic", sans-serif; }

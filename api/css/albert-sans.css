@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: albert-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/albert-sans/index.css");
+.awe-font-albert-sans { font-family: "Albert Sans", sans-serif; }

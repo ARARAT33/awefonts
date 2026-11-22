@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: literata */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/literata/index.css");
+.awe-font-literata { font-family: "Literata", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vina-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vina-sans/index.css");
+.awe-font-vina-sans { font-family: "Vina Sans", sans-serif; }

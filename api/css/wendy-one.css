@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: wendy-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/wendy-one/index.css");
+.awe-font-wendy-one { font-family: "Wendy One", sans-serif; }

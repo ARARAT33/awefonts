@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-glagolitic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-glagolitic/index.css");
+.awe-font-noto-sans-glagolitic { font-family: "Noto Sans Glagolitic", sans-serif; }

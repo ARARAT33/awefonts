@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mukta-mahee */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mukta-mahee/index.css");
+.awe-font-mukta-mahee { font-family: "Mukta Mahee", sans-serif; }

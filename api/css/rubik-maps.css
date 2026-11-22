@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-maps */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-maps/index.css");
+.awe-font-rubik-maps { font-family: "Rubik Maps", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: over-the-rainbow */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/over-the-rainbow/index.css");
+.awe-font-over-the-rainbow { font-family: "Over The Rainbow", sans-serif; }

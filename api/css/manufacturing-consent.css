@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: manufacturing-consent */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/manufacturing-consent/index.css");
+.awe-font-manufacturing-consent { font-family: "Manufacturing Consent", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sarina */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sarina/index.css");
+.awe-font-sarina { font-family: "Sarina", sans-serif; }

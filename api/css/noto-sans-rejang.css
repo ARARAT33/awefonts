@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-rejang */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-rejang/index.css");
+.awe-font-noto-sans-rejang { font-family: "Noto Sans Rejang", sans-serif; }

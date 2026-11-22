@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: neucha */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/neucha/index.css");
+.awe-font-neucha { font-family: "Neucha", sans-serif; }

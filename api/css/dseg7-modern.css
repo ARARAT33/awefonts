@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dseg7-modern */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dseg7-modern/index.css");
+.awe-font-dseg7-modern { font-family: "Dseg7 Modern", sans-serif; }

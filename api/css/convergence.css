@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: convergence */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/convergence/index.css");
+.awe-font-convergence { font-family: "Convergence", sans-serif; }

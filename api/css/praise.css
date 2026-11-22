@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: praise */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/praise/index.css");
+.awe-font-praise { font-family: "Praise", sans-serif; }

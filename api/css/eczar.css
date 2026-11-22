@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: eczar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/eczar/index.css");
+.awe-font-eczar { font-family: "Eczar", sans-serif; }

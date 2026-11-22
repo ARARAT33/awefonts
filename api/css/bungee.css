@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bungee */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bungee/index.css");
+.awe-font-bungee { font-family: "Bungee", sans-serif; }

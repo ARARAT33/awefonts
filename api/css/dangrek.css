@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dangrek */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dangrek/index.css");
+.awe-font-dangrek { font-family: "Dangrek", sans-serif; }

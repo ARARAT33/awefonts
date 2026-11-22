@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: meie-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/meie-script/index.css");
+.awe-font-meie-script { font-family: "Meie Script", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bbh-bogle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bbh-bogle/index.css");
+.awe-font-bbh-bogle { font-family: "Bbh Bogle", sans-serif; }

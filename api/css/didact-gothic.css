@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: didact-gothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/didact-gothic/index.css");
+.awe-font-didact-gothic { font-family: "Didact Gothic", sans-serif; }

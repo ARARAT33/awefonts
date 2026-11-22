@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kode-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kode-mono/index.css");
+.awe-font-kode-mono { font-family: "Kode Mono", sans-serif; }

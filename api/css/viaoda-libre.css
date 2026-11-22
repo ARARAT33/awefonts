@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: viaoda-libre */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/viaoda-libre/index.css");
+.awe-font-viaoda-libre { font-family: "Viaoda Libre", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: oi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/oi/index.css");
+.awe-font-oi { font-family: "Oi", sans-serif; }

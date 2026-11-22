@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: geostar-fill */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/geostar-fill/index.css");
+.awe-font-geostar-fill { font-family: "Geostar Fill", sans-serif; }

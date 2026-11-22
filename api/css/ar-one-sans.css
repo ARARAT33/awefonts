@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ar-one-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ar-one-sans/index.css");
+.awe-font-ar-one-sans { font-family: "Ar One Sans", sans-serif; }

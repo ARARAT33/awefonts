@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: play */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/play/index.css");
+.awe-font-play { font-family: "Play", sans-serif; }

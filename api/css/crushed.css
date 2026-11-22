@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: crushed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/crushed/index.css");
+.awe-font-crushed { font-family: "Crushed", sans-serif; }

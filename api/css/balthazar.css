@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: balthazar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/balthazar/index.css");
+.awe-font-balthazar { font-family: "Balthazar", sans-serif; }

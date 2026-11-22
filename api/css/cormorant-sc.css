@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cormorant-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cormorant-sc/index.css");
+.awe-font-cormorant-sc { font-family: "Cormorant Sc", sans-serif; }

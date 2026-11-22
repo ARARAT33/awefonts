@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: trykker */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/trykker/index.css");
+.awe-font-trykker { font-family: "Trykker", sans-serif; }

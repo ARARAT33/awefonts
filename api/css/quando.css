@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: quando */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/quando/index.css");
+.awe-font-quando { font-family: "Quando", sans-serif; }

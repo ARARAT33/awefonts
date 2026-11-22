@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: andada-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/andada-pro/index.css");
+.awe-font-andada-pro { font-family: "Andada Pro", sans-serif; }

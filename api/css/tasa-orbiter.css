@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tasa-orbiter */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tasa-orbiter/index.css");
+.awe-font-tasa-orbiter { font-family: "Tasa Orbiter", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lexend-deca */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lexend-deca/index.css");
+.awe-font-lexend-deca { font-family: "Lexend Deca", sans-serif; }

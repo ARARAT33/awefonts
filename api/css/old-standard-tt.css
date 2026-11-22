@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: old-standard-tt */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/old-standard-tt/index.css");
+.awe-font-old-standard-tt { font-family: "Old Standard Tt", sans-serif; }

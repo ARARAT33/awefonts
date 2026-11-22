@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: news-cycle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/news-cycle/index.css");
+.awe-font-news-cycle { font-family: "News Cycle", sans-serif; }

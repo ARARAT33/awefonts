@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lilex */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lilex/index.css");
+.awe-font-lilex { font-family: "Lilex", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mansalva */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mansalva/index.css");
+.awe-font-mansalva { font-family: "Mansalva", sans-serif; }

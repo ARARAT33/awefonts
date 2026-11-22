@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bagnard */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bagnard/index.css");
+.awe-font-bagnard { font-family: "Bagnard", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: leckerli-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/leckerli-one/index.css");
+.awe-font-leckerli-one { font-family: "Leckerli One", sans-serif; }

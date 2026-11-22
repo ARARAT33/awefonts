@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: oxanium */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/oxanium/index.css");
+.awe-font-oxanium { font-family: "Oxanium", sans-serif; }

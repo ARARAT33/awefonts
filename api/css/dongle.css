@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dongle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dongle/index.css");
+.awe-font-dongle { font-family: "Dongle", sans-serif; }

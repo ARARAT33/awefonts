@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-nag-mundari */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-nag-mundari/index.css");
+.awe-font-noto-sans-nag-mundari { font-family: "Noto Sans Nag Mundari", sans-serif; }

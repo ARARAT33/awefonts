@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: neonderthaw */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/neonderthaw/index.css");
+.awe-font-neonderthaw { font-family: "Neonderthaw", sans-serif; }

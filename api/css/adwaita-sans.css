@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: adwaita-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/adwaita-sans/index.css");
+.awe-font-adwaita-sans { font-family: "Adwaita Sans", sans-serif; }

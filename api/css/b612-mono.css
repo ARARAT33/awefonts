@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: b612-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/b612-mono/index.css");
+.awe-font-b612-mono { font-family: "B612 Mono", sans-serif; }

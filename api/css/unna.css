@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: unna */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/unna/index.css");
+.awe-font-unna { font-family: "Unna", sans-serif; }

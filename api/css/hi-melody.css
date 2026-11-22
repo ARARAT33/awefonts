@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hi-melody */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hi-melody/index.css");
+.awe-font-hi-melody { font-family: "Hi Melody", sans-serif; }

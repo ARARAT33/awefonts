@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: spline-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/spline-sans/index.css");
+.awe-font-spline-sans { font-family: "Spline Sans", sans-serif; }

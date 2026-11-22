@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: open-sauce-two */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/open-sauce-two/index.css");
+.awe-font-open-sauce-two { font-family: "Open Sauce Two", sans-serif; }

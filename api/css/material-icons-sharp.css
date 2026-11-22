@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: material-icons-sharp */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-icons-sharp/index.css");
+.awe-font-material-icons-sharp { font-family: "Material Icons Sharp", sans-serif; }

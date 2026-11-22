@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: atkinson-hyperlegible */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/atkinson-hyperlegible/index.css");
+.awe-font-atkinson-hyperlegible { font-family: "Atkinson Hyperlegible", sans-serif; }

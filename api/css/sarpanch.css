@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sarpanch */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sarpanch/index.css");
+.awe-font-sarpanch { font-family: "Sarpanch", sans-serif; }

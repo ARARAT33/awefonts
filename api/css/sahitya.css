@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sahitya */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sahitya/index.css");
+.awe-font-sahitya { font-family: "Sahitya", sans-serif; }

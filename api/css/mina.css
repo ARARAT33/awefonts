@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mina */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mina/index.css");
+.awe-font-mina { font-family: "Mina", sans-serif; }

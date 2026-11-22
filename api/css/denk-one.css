@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: denk-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/denk-one/index.css");
+.awe-font-denk-one { font-family: "Denk One", sans-serif; }

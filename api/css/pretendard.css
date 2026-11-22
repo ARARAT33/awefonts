@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pretendard */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pretendard/index.css");
+.awe-font-pretendard { font-family: "Pretendard", sans-serif; }

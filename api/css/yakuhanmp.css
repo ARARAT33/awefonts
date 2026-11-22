@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yakuhanmp */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yakuhanmp/index.css");
+.awe-font-yakuhanmp { font-family: "Yakuhanmp", sans-serif; }

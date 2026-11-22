@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-psalter-pahlavi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-psalter-pahlavi/index.css");
+.awe-font-noto-sans-psalter-pahlavi { font-family: "Noto Sans Psalter Pahlavi", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: crimson-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/crimson-text/index.css");
+.awe-font-crimson-text { font-family: "Crimson Text", sans-serif; }

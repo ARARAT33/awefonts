@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: eagle-lake */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/eagle-lake/index.css");
+.awe-font-eagle-lake { font-family: "Eagle Lake", sans-serif; }

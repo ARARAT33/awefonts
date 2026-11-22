@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: molengo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/molengo/index.css");
+.awe-font-molengo { font-family: "Molengo", sans-serif; }

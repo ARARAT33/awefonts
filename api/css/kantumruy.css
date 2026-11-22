@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kantumruy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kantumruy/index.css");
+.awe-font-kantumruy { font-family: "Kantumruy", sans-serif; }

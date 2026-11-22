@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: flavors */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/flavors/index.css");
+.awe-font-flavors { font-family: "Flavors", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kristi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kristi/index.css");
+.awe-font-kristi { font-family: "Kristi", sans-serif; }

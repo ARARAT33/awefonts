@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-canadian-aboriginal */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-canadian-aboriginal/index.css");
+.awe-font-noto-sans-canadian-aboriginal { font-family: "Noto Sans Canadian Aboriginal", sans-serif; }

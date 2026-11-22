@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: peace-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/peace-sans/index.css");
+.awe-font-peace-sans { font-family: "Peace Sans", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dm-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dm-mono/index.css");
+.awe-font-dm-mono { font-family: "Dm Mono", sans-serif; }

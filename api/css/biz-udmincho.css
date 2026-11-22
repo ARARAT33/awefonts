@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: biz-udmincho */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/biz-udmincho/index.css");
+.awe-font-biz-udmincho { font-family: "Biz Udmincho", sans-serif; }

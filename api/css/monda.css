@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monda */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monda/index.css");
+.awe-font-monda { font-family: "Monda", sans-serif; }

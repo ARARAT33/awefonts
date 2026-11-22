@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tsukimi-rounded */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tsukimi-rounded/index.css");
+.awe-font-tsukimi-rounded { font-family: "Tsukimi Rounded", sans-serif; }

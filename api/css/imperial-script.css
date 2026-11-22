@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: imperial-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/imperial-script/index.css");
+.awe-font-imperial-script { font-family: "Imperial Script", sans-serif; }

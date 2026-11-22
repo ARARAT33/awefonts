@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: trade-winds */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/trade-winds/index.css");
+.awe-font-trade-winds { font-family: "Trade Winds", sans-serif; }

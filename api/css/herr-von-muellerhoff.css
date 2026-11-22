@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: herr-von-muellerhoff */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/herr-von-muellerhoff/index.css");
+.awe-font-herr-von-muellerhoff { font-family: "Herr Von Muellerhoff", sans-serif; }

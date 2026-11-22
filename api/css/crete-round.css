@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: crete-round */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/crete-round/index.css");
+.awe-font-crete-round { font-family: "Crete Round", sans-serif; }

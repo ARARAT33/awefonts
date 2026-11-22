@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: siemreap */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/siemreap/index.css");
+.awe-font-siemreap { font-family: "Siemreap", sans-serif; }

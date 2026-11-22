@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: turret-road */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/turret-road/index.css");
+.awe-font-turret-road { font-family: "Turret Road", sans-serif; }

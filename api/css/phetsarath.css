@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: phetsarath */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/phetsarath/index.css");
+.awe-font-phetsarath { font-family: "Phetsarath", sans-serif; }

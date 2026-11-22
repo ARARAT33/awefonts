@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shizuru */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shizuru/index.css");
+.awe-font-shizuru { font-family: "Shizuru", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: trocchi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/trocchi/index.css");
+.awe-font-trocchi { font-family: "Trocchi", sans-serif; }

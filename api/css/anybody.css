@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anybody */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anybody/index.css");
+.awe-font-anybody { font-family: "Anybody", sans-serif; }

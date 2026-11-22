@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jacques-francois */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jacques-francois/index.css");
+.awe-font-jacques-francois { font-family: "Jacques Francois", sans-serif; }

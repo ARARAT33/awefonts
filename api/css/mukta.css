@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mukta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mukta/index.css");
+.awe-font-mukta { font-family: "Mukta", sans-serif; }

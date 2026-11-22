@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-meetei-mayek */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-meetei-mayek/index.css");
+.awe-font-noto-sans-meetei-mayek { font-family: "Noto Sans Meetei Mayek", sans-serif; }

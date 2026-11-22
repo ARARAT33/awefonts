@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: joan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/joan/index.css");
+.awe-font-joan { font-family: "Joan", sans-serif; }

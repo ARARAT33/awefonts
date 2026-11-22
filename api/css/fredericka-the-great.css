@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fredericka-the-great */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fredericka-the-great/index.css");
+.awe-font-fredericka-the-great { font-family: "Fredericka The Great", sans-serif; }

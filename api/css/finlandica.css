@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: finlandica */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/finlandica/index.css");
+.awe-font-finlandica { font-family: "Finlandica", sans-serif; }

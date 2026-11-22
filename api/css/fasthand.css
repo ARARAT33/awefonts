@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fasthand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fasthand/index.css");
+.awe-font-fasthand { font-family: "Fasthand", sans-serif; }

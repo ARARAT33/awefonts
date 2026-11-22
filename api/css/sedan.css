@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sedan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sedan/index.css");
+.awe-font-sedan { font-family: "Sedan", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: varela */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/varela/index.css");
+.awe-font-varela { font-family: "Varela", sans-serif; }

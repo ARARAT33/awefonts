@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-kufi-arabic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-kufi-arabic/index.css");
+.awe-font-noto-kufi-arabic { font-family: "Noto Kufi Arabic", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zen-antique-soft */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zen-antique-soft/index.css");
+.awe-font-zen-antique-soft { font-family: "Zen Antique Soft", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: the-girl-next-door */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/the-girl-next-door/index.css");
+.awe-font-the-girl-next-door { font-family: "The Girl Next Door", sans-serif; }

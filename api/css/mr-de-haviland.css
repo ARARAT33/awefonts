@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mr-de-haviland */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mr-de-haviland/index.css");
+.awe-font-mr-de-haviland { font-family: "Mr De Haviland", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: national-park */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/national-park/index.css");
+.awe-font-national-park { font-family: "National Park", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fredoka */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fredoka/index.css");
+.awe-font-fredoka { font-family: "Fredoka", sans-serif; }

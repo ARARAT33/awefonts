@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sansita */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sansita/index.css");
+.awe-font-sansita { font-family: "Sansita", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: allerta-stencil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/allerta-stencil/index.css");
+.awe-font-allerta-stencil { font-family: "Allerta Stencil", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: m-plus-1-code */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/m-plus-1-code/index.css");
+.awe-font-m-plus-1-code { font-family: "M Plus 1 Code", sans-serif; }

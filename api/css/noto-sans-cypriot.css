@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-cypriot */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-cypriot/index.css");
+.awe-font-noto-sans-cypriot { font-family: "Noto Sans Cypriot", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: handjet */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/handjet/index.css");
+.awe-font-handjet { font-family: "Handjet", sans-serif; }

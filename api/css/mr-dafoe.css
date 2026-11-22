@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mr-dafoe */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mr-dafoe/index.css");
+.awe-font-mr-dafoe { font-family: "Mr Dafoe", sans-serif; }

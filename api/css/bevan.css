@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bevan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bevan/index.css");
+.awe-font-bevan { font-family: "Bevan", sans-serif; }

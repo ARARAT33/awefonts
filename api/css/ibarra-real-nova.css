@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ibarra-real-nova */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ibarra-real-nova/index.css");
+.awe-font-ibarra-real-nova { font-family: "Ibarra Real Nova", sans-serif; }

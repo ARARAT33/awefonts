@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alike */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alike/index.css");
+.awe-font-alike { font-family: "Alike", sans-serif; }

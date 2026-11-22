@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: assistant */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/assistant/index.css");
+.awe-font-assistant { font-family: "Assistant", sans-serif; }

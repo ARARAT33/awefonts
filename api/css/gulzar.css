@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gulzar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gulzar/index.css");
+.awe-font-gulzar { font-family: "Gulzar", sans-serif; }

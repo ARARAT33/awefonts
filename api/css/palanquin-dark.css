@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: palanquin-dark */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/palanquin-dark/index.css");
+.awe-font-palanquin-dark { font-family: "Palanquin Dark", sans-serif; }

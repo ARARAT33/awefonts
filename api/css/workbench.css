@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: workbench */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/workbench/index.css");
+.awe-font-workbench { font-family: "Workbench", sans-serif; }

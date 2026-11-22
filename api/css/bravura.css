@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bravura */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bravura/index.css");
+.awe-font-bravura { font-family: "Bravura", sans-serif; }

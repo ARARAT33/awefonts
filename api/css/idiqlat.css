@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: idiqlat */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/idiqlat/index.css");
+.awe-font-idiqlat { font-family: "Idiqlat", sans-serif; }

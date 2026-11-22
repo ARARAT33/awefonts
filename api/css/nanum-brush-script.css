@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nanum-brush-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nanum-brush-script/index.css");
+.awe-font-nanum-brush-script { font-family: "Nanum Brush Script", sans-serif; }

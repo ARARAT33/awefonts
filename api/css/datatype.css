@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: datatype */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/datatype/index.css");
+.awe-font-datatype { font-family: "Datatype", sans-serif; }

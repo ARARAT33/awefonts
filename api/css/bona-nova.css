@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bona-nova */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bona-nova/index.css");
+.awe-font-bona-nova { font-family: "Bona Nova", sans-serif; }

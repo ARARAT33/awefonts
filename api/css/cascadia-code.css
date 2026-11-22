@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cascadia-code */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code/index.css");
+.awe-font-cascadia-code { font-family: "Cascadia Code", sans-serif; }

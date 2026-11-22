@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ovo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ovo/index.css");
+.awe-font-ovo { font-family: "Ovo", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: schibsted-grotesk */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/schibsted-grotesk/index.css");
+.awe-font-schibsted-grotesk { font-family: "Schibsted Grotesk", sans-serif; }

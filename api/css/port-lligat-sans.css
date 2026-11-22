@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: port-lligat-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/port-lligat-sans/index.css");
+.awe-font-port-lligat-sans { font-family: "Port Lligat Sans", sans-serif; }

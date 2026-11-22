@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: museomoderno */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/museomoderno/index.css");
+.awe-font-museomoderno { font-family: "Museomoderno", sans-serif; }

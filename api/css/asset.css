@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: asset */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/asset/index.css");
+.awe-font-asset { font-family: "Asset", sans-serif; }

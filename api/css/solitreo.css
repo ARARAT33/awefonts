@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: solitreo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/solitreo/index.css");
+.awe-font-solitreo { font-family: "Solitreo", sans-serif; }

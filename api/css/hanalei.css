@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hanalei */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hanalei/index.css");
+.awe-font-hanalei { font-family: "Hanalei", sans-serif; }

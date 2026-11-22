@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-cuneiform */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-cuneiform/index.css");
+.awe-font-noto-sans-cuneiform { font-family: "Noto Sans Cuneiform", sans-serif; }

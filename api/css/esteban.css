@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: esteban */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/esteban/index.css");
+.awe-font-esteban { font-family: "Esteban", sans-serif; }

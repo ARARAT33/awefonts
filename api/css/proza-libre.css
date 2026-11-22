@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: proza-libre */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/proza-libre/index.css");
+.awe-font-proza-libre { font-family: "Proza Libre", sans-serif; }

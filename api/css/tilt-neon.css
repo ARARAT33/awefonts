@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tilt-neon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tilt-neon/index.css");
+.awe-font-tilt-neon { font-family: "Tilt Neon", sans-serif; }

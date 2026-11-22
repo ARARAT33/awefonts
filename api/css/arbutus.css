@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arbutus */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arbutus/index.css");
+.awe-font-arbutus { font-family: "Arbutus", sans-serif; }

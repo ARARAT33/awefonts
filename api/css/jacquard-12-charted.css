@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jacquard-12-charted */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jacquard-12-charted/index.css");
+.awe-font-jacquard-12-charted { font-family: "Jacquard 12 Charted", sans-serif; }

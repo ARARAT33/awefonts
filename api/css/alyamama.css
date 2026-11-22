@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alyamama */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alyamama/index.css");
+.awe-font-alyamama { font-family: "Alyamama", sans-serif; }

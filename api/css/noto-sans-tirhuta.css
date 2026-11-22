@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-tirhuta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-tirhuta/index.css");
+.awe-font-noto-sans-tirhuta { font-family: "Noto Sans Tirhuta", sans-serif; }

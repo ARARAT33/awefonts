@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rem */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rem/index.css");
+.awe-font-rem { font-family: "Rem", sans-serif; }

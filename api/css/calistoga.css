@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: calistoga */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/calistoga/index.css");
+.awe-font-calistoga { font-family: "Calistoga", sans-serif; }

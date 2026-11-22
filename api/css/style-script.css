@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: style-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/style-script/index.css");
+.awe-font-style-script { font-family: "Style Script", sans-serif; }

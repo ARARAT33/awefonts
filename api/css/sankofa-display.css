@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sankofa-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sankofa-display/index.css");
+.awe-font-sankofa-display { font-family: "Sankofa Display", sans-serif; }

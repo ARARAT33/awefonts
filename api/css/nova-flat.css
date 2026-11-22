@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nova-flat */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nova-flat/index.css");
+.awe-font-nova-flat { font-family: "Nova Flat", sans-serif; }

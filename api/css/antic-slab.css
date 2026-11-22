@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: antic-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/antic-slab/index.css");
+.awe-font-antic-slab { font-family: "Antic Slab", sans-serif; }

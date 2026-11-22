@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dekko */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dekko/index.css");
+.awe-font-dekko { font-family: "Dekko", sans-serif; }

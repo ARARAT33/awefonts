@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: underdog */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/underdog/index.css");
+.awe-font-underdog { font-family: "Underdog", sans-serif; }

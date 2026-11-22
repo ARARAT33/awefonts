@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: barriecito */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/barriecito/index.css");
+.awe-font-barriecito { font-family: "Barriecito", sans-serif; }

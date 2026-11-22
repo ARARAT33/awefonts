@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: edu-qld-hand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/edu-qld-hand/index.css");
+.awe-font-edu-qld-hand { font-family: "Edu Qld Hand", sans-serif; }

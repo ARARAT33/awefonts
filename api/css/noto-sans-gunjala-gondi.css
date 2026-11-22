@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-gunjala-gondi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-gunjala-gondi/index.css");
+.awe-font-noto-sans-gunjala-gondi { font-family: "Noto Sans Gunjala Gondi", sans-serif; }

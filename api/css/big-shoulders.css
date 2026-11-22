@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: big-shoulders */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/big-shoulders/index.css");
+.awe-font-big-shoulders { font-family: "Big Shoulders", sans-serif; }

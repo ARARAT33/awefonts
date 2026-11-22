@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: aoboshi-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aoboshi-one/index.css");
+.awe-font-aoboshi-one { font-family: "Aoboshi One", sans-serif; }

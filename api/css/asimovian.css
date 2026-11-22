@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: asimovian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/asimovian/index.css");
+.awe-font-asimovian { font-family: "Asimovian", sans-serif; }

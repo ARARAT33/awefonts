@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monaspace-argon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monaspace-argon/index.css");
+.awe-font-monaspace-argon { font-family: "Monaspace Argon", sans-serif; }

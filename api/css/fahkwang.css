@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fahkwang */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fahkwang/index.css");
+.awe-font-fahkwang { font-family: "Fahkwang", sans-serif; }

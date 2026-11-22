@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: wix-madefor-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/wix-madefor-display/index.css");
+.awe-font-wix-madefor-display { font-family: "Wix Madefor Display", sans-serif; }

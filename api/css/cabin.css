@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cabin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cabin/index.css");
+.awe-font-cabin { font-family: "Cabin", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: elsie */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/elsie/index.css");
+.awe-font-elsie { font-family: "Elsie", sans-serif; }

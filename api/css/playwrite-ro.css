@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-ro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-ro/index.css");
+.awe-font-playwrite-ro { font-family: "Playwrite Ro", sans-serif; }

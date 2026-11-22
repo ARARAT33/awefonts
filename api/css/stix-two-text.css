@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stix-two-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stix-two-text/index.css");
+.awe-font-stix-two-text { font-family: "Stix Two Text", sans-serif; }

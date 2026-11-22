@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: smythe */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/smythe/index.css");
+.awe-font-smythe { font-family: "Smythe", sans-serif; }

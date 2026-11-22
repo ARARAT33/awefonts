@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-newa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-newa/index.css");
+.awe-font-noto-sans-newa { font-family: "Noto Sans Newa", sans-serif; }

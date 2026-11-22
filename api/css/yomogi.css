@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yomogi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yomogi/index.css");
+.awe-font-yomogi { font-family: "Yomogi", sans-serif; }

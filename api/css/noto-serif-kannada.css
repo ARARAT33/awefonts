@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-kannada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-kannada/index.css");
+.awe-font-noto-serif-kannada { font-family: "Noto Serif Kannada", sans-serif; }

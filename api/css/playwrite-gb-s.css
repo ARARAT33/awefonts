@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-gb-s */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-gb-s/index.css");
+.awe-font-playwrite-gb-s { font-family: "Playwrite Gb S", sans-serif; }

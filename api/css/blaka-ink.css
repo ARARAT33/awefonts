@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: blaka-ink */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/blaka-ink/index.css");
+.awe-font-blaka-ink { font-family: "Blaka Ink", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: manuale */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/manuale/index.css");
+.awe-font-manuale { font-family: "Manuale", sans-serif; }

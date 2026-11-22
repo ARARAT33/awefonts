@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: piazzolla */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/piazzolla/index.css");
+.awe-font-piazzolla { font-family: "Piazzolla", sans-serif; }

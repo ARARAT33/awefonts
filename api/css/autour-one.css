@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: autour-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/autour-one/index.css");
+.awe-font-autour-one { font-family: "Autour One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kedebideri */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kedebideri/index.css");
+.awe-font-kedebideri { font-family: "Kedebideri", sans-serif; }

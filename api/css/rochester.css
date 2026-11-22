@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rochester */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rochester/index.css");
+.awe-font-rochester { font-family: "Rochester", sans-serif; }

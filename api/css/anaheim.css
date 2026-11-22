@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anaheim */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anaheim/index.css");
+.awe-font-anaheim { font-family: "Anaheim", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: slackside-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/slackside-one/index.css");
+.awe-font-slackside-one { font-family: "Slackside One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: average-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/average-sans/index.css");
+.awe-font-average-sans { font-family: "Average Sans", sans-serif; }

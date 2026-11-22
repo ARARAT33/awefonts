@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-ottoman-siyaq */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-ottoman-siyaq/index.css");
+.awe-font-noto-serif-ottoman-siyaq { font-family: "Noto Serif Ottoman Siyaq", sans-serif; }

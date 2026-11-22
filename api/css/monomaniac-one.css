@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: monomaniac-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monomaniac-one/index.css");
+.awe-font-monomaniac-one { font-family: "Monomaniac One", sans-serif; }

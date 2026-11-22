@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: suez-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/suez-one/index.css");
+.awe-font-suez-one { font-family: "Suez One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: slackey */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/slackey/index.css");
+.awe-font-slackey { font-family: "Slackey", sans-serif; }

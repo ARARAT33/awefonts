@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mona-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mona-sans/index.css");
+.awe-font-mona-sans { font-family: "Mona Sans", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-distressed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-distressed/index.css");
+.awe-font-rubik-distressed { font-family: "Rubik Distressed", sans-serif; }

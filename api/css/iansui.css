@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: iansui */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iansui/index.css");
+.awe-font-iansui { font-family: "Iansui", sans-serif; }

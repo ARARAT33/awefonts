@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: londrina-solid */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/londrina-solid/index.css");
+.awe-font-londrina-solid { font-family: "Londrina Solid", sans-serif; }

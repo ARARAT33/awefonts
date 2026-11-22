@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rock-3d */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rock-3d/index.css");
+.awe-font-rock-3d { font-family: "Rock 3d", sans-serif; }

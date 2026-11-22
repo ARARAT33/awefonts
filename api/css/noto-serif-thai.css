@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-thai */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-thai/index.css");
+.awe-font-noto-serif-thai { font-family: "Noto Serif Thai", sans-serif; }

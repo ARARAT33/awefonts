@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kite-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kite-one/index.css");
+.awe-font-kite-one { font-family: "Kite One", sans-serif; }

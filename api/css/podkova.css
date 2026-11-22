@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: podkova */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/podkova/index.css");
+.awe-font-podkova { font-family: "Podkova", sans-serif; }

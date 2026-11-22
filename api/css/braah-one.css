@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: braah-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/braah-one/index.css");
+.awe-font-braah-one { font-family: "Braah One", sans-serif; }

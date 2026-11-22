@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yeon-sung */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yeon-sung/index.css");
+.awe-font-yeon-sung { font-family: "Yeon Sung", sans-serif; }

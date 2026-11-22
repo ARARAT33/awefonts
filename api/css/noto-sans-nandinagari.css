@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-nandinagari */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-nandinagari/index.css");
+.awe-font-noto-sans-nandinagari { font-family: "Noto Sans Nandinagari", sans-serif; }

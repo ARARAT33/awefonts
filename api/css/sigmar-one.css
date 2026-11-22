@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sigmar-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sigmar-one/index.css");
+.awe-font-sigmar-one { font-family: "Sigmar One", sans-serif; }

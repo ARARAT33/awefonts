@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: charis-sil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/charis-sil/index.css");
+.awe-font-charis-sil { font-family: "Charis Sil", sans-serif; }

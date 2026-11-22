@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-nabataean */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-nabataean/index.css");
+.awe-font-noto-sans-nabataean { font-family: "Noto Sans Nabataean", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: montserrat-subrayada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montserrat-subrayada/index.css");
+.awe-font-montserrat-subrayada { font-family: "Montserrat Subrayada", sans-serif; }

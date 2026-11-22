@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bodoni-moda-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bodoni-moda-sc/index.css");
+.awe-font-bodoni-moda-sc { font-family: "Bodoni Moda Sc", sans-serif; }

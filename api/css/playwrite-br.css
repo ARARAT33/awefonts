@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-br */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-br/index.css");
+.awe-font-playwrite-br { font-family: "Playwrite Br", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: almendra-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/almendra-display/index.css");
+.awe-font-almendra-display { font-family: "Almendra Display", sans-serif; }

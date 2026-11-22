@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: numans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/numans/index.css");
+.awe-font-numans { font-family: "Numans", sans-serif; }

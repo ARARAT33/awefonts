@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: galindo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/galindo/index.css");
+.awe-font-galindo { font-family: "Galindo", sans-serif; }

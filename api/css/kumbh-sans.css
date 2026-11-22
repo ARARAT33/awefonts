@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kumbh-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kumbh-sans/index.css");
+.awe-font-kumbh-sans { font-family: "Kumbh Sans", sans-serif; }

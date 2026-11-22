@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ranchers */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ranchers/index.css");
+.awe-font-ranchers { font-family: "Ranchers", sans-serif; }

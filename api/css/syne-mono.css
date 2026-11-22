@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: syne-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/syne-mono/index.css");
+.awe-font-syne-mono { font-family: "Syne Mono", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: azeret-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/azeret-mono/index.css");
+.awe-font-azeret-mono { font-family: "Azeret Mono", sans-serif; }

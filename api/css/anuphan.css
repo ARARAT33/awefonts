@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anuphan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anuphan/index.css");
+.awe-font-anuphan { font-family: "Anuphan", sans-serif; }

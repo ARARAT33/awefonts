@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: romanesco */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/romanesco/index.css");
+.awe-font-romanesco { font-family: "Romanesco", sans-serif; }

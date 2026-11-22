@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: corinthia */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/corinthia/index.css");
+.awe-font-corinthia { font-family: "Corinthia", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-id */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-id/index.css");
+.awe-font-playwrite-id { font-family: "Playwrite Id", sans-serif; }

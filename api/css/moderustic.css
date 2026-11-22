@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: moderustic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/moderustic/index.css");
+.awe-font-moderustic { font-family: "Moderustic", sans-serif; }

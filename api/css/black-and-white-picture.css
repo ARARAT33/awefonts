@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: black-and-white-picture */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/black-and-white-picture/index.css");
+.awe-font-black-and-white-picture { font-family: "Black And White Picture", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ibm-plex-sans-thai */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-sans-thai/index.css");
+.awe-font-ibm-plex-sans-thai { font-family: "Ibm Plex Sans Thai", sans-serif; }

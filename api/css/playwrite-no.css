@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-no */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-no/index.css");
+.awe-font-playwrite-no { font-family: "Playwrite No", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dr-sugiyama */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dr-sugiyama/index.css");
+.awe-font-dr-sugiyama { font-family: "Dr Sugiyama", sans-serif; }

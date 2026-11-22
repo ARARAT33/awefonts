@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dynapuff */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dynapuff/index.css");
+.awe-font-dynapuff { font-family: "Dynapuff", sans-serif; }

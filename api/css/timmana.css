@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: timmana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/timmana/index.css");
+.awe-font-timmana { font-family: "Timmana", sans-serif; }

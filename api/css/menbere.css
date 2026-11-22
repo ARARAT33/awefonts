@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: menbere */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/menbere/index.css");
+.awe-font-menbere { font-family: "Menbere", sans-serif; }

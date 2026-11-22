@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: geom */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/geom/index.css");
+.awe-font-geom { font-family: "Geom", sans-serif; }

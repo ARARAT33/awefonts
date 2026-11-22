@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: scope-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/scope-one/index.css");
+.awe-font-scope-one { font-family: "Scope One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: beau-rivage */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/beau-rivage/index.css");
+.awe-font-beau-rivage { font-family: "Beau Rivage", sans-serif; }

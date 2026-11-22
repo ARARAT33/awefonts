@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cal-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cal-sans/index.css");
+.awe-font-cal-sans { font-family: "Cal Sans", sans-serif; }

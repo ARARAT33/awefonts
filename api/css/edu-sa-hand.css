@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: edu-sa-hand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/edu-sa-hand/index.css");
+.awe-font-edu-sa-hand { font-family: "Edu Sa Hand", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hachi-maru-pop */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hachi-maru-pop/index.css");
+.awe-font-hachi-maru-pop { font-family: "Hachi Maru Pop", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: freehand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/freehand/index.css");
+.awe-font-freehand { font-family: "Freehand", sans-serif; }

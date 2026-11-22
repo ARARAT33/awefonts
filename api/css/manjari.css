@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: manjari */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/manjari/index.css");
+.awe-font-manjari { font-family: "Manjari", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libre-barcode-128 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libre-barcode-128/index.css");
+.awe-font-libre-barcode-128 { font-family: "Libre Barcode 128", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: supermercado-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/supermercado-one/index.css");
+.awe-font-supermercado-one { font-family: "Supermercado One", sans-serif; }

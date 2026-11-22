@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-syriac-eastern */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-syriac-eastern/index.css");
+.awe-font-noto-sans-syriac-eastern { font-family: "Noto Sans Syriac Eastern", sans-serif; }

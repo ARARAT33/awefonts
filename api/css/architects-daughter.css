@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: architects-daughter */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/architects-daughter/index.css");
+.awe-font-architects-daughter { font-family: "Architects Daughter", sans-serif; }

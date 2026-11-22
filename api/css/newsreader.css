@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: newsreader */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/newsreader/index.css");
+.awe-font-newsreader { font-family: "Newsreader", sans-serif; }

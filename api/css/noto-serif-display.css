@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-display/index.css");
+.awe-font-noto-serif-display { font-family: "Noto Serif Display", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-sora-sompeng */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sora-sompeng/index.css");
+.awe-font-noto-sans-sora-sompeng { font-family: "Noto Sans Sora Sompeng", sans-serif; }

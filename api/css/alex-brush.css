@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alex-brush */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alex-brush/index.css");
+.awe-font-alex-brush { font-family: "Alex Brush", sans-serif; }

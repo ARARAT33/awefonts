@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: blackout-sunrise */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/blackout-sunrise/index.css");
+.awe-font-blackout-sunrise { font-family: "Blackout Sunrise", sans-serif; }

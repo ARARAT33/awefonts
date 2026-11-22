@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chicle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chicle/index.css");
+.awe-font-chicle { font-family: "Chicle", sans-serif; }

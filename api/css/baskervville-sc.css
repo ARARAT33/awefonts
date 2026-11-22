@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: baskervville-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/baskervville-sc/index.css");
+.awe-font-baskervville-sc { font-family: "Baskervville Sc", sans-serif; }

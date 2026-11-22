@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: david-libre */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/david-libre/index.css");
+.awe-font-david-libre { font-family: "David Libre", sans-serif; }

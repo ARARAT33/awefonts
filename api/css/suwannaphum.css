@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: suwannaphum */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/suwannaphum/index.css");
+.awe-font-suwannaphum { font-family: "Suwannaphum", sans-serif; }

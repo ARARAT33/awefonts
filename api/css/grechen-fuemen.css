@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: grechen-fuemen */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/grechen-fuemen/index.css");
+.awe-font-grechen-fuemen { font-family: "Grechen Fuemen", sans-serif; }

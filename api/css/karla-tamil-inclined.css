@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: karla-tamil-inclined */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/karla-tamil-inclined/index.css");
+.awe-font-karla-tamil-inclined { font-family: "Karla Tamil Inclined", sans-serif; }

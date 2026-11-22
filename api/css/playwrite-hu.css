@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-hu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-hu/index.css");
+.awe-font-playwrite-hu { font-family: "Playwrite Hu", sans-serif; }

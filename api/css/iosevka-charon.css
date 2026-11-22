@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: iosevka-charon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka-charon/index.css");
+.awe-font-iosevka-charon { font-family: "Iosevka Charon", sans-serif; }

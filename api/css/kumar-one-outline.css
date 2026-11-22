@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kumar-one-outline */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kumar-one-outline/index.css");
+.awe-font-kumar-one-outline { font-family: "Kumar One Outline", sans-serif; }

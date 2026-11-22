@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hanuman */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hanuman/index.css");
+.awe-font-hanuman { font-family: "Hanuman", sans-serif; }

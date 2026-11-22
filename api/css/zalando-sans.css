@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zalando-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zalando-sans/index.css");
+.awe-font-zalando-sans { font-family: "Zalando Sans", sans-serif; }

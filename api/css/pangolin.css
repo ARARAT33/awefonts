@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pangolin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pangolin/index.css");
+.awe-font-pangolin { font-family: "Pangolin", sans-serif; }

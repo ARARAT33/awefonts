@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zcool-kuaile */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zcool-kuaile/index.css");
+.awe-font-zcool-kuaile { font-family: "Zcool Kuaile", sans-serif; }

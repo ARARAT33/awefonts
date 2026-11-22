@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: electrolize */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/electrolize/index.css");
+.awe-font-electrolize { font-family: "Electrolize", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tapestry */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tapestry/index.css");
+.awe-font-tapestry { font-family: "Tapestry", sans-serif; }

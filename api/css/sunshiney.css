@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sunshiney */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sunshiney/index.css");
+.awe-font-sunshiney { font-family: "Sunshiney", sans-serif; }

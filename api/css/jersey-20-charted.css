@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jersey-20-charted */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jersey-20-charted/index.css");
+.awe-font-jersey-20-charted { font-family: "Jersey 20 Charted", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mate */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mate/index.css");
+.awe-font-mate { font-family: "Mate", sans-serif; }

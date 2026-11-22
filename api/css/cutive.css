@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cutive */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cutive/index.css");
+.awe-font-cutive { font-family: "Cutive", sans-serif; }

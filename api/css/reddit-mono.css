@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: reddit-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/reddit-mono/index.css");
+.awe-font-reddit-mono { font-family: "Reddit Mono", sans-serif; }

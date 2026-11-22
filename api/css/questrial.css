@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: questrial */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/questrial/index.css");
+.awe-font-questrial { font-family: "Questrial", sans-serif; }

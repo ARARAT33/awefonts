@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: amita */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/amita/index.css");
+.awe-font-amita { font-family: "Amita", sans-serif; }

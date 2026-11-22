@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jersey-25-charted */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jersey-25-charted/index.css");
+.awe-font-jersey-25-charted { font-family: "Jersey 25 Charted", sans-serif; }

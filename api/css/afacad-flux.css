@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: afacad-flux */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/afacad-flux/index.css");
+.awe-font-afacad-flux { font-family: "Afacad Flux", sans-serif; }

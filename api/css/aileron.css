@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: aileron */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aileron/index.css");
+.awe-font-aileron { font-family: "Aileron", sans-serif; }

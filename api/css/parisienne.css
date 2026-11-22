@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: parisienne */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/parisienne/index.css");
+.awe-font-parisienne { font-family: "Parisienne", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: argentum-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/argentum-sans/index.css");
+.awe-font-argentum-sans { font-family: "Argentum Sans", sans-serif; }

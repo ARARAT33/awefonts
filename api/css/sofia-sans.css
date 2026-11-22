@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sofia-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sofia-sans/index.css");
+.awe-font-sofia-sans { font-family: "Sofia Sans", sans-serif; }

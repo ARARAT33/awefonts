@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libertinus-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libertinus-mono/index.css");
+.awe-font-libertinus-mono { font-family: "Libertinus Mono", sans-serif; }

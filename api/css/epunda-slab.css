@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: epunda-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/epunda-slab/index.css");
+.awe-font-epunda-slab { font-family: "Epunda Slab", sans-serif; }

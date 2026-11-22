@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: puritan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/puritan/index.css");
+.awe-font-puritan { font-family: "Puritan", sans-serif; }

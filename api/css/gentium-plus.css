@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gentium-plus */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gentium-plus/index.css");
+.awe-font-gentium-plus { font-family: "Gentium Plus", sans-serif; }

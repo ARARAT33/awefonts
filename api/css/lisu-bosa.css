@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lisu-bosa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lisu-bosa/index.css");
+.awe-font-lisu-bosa { font-family: "Lisu Bosa", sans-serif; }

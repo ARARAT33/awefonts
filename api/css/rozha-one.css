@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rozha-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rozha-one/index.css");
+.awe-font-rozha-one { font-family: "Rozha One", sans-serif; }

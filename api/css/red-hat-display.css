@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: red-hat-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/red-hat-display/index.css");
+.awe-font-red-hat-display { font-family: "Red Hat Display", sans-serif; }

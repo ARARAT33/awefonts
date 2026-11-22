@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: league-gothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/league-gothic/index.css");
+.awe-font-league-gothic { font-family: "League Gothic", sans-serif; }

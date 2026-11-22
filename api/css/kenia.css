@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kenia */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kenia/index.css");
+.awe-font-kenia { font-family: "Kenia", sans-serif; }

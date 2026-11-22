@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: simonetta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/simonetta/index.css");
+.awe-font-simonetta { font-family: "Simonetta", sans-serif; }

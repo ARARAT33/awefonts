@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-mende-kikakui */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-mende-kikakui/index.css");
+.awe-font-noto-sans-mende-kikakui { font-family: "Noto Sans Mende Kikakui", sans-serif; }

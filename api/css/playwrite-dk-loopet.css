@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-dk-loopet */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-dk-loopet/index.css");
+.awe-font-playwrite-dk-loopet { font-family: "Playwrite Dk Loopet", sans-serif; }

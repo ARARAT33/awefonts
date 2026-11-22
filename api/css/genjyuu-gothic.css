@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: genjyuu-gothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/genjyuu-gothic/index.css");
+.awe-font-genjyuu-gothic { font-family: "Genjyuu Gothic", sans-serif; }

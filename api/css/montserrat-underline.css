@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: montserrat-underline */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montserrat-underline/index.css");
+.awe-font-montserrat-underline { font-family: "Montserrat Underline", sans-serif; }

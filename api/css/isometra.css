@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: isometra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/isometra/index.css");
+.awe-font-isometra { font-family: "Isometra", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: overpass */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/overpass/index.css");
+.awe-font-overpass { font-family: "Overpass", sans-serif; }

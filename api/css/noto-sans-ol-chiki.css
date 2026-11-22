@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-ol-chiki */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-ol-chiki/index.css");
+.awe-font-noto-sans-ol-chiki { font-family: "Noto Sans Ol Chiki", sans-serif; }

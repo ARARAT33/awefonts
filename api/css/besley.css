@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: besley */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/besley/index.css");
+.awe-font-besley { font-family: "Besley", sans-serif; }

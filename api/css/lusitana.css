@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lusitana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lusitana/index.css");
+.awe-font-lusitana { font-family: "Lusitana", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: castoro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/castoro/index.css");
+.awe-font-castoro { font-family: "Castoro", sans-serif; }

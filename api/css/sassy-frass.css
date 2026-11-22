@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sassy-frass */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sassy-frass/index.css");
+.awe-font-sassy-frass { font-family: "Sassy Frass", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: licorice */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/licorice/index.css");
+.awe-font-licorice { font-family: "Licorice", sans-serif; }

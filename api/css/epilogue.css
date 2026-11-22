@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: epilogue */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/epilogue/index.css");
+.awe-font-epilogue { font-family: "Epilogue", sans-serif; }

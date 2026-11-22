@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-old-permic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-old-permic/index.css");
+.awe-font-noto-sans-old-permic { font-family: "Noto Sans Old Permic", sans-serif; }

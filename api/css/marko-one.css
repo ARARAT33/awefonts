@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: marko-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/marko-one/index.css");
+.awe-font-marko-one { font-family: "Marko One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: petrona */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/petrona/index.css");
+.awe-font-petrona { font-family: "Petrona", sans-serif; }

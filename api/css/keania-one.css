@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: keania-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/keania-one/index.css");
+.awe-font-keania-one { font-family: "Keania One", sans-serif; }

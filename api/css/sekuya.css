@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sekuya */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sekuya/index.css");
+.awe-font-sekuya { font-family: "Sekuya", sans-serif; }

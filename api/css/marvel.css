@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: marvel */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/marvel/index.css");
+.awe-font-marvel { font-family: "Marvel", sans-serif; }

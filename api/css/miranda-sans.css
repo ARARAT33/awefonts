@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: miranda-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/miranda-sans/index.css");
+.awe-font-miranda-sans { font-family: "Miranda Sans", sans-serif; }

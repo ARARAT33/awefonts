@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: biryani */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/biryani/index.css");
+.awe-font-biryani { font-family: "Biryani", sans-serif; }

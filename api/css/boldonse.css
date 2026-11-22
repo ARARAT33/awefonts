@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: boldonse */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/boldonse/index.css");
+.awe-font-boldonse { font-family: "Boldonse", sans-serif; }

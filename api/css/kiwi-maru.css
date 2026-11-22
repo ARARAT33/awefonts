@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kiwi-maru */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kiwi-maru/index.css");
+.awe-font-kiwi-maru { font-family: "Kiwi Maru", sans-serif; }

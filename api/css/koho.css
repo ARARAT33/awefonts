@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: koho */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/koho/index.css");
+.awe-font-koho { font-family: "Koho", sans-serif; }

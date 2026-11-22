@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-marker-hatch */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-marker-hatch/index.css");
+.awe-font-rubik-marker-hatch { font-family: "Rubik Marker Hatch", sans-serif; }

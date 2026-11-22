@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: karmilla */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/karmilla/index.css");
+.awe-font-karmilla { font-family: "Karmilla", sans-serif; }

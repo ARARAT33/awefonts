@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bytesized */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bytesized/index.css");
+.awe-font-bytesized { font-family: "Bytesized", sans-serif; }

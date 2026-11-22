@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-sc */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-sc/index.css");
+.awe-font-noto-serif-sc { font-family: "Noto Serif Sc", sans-serif; }

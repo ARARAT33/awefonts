@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chenla */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chenla/index.css");
+.awe-font-chenla { font-family: "Chenla", sans-serif; }

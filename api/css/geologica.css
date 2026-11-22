@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: geologica */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/geologica/index.css");
+.awe-font-geologica { font-family: "Geologica", sans-serif; }

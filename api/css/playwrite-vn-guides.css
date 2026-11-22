@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-vn-guides */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-vn-guides/index.css");
+.awe-font-playwrite-vn-guides { font-family: "Playwrite Vn Guides", sans-serif; }

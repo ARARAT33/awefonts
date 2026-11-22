@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jacquard-24-charted */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jacquard-24-charted/index.css");
+.awe-font-jacquard-24-charted { font-family: "Jacquard 24 Charted", sans-serif; }

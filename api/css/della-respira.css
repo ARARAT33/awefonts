@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: della-respira */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/della-respira/index.css");
+.awe-font-della-respira { font-family: "Della Respira", sans-serif; }

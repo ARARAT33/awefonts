@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jockey-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jockey-one/index.css");
+.awe-font-jockey-one { font-family: "Jockey One", sans-serif; }

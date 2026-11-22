@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libre-franklin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libre-franklin/index.css");
+.awe-font-libre-franklin { font-family: "Libre Franklin", sans-serif; }

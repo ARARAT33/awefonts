@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ponomar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ponomar/index.css");
+.awe-font-ponomar { font-family: "Ponomar", sans-serif; }

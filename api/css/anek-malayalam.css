@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anek-malayalam */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-malayalam/index.css");
+.awe-font-anek-malayalam { font-family: "Anek Malayalam", sans-serif; }

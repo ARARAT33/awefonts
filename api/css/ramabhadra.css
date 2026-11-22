@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ramabhadra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ramabhadra/index.css");
+.awe-font-ramabhadra { font-family: "Ramabhadra", sans-serif; }

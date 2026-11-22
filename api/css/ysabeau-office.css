@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ysabeau-office */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ysabeau-office/index.css");
+.awe-font-ysabeau-office { font-family: "Ysabeau Office", sans-serif; }

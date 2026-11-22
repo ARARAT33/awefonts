@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: host-grotesk */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/host-grotesk/index.css");
+.awe-font-host-grotesk { font-family: "Host Grotesk", sans-serif; }

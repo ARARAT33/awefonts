@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: markazi-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/markazi-text/index.css");
+.awe-font-markazi-text { font-family: "Markazi Text", sans-serif; }

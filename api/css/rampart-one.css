@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rampart-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rampart-one/index.css");
+.awe-font-rampart-one { font-family: "Rampart One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kdam-thmor-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kdam-thmor-pro/index.css");
+.awe-font-kdam-thmor-pro { font-family: "Kdam Thmor Pro", sans-serif; }

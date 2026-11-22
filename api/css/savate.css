@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: savate */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/savate/index.css");
+.awe-font-savate { font-family: "Savate", sans-serif; }

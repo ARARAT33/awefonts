@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: abeezee */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/abeezee/index.css");
+.awe-font-abeezee { font-family: "Abeezee", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mukta-vaani */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mukta-vaani/index.css");
+.awe-font-mukta-vaani { font-family: "Mukta Vaani", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: snippet */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/snippet/index.css");
+.awe-font-snippet { font-family: "Snippet", sans-serif; }

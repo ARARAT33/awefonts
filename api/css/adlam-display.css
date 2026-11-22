@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: adlam-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/adlam-display/index.css");
+.awe-font-adlam-display { font-family: "Adlam Display", sans-serif; }

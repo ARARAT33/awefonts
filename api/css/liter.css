@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: liter */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/liter/index.css");
+.awe-font-liter { font-family: "Liter", sans-serif; }

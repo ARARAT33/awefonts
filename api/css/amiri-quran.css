@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: amiri-quran */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/amiri-quran/index.css");
+.awe-font-amiri-quran { font-family: "Amiri Quran", sans-serif; }

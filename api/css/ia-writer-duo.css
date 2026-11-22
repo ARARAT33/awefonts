@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ia-writer-duo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ia-writer-duo/index.css");
+.awe-font-ia-writer-duo { font-family: "Ia Writer Duo", sans-serif; }

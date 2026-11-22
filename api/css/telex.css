@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: telex */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/telex/index.css");
+.awe-font-telex { font-family: "Telex", sans-serif; }

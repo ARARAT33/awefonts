@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: oooh-baby */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/oooh-baby/index.css");
+.awe-font-oooh-baby { font-family: "Oooh Baby", sans-serif; }

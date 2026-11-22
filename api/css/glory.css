@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: glory */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/glory/index.css");
+.awe-font-glory { font-family: "Glory", sans-serif; }

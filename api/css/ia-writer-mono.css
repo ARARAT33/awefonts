@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ia-writer-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ia-writer-mono/index.css");
+.awe-font-ia-writer-mono { font-family: "Ia Writer Mono", sans-serif; }

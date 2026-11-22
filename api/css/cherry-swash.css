@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cherry-swash */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cherry-swash/index.css");
+.awe-font-cherry-swash { font-family: "Cherry Swash", sans-serif; }

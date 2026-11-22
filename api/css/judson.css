@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: judson */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/judson/index.css");
+.awe-font-judson { font-family: "Judson", sans-serif; }

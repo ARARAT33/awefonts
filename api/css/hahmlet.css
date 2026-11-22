@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hahmlet */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hahmlet/index.css");
+.awe-font-hahmlet { font-family: "Hahmlet", sans-serif; }

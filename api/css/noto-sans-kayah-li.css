@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-kayah-li */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-kayah-li/index.css");
+.awe-font-noto-sans-kayah-li { font-family: "Noto Sans Kayah Li", sans-serif; }

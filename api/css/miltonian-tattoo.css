@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: miltonian-tattoo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/miltonian-tattoo/index.css");
+.awe-font-miltonian-tattoo { font-family: "Miltonian Tattoo", sans-serif; }

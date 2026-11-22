@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: red-rose */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/red-rose/index.css");
+.awe-font-red-rose { font-family: "Red Rose", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: catamaran */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/catamaran/index.css");
+.awe-font-catamaran { font-family: "Catamaran", sans-serif; }

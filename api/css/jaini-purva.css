@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jaini-purva */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jaini-purva/index.css");
+.awe-font-jaini-purva { font-family: "Jaini Purva", sans-serif; }

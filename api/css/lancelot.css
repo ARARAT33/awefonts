@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lancelot */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lancelot/index.css");
+.awe-font-lancelot { font-family: "Lancelot", sans-serif; }

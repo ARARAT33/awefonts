@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-old-italic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-old-italic/index.css");
+.awe-font-noto-sans-old-italic { font-family: "Noto Sans Old Italic", sans-serif; }

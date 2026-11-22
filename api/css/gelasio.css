@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gelasio */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gelasio/index.css");
+.awe-font-gelasio { font-family: "Gelasio", sans-serif; }

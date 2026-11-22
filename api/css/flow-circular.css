@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: flow-circular */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/flow-circular/index.css");
+.awe-font-flow-circular { font-family: "Flow Circular", sans-serif; }

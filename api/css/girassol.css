@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: girassol */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/girassol/index.css");
+.awe-font-girassol { font-family: "Girassol", sans-serif; }

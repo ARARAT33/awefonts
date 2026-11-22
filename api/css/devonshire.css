@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: devonshire */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/devonshire/index.css");
+.awe-font-devonshire { font-family: "Devonshire", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fanwood-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fanwood-text/index.css");
+.awe-font-fanwood-text { font-family: "Fanwood Text", sans-serif; }

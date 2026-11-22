@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: unica-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/unica-one/index.css");
+.awe-font-unica-one { font-family: "Unica One", sans-serif; }

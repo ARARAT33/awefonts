@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: volkhov */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/volkhov/index.css");
+.awe-font-volkhov { font-family: "Volkhov", sans-serif; }

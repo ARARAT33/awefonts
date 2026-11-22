@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rhodium-libre */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rhodium-libre/index.css");
+.awe-font-rhodium-libre { font-family: "Rhodium Libre", sans-serif; }

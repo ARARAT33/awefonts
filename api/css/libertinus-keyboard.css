@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libertinus-keyboard */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libertinus-keyboard/index.css");
+.awe-font-libertinus-keyboard { font-family: "Libertinus Keyboard", sans-serif; }

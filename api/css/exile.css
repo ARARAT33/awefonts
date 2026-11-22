@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: exile */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/exile/index.css");
+.awe-font-exile { font-family: "Exile", sans-serif; }

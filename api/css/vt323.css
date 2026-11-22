@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vt323 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vt323/index.css");
+.awe-font-vt323 { font-family: "Vt323", sans-serif; }

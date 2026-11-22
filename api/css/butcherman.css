@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: butcherman */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/butcherman/index.css");
+.awe-font-butcherman { font-family: "Butcherman", sans-serif; }

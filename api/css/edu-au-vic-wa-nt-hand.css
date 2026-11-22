@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: edu-au-vic-wa-nt-hand */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/edu-au-vic-wa-nt-hand/index.css");
+.awe-font-edu-au-vic-wa-nt-hand { font-family: "Edu Au Vic Wa Nt Hand", sans-serif; }

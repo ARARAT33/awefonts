@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: agu-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/agu-display/index.css");
+.awe-font-agu-display { font-family: "Agu Display", sans-serif; }

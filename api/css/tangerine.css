@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tangerine */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tangerine/index.css");
+.awe-font-tangerine { font-family: "Tangerine", sans-serif; }

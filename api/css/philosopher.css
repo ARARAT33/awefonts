@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: philosopher */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/philosopher/index.css");
+.awe-font-philosopher { font-family: "Philosopher", sans-serif; }

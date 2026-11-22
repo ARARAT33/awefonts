@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: libre-barcode-ean13-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/libre-barcode-ean13-text/index.css");
+.awe-font-libre-barcode-ean13-text { font-family: "Libre Barcode Ean13 Text", sans-serif; }

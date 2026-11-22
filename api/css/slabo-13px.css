@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: slabo-13px */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/slabo-13px/index.css");
+.awe-font-slabo-13px { font-family: "Slabo 13px", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: badeen-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/badeen-display/index.css");
+.awe-font-badeen-display { font-family: "Badeen Display", sans-serif; }

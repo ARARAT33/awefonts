@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: m-plus-u */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/m-plus-u/index.css");
+.awe-font-m-plus-u { font-family: "M Plus U", sans-serif; }

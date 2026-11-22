@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: huninn */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/huninn/index.css");
+.awe-font-huninn { font-family: "Huninn", sans-serif; }

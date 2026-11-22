@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: barlow-semi-condensed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/barlow-semi-condensed/index.css");
+.awe-font-barlow-semi-condensed { font-family: "Barlow Semi Condensed", sans-serif; }

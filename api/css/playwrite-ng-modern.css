@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-ng-modern */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-ng-modern/index.css");
+.awe-font-playwrite-ng-modern { font-family: "Playwrite Ng Modern", sans-serif; }

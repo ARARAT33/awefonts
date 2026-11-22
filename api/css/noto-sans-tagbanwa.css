@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-tagbanwa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-tagbanwa/index.css");
+.awe-font-noto-sans-tagbanwa { font-family: "Noto Sans Tagbanwa", sans-serif; }

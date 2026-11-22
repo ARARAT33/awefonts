@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: signika */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/signika/index.css");
+.awe-font-signika { font-family: "Signika", sans-serif; }

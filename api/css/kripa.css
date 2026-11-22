@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kripa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kripa/index.css");
+.awe-font-kripa { font-family: "Kripa", sans-serif; }

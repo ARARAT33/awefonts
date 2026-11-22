@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bakbak-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bakbak-one/index.css");
+.awe-font-bakbak-one { font-family: "Bakbak One", sans-serif; }

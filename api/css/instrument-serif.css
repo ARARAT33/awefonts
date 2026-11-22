@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: instrument-serif */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/instrument-serif/index.css");
+.awe-font-instrument-serif { font-family: "Instrument Serif", sans-serif; }

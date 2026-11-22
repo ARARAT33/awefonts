@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-iso */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-iso/index.css");
+.awe-font-rubik-iso { font-family: "Rubik Iso", sans-serif; }

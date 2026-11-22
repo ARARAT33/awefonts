@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-dives-akuru */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-dives-akuru/index.css");
+.awe-font-noto-serif-dives-akuru { font-family: "Noto Serif Dives Akuru", sans-serif; }

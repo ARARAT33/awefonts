@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kotta-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kotta-one/index.css");
+.awe-font-kotta-one { font-family: "Kotta One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: enriqueta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/enriqueta/index.css");
+.awe-font-enriqueta { font-family: "Enriqueta", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-dogra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-dogra/index.css");
+.awe-font-noto-serif-dogra { font-family: "Noto Serif Dogra", sans-serif; }

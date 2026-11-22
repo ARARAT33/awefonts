@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-elbasan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-elbasan/index.css");
+.awe-font-noto-sans-elbasan { font-family: "Noto Sans Elbasan", sans-serif; }

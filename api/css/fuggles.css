@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fuggles */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fuggles/index.css");
+.awe-font-fuggles { font-family: "Fuggles", sans-serif; }

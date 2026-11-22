@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mandali */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mandali/index.css");
+.awe-font-mandali { font-family: "Mandali", sans-serif; }

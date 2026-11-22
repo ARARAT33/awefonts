@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bbh-bartle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bbh-bartle/index.css");
+.awe-font-bbh-bartle { font-family: "Bbh Bartle", sans-serif; }

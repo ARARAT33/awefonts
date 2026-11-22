@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: train-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/train-one/index.css");
+.awe-font-train-one { font-family: "Train One", sans-serif; }

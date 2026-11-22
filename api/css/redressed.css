@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: redressed */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/redressed/index.css");
+.awe-font-redressed { font-family: "Redressed", sans-serif; }

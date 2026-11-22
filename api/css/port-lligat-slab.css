@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: port-lligat-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/port-lligat-slab/index.css");
+.awe-font-port-lligat-slab { font-family: "Port Lligat Slab", sans-serif; }

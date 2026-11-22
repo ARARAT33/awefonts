@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mingzat */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mingzat/index.css");
+.awe-font-mingzat { font-family: "Mingzat", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: germania-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/germania-one/index.css");
+.awe-font-germania-one { font-family: "Germania One", sans-serif; }

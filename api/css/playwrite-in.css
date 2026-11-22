@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-in */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-in/index.css");
+.awe-font-playwrite-in { font-family: "Playwrite In", sans-serif; }

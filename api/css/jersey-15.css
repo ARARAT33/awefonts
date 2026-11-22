@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jersey-15 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jersey-15/index.css");
+.awe-font-jersey-15 { font-family: "Jersey 15", sans-serif; }

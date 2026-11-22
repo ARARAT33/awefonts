@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: arbutus-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/arbutus-slab/index.css");
+.awe-font-arbutus-slab { font-family: "Arbutus Slab", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: londrina-sketch */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/londrina-sketch/index.css");
+.awe-font-londrina-sketch { font-family: "Londrina Sketch", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: reggae-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/reggae-one/index.css");
+.awe-font-reggae-one { font-family: "Reggae One", sans-serif; }

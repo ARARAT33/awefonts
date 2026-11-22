@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-thaana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-thaana/index.css");
+.awe-font-noto-sans-thaana { font-family: "Noto Sans Thaana", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-tagalog */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-tagalog/index.css");
+.awe-font-noto-sans-tagalog { font-family: "Noto Sans Tagalog", sans-serif; }

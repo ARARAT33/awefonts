@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: new-tegomin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/new-tegomin/index.css");
+.awe-font-new-tegomin { font-family: "New Tegomin", sans-serif; }

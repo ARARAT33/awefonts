@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: akt */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/akt/index.css");
+.awe-font-akt { font-family: "Akt", sans-serif; }

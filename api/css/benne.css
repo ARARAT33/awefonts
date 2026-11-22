@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: benne */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/benne/index.css");
+.awe-font-benne { font-family: "Benne", sans-serif; }

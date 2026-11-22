@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tagesschrift */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tagesschrift/index.css");
+.awe-font-tagesschrift { font-family: "Tagesschrift", sans-serif; }

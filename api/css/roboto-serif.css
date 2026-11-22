@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: roboto-serif */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/roboto-serif/index.css");
+.awe-font-roboto-serif { font-family: "Roboto Serif", sans-serif; }

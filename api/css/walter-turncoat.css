@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: walter-turncoat */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/walter-turncoat/index.css");
+.awe-font-walter-turncoat { font-family: "Walter Turncoat", sans-serif; }

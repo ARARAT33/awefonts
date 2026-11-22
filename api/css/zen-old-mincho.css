@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zen-old-mincho */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zen-old-mincho/index.css");
+.awe-font-zen-old-mincho { font-family: "Zen Old Mincho", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: inknut-antiqua */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/inknut-antiqua/index.css");
+.awe-font-inknut-antiqua { font-family: "Inknut Antiqua", sans-serif; }

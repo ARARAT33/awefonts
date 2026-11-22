@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bitcount-prop-double */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bitcount-prop-double/index.css");
+.awe-font-bitcount-prop-double { font-family: "Bitcount Prop Double", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: splash */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/splash/index.css");
+.awe-font-splash { font-family: "Splash", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-puddles */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-puddles/index.css");
+.awe-font-rubik-puddles { font-family: "Rubik Puddles", sans-serif; }

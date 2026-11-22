@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bayon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bayon/index.css");
+.awe-font-bayon { font-family: "Bayon", sans-serif; }

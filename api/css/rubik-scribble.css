@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-scribble */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-scribble/index.css");
+.awe-font-rubik-scribble { font-family: "Rubik Scribble", sans-serif; }

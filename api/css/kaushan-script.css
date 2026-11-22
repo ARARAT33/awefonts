@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kaushan-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kaushan-script/index.css");
+.awe-font-kaushan-script { font-family: "Kaushan Script", sans-serif; }

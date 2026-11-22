@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: karantina */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/karantina/index.css");
+.awe-font-karantina { font-family: "Karantina", sans-serif; }

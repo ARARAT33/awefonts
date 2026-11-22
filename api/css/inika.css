@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: inika */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/inika/index.css");
+.awe-font-inika { font-family: "Inika", sans-serif; }

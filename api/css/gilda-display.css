@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gilda-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gilda-display/index.css");
+.awe-font-gilda-display { font-family: "Gilda Display", sans-serif; }

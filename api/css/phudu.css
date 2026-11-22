@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: phudu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/phudu/index.css");
+.awe-font-phudu { font-family: "Phudu", sans-serif; }

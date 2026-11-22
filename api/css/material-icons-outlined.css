@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: material-icons-outlined */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-icons-outlined/index.css");
+.awe-font-material-icons-outlined { font-family: "Material Icons Outlined", sans-serif; }

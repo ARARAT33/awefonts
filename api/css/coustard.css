@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: coustard */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/coustard/index.css");
+.awe-font-coustard { font-family: "Coustard", sans-serif; }

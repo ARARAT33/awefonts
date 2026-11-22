@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: vibur */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/vibur/index.css");
+.awe-font-vibur { font-family: "Vibur", sans-serif; }

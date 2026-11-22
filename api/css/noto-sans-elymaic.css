@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-elymaic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-elymaic/index.css");
+.awe-font-noto-sans-elymaic { font-family: "Noto Sans Elymaic", sans-serif; }

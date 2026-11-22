@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: michroma */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/michroma/index.css");
+.awe-font-michroma { font-family: "Michroma", sans-serif; }

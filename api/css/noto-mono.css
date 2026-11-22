@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-mono/index.css");
+.awe-font-noto-mono { font-family: "Noto Mono", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lexend-giga */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lexend-giga/index.css");
+.awe-font-lexend-giga { font-family: "Lexend Giga", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: limelight */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/limelight/index.css");
+.awe-font-limelight { font-family: "Limelight", sans-serif; }

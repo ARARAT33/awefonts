@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sedgwick-ave-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sedgwick-ave-display/index.css");
+.awe-font-sedgwick-ave-display { font-family: "Sedgwick Ave Display", sans-serif; }

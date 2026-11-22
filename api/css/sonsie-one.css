@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sonsie-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sonsie-one/index.css");
+.awe-font-sonsie-one { font-family: "Sonsie One", sans-serif; }

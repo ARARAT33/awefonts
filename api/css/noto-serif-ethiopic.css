@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-ethiopic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-ethiopic/index.css");
+.awe-font-noto-serif-ethiopic { font-family: "Noto Serif Ethiopic", sans-serif; }

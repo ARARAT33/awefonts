@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: honk */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/honk/index.css");
+.awe-font-honk { font-family: "Honk", sans-serif; }

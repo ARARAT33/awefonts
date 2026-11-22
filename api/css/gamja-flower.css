@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gamja-flower */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gamja-flower/index.css");
+.awe-font-gamja-flower { font-family: "Gamja Flower", sans-serif; }

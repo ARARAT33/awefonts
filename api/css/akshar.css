@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: akshar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/akshar/index.css");
+.awe-font-akshar { font-family: "Akshar", sans-serif; }

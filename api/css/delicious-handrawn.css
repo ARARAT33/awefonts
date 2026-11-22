@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: delicious-handrawn */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/delicious-handrawn/index.css");
+.awe-font-delicious-handrawn { font-family: "Delicious Handrawn", sans-serif; }

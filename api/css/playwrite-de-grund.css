@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-de-grund */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-de-grund/index.css");
+.awe-font-playwrite-de-grund { font-family: "Playwrite De Grund", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-georgian */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-georgian/index.css");
+.awe-font-noto-sans-georgian { font-family: "Noto Sans Georgian", sans-serif; }

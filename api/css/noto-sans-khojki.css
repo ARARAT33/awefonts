@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-khojki */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-khojki/index.css");
+.awe-font-noto-sans-khojki { font-family: "Noto Sans Khojki", sans-serif; }

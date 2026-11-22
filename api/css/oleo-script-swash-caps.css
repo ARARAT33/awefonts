@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: oleo-script-swash-caps */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/oleo-script-swash-caps/index.css");
+.awe-font-oleo-script-swash-caps { font-family: "Oleo Script Swash Caps", sans-serif; }

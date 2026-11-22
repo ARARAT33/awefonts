@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: danfo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/danfo/index.css");
+.awe-font-danfo { font-family: "Danfo", sans-serif; }

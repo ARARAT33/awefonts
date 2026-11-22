@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tulpen-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tulpen-one/index.css");
+.awe-font-tulpen-one { font-family: "Tulpen One", sans-serif; }

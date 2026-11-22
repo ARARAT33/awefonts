@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: miss-fajardose */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/miss-fajardose/index.css");
+.awe-font-miss-fajardose { font-family: "Miss Fajardose", sans-serif; }

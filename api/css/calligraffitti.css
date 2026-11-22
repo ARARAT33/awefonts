@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: calligraffitti */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/calligraffitti/index.css");
+.awe-font-calligraffitti { font-family: "Calligraffitti", sans-serif; }

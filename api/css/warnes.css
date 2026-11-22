@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: warnes */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/warnes/index.css");
+.awe-font-warnes { font-family: "Warnes", sans-serif; }

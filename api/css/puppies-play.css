@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: puppies-play */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/puppies-play/index.css");
+.awe-font-puppies-play { font-family: "Puppies Play", sans-serif; }

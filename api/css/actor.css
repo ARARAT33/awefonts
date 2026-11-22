@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: actor */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/actor/index.css");
+.awe-font-actor { font-family: "Actor", sans-serif; }

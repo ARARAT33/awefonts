@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-tamil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-tamil/index.css");
+.awe-font-noto-serif-tamil { font-family: "Noto Serif Tamil", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fjalla-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fjalla-one/index.css");
+.awe-font-fjalla-one { font-family: "Fjalla One", sans-serif; }

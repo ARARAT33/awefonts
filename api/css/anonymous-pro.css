@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: anonymous-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/anonymous-pro/index.css");
+.awe-font-anonymous-pro { font-family: "Anonymous Pro", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cinzel-decorative */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cinzel-decorative/index.css");
+.awe-font-cinzel-decorative { font-family: "Cinzel Decorative", sans-serif; }

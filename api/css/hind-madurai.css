@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hind-madurai */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hind-madurai/index.css");
+.awe-font-hind-madurai { font-family: "Hind Madurai", sans-serif; }

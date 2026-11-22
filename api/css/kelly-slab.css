@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kelly-slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kelly-slab/index.css");
+.awe-font-kelly-slab { font-family: "Kelly Slab", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: alata */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/alata/index.css");
+.awe-font-alata { font-family: "Alata", sans-serif; }

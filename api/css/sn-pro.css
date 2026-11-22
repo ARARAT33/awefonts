@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sn-pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sn-pro/index.css");
+.awe-font-sn-pro { font-family: "Sn Pro", sans-serif; }

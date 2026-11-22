@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rosarivo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rosarivo/index.css");
+.awe-font-rosarivo { font-family: "Rosarivo", sans-serif; }

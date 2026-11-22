@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: inria-serif */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/inria-serif/index.css");
+.awe-font-inria-serif { font-family: "Inria Serif", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gidugu */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gidugu/index.css");
+.awe-font-gidugu { font-family: "Gidugu", sans-serif; }

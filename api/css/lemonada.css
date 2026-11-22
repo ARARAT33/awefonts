@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lemonada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lemonada/index.css");
+.awe-font-lemonada { font-family: "Lemonada", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-ca */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-ca/index.css");
+.awe-font-playwrite-ca { font-family: "Playwrite Ca", sans-serif; }

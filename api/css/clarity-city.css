@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: clarity-city */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/clarity-city/index.css");
+.awe-font-clarity-city { font-family: "Clarity City", sans-serif; }

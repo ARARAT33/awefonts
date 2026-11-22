@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: shalimar */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/shalimar/index.css");
+.awe-font-shalimar { font-family: "Shalimar", sans-serif; }

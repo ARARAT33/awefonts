@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kreon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kreon/index.css");
+.awe-font-kreon { font-family: "Kreon", sans-serif; }

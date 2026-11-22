@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: joti-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/joti-one/index.css");
+.awe-font-joti-one { font-family: "Joti One", sans-serif; }

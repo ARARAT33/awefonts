@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: delius-swash-caps */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/delius-swash-caps/index.css");
+.awe-font-delius-swash-caps { font-family: "Delius Swash Caps", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sono/index.css");
+.awe-font-sono { font-family: "Sono", sans-serif; }

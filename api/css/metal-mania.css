@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: metal-mania */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/metal-mania/index.css");
+.awe-font-metal-mania { font-family: "Metal Mania", sans-serif; }

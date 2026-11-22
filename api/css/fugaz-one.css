@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fugaz-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fugaz-one/index.css");
+.awe-font-fugaz-one { font-family: "Fugaz One", sans-serif; }

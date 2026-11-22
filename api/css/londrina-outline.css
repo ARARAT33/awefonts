@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: londrina-outline */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/londrina-outline/index.css");
+.awe-font-londrina-outline { font-family: "Londrina Outline", sans-serif; }

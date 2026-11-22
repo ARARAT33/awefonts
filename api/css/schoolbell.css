@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: schoolbell */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/schoolbell/index.css");
+.awe-font-schoolbell { font-family: "Schoolbell", sans-serif; }

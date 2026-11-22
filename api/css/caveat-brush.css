@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: caveat-brush */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/caveat-brush/index.css");
+.awe-font-caveat-brush { font-family: "Caveat Brush", sans-serif; }

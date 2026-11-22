@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mononoki */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mononoki/index.css");
+.awe-font-mononoki { font-family: "Mononoki", sans-serif; }

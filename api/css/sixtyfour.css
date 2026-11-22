@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: sixtyfour */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/sixtyfour/index.css");
+.awe-font-sixtyfour { font-family: "Sixtyfour", sans-serif; }

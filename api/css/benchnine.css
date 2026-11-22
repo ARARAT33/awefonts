@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: benchnine */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/benchnine/index.css");
+.awe-font-benchnine { font-family: "Benchnine", sans-serif; }

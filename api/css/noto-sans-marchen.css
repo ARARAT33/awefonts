@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-marchen */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-marchen/index.css");
+.awe-font-noto-sans-marchen { font-family: "Noto Sans Marchen", sans-serif; }

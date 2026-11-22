@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: share-tech-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/share-tech-mono/index.css");
+.awe-font-share-tech-mono { font-family: "Share Tech Mono", sans-serif; }

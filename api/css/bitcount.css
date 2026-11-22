@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bitcount */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bitcount/index.css");
+.awe-font-bitcount { font-family: "Bitcount", sans-serif; }

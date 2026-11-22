@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: linefont */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/linefont/index.css");
+.awe-font-linefont { font-family: "Linefont", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: edu-nsw-act-cursive */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/edu-nsw-act-cursive/index.css");
+.awe-font-edu-nsw-act-cursive { font-family: "Edu Nsw Act Cursive", sans-serif; }

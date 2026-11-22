@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: italiana */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/italiana/index.css");
+.awe-font-italiana { font-family: "Italiana", sans-serif; }

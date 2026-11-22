@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nova-round */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nova-round/index.css");
+.awe-font-nova-round { font-family: "Nova Round", sans-serif; }

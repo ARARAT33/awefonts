@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: short-stack */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/short-stack/index.css");
+.awe-font-short-stack { font-family: "Short Stack", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: orbit */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/orbit/index.css");
+.awe-font-orbit { font-family: "Orbit", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: delius-unicase */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/delius-unicase/index.css");
+.awe-font-delius-unicase { font-family: "Delius Unicase", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: comic-relief */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/comic-relief/index.css");
+.awe-font-comic-relief { font-family: "Comic Relief", sans-serif; }

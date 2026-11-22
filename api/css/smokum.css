@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: smokum */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/smokum/index.css");
+.awe-font-smokum { font-family: "Smokum", sans-serif; }

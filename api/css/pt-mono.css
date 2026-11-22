@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pt-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pt-mono/index.css");
+.awe-font-pt-mono { font-family: "Pt Mono", sans-serif; }

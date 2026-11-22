@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: griffy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/griffy/index.css");
+.awe-font-griffy { font-family: "Griffy", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: felipa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/felipa/index.css");
+.awe-font-felipa { font-family: "Felipa", sans-serif; }

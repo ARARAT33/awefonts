@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: chivo-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chivo-mono/index.css");
+.awe-font-chivo-mono { font-family: "Chivo Mono", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-microbe */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-microbe/index.css");
+.awe-font-rubik-microbe { font-family: "Rubik Microbe", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: paytone-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/paytone-one/index.css");
+.awe-font-paytone-one { font-family: "Paytone One", sans-serif; }

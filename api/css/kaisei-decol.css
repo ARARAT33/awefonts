@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kaisei-decol */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kaisei-decol/index.css");
+.awe-font-kaisei-decol { font-family: "Kaisei Decol", sans-serif; }

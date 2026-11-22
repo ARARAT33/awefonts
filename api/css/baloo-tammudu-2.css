@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: baloo-tammudu-2 */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/baloo-tammudu-2/index.css");
+.awe-font-baloo-tammudu-2 { font-family: "Baloo Tammudu 2", sans-serif; }

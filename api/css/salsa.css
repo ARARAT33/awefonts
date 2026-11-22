@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: salsa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/salsa/index.css");
+.awe-font-salsa { font-family: "Salsa", sans-serif; }

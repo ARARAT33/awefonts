@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: zen-kaku-gothic-new */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/zen-kaku-gothic-new/index.css");
+.awe-font-zen-kaku-gothic-new { font-family: "Zen Kaku Gothic New", sans-serif; }

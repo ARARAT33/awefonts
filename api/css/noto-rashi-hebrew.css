@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-rashi-hebrew */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-rashi-hebrew/index.css");
+.awe-font-noto-rashi-hebrew { font-family: "Noto Rashi Hebrew", sans-serif; }

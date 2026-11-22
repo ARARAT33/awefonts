@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: luxurious-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/luxurious-script/index.css");
+.awe-font-luxurious-script { font-family: "Luxurious Script", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: nebula-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nebula-sans/index.css");
+.awe-font-nebula-sans { font-family: "Nebula Sans", sans-serif; }

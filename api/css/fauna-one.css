@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: fauna-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/fauna-one/index.css");
+.awe-font-fauna-one { font-family: "Fauna One", sans-serif; }

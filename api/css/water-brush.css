@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: water-brush */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/water-brush/index.css");
+.awe-font-water-brush { font-family: "Water Brush", sans-serif; }

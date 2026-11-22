@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: uncut-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/uncut-sans/index.css");
+.awe-font-uncut-sans { font-family: "Uncut Sans", sans-serif; }

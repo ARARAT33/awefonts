@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-hr-guides */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-hr-guides/index.css");
+.awe-font-playwrite-hr-guides { font-family: "Playwrite Hr Guides", sans-serif; }

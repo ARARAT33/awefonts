@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-nz */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-nz/index.css");
+.awe-font-playwrite-nz { font-family: "Playwrite Nz", sans-serif; }

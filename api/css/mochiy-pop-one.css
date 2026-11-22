@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mochiy-pop-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mochiy-pop-one/index.css");
+.awe-font-mochiy-pop-one { font-family: "Mochiy Pop One", sans-serif; }

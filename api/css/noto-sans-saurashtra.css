@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-saurashtra */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-saurashtra/index.css");
+.awe-font-noto-sans-saurashtra { font-family: "Noto Sans Saurashtra", sans-serif; }

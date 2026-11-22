@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bpmf-zihi-kai-std */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bpmf-zihi-kai-std/index.css");
+.awe-font-bpmf-zihi-kai-std { font-family: "Bpmf Zihi Kai Std", sans-serif; }

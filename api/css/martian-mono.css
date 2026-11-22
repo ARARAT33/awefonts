@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: martian-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/martian-mono/index.css");
+.awe-font-martian-mono { font-family: "Martian Mono", sans-serif; }

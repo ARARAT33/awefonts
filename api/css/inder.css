@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: inder */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/inder/index.css");
+.awe-font-inder { font-family: "Inder", sans-serif; }

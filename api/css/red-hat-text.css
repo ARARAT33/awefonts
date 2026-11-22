@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: red-hat-text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/red-hat-text/index.css");
+.awe-font-red-hat-text { font-family: "Red Hat Text", sans-serif; }

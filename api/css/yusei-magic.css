@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yusei-magic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yusei-magic/index.css");
+.awe-font-yusei-magic { font-family: "Yusei Magic", sans-serif; }

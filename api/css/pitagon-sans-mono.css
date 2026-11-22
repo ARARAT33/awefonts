@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pitagon-sans-mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pitagon-sans-mono/index.css");
+.awe-font-pitagon-sans-mono { font-family: "Pitagon Sans Mono", sans-serif; }

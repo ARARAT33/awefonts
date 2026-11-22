@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: audiowide */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/audiowide/index.css");
+.awe-font-audiowide { font-family: "Audiowide", sans-serif; }

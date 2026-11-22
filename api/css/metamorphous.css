@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: metamorphous */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/metamorphous/index.css");
+.awe-font-metamorphous { font-family: "Metamorphous", sans-serif; }

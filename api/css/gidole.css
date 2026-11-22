@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: gidole */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gidole/index.css");
+.awe-font-gidole { font-family: "Gidole", sans-serif; }

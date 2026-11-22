@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bai-jamjuree */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bai-jamjuree/index.css");
+.awe-font-bai-jamjuree { font-family: "Bai Jamjuree", sans-serif; }

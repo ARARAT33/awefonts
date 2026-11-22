@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kanchenjunga */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kanchenjunga/index.css");
+.awe-font-kanchenjunga { font-family: "Kanchenjunga", sans-serif; }

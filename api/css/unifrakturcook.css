@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: unifrakturcook */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/unifrakturcook/index.css");
+.awe-font-unifrakturcook { font-family: "Unifrakturcook", sans-serif; }

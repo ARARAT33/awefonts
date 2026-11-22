@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: dhurjati */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dhurjati/index.css");
+.awe-font-dhurjati { font-family: "Dhurjati", sans-serif; }

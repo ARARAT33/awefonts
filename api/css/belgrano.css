@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: belgrano */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/belgrano/index.css");
+.awe-font-belgrano { font-family: "Belgrano", sans-serif; }

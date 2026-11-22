@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-znamenny-musical-notation */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-znamenny-musical-notation/index.css");
+.awe-font-noto-znamenny-musical-notation { font-family: "Noto Znamenny Musical Notation", sans-serif; }

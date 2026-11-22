@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-medefaidrin */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-medefaidrin/index.css");
+.awe-font-noto-sans-medefaidrin { font-family: "Noto Sans Medefaidrin", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: bonheur-royale */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bonheur-royale/index.css");
+.awe-font-bonheur-royale { font-family: "Bonheur Royale", sans-serif; }

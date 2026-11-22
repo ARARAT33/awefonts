@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kodchasan */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kodchasan/index.css");
+.awe-font-kodchasan { font-family: "Kodchasan", sans-serif; }

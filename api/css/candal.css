@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: candal */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/candal/index.css");
+.awe-font-candal { font-family: "Candal", sans-serif; }

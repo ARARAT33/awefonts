@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: andika */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/andika/index.css");
+.awe-font-andika { font-family: "Andika", sans-serif; }

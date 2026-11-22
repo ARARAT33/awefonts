@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: clicker-script */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/clicker-script/index.css");
+.awe-font-clicker-script { font-family: "Clicker Script", sans-serif; }

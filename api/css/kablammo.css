@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kablammo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kablammo/index.css");
+.awe-font-kablammo { font-family: "Kablammo", sans-serif; }

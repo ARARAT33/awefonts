@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: pushster */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pushster/index.css");
+.awe-font-pushster { font-family: "Pushster", sans-serif; }

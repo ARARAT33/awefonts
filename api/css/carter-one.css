@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: carter-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/carter-one/index.css");
+.awe-font-carter-one { font-family: "Carter One", sans-serif; }

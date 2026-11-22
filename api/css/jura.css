@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jura */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jura/index.css");
+.awe-font-jura { font-family: "Jura", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: hubot-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hubot-sans/index.css");
+.awe-font-hubot-sans { font-family: "Hubot Sans", sans-serif; }

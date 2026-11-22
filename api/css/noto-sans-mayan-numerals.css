@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-mayan-numerals */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-mayan-numerals/index.css");
+.awe-font-noto-sans-mayan-numerals { font-family: "Noto Sans Mayan Numerals", sans-serif; }

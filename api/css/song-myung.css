@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: song-myung */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/song-myung/index.css");
+.awe-font-song-myung { font-family: "Song Myung", sans-serif; }

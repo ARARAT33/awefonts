@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: yaldevi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/yaldevi/index.css");
+.awe-font-yaldevi { font-family: "Yaldevi", sans-serif; }

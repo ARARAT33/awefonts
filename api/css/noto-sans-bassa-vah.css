@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-bassa-vah */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-bassa-vah/index.css");
+.awe-font-noto-sans-bassa-vah { font-family: "Noto Sans Bassa Vah", sans-serif; }

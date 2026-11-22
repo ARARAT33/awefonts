@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ubuntu-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ubuntu-sans/index.css");
+.awe-font-ubuntu-sans { font-family: "Ubuntu Sans", sans-serif; }

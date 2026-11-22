@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rammetto-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rammetto-one/index.css");
+.awe-font-rammetto-one { font-family: "Rammetto One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-kaithi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-kaithi/index.css");
+.awe-font-noto-sans-kaithi { font-family: "Noto Sans Kaithi", sans-serif; }

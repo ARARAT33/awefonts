@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: brawler */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/brawler/index.css");
+.awe-font-brawler { font-family: "Brawler", sans-serif; }

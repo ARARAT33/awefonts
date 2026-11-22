@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: knewave */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/knewave/index.css");
+.awe-font-knewave { font-family: "Knewave", sans-serif; }

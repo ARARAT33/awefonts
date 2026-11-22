@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: stack-sans-headline */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/stack-sans-headline/index.css");
+.awe-font-stack-sans-headline { font-family: "Stack Sans Headline", sans-serif; }

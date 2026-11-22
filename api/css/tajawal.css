@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tajawal */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tajawal/index.css");
+.awe-font-tajawal { font-family: "Tajawal", sans-serif; }

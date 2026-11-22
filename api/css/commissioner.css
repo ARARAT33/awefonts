@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: commissioner */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/commissioner/index.css");
+.awe-font-commissioner { font-family: "Commissioner", sans-serif; }

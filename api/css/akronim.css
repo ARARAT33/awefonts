@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: akronim */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/akronim/index.css");
+.awe-font-akronim { font-family: "Akronim", sans-serif; }

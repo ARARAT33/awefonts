@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-bhaiksuki */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-bhaiksuki/index.css");
+.awe-font-noto-sans-bhaiksuki { font-family: "Noto Sans Bhaiksuki", sans-serif; }

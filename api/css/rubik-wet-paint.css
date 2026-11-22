@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: rubik-wet-paint */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-wet-paint/index.css");
+.awe-font-rubik-wet-paint { font-family: "Rubik Wet Paint", sans-serif; }

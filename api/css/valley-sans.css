@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: valley-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/valley-sans/index.css");
+.awe-font-valley-sans { font-family: "Valley Sans", sans-serif; }

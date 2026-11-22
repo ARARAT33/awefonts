@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: clear-sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/clear-sans/index.css");
+.awe-font-clear-sans { font-family: "Clear Sans", sans-serif; }

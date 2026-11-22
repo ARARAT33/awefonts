@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-sans-buginese */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-buginese/index.css");
+.awe-font-noto-sans-buginese { font-family: "Noto Sans Buginese", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: mohave */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mohave/index.css");
+.awe-font-mohave { font-family: "Mohave", sans-serif; }

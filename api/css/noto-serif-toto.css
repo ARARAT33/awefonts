@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: noto-serif-toto */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-toto/index.css");
+.awe-font-noto-serif-toto { font-family: "Noto Serif Toto", sans-serif; }

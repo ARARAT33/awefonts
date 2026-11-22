@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tiro-kannada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tiro-kannada/index.css");
+.awe-font-tiro-kannada { font-family: "Tiro Kannada", sans-serif; }

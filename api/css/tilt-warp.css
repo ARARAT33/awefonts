@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tilt-warp */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tilt-warp/index.css");
+.awe-font-tilt-warp { font-family: "Tilt Warp", sans-serif; }

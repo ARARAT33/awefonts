@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: silkscreen */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/silkscreen/index.css");
+.awe-font-silkscreen { font-family: "Silkscreen", sans-serif; }

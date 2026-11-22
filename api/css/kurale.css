@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: kurale */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kurale/index.css");
+.awe-font-kurale { font-family: "Kurale", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: explora */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/explora/index.css");
+.awe-font-explora { font-family: "Explora", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lxgw-marker-gothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lxgw-marker-gothic/index.css");
+.awe-font-lxgw-marker-gothic { font-family: "Lxgw Marker Gothic", sans-serif; }

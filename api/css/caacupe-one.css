@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: caacupe-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/caacupe-one/index.css");
+.awe-font-caacupe-one { font-family: "Caacupe One", sans-serif; }

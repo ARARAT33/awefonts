@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: playwrite-cl */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-cl/index.css");
+.awe-font-playwrite-cl { font-family: "Playwrite Cl", sans-serif; }

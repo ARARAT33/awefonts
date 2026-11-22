@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: faster-one */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/faster-one/index.css");
+.awe-font-faster-one { font-family: "Faster One", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cousine */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cousine/index.css");
+.awe-font-cousine { font-family: "Cousine", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: cagliostro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cagliostro/index.css");
+.awe-font-cagliostro { font-family: "Cagliostro", sans-serif; }

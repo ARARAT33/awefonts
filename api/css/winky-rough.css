@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: winky-rough */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/winky-rough/index.css");
+.awe-font-winky-rough { font-family: "Winky Rough", sans-serif; }

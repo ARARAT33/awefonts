@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: amethysta */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/amethysta/index.css");
+.awe-font-amethysta { font-family: "Amethysta", sans-serif; }

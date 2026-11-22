@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: jim-nightshade */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/jim-nightshade/index.css");
+.awe-font-jim-nightshade { font-family: "Jim Nightshade", sans-serif; }

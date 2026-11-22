@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: covered-by-your-grace */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/covered-by-your-grace/index.css");
+.awe-font-covered-by-your-grace { font-family: "Covered By Your Grace", sans-serif; }

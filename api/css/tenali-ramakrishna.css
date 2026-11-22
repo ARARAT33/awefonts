@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tenali-ramakrishna */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tenali-ramakrishna/index.css");
+.awe-font-tenali-ramakrishna { font-family: "Tenali Ramakrishna", sans-serif; }

@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: lustria */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lustria/index.css");
+.awe-font-lustria { font-family: "Lustria", sans-serif; }

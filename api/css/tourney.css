@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: tourney */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/tourney/index.css");
+.awe-font-tourney { font-family: "Tourney", sans-serif; }

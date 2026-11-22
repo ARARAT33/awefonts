@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: platypi */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/platypi/index.css");
+.awe-font-platypi { font-family: "Platypi", sans-serif; }

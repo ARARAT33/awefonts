@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: poor-story */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/poor-story/index.css");
+.awe-font-poor-story { font-family: "Poor Story", sans-serif; }

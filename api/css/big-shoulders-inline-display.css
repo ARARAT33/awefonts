@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: big-shoulders-inline-display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/big-shoulders-inline-display/index.css");
+.awe-font-big-shoulders-inline-display { font-family: "Big Shoulders Inline Display", sans-serif; }

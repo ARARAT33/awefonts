@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: ravi-prakash */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ravi-prakash/index.css");
+.awe-font-ravi-prakash { font-family: "Ravi Prakash", sans-serif; }

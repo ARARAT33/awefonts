@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset: abyssinica-sil */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/abyssinica-sil/index.css");
+.awe-font-abyssinica-sil { font-family: "Abyssinica Sil", sans-serif; }
