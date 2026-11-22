@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset for DM Sans. Font binaries are served by Google Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+:root { --awe-font-dm-sans: "DM Sans", sans-serif; }

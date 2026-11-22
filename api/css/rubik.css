@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset for Rubik. Font binaries are served by Google Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
+:root { --awe-font-rubik: "Rubik", sans-serif; }
