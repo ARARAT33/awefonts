@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset for Anton. Font binaries are served by Google Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap");
+:root { --awe-font-anton: "Anton", sans-serif; }

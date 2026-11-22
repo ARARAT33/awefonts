@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset for Mulish. Font binaries are served by Google Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+:root { --awe-font-mulish: "Mulish", sans-serif; }
