@@ -1,1 +1,35 @@
-{"name":"AWEFonts static font providers","version":1,"updated":"2026-11-22","providers":[{"id":"google-fonts","name":"Google Fonts","catalog":"https://fonts.google.com/metadata/fonts","css":"https://fonts.googleapis.com/css2","download":"https://fonts.google.com/download?family={family}","coverage":"Google Fonts public family catalog","license":"Per-family; commonly OFL-1.1, Apache-2.0 or UFL-1.0"},{"id":"fontsource","name":"Fontsource","catalog":"https://api.fontsource.org/v1/fonts","registry":"https://raw.githubusercontent.com/fontsource/font-files/main/FONTLIST.json","css":"https://cdn.jsdelivr.net/npm/@fontsource/{id}/index.css","download":"https://www.npmjs.com/package/@fontsource/{id}","coverage":"Open-source font packages beyond Google Fonts","license":"Per-package; inspect upstream license"}],"runtime":"Static client-side discovery only. AWEFonts does not proxy, cache, or modify provider responses.","privacy":"Search and previews run in the browser. Provider catalog requests go directly from the visitor's browser to the named public providers."}
+{
+  "name": "AWEFonts static font providers",
+  "version": 1,
+  "updated": "2026-11-22",
+  "providers": [
+    {
+      "id": "google-fonts",
+      "name": "Google Fonts",
+      "catalog": "https://fonts.google.com/metadata/fonts",
+      "css": "https://fonts.googleapis.com/css2",
+      "download": "https://fonts.google.com/download?family={family}",
+      "coverage": "Google Fonts public family catalog",
+      "license": "Per-family; commonly OFL-1.1, Apache-2.0 or UFL-1.0"
+    },
+    {
+      "id": "fontsource",
+      "name": "Fontsource",
+      "catalog": "https://api.fontsource.org/v1/fonts",
+      "registry": "https://raw.githubusercontent.com/fontsource/font-files/main/FONTLIST.json",
+      "css": "https://cdn.jsdelivr.net/npm/@fontsource/{id}/index.css",
+      "download": "https://www.npmjs.com/package/@fontsource/{id}",
+      "coverage": "Open-source font packages beyond Google Fonts",
+      "license": "Per-package; inspect upstream license"
+    }
+  ],
+  "runtime": "Static client-side discovery only. AWEFonts does not proxy, cache, or modify provider responses.",
+  "privacy": "Search and previews run in the browser. Provider catalog requests go directly from the visitor's browser to the named public providers.",
+  "staticCatalog": {
+    "endpoint": "/api/v1/catalog.json",
+    "families": 2103,
+    "source": "Fontsource font-files registry",
+    "refreshedAt": "2026-11-22",
+    "description": "Bundled, immutable index served by AWEFonts Pages; no runtime worker or function."
+  }
+}
