@@ -70,6 +70,16 @@
           }
         }
       }
+    },
+    "/v1/sources.json": {
+      "get": {
+        "summary": "List global font source platforms and mirror eligibility",
+        "responses": {
+          "200": {
+            "description": "Global source directory JSON"
+          }
+        }
+      }
     }
   }
 }

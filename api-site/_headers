@@ -6,8 +6,3 @@
 /v1/*.js
   Content-Type: application/javascript; charset=utf-8
   Cache-Control: public, max-age=300, must-revalidate
-
-/v1/embed.v4.js
-  Access-Control-Allow-Origin: *
-  Cache-Control: public, max-age=3600
-  Content-Type: application/javascript; charset=utf-8
