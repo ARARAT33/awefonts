@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: sofadi-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/sofadi-one/index.css");
+/* AWEFonts static CSS preset · google · sofadi-one */
+@import url("https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap");
 .awe-font-sofadi-one { font-family: "Sofadi One", sans-serif; }

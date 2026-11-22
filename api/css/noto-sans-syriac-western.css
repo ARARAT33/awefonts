@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-syriac-western */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-syriac-western/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-syriac-western */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Western&display=swap");
 .awe-font-noto-sans-syriac-western { font-family: "Noto Sans Syriac Western", sans-serif; }

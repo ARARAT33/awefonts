@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: mynerve */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/mynerve/index.css");
+/* AWEFonts static CSS preset · google · mynerve */
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
 .awe-font-mynerve { font-family: "Mynerve", sans-serif; }

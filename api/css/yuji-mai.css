@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: yuji-mai */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/yuji-mai/index.css");
+/* AWEFonts static CSS preset · google · yuji-mai */
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap");
 .awe-font-yuji-mai { font-family: "Yuji Mai", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: roboto-condensed */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/roboto-condensed/index.css");
+/* AWEFonts static CSS preset · google · roboto-condensed */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 .awe-font-roboto-condensed { font-family: "Roboto Condensed", sans-serif; }

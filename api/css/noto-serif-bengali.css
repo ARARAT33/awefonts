@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-serif-bengali */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-bengali/index.css");
+/* AWEFonts static CSS preset · google · noto-serif-bengali */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali&display=swap");
 .awe-font-noto-serif-bengali { font-family: "Noto Serif Bengali", sans-serif; }

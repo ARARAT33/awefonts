@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: galdeano */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/galdeano/index.css");
+/* AWEFonts static CSS preset · google · galdeano */
+@import url("https://fonts.googleapis.com/css2?family=Galdeano&display=swap");
 .awe-font-galdeano { font-family: "Galdeano", sans-serif; }

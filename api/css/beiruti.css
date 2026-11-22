@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: beiruti */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/beiruti/index.css");
+/* AWEFonts static CSS preset · google · beiruti */
+@import url("https://fonts.googleapis.com/css2?family=Beiruti&display=swap");
 .awe-font-beiruti { font-family: "Beiruti", sans-serif; }

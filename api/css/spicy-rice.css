@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: spicy-rice */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/spicy-rice/index.css");
+/* AWEFonts static CSS preset · google · spicy-rice */
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
 .awe-font-spicy-rice { font-family: "Spicy Rice", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: radley */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/radley/index.css");
+/* AWEFonts static CSS preset · google · radley */
+@import url("https://fonts.googleapis.com/css2?family=Radley&display=swap");
 .awe-font-radley { font-family: "Radley", sans-serif; }

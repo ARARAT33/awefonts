@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: coiny */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/coiny/index.css");
+/* AWEFonts static CSS preset · google · coiny */
+@import url("https://fonts.googleapis.com/css2?family=Coiny&display=swap");
 .awe-font-coiny { font-family: "Coiny", sans-serif; }

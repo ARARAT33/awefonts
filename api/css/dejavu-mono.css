@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: dejavu-mono */
+/* AWEFonts static CSS preset · fontsource · dejavu-mono */
 @import url("https://cdn.jsdelivr.net/npm/@fontsource/dejavu-mono/index.css");
 .awe-font-dejavu-mono { font-family: "Dejavu Mono", sans-serif; }

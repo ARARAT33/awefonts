@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: arvo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/arvo/index.css");
+/* AWEFonts static CSS preset · google · arvo */
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 .awe-font-arvo { font-family: "Arvo", sans-serif; }

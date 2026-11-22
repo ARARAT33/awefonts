@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-sinhala */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sinhala/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-sinhala */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala&display=swap");
 .awe-font-noto-sans-sinhala { font-family: "Noto Sans Sinhala", sans-serif; }

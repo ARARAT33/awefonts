@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-adlam */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-adlam/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-adlam */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam&display=swap");
 .awe-font-noto-sans-adlam { font-family: "Noto Sans Adlam", sans-serif; }

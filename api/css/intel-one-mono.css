@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: intel-one-mono */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/intel-one-mono/index.css");
+/* AWEFonts static CSS preset · google · intel-one-mono */
+@import url("https://fonts.googleapis.com/css2?family=Intel+One+Mono&display=swap");
 .awe-font-intel-one-mono { font-family: "Intel One Mono", sans-serif; }

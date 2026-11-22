@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-ro-guides */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-ro-guides/index.css");
-.awe-font-playwrite-ro-guides { font-family: "Playwrite Ro Guides", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-ro-guides */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+RO+Guides&display=swap");
+.awe-font-playwrite-ro-guides { font-family: "Playwrite RO Guides", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: trirong */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/trirong/index.css");
+/* AWEFonts static CSS preset · google · trirong */
+@import url("https://fonts.googleapis.com/css2?family=Trirong&display=swap");
 .awe-font-trirong { font-family: "Trirong", sans-serif; }

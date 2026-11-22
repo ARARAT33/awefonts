@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: abel */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/abel/index.css");
+/* AWEFonts static CSS preset · google · abel */
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 .awe-font-abel { font-family: "Abel", sans-serif; }

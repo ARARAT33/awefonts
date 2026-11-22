@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-hanunoo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-hanunoo/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-hanunoo */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo&display=swap");
 .awe-font-noto-sans-hanunoo { font-family: "Noto Sans Hanunoo", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: hedvig-letters-serif */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/hedvig-letters-serif/index.css");
+/* AWEFonts static CSS preset · google · hedvig-letters-serif */
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif&display=swap");
 .awe-font-hedvig-letters-serif { font-family: "Hedvig Letters Serif", sans-serif; }

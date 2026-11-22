@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: oldenburg */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/oldenburg/index.css");
+/* AWEFonts static CSS preset · google · oldenburg */
+@import url("https://fonts.googleapis.com/css2?family=Oldenburg&display=swap");
 .awe-font-oldenburg { font-family: "Oldenburg", sans-serif; }

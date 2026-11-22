@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: jua */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/jua/index.css");
+/* AWEFonts static CSS preset · google · jua */
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 .awe-font-jua { font-family: "Jua", sans-serif; }

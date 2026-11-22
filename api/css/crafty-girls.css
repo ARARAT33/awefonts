@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: crafty-girls */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/crafty-girls/index.css");
+/* AWEFonts static CSS preset · google · crafty-girls */
+@import url("https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap");
 .awe-font-crafty-girls { font-family: "Crafty Girls", sans-serif; }

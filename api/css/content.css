@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: content */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/content/index.css");
+/* AWEFonts static CSS preset · google · content */
+@import url("https://fonts.googleapis.com/css2?family=Content&display=swap");
 .awe-font-content { font-family: "Content", sans-serif; }

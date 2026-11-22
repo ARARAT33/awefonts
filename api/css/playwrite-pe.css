@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-pe */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-pe/index.css");
-.awe-font-playwrite-pe { font-family: "Playwrite Pe", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-pe */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+PE&display=swap");
+.awe-font-playwrite-pe { font-family: "Playwrite PE", sans-serif; }

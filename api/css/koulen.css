@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: koulen */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/koulen/index.css");
+/* AWEFonts static CSS preset · google · koulen */
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 .awe-font-koulen { font-family: "Koulen", sans-serif; }

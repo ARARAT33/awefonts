@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: protest-strike */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/protest-strike/index.css");
+/* AWEFonts static CSS preset · google · protest-strike */
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
 .awe-font-protest-strike { font-family: "Protest Strike", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: grandstander */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/grandstander/index.css");
+/* AWEFonts static CSS preset · google · grandstander */
+@import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
 .awe-font-grandstander { font-family: "Grandstander", sans-serif; }

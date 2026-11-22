@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: foldit */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/foldit/index.css");
+/* AWEFonts static CSS preset · google · foldit */
+@import url("https://fonts.googleapis.com/css2?family=Foldit&display=swap");
 .awe-font-foldit { font-family: "Foldit", sans-serif; }

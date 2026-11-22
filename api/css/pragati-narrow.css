@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: pragati-narrow */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/pragati-narrow/index.css");
+/* AWEFonts static CSS preset · google · pragati-narrow */
+@import url("https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap");
 .awe-font-pragati-narrow { font-family: "Pragati Narrow", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rubik-glitch */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-glitch/index.css");
+/* AWEFonts static CSS preset · google · rubik-glitch */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 .awe-font-rubik-glitch { font-family: "Rubik Glitch", sans-serif; }

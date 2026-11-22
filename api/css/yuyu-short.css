@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: yuyu-short */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/yuyu-short/index.css");
+/* AWEFonts static CSS preset · google · yuyu-short */
+@import url("https://fonts.googleapis.com/css2?family=Yuyu+Short&display=swap");
 .awe-font-yuyu-short { font-family: "Yuyu Short", sans-serif; }

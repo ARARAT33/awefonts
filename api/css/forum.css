@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: forum */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/forum/index.css");
+/* AWEFonts static CSS preset · google · forum */
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 .awe-font-forum { font-family: "Forum", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: sawarabi-mincho */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/sawarabi-mincho/index.css");
+/* AWEFonts static CSS preset · google · sawarabi-mincho */
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
 .awe-font-sawarabi-mincho { font-family: "Sawarabi Mincho", sans-serif; }

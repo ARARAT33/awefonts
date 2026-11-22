@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-egyptian-hieroglyphs */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-egyptian-hieroglyphs/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-egyptian-hieroglyphs */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs&display=swap");
 .awe-font-noto-sans-egyptian-hieroglyphs { font-family: "Noto Sans Egyptian Hieroglyphs", sans-serif; }

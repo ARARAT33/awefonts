@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: imbue */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/imbue/index.css");
+/* AWEFonts static CSS preset · google · imbue */
+@import url("https://fonts.googleapis.com/css2?family=Imbue&display=swap");
 .awe-font-imbue { font-family: "Imbue", sans-serif; }

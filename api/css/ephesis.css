@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ephesis */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ephesis/index.css");
+/* AWEFonts static CSS preset · google · ephesis */
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&display=swap");
 .awe-font-ephesis { font-family: "Ephesis", sans-serif; }

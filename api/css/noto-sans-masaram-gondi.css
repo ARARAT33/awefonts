@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-masaram-gondi */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-masaram-gondi/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-masaram-gondi */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Masaram+Gondi&display=swap");
 .awe-font-noto-sans-masaram-gondi { font-family: "Noto Sans Masaram Gondi", sans-serif; }

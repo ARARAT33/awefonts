@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: caladea */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/caladea/index.css");
+/* AWEFonts static CSS preset · google · caladea */
+@import url("https://fonts.googleapis.com/css2?family=Caladea&display=swap");
 .awe-font-caladea { font-family: "Caladea", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-signwriting */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-signwriting/index.css");
-.awe-font-noto-sans-signwriting { font-family: "Noto Sans Signwriting", sans-serif; }
+/* AWEFonts static CSS preset · google · noto-sans-signwriting */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SignWriting&display=swap");
+.awe-font-noto-sans-signwriting { font-family: "Noto Sans SignWriting", sans-serif; }

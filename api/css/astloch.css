@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: astloch */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/astloch/index.css");
+/* AWEFonts static CSS preset · google · astloch */
+@import url("https://fonts.googleapis.com/css2?family=Astloch&display=swap");
 .awe-font-astloch { font-family: "Astloch", sans-serif; }

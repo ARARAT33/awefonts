@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: prosto-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/prosto-one/index.css");
+/* AWEFonts static CSS preset · google · prosto-one */
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
 .awe-font-prosto-one { font-family: "Prosto One", sans-serif; }

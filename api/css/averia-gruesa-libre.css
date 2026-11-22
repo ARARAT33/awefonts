@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: averia-gruesa-libre */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/averia-gruesa-libre/index.css");
+/* AWEFonts static CSS preset · google · averia-gruesa-libre */
+@import url("https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap");
 .awe-font-averia-gruesa-libre { font-family: "Averia Gruesa Libre", sans-serif; }

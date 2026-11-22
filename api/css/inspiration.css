@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: inspiration */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/inspiration/index.css");
+/* AWEFonts static CSS preset · google · inspiration */
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
 .awe-font-inspiration { font-family: "Inspiration", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: dejavu-sans */
+/* AWEFonts static CSS preset · fontsource · dejavu-sans */
 @import url("https://cdn.jsdelivr.net/npm/@fontsource/dejavu-sans/index.css");
 .awe-font-dejavu-sans { font-family: "Dejavu Sans", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-ca-guides */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-ca-guides/index.css");
-.awe-font-playwrite-ca-guides { font-family: "Playwrite Ca Guides", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-ca-guides */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap");
+.awe-font-playwrite-ca-guides { font-family: "Playwrite CA Guides", sans-serif; }

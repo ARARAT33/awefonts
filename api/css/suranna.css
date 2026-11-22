@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: suranna */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/suranna/index.css");
+/* AWEFonts static CSS preset · google · suranna */
+@import url("https://fonts.googleapis.com/css2?family=Suranna&display=swap");
 .awe-font-suranna { font-family: "Suranna", sans-serif; }

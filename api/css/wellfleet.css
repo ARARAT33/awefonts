@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: wellfleet */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/wellfleet/index.css");
+/* AWEFonts static CSS preset · google · wellfleet */
+@import url("https://fonts.googleapis.com/css2?family=Wellfleet&display=swap");
 .awe-font-wellfleet { font-family: "Wellfleet", sans-serif; }

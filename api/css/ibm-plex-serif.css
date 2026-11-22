@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ibm-plex-serif */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-serif/index.css");
-.awe-font-ibm-plex-serif { font-family: "Ibm Plex Serif", sans-serif; }
+/* AWEFonts static CSS preset · google · ibm-plex-serif */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap");
+.awe-font-ibm-plex-serif { font-family: "IBM Plex Serif", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: narnoor */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/narnoor/index.css");
+/* AWEFonts static CSS preset · google · narnoor */
+@import url("https://fonts.googleapis.com/css2?family=Narnoor&display=swap");
 .awe-font-narnoor { font-family: "Narnoor", sans-serif; }

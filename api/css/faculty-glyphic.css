@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: faculty-glyphic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/faculty-glyphic/index.css");
+/* AWEFonts static CSS preset · google · faculty-glyphic */
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap");
 .awe-font-faculty-glyphic { font-family: "Faculty Glyphic", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: princess-sofia */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/princess-sofia/index.css");
+/* AWEFonts static CSS preset · google · princess-sofia */
+@import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap");
 .awe-font-princess-sofia { font-family: "Princess Sofia", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: galada */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/galada/index.css");
+/* AWEFonts static CSS preset · google · galada */
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
 .awe-font-galada { font-family: "Galada", sans-serif; }

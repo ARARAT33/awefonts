@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-serif-telugu */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-telugu/index.css");
+/* AWEFonts static CSS preset · google · noto-serif-telugu */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu&display=swap");
 .awe-font-noto-serif-telugu { font-family: "Noto Serif Telugu", sans-serif; }

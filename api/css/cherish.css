@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: cherish */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/cherish/index.css");
+/* AWEFonts static CSS preset · google · cherish */
+@import url("https://fonts.googleapis.com/css2?family=Cherish&display=swap");
 .awe-font-cherish { font-family: "Cherish", sans-serif; }

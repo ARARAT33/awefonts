@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gemunu-libre */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gemunu-libre/index.css");
+/* AWEFonts static CSS preset · google · gemunu-libre */
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
 .awe-font-gemunu-libre { font-family: "Gemunu Libre", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: jaro */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/jaro/index.css");
+/* AWEFonts static CSS preset · google · jaro */
+@import url("https://fonts.googleapis.com/css2?family=Jaro&display=swap");
 .awe-font-jaro { font-family: "Jaro", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rokkitt */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rokkitt/index.css");
+/* AWEFonts static CSS preset · google · rokkitt */
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
 .awe-font-rokkitt { font-family: "Rokkitt", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ysabeau-sc */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ysabeau-sc/index.css");
-.awe-font-ysabeau-sc { font-family: "Ysabeau Sc", sans-serif; }
+/* AWEFonts static CSS preset · google · ysabeau-sc */
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap");
+.awe-font-ysabeau-sc { font-family: "Ysabeau SC", sans-serif; }

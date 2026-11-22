@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: vesper-libre */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/vesper-libre/index.css");
+/* AWEFonts static CSS preset · google · vesper-libre */
+@import url("https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap");
 .awe-font-vesper-libre { font-family: "Vesper Libre", sans-serif; }

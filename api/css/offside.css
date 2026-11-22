@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: offside */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/offside/index.css");
+/* AWEFonts static CSS preset · google · offside */
+@import url("https://fonts.googleapis.com/css2?family=Offside&display=swap");
 .awe-font-offside { font-family: "Offside", sans-serif; }

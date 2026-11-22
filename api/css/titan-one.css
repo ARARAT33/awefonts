@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: titan-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/titan-one/index.css");
+/* AWEFonts static CSS preset · google · titan-one */
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 .awe-font-titan-one { font-family: "Titan One", sans-serif; }

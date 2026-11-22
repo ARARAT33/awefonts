@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: fraunces */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/fraunces/index.css");
+/* AWEFonts static CSS preset · google · fraunces */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
 .awe-font-fraunces { font-family: "Fraunces", sans-serif; }

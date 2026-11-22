@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: six-caps */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/six-caps/index.css");
+/* AWEFonts static CSS preset · google · six-caps */
+@import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");
 .awe-font-six-caps { font-family: "Six Caps", sans-serif; }

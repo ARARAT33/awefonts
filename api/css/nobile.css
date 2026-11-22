@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: nobile */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/nobile/index.css");
+/* AWEFonts static CSS preset · google · nobile */
+@import url("https://fonts.googleapis.com/css2?family=Nobile&display=swap");
 .awe-font-nobile { font-family: "Nobile", sans-serif; }

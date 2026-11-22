@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rock-salt */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rock-salt/index.css");
+/* AWEFonts static CSS preset · google · rock-salt */
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 .awe-font-rock-salt { font-family: "Rock Salt", sans-serif; }

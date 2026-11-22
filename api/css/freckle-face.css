@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: freckle-face */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/freckle-face/index.css");
+/* AWEFonts static CSS preset · google · freckle-face */
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
 .awe-font-freckle-face { font-family: "Freckle Face", sans-serif; }

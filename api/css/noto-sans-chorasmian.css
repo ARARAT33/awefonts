@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-chorasmian */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-chorasmian/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-chorasmian */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&display=swap");
 .awe-font-noto-sans-chorasmian { font-family: "Noto Sans Chorasmian", sans-serif; }

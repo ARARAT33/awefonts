@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: goblin-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/goblin-one/index.css");
+/* AWEFonts static CSS preset · google · goblin-one */
+@import url("https://fonts.googleapis.com/css2?family=Goblin+One&display=swap");
 .awe-font-goblin-one { font-family: "Goblin One", sans-serif; }

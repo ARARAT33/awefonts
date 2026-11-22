@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: nixie-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/nixie-one/index.css");
+/* AWEFonts static CSS preset · google · nixie-one */
+@import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
 .awe-font-nixie-one { font-family: "Nixie One", sans-serif; }

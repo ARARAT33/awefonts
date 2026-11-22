@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: saira-condensed */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/saira-condensed/index.css");
+/* AWEFonts static CSS preset · google · saira-condensed */
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap");
 .awe-font-saira-condensed { font-family: "Saira Condensed", sans-serif; }

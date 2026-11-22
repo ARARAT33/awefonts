@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: fondamento */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/fondamento/index.css");
+/* AWEFonts static CSS preset · google · fondamento */
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
 .awe-font-fondamento { font-family: "Fondamento", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: hepta-slab */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/hepta-slab/index.css");
+/* AWEFonts static CSS preset · google · hepta-slab */
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap");
 .awe-font-hepta-slab { font-family: "Hepta Slab", sans-serif; }

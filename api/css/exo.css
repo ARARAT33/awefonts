@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: exo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/exo/index.css");
+/* AWEFonts static CSS preset · google · exo */
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
 .awe-font-exo { font-family: "Exo", sans-serif; }

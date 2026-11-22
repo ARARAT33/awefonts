@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: syne-mono */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/syne-mono/index.css");
+/* AWEFonts static CSS preset · google · syne-mono */
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 .awe-font-syne-mono { font-family: "Syne Mono", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: bungee-hairline */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/bungee-hairline/index.css");
+/* AWEFonts static CSS preset · google · bungee-hairline */
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
 .awe-font-bungee-hairline { font-family: "Bungee Hairline", sans-serif; }

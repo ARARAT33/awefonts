@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: macondo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/macondo/index.css");
+/* AWEFonts static CSS preset · google · macondo */
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
 .awe-font-macondo { font-family: "Macondo", sans-serif; }

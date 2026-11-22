@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rajdhani */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rajdhani/index.css");
+/* AWEFonts static CSS preset · google · rajdhani */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
 .awe-font-rajdhani { font-family: "Rajdhani", sans-serif; }

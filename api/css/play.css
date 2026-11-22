@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: play */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/play/index.css");
+/* AWEFonts static CSS preset · google · play */
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 .awe-font-play { font-family: "Play", sans-serif; }

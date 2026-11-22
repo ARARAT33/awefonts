@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: mada */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/mada/index.css");
+/* AWEFonts static CSS preset · google · mada */
+@import url("https://fonts.googleapis.com/css2?family=Mada&display=swap");
 .awe-font-mada { font-family: "Mada", sans-serif; }

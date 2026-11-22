@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: anek-telugu */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-telugu/index.css");
+/* AWEFonts static CSS preset · google · anek-telugu */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap");
 .awe-font-anek-telugu { font-family: "Anek Telugu", sans-serif; }

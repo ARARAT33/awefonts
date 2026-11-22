@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: yuji-hentaigana-akebono */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/yuji-hentaigana-akebono/index.css");
+/* AWEFonts static CSS preset · google · yuji-hentaigana-akebono */
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akebono&display=swap");
 .awe-font-yuji-hentaigana-akebono { font-family: "Yuji Hentaigana Akebono", sans-serif; }

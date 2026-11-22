@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: major-mono-display */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/major-mono-display/index.css");
+/* AWEFonts static CSS preset · google · major-mono-display */
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 .awe-font-major-mono-display { font-family: "Major Mono Display", sans-serif; }

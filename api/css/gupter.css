@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gupter */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gupter/index.css");
+/* AWEFonts static CSS preset · google · gupter */
+@import url("https://fonts.googleapis.com/css2?family=Gupter&display=swap");
 .awe-font-gupter { font-family: "Gupter", sans-serif; }

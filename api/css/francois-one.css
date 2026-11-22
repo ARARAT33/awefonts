@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: francois-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/francois-one/index.css");
+/* AWEFonts static CSS preset · google · francois-one */
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
 .awe-font-francois-one { font-family: "Francois One", sans-serif; }

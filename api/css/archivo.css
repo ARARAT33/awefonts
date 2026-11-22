@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset for Archivo. Google Fonts serves font binaries. */
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap");
-:root { --awe-font-archivo: "Archivo", sans-serif; }
+/* AWEFonts static CSS preset · google · archivo */
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+.awe-font-archivo { font-family: "Archivo", sans-serif; }

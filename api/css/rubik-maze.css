@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rubik-maze */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-maze/index.css");
+/* AWEFonts static CSS preset · google · rubik-maze */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap");
 .awe-font-rubik-maze { font-family: "Rubik Maze", sans-serif; }

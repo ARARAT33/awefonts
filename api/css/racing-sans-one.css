@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: racing-sans-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/racing-sans-one/index.css");
+/* AWEFonts static CSS preset · google · racing-sans-one */
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
 .awe-font-racing-sans-one { font-family: "Racing Sans One", sans-serif; }

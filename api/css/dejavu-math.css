@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: dejavu-math */
+/* AWEFonts static CSS preset · fontsource · dejavu-math */
 @import url("https://cdn.jsdelivr.net/npm/@fontsource/dejavu-math/index.css");
 .awe-font-dejavu-math { font-family: "Dejavu Math", sans-serif; }

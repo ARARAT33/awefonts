@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: yesteryear */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/yesteryear/index.css");
+/* AWEFonts static CSS preset · google · yesteryear */
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 .awe-font-yesteryear { font-family: "Yesteryear", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset for Fira Sans. Google Fonts serves font binaries. */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap");
-:root { --awe-font-fira-sans: "Fira Sans", sans-serif; }
+/* AWEFonts static CSS preset · google · fira-sans */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+.awe-font-fira-sans { font-family: "Fira Sans", sans-serif; }

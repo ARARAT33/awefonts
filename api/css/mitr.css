@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: mitr */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/mitr/index.css");
+/* AWEFonts static CSS preset · google · mitr */
+@import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
 .awe-font-mitr { font-family: "Mitr", sans-serif; }

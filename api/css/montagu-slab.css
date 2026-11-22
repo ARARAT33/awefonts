@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: montagu-slab */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/montagu-slab/index.css");
+/* AWEFonts static CSS preset · google · montagu-slab */
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap");
 .awe-font-montagu-slab { font-family: "Montagu Slab", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: eater */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/eater/index.css");
+/* AWEFonts static CSS preset · google · eater */
+@import url("https://fonts.googleapis.com/css2?family=Eater&display=swap");
 .awe-font-eater { font-family: "Eater", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: lugrasimo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/lugrasimo/index.css");
+/* AWEFonts static CSS preset · google · lugrasimo */
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap");
 .awe-font-lugrasimo { font-family: "Lugrasimo", sans-serif; }

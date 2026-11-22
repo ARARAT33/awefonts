@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: moon-dance */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/moon-dance/index.css");
+/* AWEFonts static CSS preset · google · moon-dance */
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
 .awe-font-moon-dance { font-family: "Moon Dance", sans-serif; }

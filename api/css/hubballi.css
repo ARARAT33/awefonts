@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: hubballi */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/hubballi/index.css");
+/* AWEFonts static CSS preset · google · hubballi */
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 .awe-font-hubballi { font-family: "Hubballi", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: chilanka */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/chilanka/index.css");
+/* AWEFonts static CSS preset · google · chilanka */
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
 .awe-font-chilanka { font-family: "Chilanka", sans-serif; }

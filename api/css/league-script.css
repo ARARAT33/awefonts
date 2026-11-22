@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: league-script */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/league-script/index.css");
+/* AWEFonts static CSS preset · google · league-script */
+@import url("https://fonts.googleapis.com/css2?family=League+Script&display=swap");
 .awe-font-league-script { font-family: "League Script", sans-serif; }

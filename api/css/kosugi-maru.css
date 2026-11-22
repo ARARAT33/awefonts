@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: kosugi-maru */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/kosugi-maru/index.css");
+/* AWEFonts static CSS preset · google · kosugi-maru */
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
 .awe-font-kosugi-maru { font-family: "Kosugi Maru", sans-serif; }

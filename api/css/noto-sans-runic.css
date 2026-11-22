@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-runic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-runic/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-runic */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&display=swap");
 .awe-font-noto-sans-runic { font-family: "Noto Sans Runic", sans-serif; }

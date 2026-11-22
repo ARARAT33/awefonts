@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ms-madi */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ms-madi/index.css");
+/* AWEFonts static CSS preset · google · ms-madi */
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
 .awe-font-ms-madi { font-family: "Ms Madi", sans-serif; }

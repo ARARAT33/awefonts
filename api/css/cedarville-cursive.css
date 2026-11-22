@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: cedarville-cursive */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/cedarville-cursive/index.css");
+/* AWEFonts static CSS preset · google · cedarville-cursive */
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
 .awe-font-cedarville-cursive { font-family: "Cedarville Cursive", sans-serif; }

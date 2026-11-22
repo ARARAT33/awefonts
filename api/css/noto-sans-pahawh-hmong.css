@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-pahawh-hmong */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-pahawh-hmong/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-pahawh-hmong */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Pahawh+Hmong&display=swap");
 .awe-font-noto-sans-pahawh-hmong { font-family: "Noto Sans Pahawh Hmong", sans-serif; }

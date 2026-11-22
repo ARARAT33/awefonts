@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: blaka */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/blaka/index.css");
+/* AWEFonts static CSS preset · google · blaka */
+@import url("https://fonts.googleapis.com/css2?family=Blaka&display=swap");
 .awe-font-blaka { font-family: "Blaka", sans-serif; }

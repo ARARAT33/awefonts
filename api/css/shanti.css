@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: shanti */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/shanti/index.css");
+/* AWEFonts static CSS preset · google · shanti */
+@import url("https://fonts.googleapis.com/css2?family=Shanti&display=swap");
 .awe-font-shanti { font-family: "Shanti", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: flow-block */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/flow-block/index.css");
+/* AWEFonts static CSS preset · google · flow-block */
+@import url("https://fonts.googleapis.com/css2?family=Flow+Block&display=swap");
 .awe-font-flow-block { font-family: "Flow Block", sans-serif; }

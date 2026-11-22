@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: zain */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/zain/index.css");
+/* AWEFonts static CSS preset · google · zain */
+@import url("https://fonts.googleapis.com/css2?family=Zain&display=swap");
 .awe-font-zain { font-family: "Zain", sans-serif; }

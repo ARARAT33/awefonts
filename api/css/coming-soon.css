@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: coming-soon */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/coming-soon/index.css");
+/* AWEFonts static CSS preset · google · coming-soon */
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
 .awe-font-coming-soon { font-family: "Coming Soon", sans-serif; }

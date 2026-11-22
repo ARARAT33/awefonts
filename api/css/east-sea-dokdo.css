@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: east-sea-dokdo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/east-sea-dokdo/index.css");
+/* AWEFonts static CSS preset · google · east-sea-dokdo */
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
 .awe-font-east-sea-dokdo { font-family: "East Sea Dokdo", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: miniver */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/miniver/index.css");
+/* AWEFonts static CSS preset · google · miniver */
+@import url("https://fonts.googleapis.com/css2?family=Miniver&display=swap");
 .awe-font-miniver { font-family: "Miniver", sans-serif; }

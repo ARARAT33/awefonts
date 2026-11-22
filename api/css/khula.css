@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: khula */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/khula/index.css");
+/* AWEFonts static CSS preset · google · khula */
+@import url("https://fonts.googleapis.com/css2?family=Khula&display=swap");
 .awe-font-khula { font-family: "Khula", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: vast-shadow */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/vast-shadow/index.css");
+/* AWEFonts static CSS preset · google · vast-shadow */
+@import url("https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap");
 .awe-font-vast-shadow { font-family: "Vast Shadow", sans-serif; }

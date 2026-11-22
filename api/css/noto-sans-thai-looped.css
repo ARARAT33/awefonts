@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-thai-looped */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-thai-looped/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-thai-looped */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped&display=swap");
 .awe-font-noto-sans-thai-looped { font-family: "Noto Sans Thai Looped", sans-serif; }

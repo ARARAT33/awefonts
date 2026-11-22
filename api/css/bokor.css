@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: bokor */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/bokor/index.css");
+/* AWEFonts static CSS preset · google · bokor */
+@import url("https://fonts.googleapis.com/css2?family=Bokor&display=swap");
 .awe-font-bokor { font-family: "Bokor", sans-serif; }

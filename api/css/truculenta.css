@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: truculenta */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/truculenta/index.css");
+/* AWEFonts static CSS preset · google · truculenta */
+@import url("https://fonts.googleapis.com/css2?family=Truculenta&display=swap");
 .awe-font-truculenta { font-family: "Truculenta", sans-serif; }

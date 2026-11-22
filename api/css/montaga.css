@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: montaga */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/montaga/index.css");
+/* AWEFonts static CSS preset · google · montaga */
+@import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
 .awe-font-montaga { font-family: "Montaga", sans-serif; }

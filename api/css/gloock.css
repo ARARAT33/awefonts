@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gloock */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gloock/index.css");
+/* AWEFonts static CSS preset · google · gloock */
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
 .awe-font-gloock { font-family: "Gloock", sans-serif; }

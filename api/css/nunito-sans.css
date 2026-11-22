@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: nunito-sans */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/nunito-sans/index.css");
+/* AWEFonts static CSS preset · google · nunito-sans */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 .awe-font-nunito-sans { font-family: "Nunito Sans", sans-serif; }

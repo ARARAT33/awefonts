@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: itim */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/itim/index.css");
+/* AWEFonts static CSS preset · google · itim */
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 .awe-font-itim { font-family: "Itim", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: genos */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/genos/index.css");
+/* AWEFonts static CSS preset · google · genos */
+@import url("https://fonts.googleapis.com/css2?family=Genos&display=swap");
 .awe-font-genos { font-family: "Genos", sans-serif; }

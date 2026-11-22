@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: anton-sc */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/anton-sc/index.css");
-.awe-font-anton-sc { font-family: "Anton Sc", sans-serif; }
+/* AWEFonts static CSS preset · google · anton-sc */
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+.awe-font-anton-sc { font-family: "Anton SC", sans-serif; }

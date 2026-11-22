@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: nabla */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/nabla/index.css");
+/* AWEFonts static CSS preset · google · nabla */
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 .awe-font-nabla { font-family: "Nabla", sans-serif; }

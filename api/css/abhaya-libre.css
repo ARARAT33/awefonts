@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: abhaya-libre */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/abhaya-libre/index.css");
+/* AWEFonts static CSS preset · google · abhaya-libre */
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
 .awe-font-abhaya-libre { font-family: "Abhaya Libre", sans-serif; }

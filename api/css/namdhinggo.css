@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: namdhinggo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/namdhinggo/index.css");
+/* AWEFonts static CSS preset · google · namdhinggo */
+@import url("https://fonts.googleapis.com/css2?family=Namdhinggo&display=swap");
 .awe-font-namdhinggo { font-family: "Namdhinggo", sans-serif; }

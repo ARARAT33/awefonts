@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: stoke */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/stoke/index.css");
+/* AWEFonts static CSS preset · google · stoke */
+@import url("https://fonts.googleapis.com/css2?family=Stoke&display=swap");
 .awe-font-stoke { font-family: "Stoke", sans-serif; }

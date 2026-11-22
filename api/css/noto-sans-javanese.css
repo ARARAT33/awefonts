@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-javanese */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-javanese/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-javanese */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese&display=swap");
 .awe-font-noto-sans-javanese { font-family: "Noto Sans Javanese", sans-serif; }

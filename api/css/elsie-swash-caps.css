@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: elsie-swash-caps */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/elsie-swash-caps/index.css");
+/* AWEFonts static CSS preset · google · elsie-swash-caps */
+@import url("https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap");
 .awe-font-elsie-swash-caps { font-family: "Elsie Swash Caps", sans-serif; }

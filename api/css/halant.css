@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: halant */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/halant/index.css");
+/* AWEFonts static CSS preset · google · halant */
+@import url("https://fonts.googleapis.com/css2?family=Halant&display=swap");
 .awe-font-halant { font-family: "Halant", sans-serif; }

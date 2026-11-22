@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-us-trad */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-us-trad/index.css");
-.awe-font-playwrite-us-trad { font-family: "Playwrite Us Trad", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-us-trad */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Trad&display=swap");
+.awe-font-playwrite-us-trad { font-family: "Playwrite US Trad", sans-serif; }

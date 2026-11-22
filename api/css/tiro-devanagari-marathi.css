@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: tiro-devanagari-marathi */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/tiro-devanagari-marathi/index.css");
+/* AWEFonts static CSS preset · google · tiro-devanagari-marathi */
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap");
 .awe-font-tiro-devanagari-marathi { font-family: "Tiro Devanagari Marathi", sans-serif; }

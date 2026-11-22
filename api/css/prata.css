@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: prata */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/prata/index.css");
+/* AWEFonts static CSS preset · google · prata */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 .awe-font-prata { font-family: "Prata", sans-serif; }

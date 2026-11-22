@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: cossette-titre */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/cossette-titre/index.css");
+/* AWEFonts static CSS preset · google · cossette-titre */
+@import url("https://fonts.googleapis.com/css2?family=Cossette+Titre&display=swap");
 .awe-font-cossette-titre { font-family: "Cossette Titre", sans-serif; }

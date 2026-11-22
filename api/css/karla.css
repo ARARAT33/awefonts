@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset for Karla. Google Fonts serves font binaries. */
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
-:root { --awe-font-karla: "Karla", sans-serif; }
+/* AWEFonts static CSS preset · google · karla */
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+.awe-font-karla { font-family: "Karla", sans-serif; }

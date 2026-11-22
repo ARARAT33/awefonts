@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: imprima */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/imprima/index.css");
+/* AWEFonts static CSS preset · google · imprima */
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
 .awe-font-imprima { font-family: "Imprima", sans-serif; }

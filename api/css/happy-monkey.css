@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: happy-monkey */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/happy-monkey/index.css");
+/* AWEFonts static CSS preset · google · happy-monkey */
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
 .awe-font-happy-monkey { font-family: "Happy Monkey", sans-serif; }

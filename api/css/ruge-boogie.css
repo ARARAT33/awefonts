@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ruge-boogie */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ruge-boogie/index.css");
+/* AWEFonts static CSS preset · google · ruge-boogie */
+@import url("https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap");
 .awe-font-ruge-boogie { font-family: "Ruge Boogie", sans-serif; }

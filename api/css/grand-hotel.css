@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: grand-hotel */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/grand-hotel/index.css");
+/* AWEFonts static CSS preset · google · grand-hotel */
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
 .awe-font-grand-hotel { font-family: "Grand Hotel", sans-serif; }

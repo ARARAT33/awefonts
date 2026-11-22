@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: modak */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/modak/index.css");
+/* AWEFonts static CSS preset · google · modak */
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
 .awe-font-modak { font-family: "Modak", sans-serif; }

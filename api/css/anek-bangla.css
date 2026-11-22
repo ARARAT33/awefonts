@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: anek-bangla */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-bangla/index.css");
+/* AWEFonts static CSS preset · google · anek-bangla */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap");
 .awe-font-anek-bangla { font-family: "Anek Bangla", sans-serif; }

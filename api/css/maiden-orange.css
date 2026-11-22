@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: maiden-orange */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/maiden-orange/index.css");
+/* AWEFonts static CSS preset · google · maiden-orange */
+@import url("https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap");
 .awe-font-maiden-orange { font-family: "Maiden Orange", sans-serif; }

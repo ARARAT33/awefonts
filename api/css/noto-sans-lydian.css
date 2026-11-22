@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-lydian */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-lydian/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-lydian */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Lydian&display=swap");
 .awe-font-noto-sans-lydian { font-family: "Noto Sans Lydian", sans-serif; }

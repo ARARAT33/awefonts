@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-zanabazar-square */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-zanabazar-square/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-zanabazar-square */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Zanabazar+Square&display=swap");
 .awe-font-noto-sans-zanabazar-square { font-family: "Noto Sans Zanabazar Square", sans-serif; }

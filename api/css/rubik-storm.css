@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rubik-storm */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-storm/index.css");
+/* AWEFonts static CSS preset · google · rubik-storm */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap");
 .awe-font-rubik-storm { font-family: "Rubik Storm", sans-serif; }

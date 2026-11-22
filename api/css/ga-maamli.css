@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ga-maamli */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ga-maamli/index.css");
+/* AWEFonts static CSS preset · google · ga-maamli */
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap");
 .awe-font-ga-maamli { font-family: "Ga Maamli", sans-serif; }

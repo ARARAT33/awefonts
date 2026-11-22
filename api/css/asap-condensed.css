@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: asap-condensed */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/asap-condensed/index.css");
+/* AWEFonts static CSS preset · google · asap-condensed */
+@import url("https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap");
 .awe-font-asap-condensed { font-family: "Asap Condensed", sans-serif; }

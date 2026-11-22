@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: tauri */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/tauri/index.css");
+/* AWEFonts static CSS preset · google · tauri */
+@import url("https://fonts.googleapis.com/css2?family=Tauri&display=swap");
 .awe-font-tauri { font-family: "Tauri", sans-serif; }

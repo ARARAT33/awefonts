@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ancizar-serif */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ancizar-serif/index.css");
+/* AWEFonts static CSS preset · google · ancizar-serif */
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif&display=swap");
 .awe-font-ancizar-serif { font-family: "Ancizar Serif", sans-serif; }

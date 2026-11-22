@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: tienne */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/tienne/index.css");
+/* AWEFonts static CSS preset · google · tienne */
+@import url("https://fonts.googleapis.com/css2?family=Tienne&display=swap");
 .awe-font-tienne { font-family: "Tienne", sans-serif; }

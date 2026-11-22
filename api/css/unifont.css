@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: unifont */
+/* AWEFonts static CSS preset · fontsource · unifont */
 @import url("https://cdn.jsdelivr.net/npm/@fontsource/unifont/index.css");
 .awe-font-unifont { font-family: "Unifont", sans-serif; }

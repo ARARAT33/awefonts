@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: aclonica */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/aclonica/index.css");
+/* AWEFonts static CSS preset · google · aclonica */
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 .awe-font-aclonica { font-family: "Aclonica", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset for Be Vietnam Pro. Google Fonts serves font binaries. */
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap");
-:root { --awe-font-be-vietnam-pro: "Be Vietnam Pro", sans-serif; }
+/* AWEFonts static CSS preset · google · be-vietnam-pro */
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+.awe-font-be-vietnam-pro { font-family: "Be Vietnam Pro", sans-serif; }

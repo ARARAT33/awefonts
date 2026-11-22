@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: tuffy */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/tuffy/index.css");
+/* AWEFonts static CSS preset · google · tuffy */
+@import url("https://fonts.googleapis.com/css2?family=Tuffy&display=swap");
 .awe-font-tuffy { font-family: "Tuffy", sans-serif; }

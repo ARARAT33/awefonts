@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: kalnia */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/kalnia/index.css");
+/* AWEFonts static CSS preset · google · kalnia */
+@import url("https://fonts.googleapis.com/css2?family=Kalnia&display=swap");
 .awe-font-kalnia { font-family: "Kalnia", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-phoenician */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-phoenician/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-phoenician */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Phoenician&display=swap");
 .awe-font-noto-sans-phoenician { font-family: "Noto Sans Phoenician", sans-serif; }

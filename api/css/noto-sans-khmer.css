@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-khmer */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-khmer/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-khmer */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer&display=swap");
 .awe-font-noto-sans-khmer { font-family: "Noto Sans Khmer", sans-serif; }

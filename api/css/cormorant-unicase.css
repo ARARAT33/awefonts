@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: cormorant-unicase */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/cormorant-unicase/index.css");
+/* AWEFonts static CSS preset · google · cormorant-unicase */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap");
 .awe-font-cormorant-unicase { font-family: "Cormorant Unicase", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: goldman */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/goldman/index.css");
+/* AWEFonts static CSS preset · google · goldman */
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
 .awe-font-goldman { font-family: "Goldman", sans-serif; }

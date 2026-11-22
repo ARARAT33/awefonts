@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gwendolyn */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gwendolyn/index.css");
+/* AWEFonts static CSS preset · google · gwendolyn */
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap");
 .awe-font-gwendolyn { font-family: "Gwendolyn", sans-serif; }

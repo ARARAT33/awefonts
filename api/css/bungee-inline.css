@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: bungee-inline */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/bungee-inline/index.css");
+/* AWEFonts static CSS preset · google · bungee-inline */
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
 .awe-font-bungee-inline { font-family: "Bungee Inline", sans-serif; }

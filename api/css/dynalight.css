@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: dynalight */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/dynalight/index.css");
+/* AWEFonts static CSS preset · google · dynalight */
+@import url("https://fonts.googleapis.com/css2?family=Dynalight&display=swap");
 .awe-font-dynalight { font-family: "Dynalight", sans-serif; }

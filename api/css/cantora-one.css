@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: cantora-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/cantora-one/index.css");
+/* AWEFonts static CSS preset · google · cantora-one */
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&display=swap");
 .awe-font-cantora-one { font-family: "Cantora One", sans-serif; }

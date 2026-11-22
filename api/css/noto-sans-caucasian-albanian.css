@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-caucasian-albanian */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-caucasian-albanian/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-caucasian-albanian */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Caucasian+Albanian&display=swap");
 .awe-font-noto-sans-caucasian-albanian { font-family: "Noto Sans Caucasian Albanian", sans-serif; }

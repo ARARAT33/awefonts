@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: pattaya */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/pattaya/index.css");
+/* AWEFonts static CSS preset · google · pattaya */
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
 .awe-font-pattaya { font-family: "Pattaya", sans-serif; }

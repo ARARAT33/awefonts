@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gothic-a1 */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gothic-a1/index.css");
+/* AWEFonts static CSS preset · google · gothic-a1 */
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
 .awe-font-gothic-a1 { font-family: "Gothic A1", sans-serif; }

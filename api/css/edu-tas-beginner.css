@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: edu-tas-beginner */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/edu-tas-beginner/index.css");
-.awe-font-edu-tas-beginner { font-family: "Edu Tas Beginner", sans-serif; }
+/* AWEFonts static CSS preset · google · edu-tas-beginner */
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap");
+.awe-font-edu-tas-beginner { font-family: "Edu TAS Beginner", sans-serif; }

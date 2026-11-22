@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gudea */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gudea/index.css");
+/* AWEFonts static CSS preset · google · gudea */
+@import url("https://fonts.googleapis.com/css2?family=Gudea&display=swap");
 .awe-font-gudea { font-family: "Gudea", sans-serif; }

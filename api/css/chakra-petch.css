@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: chakra-petch */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/chakra-petch/index.css");
+/* AWEFonts static CSS preset · google · chakra-petch */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 .awe-font-chakra-petch { font-family: "Chakra Petch", sans-serif; }

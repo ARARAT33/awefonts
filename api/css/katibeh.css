@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: katibeh */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/katibeh/index.css");
+/* AWEFonts static CSS preset · google · katibeh */
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
 .awe-font-katibeh { font-family: "Katibeh", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: iceberg */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/iceberg/index.css");
+/* AWEFonts static CSS preset · google · iceberg */
+@import url("https://fonts.googleapis.com/css2?family=Iceberg&display=swap");
 .awe-font-iceberg { font-family: "Iceberg", sans-serif; }

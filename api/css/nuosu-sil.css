@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: nuosu-sil */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/nuosu-sil/index.css");
-.awe-font-nuosu-sil { font-family: "Nuosu Sil", sans-serif; }
+/* AWEFonts static CSS preset · google · nuosu-sil */
+@import url("https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap");
+.awe-font-nuosu-sil { font-family: "Nuosu SIL", sans-serif; }

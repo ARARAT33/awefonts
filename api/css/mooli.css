@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: mooli */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/mooli/index.css");
+/* AWEFonts static CSS preset · google · mooli */
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
 .awe-font-mooli { font-family: "Mooli", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-cherokee */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-cherokee/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-cherokee */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee&display=swap");
 .awe-font-noto-sans-cherokee { font-family: "Noto Sans Cherokee", sans-serif; }

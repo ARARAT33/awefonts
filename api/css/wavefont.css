@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: wavefont */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/wavefont/index.css");
+/* AWEFonts static CSS preset · google · wavefont */
+@import url("https://fonts.googleapis.com/css2?family=Wavefont&display=swap");
 .awe-font-wavefont { font-family: "Wavefont", sans-serif; }

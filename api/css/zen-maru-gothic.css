@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: zen-maru-gothic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/zen-maru-gothic/index.css");
+/* AWEFonts static CSS preset · google · zen-maru-gothic */
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap");
 .awe-font-zen-maru-gothic { font-family: "Zen Maru Gothic", sans-serif; }

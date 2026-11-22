@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-khudawadi */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-khudawadi/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-khudawadi */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Khudawadi&display=swap");
 .awe-font-noto-sans-khudawadi { font-family: "Noto Sans Khudawadi", sans-serif; }

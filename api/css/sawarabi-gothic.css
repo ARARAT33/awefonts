@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: sawarabi-gothic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/sawarabi-gothic/index.css");
+/* AWEFonts static CSS preset · google · sawarabi-gothic */
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
 .awe-font-sawarabi-gothic { font-family: "Sawarabi Gothic", sans-serif; }

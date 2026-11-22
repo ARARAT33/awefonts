@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: oxygen */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/oxygen/index.css");
+/* AWEFonts static CSS preset · google · oxygen */
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 .awe-font-oxygen { font-family: "Oxygen", sans-serif; }

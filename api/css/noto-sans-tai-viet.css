@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-tai-viet */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-tai-viet/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-tai-viet */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Viet&display=swap");
 .awe-font-noto-sans-tai-viet { font-family: "Noto Sans Tai Viet", sans-serif; }

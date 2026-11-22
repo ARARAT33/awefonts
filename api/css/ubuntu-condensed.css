@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ubuntu-condensed */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ubuntu-condensed/index.css");
+/* AWEFonts static CSS preset · google · ubuntu-condensed */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 .awe-font-ubuntu-condensed { font-family: "Ubuntu Condensed", sans-serif; }

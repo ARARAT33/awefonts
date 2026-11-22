@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: langar */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/langar/index.css");
+/* AWEFonts static CSS preset · google · langar */
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
 .awe-font-langar { font-family: "Langar", sans-serif; }

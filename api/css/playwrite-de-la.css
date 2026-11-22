@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-de-la */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-de-la/index.css");
-.awe-font-playwrite-de-la { font-family: "Playwrite De La", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-de-la */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+LA&display=swap");
+.awe-font-playwrite-de-la { font-family: "Playwrite DE LA", sans-serif; }

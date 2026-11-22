@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: reem-kufi */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/reem-kufi/index.css");
+/* AWEFonts static CSS preset · google · reem-kufi */
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
 .awe-font-reem-kufi { font-family: "Reem Kufi", sans-serif; }

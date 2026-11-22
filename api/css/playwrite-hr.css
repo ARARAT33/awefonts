@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-hr */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-hr/index.css");
-.awe-font-playwrite-hr { font-family: "Playwrite Hr", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-hr */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HR&display=swap");
+.awe-font-playwrite-hr { font-family: "Playwrite HR", sans-serif; }

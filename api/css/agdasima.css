@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: agdasima */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/agdasima/index.css");
+/* AWEFonts static CSS preset · google · agdasima */
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&display=swap");
 .awe-font-agdasima { font-family: "Agdasima", sans-serif; }

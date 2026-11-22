@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-sundanese */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sundanese/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-sundanese */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese&display=swap");
 .awe-font-noto-sans-sundanese { font-family: "Noto Sans Sundanese", sans-serif; }

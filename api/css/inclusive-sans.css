@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: inclusive-sans */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/inclusive-sans/index.css");
+/* AWEFonts static CSS preset · google · inclusive-sans */
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
 .awe-font-inclusive-sans { font-family: "Inclusive Sans", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: diphylleia */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/diphylleia/index.css");
+/* AWEFonts static CSS preset · google · diphylleia */
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
 .awe-font-diphylleia { font-family: "Diphylleia", sans-serif; }

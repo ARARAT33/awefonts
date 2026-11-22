@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: lemon */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/lemon/index.css");
+/* AWEFonts static CSS preset · google · lemon */
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
 .awe-font-lemon { font-family: "Lemon", sans-serif; }

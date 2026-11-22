@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-adlam-unjoined */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-adlam-unjoined/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-adlam-unjoined */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined&display=swap");
 .awe-font-noto-sans-adlam-unjoined { font-family: "Noto Sans Adlam Unjoined", sans-serif; }

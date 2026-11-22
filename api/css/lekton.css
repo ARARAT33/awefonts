@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: lekton */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/lekton/index.css");
+/* AWEFonts static CSS preset · google · lekton */
+@import url("https://fonts.googleapis.com/css2?family=Lekton&display=swap");
 .awe-font-lekton { font-family: "Lekton", sans-serif; }

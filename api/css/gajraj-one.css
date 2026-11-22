@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gajraj-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gajraj-one/index.css");
+/* AWEFonts static CSS preset · google · gajraj-one */
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
 .awe-font-gajraj-one { font-family: "Gajraj One", sans-serif; }

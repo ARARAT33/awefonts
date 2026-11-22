@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ballet */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ballet/index.css");
+/* AWEFonts static CSS preset · google · ballet */
+@import url("https://fonts.googleapis.com/css2?family=Ballet&display=swap");
 .awe-font-ballet { font-family: "Ballet", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: matemasie */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/matemasie/index.css");
+/* AWEFonts static CSS preset · google · matemasie */
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
 .awe-font-matemasie { font-family: "Matemasie", sans-serif; }

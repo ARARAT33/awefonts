@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: stalemate */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/stalemate/index.css");
+/* AWEFonts static CSS preset · google · stalemate */
+@import url("https://fonts.googleapis.com/css2?family=Stalemate&display=swap");
 .awe-font-stalemate { font-family: "Stalemate", sans-serif; }

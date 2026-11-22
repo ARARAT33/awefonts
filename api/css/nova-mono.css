@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: nova-mono */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/nova-mono/index.css");
+/* AWEFonts static CSS preset · google · nova-mono */
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
 .awe-font-nova-mono { font-family: "Nova Mono", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-sk */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-sk/index.css");
-.awe-font-playwrite-sk { font-family: "Playwrite Sk", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-sk */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+SK&display=swap");
+.awe-font-playwrite-sk { font-family: "Playwrite SK", sans-serif; }

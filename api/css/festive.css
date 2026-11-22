@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: festive */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/festive/index.css");
+/* AWEFonts static CSS preset · google · festive */
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
 .awe-font-festive { font-family: "Festive", sans-serif; }

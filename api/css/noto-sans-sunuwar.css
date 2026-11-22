@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-sunuwar */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sunuwar/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-sunuwar */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar&display=swap");
 .awe-font-noto-sans-sunuwar { font-family: "Noto Sans Sunuwar", sans-serif; }

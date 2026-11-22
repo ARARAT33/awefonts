@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: alkatra */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/alkatra/index.css");
+/* AWEFonts static CSS preset · google · alkatra */
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 .awe-font-alkatra { font-family: "Alkatra", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-osmanya */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-osmanya/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-osmanya */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap");
 .awe-font-noto-sans-osmanya { font-family: "Noto Sans Osmanya", sans-serif; }

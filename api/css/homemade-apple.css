@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: homemade-apple */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/homemade-apple/index.css");
+/* AWEFonts static CSS preset · google · homemade-apple */
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
 .awe-font-homemade-apple { font-family: "Homemade Apple", sans-serif; }

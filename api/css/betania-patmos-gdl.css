@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: betania-patmos-gdl */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/betania-patmos-gdl/index.css");
-.awe-font-betania-patmos-gdl { font-family: "Betania Patmos Gdl", sans-serif; }
+/* AWEFonts static CSS preset · google · betania-patmos-gdl */
+@import url("https://fonts.googleapis.com/css2?family=Betania+Patmos+GDL&display=swap");
+.awe-font-betania-patmos-gdl { font-family: "Betania Patmos GDL", sans-serif; }

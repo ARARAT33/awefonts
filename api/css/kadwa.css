@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: kadwa */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/kadwa/index.css");
+/* AWEFonts static CSS preset · google · kadwa */
+@import url("https://fonts.googleapis.com/css2?family=Kadwa&display=swap");
 .awe-font-kadwa { font-family: "Kadwa", sans-serif; }

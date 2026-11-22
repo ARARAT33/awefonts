@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: cutive-mono */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/cutive-mono/index.css");
+/* AWEFonts static CSS preset · google · cutive-mono */
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 .awe-font-cutive-mono { font-family: "Cutive Mono", sans-serif; }

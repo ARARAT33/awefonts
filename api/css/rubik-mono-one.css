@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rubik-mono-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rubik-mono-one/index.css");
+/* AWEFonts static CSS preset · google · rubik-mono-one */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 .awe-font-rubik-mono-one { font-family: "Rubik Mono One", sans-serif; }

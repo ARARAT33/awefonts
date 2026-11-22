@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-palmyrene */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-palmyrene/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-palmyrene */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Palmyrene&display=swap");
 .awe-font-noto-sans-palmyrene { font-family: "Noto Sans Palmyrene", sans-serif; }

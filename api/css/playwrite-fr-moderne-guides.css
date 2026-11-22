@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-fr-moderne-guides */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-fr-moderne-guides/index.css");
-.awe-font-playwrite-fr-moderne-guides { font-family: "Playwrite Fr Moderne Guides", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-fr-moderne-guides */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne+Guides&display=swap");
+.awe-font-playwrite-fr-moderne-guides { font-family: "Playwrite FR Moderne Guides", sans-serif; }

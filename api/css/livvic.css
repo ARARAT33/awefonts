@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: livvic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/livvic/index.css");
+/* AWEFonts static CSS preset · google · livvic */
+@import url("https://fonts.googleapis.com/css2?family=Livvic&display=swap");
 .awe-font-livvic { font-family: "Livvic", sans-serif; }

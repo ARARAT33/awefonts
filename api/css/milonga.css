@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: milonga */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/milonga/index.css");
+/* AWEFonts static CSS preset · google · milonga */
+@import url("https://fonts.googleapis.com/css2?family=Milonga&display=swap");
 .awe-font-milonga { font-family: "Milonga", sans-serif; }

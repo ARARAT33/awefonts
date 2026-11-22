@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: encode-sans-semi-condensed */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/encode-sans-semi-condensed/index.css");
+/* AWEFonts static CSS preset · google · encode-sans-semi-condensed */
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap");
 .awe-font-encode-sans-semi-condensed { font-family: "Encode Sans Semi Condensed", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gidugu */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gidugu/index.css");
+/* AWEFonts static CSS preset · google · gidugu */
+@import url("https://fonts.googleapis.com/css2?family=Gidugu&display=swap");
 .awe-font-gidugu { font-family: "Gidugu", sans-serif; }

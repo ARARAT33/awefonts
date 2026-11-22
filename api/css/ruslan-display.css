@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ruslan-display */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ruslan-display/index.css");
+/* AWEFonts static CSS preset · google · ruslan-display */
+@import url("https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap");
 .awe-font-ruslan-display { font-family: "Ruslan Display", sans-serif; }

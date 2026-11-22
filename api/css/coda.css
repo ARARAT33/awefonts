@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: coda */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/coda/index.css");
+/* AWEFonts static CSS preset · google · coda */
+@import url("https://fonts.googleapis.com/css2?family=Coda&display=swap");
 .awe-font-coda { font-family: "Coda", sans-serif; }

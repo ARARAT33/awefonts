@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: birthstone */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/birthstone/index.css");
+/* AWEFonts static CSS preset · google · birthstone */
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
 .awe-font-birthstone { font-family: "Birthstone", sans-serif; }

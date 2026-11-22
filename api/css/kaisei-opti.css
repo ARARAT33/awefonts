@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: kaisei-opti */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/kaisei-opti/index.css");
+/* AWEFonts static CSS preset · google · kaisei-opti */
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap");
 .awe-font-kaisei-opti { font-family: "Kaisei Opti", sans-serif; }

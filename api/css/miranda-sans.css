@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: miranda-sans */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/miranda-sans/index.css");
+/* AWEFonts static CSS preset · google · miranda-sans */
+@import url("https://fonts.googleapis.com/css2?family=Miranda+Sans&display=swap");
 .awe-font-miranda-sans { font-family: "Miranda Sans", sans-serif; }

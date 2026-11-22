@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: fontdiner-swanky */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/fontdiner-swanky/index.css");
+/* AWEFonts static CSS preset · google · fontdiner-swanky */
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap");
 .awe-font-fontdiner-swanky { font-family: "Fontdiner Swanky", sans-serif; }

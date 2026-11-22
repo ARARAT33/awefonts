@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: saira */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/saira/index.css");
+/* AWEFonts static CSS preset · google · saira */
+@import url("https://fonts.googleapis.com/css2?family=Saira&display=swap");
 .awe-font-saira { font-family: "Saira", sans-serif; }

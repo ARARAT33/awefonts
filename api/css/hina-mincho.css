@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: hina-mincho */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/hina-mincho/index.css");
+/* AWEFonts static CSS preset · google · hina-mincho */
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
 .awe-font-hina-mincho { font-family: "Hina Mincho", sans-serif; }

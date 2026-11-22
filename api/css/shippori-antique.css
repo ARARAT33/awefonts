@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: shippori-antique */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/shippori-antique/index.css");
+/* AWEFonts static CSS preset · google · shippori-antique */
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
 .awe-font-shippori-antique { font-family: "Shippori Antique", sans-serif; }

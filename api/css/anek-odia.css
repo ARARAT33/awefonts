@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: anek-odia */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/anek-odia/index.css");
+/* AWEFonts static CSS preset · google · anek-odia */
+@import url("https://fonts.googleapis.com/css2?family=Anek+Odia&display=swap");
 .awe-font-anek-odia { font-family: "Anek Odia", sans-serif; }

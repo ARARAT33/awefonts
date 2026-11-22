@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: alfa-slab-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/alfa-slab-one/index.css");
+/* AWEFonts static CSS preset · google · alfa-slab-one */
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 .awe-font-alfa-slab-one { font-family: "Alfa Slab One", sans-serif; }

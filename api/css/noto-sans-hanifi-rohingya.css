@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-hanifi-rohingya */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-hanifi-rohingya/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-hanifi-rohingya */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hanifi+Rohingya&display=swap");
 .awe-font-noto-sans-hanifi-rohingya { font-family: "Noto Sans Hanifi Rohingya", sans-serif; }

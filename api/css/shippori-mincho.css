@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: shippori-mincho */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/shippori-mincho/index.css");
+/* AWEFonts static CSS preset · google · shippori-mincho */
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap");
 .awe-font-shippori-mincho { font-family: "Shippori Mincho", sans-serif; }

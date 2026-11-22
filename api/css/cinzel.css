@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: cinzel */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/cinzel/index.css");
+/* AWEFonts static CSS preset · google · cinzel */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 .awe-font-cinzel { font-family: "Cinzel", sans-serif; }

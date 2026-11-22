@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gentium-book-plus */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gentium-book-plus/index.css");
+/* AWEFonts static CSS preset · google · gentium-book-plus */
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap");
 .awe-font-gentium-book-plus { font-family: "Gentium Book Plus", sans-serif; }

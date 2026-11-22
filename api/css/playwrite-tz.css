@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-tz */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-tz/index.css");
-.awe-font-playwrite-tz { font-family: "Playwrite Tz", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-tz */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+TZ&display=swap");
+.awe-font-playwrite-tz { font-family: "Playwrite TZ", sans-serif; }

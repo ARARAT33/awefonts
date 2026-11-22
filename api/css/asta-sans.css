@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: asta-sans */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/asta-sans/index.css");
+/* AWEFonts static CSS preset · google · asta-sans */
+@import url("https://fonts.googleapis.com/css2?family=Asta+Sans&display=swap");
 .awe-font-asta-sans { font-family: "Asta Sans", sans-serif; }

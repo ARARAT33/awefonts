@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: mali */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/mali/index.css");
+/* AWEFonts static CSS preset · google · mali */
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
 .awe-font-mali { font-family: "Mali", sans-serif; }

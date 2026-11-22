@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: atomic-age */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/atomic-age/index.css");
+/* AWEFonts static CSS preset · google · atomic-age */
+@import url("https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap");
 .awe-font-atomic-age { font-family: "Atomic Age", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: hind-guntur */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/hind-guntur/index.css");
+/* AWEFonts static CSS preset · google · hind-guntur */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap");
 .awe-font-hind-guntur { font-family: "Hind Guntur", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: marcellus */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/marcellus/index.css");
+/* AWEFonts static CSS preset · google · marcellus */
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
 .awe-font-marcellus { font-family: "Marcellus", sans-serif; }

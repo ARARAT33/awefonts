@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-syloti-nagri */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-syloti-nagri/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-syloti-nagri */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Syloti+Nagri&display=swap");
 .awe-font-noto-sans-syloti-nagri { font-family: "Noto Sans Syloti Nagri", sans-serif; }

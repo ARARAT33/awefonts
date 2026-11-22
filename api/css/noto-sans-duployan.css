@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-duployan */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-duployan/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-duployan */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Duployan&display=swap");
 .awe-font-noto-sans-duployan { font-family: "Noto Sans Duployan", sans-serif; }

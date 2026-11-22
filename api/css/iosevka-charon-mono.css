@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: iosevka-charon-mono */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka-charon-mono/index.css");
+/* AWEFonts static CSS preset · google · iosevka-charon-mono */
+@import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono&display=swap");
 .awe-font-iosevka-charon-mono { font-family: "Iosevka Charon Mono", sans-serif; }

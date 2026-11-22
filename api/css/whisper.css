@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: whisper */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/whisper/index.css");
+/* AWEFonts static CSS preset · google · whisper */
+@import url("https://fonts.googleapis.com/css2?family=Whisper&display=swap");
 .awe-font-whisper { font-family: "Whisper", sans-serif; }

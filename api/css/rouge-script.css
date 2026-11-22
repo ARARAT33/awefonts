@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: rouge-script */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/rouge-script/index.css");
+/* AWEFonts static CSS preset · google · rouge-script */
+@import url("https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap");
 .awe-font-rouge-script { font-family: "Rouge Script", sans-serif; }

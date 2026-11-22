@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: tektur */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/tektur/index.css");
+/* AWEFonts static CSS preset · google · tektur */
+@import url("https://fonts.googleapis.com/css2?family=Tektur&display=swap");
 .awe-font-tektur { font-family: "Tektur", sans-serif; }

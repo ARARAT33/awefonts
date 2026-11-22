@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-naskh-arabic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-naskh-arabic/index.css");
+/* AWEFonts static CSS preset · google · noto-naskh-arabic */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap");
 .awe-font-noto-naskh-arabic { font-family: "Noto Naskh Arabic", sans-serif; }

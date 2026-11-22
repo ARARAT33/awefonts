@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-mahajani */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-mahajani/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-mahajani */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mahajani&display=swap");
 .awe-font-noto-sans-mahajani { font-family: "Noto Sans Mahajani", sans-serif; }

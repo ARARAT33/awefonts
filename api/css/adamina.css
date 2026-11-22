@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: adamina */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/adamina/index.css");
+/* AWEFonts static CSS preset · google · adamina */
+@import url("https://fonts.googleapis.com/css2?family=Adamina&display=swap");
 .awe-font-adamina { font-family: "Adamina", sans-serif; }

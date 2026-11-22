@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: federo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/federo/index.css");
+/* AWEFonts static CSS preset · google · federo */
+@import url("https://fonts.googleapis.com/css2?family=Federo&display=swap");
 .awe-font-federo { font-family: "Federo", sans-serif; }

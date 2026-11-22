@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-display */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-display/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-display */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap");
 .awe-font-noto-sans-display { font-family: "Noto Sans Display", sans-serif; }

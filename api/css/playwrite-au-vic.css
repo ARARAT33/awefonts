@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: playwrite-au-vic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/playwrite-au-vic/index.css");
-.awe-font-playwrite-au-vic { font-family: "Playwrite Au Vic", sans-serif; }
+/* AWEFonts static CSS preset · google · playwrite-au-vic */
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC&display=swap");
+.awe-font-playwrite-au-vic { font-family: "Playwrite AU VIC", sans-serif; }

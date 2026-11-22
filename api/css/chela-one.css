@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: chela-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/chela-one/index.css");
+/* AWEFonts static CSS preset · google · chela-one */
+@import url("https://fonts.googleapis.com/css2?family=Chela+One&display=swap");
 .awe-font-chela-one { font-family: "Chela One", sans-serif; }

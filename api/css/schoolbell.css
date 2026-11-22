@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: schoolbell */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/schoolbell/index.css");
+/* AWEFonts static CSS preset · google · schoolbell */
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 .awe-font-schoolbell { font-family: "Schoolbell", sans-serif; }

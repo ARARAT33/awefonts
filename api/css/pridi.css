@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: pridi */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/pridi/index.css");
+/* AWEFonts static CSS preset · google · pridi */
+@import url("https://fonts.googleapis.com/css2?family=Pridi&display=swap");
 .awe-font-pridi { font-family: "Pridi", sans-serif; }

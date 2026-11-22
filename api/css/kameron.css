@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: kameron */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/kameron/index.css");
+/* AWEFonts static CSS preset · google · kameron */
+@import url("https://fonts.googleapis.com/css2?family=Kameron&display=swap");
 .awe-font-kameron { font-family: "Kameron", sans-serif; }

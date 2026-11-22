@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-limbu */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-limbu/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-limbu */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Limbu&display=swap");
 .awe-font-noto-sans-limbu { font-family: "Noto Sans Limbu", sans-serif; }

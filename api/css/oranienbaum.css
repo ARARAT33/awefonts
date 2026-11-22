@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: oranienbaum */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/oranienbaum/index.css");
+/* AWEFonts static CSS preset · google · oranienbaum */
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
 .awe-font-oranienbaum { font-family: "Oranienbaum", sans-serif; }

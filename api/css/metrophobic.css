@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: metrophobic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/metrophobic/index.css");
+/* AWEFonts static CSS preset · google · metrophobic */
+@import url("https://fonts.googleapis.com/css2?family=Metrophobic&display=swap");
 .awe-font-metrophobic { font-family: "Metrophobic", sans-serif; }

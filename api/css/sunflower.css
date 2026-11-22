@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: sunflower */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/sunflower/index.css");
+/* AWEFonts static CSS preset · google · sunflower */
+@import url("https://fonts.googleapis.com/css2?family=Sunflower&display=swap");
 .awe-font-sunflower { font-family: "Sunflower", sans-serif; }

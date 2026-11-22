@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: handlee */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/handlee/index.css");
+/* AWEFonts static CSS preset · google · handlee */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
 .awe-font-handlee { font-family: "Handlee", sans-serif; }

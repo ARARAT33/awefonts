@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: farro */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/farro/index.css");
+/* AWEFonts static CSS preset · google · farro */
+@import url("https://fonts.googleapis.com/css2?family=Farro&display=swap");
 .awe-font-farro { font-family: "Farro", sans-serif; }

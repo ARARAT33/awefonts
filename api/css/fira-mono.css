@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: fira-mono */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/fira-mono/index.css");
+/* AWEFonts static CSS preset · google · fira-mono */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
 .awe-font-fira-mono { font-family: "Fira Mono", sans-serif; }

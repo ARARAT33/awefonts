@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: sedgwick-ave */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/sedgwick-ave/index.css");
+/* AWEFonts static CSS preset · google · sedgwick-ave */
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
 .awe-font-sedgwick-ave { font-family: "Sedgwick Ave", sans-serif; }

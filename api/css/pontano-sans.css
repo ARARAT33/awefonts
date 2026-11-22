@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: pontano-sans */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/pontano-sans/index.css");
+/* AWEFonts static CSS preset · google · pontano-sans */
+@import url("https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap");
 .awe-font-pontano-sans { font-family: "Pontano Sans", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: kranky */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/kranky/index.css");
+/* AWEFonts static CSS preset · google · kranky */
+@import url("https://fonts.googleapis.com/css2?family=Kranky&display=swap");
 .awe-font-kranky { font-family: "Kranky", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: caesar-dressing */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/caesar-dressing/index.css");
+/* AWEFonts static CSS preset · google · caesar-dressing */
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
 .awe-font-caesar-dressing { font-family: "Caesar Dressing", sans-serif; }

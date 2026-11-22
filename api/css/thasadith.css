@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: thasadith */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/thasadith/index.css");
+/* AWEFonts static CSS preset · google · thasadith */
+@import url("https://fonts.googleapis.com/css2?family=Thasadith&display=swap");
 .awe-font-thasadith { font-family: "Thasadith", sans-serif; }

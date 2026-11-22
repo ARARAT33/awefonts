@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: glass-antiqua */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/glass-antiqua/index.css");
+/* AWEFonts static CSS preset · google · glass-antiqua */
+@import url("https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap");
 .awe-font-glass-antiqua { font-family: "Glass Antiqua", sans-serif; }

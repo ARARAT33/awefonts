@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: stick */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/stick/index.css");
+/* AWEFonts static CSS preset · google · stick */
+@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
 .awe-font-stick { font-family: "Stick", sans-serif; }

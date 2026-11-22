@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: grape-nuts */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/grape-nuts/index.css");
+/* AWEFonts static CSS preset · google · grape-nuts */
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
 .awe-font-grape-nuts { font-family: "Grape Nuts", sans-serif; }

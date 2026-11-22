@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: nova-slim */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/nova-slim/index.css");
+/* AWEFonts static CSS preset · google · nova-slim */
+@import url("https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap");
 .awe-font-nova-slim { font-family: "Nova Slim", sans-serif; }

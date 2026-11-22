@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: black-ops-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/black-ops-one/index.css");
+/* AWEFonts static CSS preset · google · black-ops-one */
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 .awe-font-black-ops-one { font-family: "Black Ops One", sans-serif; }

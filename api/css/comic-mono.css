@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: comic-mono */
+/* AWEFonts static CSS preset · fontsource · comic-mono */
 @import url("https://cdn.jsdelivr.net/npm/@fontsource/comic-mono/index.css");
 .awe-font-comic-mono { font-family: "Comic Mono", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ranga */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ranga/index.css");
+/* AWEFonts static CSS preset · google · ranga */
+@import url("https://fonts.googleapis.com/css2?family=Ranga&display=swap");
 .awe-font-ranga { font-family: "Ranga", sans-serif; }

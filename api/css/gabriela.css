@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: gabriela */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/gabriela/index.css");
+/* AWEFonts static CSS preset · google · gabriela */
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
 .awe-font-gabriela { font-family: "Gabriela", sans-serif; }

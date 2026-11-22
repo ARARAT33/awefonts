@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: radio-canada */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/radio-canada/index.css");
+/* AWEFonts static CSS preset · google · radio-canada */
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
 .awe-font-radio-canada { font-family: "Radio Canada", sans-serif; }

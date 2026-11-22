@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: caprasimo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/caprasimo/index.css");
+/* AWEFonts static CSS preset · google · caprasimo */
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
 .awe-font-caprasimo { font-family: "Caprasimo", sans-serif; }

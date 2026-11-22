@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: meow-script */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/meow-script/index.css");
+/* AWEFonts static CSS preset · google · meow-script */
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
 .awe-font-meow-script { font-family: "Meow Script", sans-serif; }

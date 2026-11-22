@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: labrada */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/labrada/index.css");
+/* AWEFonts static CSS preset · google · labrada */
+@import url("https://fonts.googleapis.com/css2?family=Labrada&display=swap");
 .awe-font-labrada { font-family: "Labrada", sans-serif; }

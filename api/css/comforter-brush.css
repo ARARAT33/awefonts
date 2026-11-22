@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: comforter-brush */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/comforter-brush/index.css");
+/* AWEFonts static CSS preset · google · comforter-brush */
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
 .awe-font-comforter-brush { font-family: "Comforter Brush", sans-serif; }

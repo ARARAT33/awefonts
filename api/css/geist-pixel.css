@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: geist-pixel */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/geist-pixel/index.css");
+/* AWEFonts static CSS preset · google · geist-pixel */
+@import url("https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap");
 .awe-font-geist-pixel { font-family: "Geist Pixel", sans-serif; }

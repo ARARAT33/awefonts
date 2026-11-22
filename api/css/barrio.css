@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: barrio */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/barrio/index.css");
+/* AWEFonts static CSS preset · google · barrio */
+@import url("https://fonts.googleapis.com/css2?family=Barrio&display=swap");
 .awe-font-barrio { font-family: "Barrio", sans-serif; }

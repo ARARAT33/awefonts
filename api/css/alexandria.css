@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: alexandria */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/alexandria/index.css");
+/* AWEFonts static CSS preset · google · alexandria */
+@import url("https://fonts.googleapis.com/css2?family=Alexandria&display=swap");
 .awe-font-alexandria { font-family: "Alexandria", sans-serif; }

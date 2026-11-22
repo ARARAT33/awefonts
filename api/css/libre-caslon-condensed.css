@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: libre-caslon-condensed */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/libre-caslon-condensed/index.css");
+/* AWEFonts static CSS preset · google · libre-caslon-condensed */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed&display=swap");
 .awe-font-libre-caslon-condensed { font-family: "Libre Caslon Condensed", sans-serif; }

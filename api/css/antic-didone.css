@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: antic-didone */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/antic-didone/index.css");
+/* AWEFonts static CSS preset · google · antic-didone */
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
 .awe-font-antic-didone { font-family: "Antic Didone", sans-serif; }

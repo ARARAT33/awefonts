@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-serif-lao */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-lao/index.css");
+/* AWEFonts static CSS preset · google · noto-serif-lao */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Lao&display=swap");
 .awe-font-noto-serif-lao { font-family: "Noto Serif Lao", sans-serif; }

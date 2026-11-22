@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: sirivennela */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/sirivennela/index.css");
+/* AWEFonts static CSS preset · google · sirivennela */
+@import url("https://fonts.googleapis.com/css2?family=Sirivennela&display=swap");
 .awe-font-sirivennela { font-family: "Sirivennela", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: baloo-2 */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/baloo-2/index.css");
+/* AWEFonts static CSS preset · google · baloo-2 */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 .awe-font-baloo-2 { font-family: "Baloo 2", sans-serif; }

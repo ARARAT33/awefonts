@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: bree-serif */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/bree-serif/index.css");
+/* AWEFonts static CSS preset · google · bree-serif */
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 .awe-font-bree-serif { font-family: "Bree Serif", sans-serif; }

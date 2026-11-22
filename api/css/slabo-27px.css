@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: slabo-27px */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/slabo-27px/index.css");
+/* AWEFonts static CSS preset · google · slabo-27px */
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
 .awe-font-slabo-27px { font-family: "Slabo 27px", sans-serif; }

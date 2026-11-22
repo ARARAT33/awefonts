@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: homenaje */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/homenaje/index.css");
+/* AWEFonts static CSS preset · google · homenaje */
+@import url("https://fonts.googleapis.com/css2?family=Homenaje&display=swap");
 .awe-font-homenaje { font-family: "Homenaje", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: scada */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/scada/index.css");
+/* AWEFonts static CSS preset · google · scada */
+@import url("https://fonts.googleapis.com/css2?family=Scada&display=swap");
 .awe-font-scada { font-family: "Scada", sans-serif; }

@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: amiri-quran */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/amiri-quran/index.css");
+/* AWEFonts static CSS preset · google · amiri-quran */
+@import url("https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap");
 .awe-font-amiri-quran { font-family: "Amiri Quran", sans-serif; }

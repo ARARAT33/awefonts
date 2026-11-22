@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: revalia */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/revalia/index.css");
+/* AWEFonts static CSS preset · google · revalia */
+@import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
 .awe-font-revalia { font-family: "Revalia", sans-serif; }

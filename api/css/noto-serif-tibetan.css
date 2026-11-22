@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-serif-tibetan */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-serif-tibetan/index.css");
+/* AWEFonts static CSS preset · google · noto-serif-tibetan */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan&display=swap");
 .awe-font-noto-serif-tibetan { font-family: "Noto Serif Tibetan", sans-serif; }

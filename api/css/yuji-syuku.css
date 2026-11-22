@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: yuji-syuku */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/yuji-syuku/index.css");
+/* AWEFonts static CSS preset · google · yuji-syuku */
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap");
 .awe-font-yuji-syuku { font-family: "Yuji Syuku", sans-serif; }

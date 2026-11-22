@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: biz-udpgothic */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/biz-udpgothic/index.css");
-.awe-font-biz-udpgothic { font-family: "Biz Udpgothic", sans-serif; }
+/* AWEFonts static CSS preset · google · biz-udpgothic */
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap");
+.awe-font-biz-udpgothic { font-family: "BIZ UDPGothic", sans-serif; }

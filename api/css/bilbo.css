@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: bilbo */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/bilbo/index.css");
+/* AWEFonts static CSS preset · google · bilbo */
+@import url("https://fonts.googleapis.com/css2?family=Bilbo&display=swap");
 .awe-font-bilbo { font-family: "Bilbo", sans-serif; }

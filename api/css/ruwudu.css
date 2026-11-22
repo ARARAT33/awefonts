@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: ruwudu */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/ruwudu/index.css");
+/* AWEFonts static CSS preset · google · ruwudu */
+@import url("https://fonts.googleapis.com/css2?family=Ruwudu&display=swap");
 .awe-font-ruwudu { font-family: "Ruwudu", sans-serif; }

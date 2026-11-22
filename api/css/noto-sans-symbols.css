@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: noto-sans-symbols */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-symbols/index.css");
+/* AWEFonts static CSS preset · google · noto-sans-symbols */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&display=swap");
 .awe-font-noto-sans-symbols { font-family: "Noto Sans Symbols", sans-serif; }

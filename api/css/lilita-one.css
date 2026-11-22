@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: lilita-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/lilita-one/index.css");
+/* AWEFonts static CSS preset · google · lilita-one */
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
 .awe-font-lilita-one { font-family: "Lilita One", sans-serif; }

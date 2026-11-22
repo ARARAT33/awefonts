@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: poller-one */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/poller-one/index.css");
+/* AWEFonts static CSS preset · google · poller-one */
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
 .awe-font-poller-one { font-family: "Poller One", sans-serif; }

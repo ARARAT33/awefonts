@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset: blaka-hollow */
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/blaka-hollow/index.css");
+/* AWEFonts static CSS preset · google · blaka-hollow */
+@import url("https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap");
 .awe-font-blaka-hollow { font-family: "Blaka Hollow", sans-serif; }
