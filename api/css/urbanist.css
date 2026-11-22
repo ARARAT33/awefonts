@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset for Urbanist. Font binaries are served by Google Fonts. */
+/* AWEFonts static CSS preset for Urbanist. Google Fonts serves font binaries. */
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap");
 :root { --awe-font-urbanist: "Urbanist", sans-serif; }
