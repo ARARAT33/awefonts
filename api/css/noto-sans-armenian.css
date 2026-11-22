@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset for Noto Sans Armenian. Font binaries are served by Google Fonts. */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wght@400;700&display=swap");
+:root { --awe-font-noto-sans-armenian: "Noto Sans Armenian", sans-serif; }
