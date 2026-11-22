@@ -1,101 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#090d16">
-  <meta name="description" content="AWEFonts — discover, preview and use fonts. A static font library and local font studio for creators and developers.">
-  <title>AWEFonts — Type, without limits</title>
-  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="/assets/styles.css?v=3">
-  <script defer src="https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js"></script>
-  <script defer src="/assets/app.js?v=3"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f9ff"><meta name="description" content="AWEFonts — a worldwide font library with real previews, font details, local font creation and developer tools.">
+<title>AWEFonts — Discover every typeface</title>
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="/assets/styles.css?v=4">
+<script defer src="https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js"></script>
+<script defer src="/assets/app.js?v=4"></script>
 </head>
 <body>
-  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
-  <header class="topbar">
-    <a class="brand" href="#" aria-label="AWEFonts home"><span class="brand-mark">A</span><span>AWE<span class="brand-light">FONTS</span></span></a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#library" class="nav-link active" data-view="library">Explore</a>
-      <a href="#studio" class="nav-link" data-view="studio">Font Studio <span class="new-tag">LOCAL</span></a>
-      <a href="#developers" class="nav-link" data-view="developers">Developers</a>
-    </nav>
-    <div class="top-actions"><span class="status-dot"></span><span class="status-label">STATIC · OPEN</span><button class="icon-button" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">◐</button></div>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="eyebrow-line"></span> THE OPEN TYPE LIBRARY</div>
-        <h1>Find your<br><span class="gradient-text">type.</span></h1>
-        <p class="hero-lead">A universe of typefaces for every language, interface and idea. Explore, test and take your typography anywhere.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#library">Explore fonts <span>↗</span></a><a class="button button-quiet" href="#studio">Create a font <span>✳</span></a></div>
-        <div class="hero-meta"><div><strong id="fontCount">—</strong><span>curated families</span></div><i></i><div><strong>Local-first</strong><span>private font studio</span></div><i></i><div><strong>Free</strong><span>open-source focus</span></div></div>
-      </div>
-      <div class="hero-art" aria-label="Typography specimen">
-        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
-        <div class="specimen-card"><div class="specimen-top"><span>TYPE / 001</span><span>AWF—2026</span></div><div class="specimen-big">Aa</div><div class="specimen-name">The shape<br>of language.</div><div class="specimen-bottom"><span>ABCDEFGHIJKLMNOPQRSTUVWXYZ</span><span>0123456789</span></div></div>
-        <div class="floating-chip chip-one">Aa <span>Serif</span></div><div class="floating-chip chip-two">Աբ <span>Armenian</span></div><div class="floating-chip chip-three">01 <span>Variable</span></div>
-      </div>
-    </section>
-
-    <section class="section library-section" id="library">
-      <div class="section-heading"><div><div class="eyebrow">01 / DISCOVER</div><h2>Type library<span class="accent-dot">.</span></h2><p>Find a voice for every project.</p></div><div class="library-count"><span id="visibleCount">0</span> FAMILIES</div></div>
-      <div class="toolbar">
-        <label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Search fonts, styles, languages…" autocomplete="off"><kbd>/</kbd></label>
-        <select id="categoryFilter" aria-label="Filter by category"><option value="all">All styles</option><option value="sans-serif">Sans serif</option><option value="serif">Serif</option><option value="display">Display</option><option value="monospace">Monospace</option><option value="handwriting">Handwriting</option></select>
-        <select id="languageFilter" aria-label="Filter by language"><option value="all">All languages</option><option value="latin">Latin</option><option value="armenian">Armenian</option><option value="cyrillic">Cyrillic</option><option value="greek">Greek</option><option value="arabic">Arabic</option><option value="hebrew">Hebrew</option><option value="vietnamese">Vietnamese</option></select>
-        <button class="filter-button" id="favoritesFilter" aria-pressed="false">♡ Saved</button>
-      </div>
-      <div class="preview-control"><label for="previewText">LIVE PREVIEW</label><input id="previewText" value="The quick brown fox jumps over the lazy dog." maxlength="100"><button id="resetPreview" title="Reset preview">↺</button><span class="preview-size"><input id="previewSize" type="range" min="18" max="48" value="30" aria-label="Preview size"><b id="previewSizeValue">30px</b></span></div>
-      <div class="font-grid" id="fontGrid" aria-live="polite"><div class="loading-state">Loading the type library…</div></div>
-      <div class="empty-state hidden" id="emptyState"><div>∅</div><h3>No typefaces found</h3><p>Try another search or clear your filters.</p><button class="button button-quiet" id="clearFilters">Clear filters</button></div>
-      <div class="load-more-wrap"><button class="button button-quiet" id="loadMore">Load more typefaces <span>↓</span></button></div>
-      <p class="source-note">Catalog entries link to Google Fonts for live font delivery. Always check each font's license before commercial use.</p>
-    </section>
-
-    <section class="section studio-section" id="studio">
-      <div class="section-heading"><div><div class="eyebrow">02 / MAKE</div><h2>Your type lab<span class="accent-dot">.</span></h2><p>Draw a pixel typeface. Your work stays on this device.</p></div><span class="local-pill"><span class="status-dot"></span> LOCAL ONLY</span></div>
-      <div class="studio-layout">
-        <aside class="studio-sidebar">
-          <div class="panel-label">YOUR TYPEFACE</div>
-          <label class="field-label">Family name<input id="fontFamilyName" value="My Pixel Font" maxlength="32"></label>
-          <label class="field-label">Style name<select id="fontStyleName"><option>Regular</option><option>Bold</option><option>Light</option><option>Black</option></select></label>
-          <div class="panel-divider"></div>
-          <div class="panel-label">GLYPH SET</div>
-          <div class="glyph-tabs"><button class="glyph-tab active" data-set="basic">Basic Latin</button><button class="glyph-tab" data-set="armenian">Armenian</button><button class="glyph-tab" data-set="numbers">Numbers</button></div>
-          <div class="glyph-list" id="glyphList"></div>
-          <div class="panel-divider"></div>
-          <div class="studio-actions"><button class="button button-primary full" id="exportFont">Export .TTF <span>↓</span></button><button class="button button-quiet full" id="saveDraft">Save local draft</button><button class="text-button" id="clearGlyph">Clear current glyph</button></div>
-          <p class="tiny-note">Drafts are stored in this browser only. Exported fonts are yours to keep. No upload or public publishing is available in this static version.</p>
-        </aside>
-        <div class="editor-main">
-          <div class="editor-toolbar"><div><span class="panel-label">GLYPH EDITOR</span><strong id="currentGlyphLabel">A / U+0041</strong></div><div class="editor-tools"><button class="tool-button active" id="drawTool" title="Draw pixels">✎ Draw</button><button class="tool-button" id="eraseTool" title="Erase pixels">⌫ Erase</button><button class="tool-button" id="gridToggle" title="Toggle grid">▦ Grid</button></div></div>
-          <div class="canvas-wrap"><div class="canvas-ruler"><span>24</span><span>16</span><span>0</span></div><div id="pixelCanvas" class="pixel-canvas" role="grid" aria-label="Pixel glyph editor"></div></div>
-          <div class="editor-footer"><span>16 × 24 PIXEL GRID</span><span>Click or drag to draw · Select a character to edit</span><span id="pixelCount">0 PIXELS</span></div>
-          <div class="preview-panel"><div class="panel-label">TYPE SPECIMEN</div><div class="made-preview" id="madePreview">Aa Bb 0123</div><div class="preview-caption">Live preview of your current glyph set</div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section developer-section" id="developers">
-      <div class="section-heading"><div><div class="eyebrow">03 / BUILD</div><h2>Made for the web<span class="accent-dot">.</span></h2><p>Use the catalog and static CSS assets in your own projects.</p></div></div>
-      <div class="dev-grid">
-        <article class="dev-card dev-main"><div class="dev-card-top"><span class="panel-label">QUICK START</span><span class="code-badge">CSS</span></div><h3>One link.<br>Better typography.</h3><p>Use AWEFonts static CSS presets directly. The API serves CSS files; Google Fonts delivers the underlying font binaries.</p><div class="code-window"><div class="code-window-top"><span>HTML</span><button class="copy-button" id="quickstartCopy" data-copy="quickstart">Copy</button></div><pre id="quickstartCode">&lt;link rel="stylesheet" href="https://fonts.api.aweconnect.dpdns.org/api/css/roboto.css"&gt;
-
-&lt;style&gt;
-  body { font-family: "Roboto", sans-serif; }
-&lt;/style&gt;</pre></div></article>
-        <article class="dev-card"><div class="dev-card-top"><span class="panel-label">STATIC CATALOG</span><span class="code-badge">JSON</span></div><div class="dev-icon">⌘</div><h3>Browse by data.</h3><p>Fetch the bundled catalog JSON from the AWEFonts static site. No key, account or backend required.</p><a class="inline-link" href="/api/v1/fonts.json" target="_blank" rel="noopener">Open catalog JSON ↗</a><div class="mini-code">GET /api/v1/fonts.json</div></article>
-        <article class="dev-card"><div class="dev-card-top"><span class="panel-label">STATIC CSS</span><span class="code-badge">CDN</span></div><div class="dev-icon">↗</div><h3>Use a hosted snippet.</h3><p>All catalog families have a static CSS preset on AWEFonts API. Google Fonts serves the underlying font files.</p><a class="inline-link" href="/api/css/roboto.css" target="_blank" rel="noopener">View Roboto CSS ↗</a><div class="mini-code">/api/css/{family}.css</div></article>
-      </div>
-      <div class="api-note"><div class="api-note-icon">i</div><div><strong>About the API domain</strong><p>The API hostname is intended to serve the same static catalog and CSS files. Static hosting cannot generate arbitrary on-demand responses, accept font uploads, or publish user-created fonts. Those features require a backend, which this version deliberately does not use.</p></div></div>
-    </section>
-  </main>
-
-  <footer class="footer"><a class="brand" href="#"><span class="brand-mark">A</span><span>AWE<span class="brand-light">FONTS</span></span></a><span>TYPE IS FOR EVERYONE.</span><div><a href="#library">Explore</a><a href="#studio">Font Studio</a><a href="#developers">Developers</a><a href="https://github.com/ARARAT33/awefonts" target="_blank" rel="noopener">GitHub ↗</a></div></footer>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-</body>
-</html>
+<header class="topbar"><a class="brand" href="#home"><span class="brand-mark">A</span><span>AWE<span class="brand-light">FONTS</span></span></a>
+<nav class="main-nav"><a class="nav-link active" href="#library" data-nav="library">Fonts</a><a class="nav-link" href="#studio" data-nav="studio">Font Studio</a><a class="nav-link" href="#sources" data-nav="sources">Sources</a><a class="nav-link" href="#developers" data-nav="developers">Developers</a></nav>
+<div class="top-actions"><span class="status-pill"><i></i> OPEN LIBRARY</span><button class="icon-button" id="themeToggle" aria-label="Toggle theme">◐</button></div></header>
+<main id="appMain">
+<section class="hero" id="home"><div class="hero-copy"><div class="eyebrow"><span></span> A WORLDWIDE TYPOGRAPHY LIBRARY</div><h1>Every voice.<br><em>Every type.</em></h1><p class="hero-lead">Discover, compare and use typefaces from across the world. Explore thousands of real font families with live previews in their actual typefaces.</p>
+<div class="hero-actions"><a class="button button-primary" href="#library">Explore the library <b>↗</b></a><a class="button button-soft" href="#studio">Create your font <b>✳</b></a></div>
+<div class="hero-stats"><div><strong id="fontCount">2,000+</strong><span>font families</span></div><i></i><div><strong>Worldwide</strong><span>scripts & languages</span></div><i></i><div><strong>Local-first</strong><span>private font studio</span></div></div></div>
+<div class="hero-showcase"><div class="showcase-top"><span>TYPE SPECIMEN / 001</span><span>AWF—2026</span></div><div class="showcase-letters">Aa</div><div class="showcase-title">The shape<br>of language.</div><div class="showcase-bottom"><span>LATIN · CYRILLIC · ARABIC · CJK</span><span>01—09</span></div><div class="showcase-float float-a">Aa <small>Serif</small></div><div class="showcase-float float-b">あ <small>Japanese</small></div><div class="showcase-float float-c">ع <small>Arabic</small></div></div></section>
+<section class="section library-section" id="library"><div class="section-heading"><div><div class="eyebrow">01 / DISCOVER</div><h2>Find your type<span>.</span></h2><p>Search thousands of families. Preview the actual font, then open its full specimen page.</p></div><div class="library-count"><b id="visibleCount">—</b><span>FAMILIES</span></div></div>
+<div class="toolbar"><label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Search by font, language, designer or style…" autocomplete="off"><kbd>/</kbd></label>
+<select id="categoryFilter"><option value="all">All styles</option><option value="sans-serif">Sans serif</option><option value="serif">Serif</option><option value="display">Display</option><option value="monospace">Monospace</option><option value="handwriting">Handwriting</option></select>
+<select id="languageFilter"><option value="all">All scripts & languages</option></select>
+<select id="sourceFilter"><option value="all">All sources</option><option value="google">Google Fonts</option><option value="fontsource">Fontsource</option></select>
+<button class="filter-button" id="favoritesFilter" aria-pressed="false">♡ Saved</button></div>
+<div class="preview-control"><label for="previewText">PREVIEW TEXT</label><input id="previewText" value="The quick brown fox jumps over the lazy dog." maxlength="120"><button id="resetPreview" title="Reset preview">↺</button><span class="preview-size"><input id="previewSize" type="range" min="18" max="54" value="30"><b id="previewSizeValue">30px</b></span></div>
+<div class="font-grid" id="fontGrid"><div class="loading-state">Loading the worldwide catalog…</div></div><div class="empty-state hidden" id="emptyState"><h3>No typefaces found</h3><p>Try another search or clear your filters.</p><button class="button button-soft" id="clearFilters">Clear filters</button></div><div class="load-more-wrap"><button class="button button-soft" id="loadMore">Load more typefaces ↓</button></div>
+<p class="source-note">Live previews load the real upstream font files. Availability, weights, language coverage and licensing depend on each provider.</p></section>
+<section class="detail-section hidden" id="fontDetail"><div class="detail-back"><a href="#library">← Back to all fonts</a><span id="detailSource"></span></div><div class="detail-heading"><div><div class="eyebrow">FONT SPECIMEN</div><h2 id="detailName">Font family</h2><p id="detailMeta"></p></div><div class="detail-actions"><button class="button button-soft" id="detailFavorite">♡ Save</button><a class="button button-primary" id="detailDownload" target="_blank" rel="noopener">Get font ↗</a></div></div>
+<div class="detail-specimen"><div class="specimen-label">LIVE TYPE SPECIMEN <span id="detailWeightLabel">REGULAR · 400</span></div><textarea id="detailPreview" rows="3">The quick brown fox jumps over the lazy dog.</textarea><div class="detail-controls"><label>Size <input id="detailSize" type="range" min="20" max="120" value="64"><b id="detailSizeValue">64px</b></label><label>Weight <select id="detailWeight"></select></label><label>Line height <input id="detailLine" type="range" min="80" max="180" value="115"><b id="detailLineValue">1.15</b></label></div></div>
+<div class="detail-columns"><article class="detail-panel"><h3>Character set</h3><div id="detailGlyphs" class="detail-glyphs">Aa Bb Cc 0123456789</div></article><article class="detail-panel"><h3>Family information</h3><dl id="detailFacts"></dl></article><article class="detail-panel"><h3>Use this font</h3><p>Use the provider stylesheet to load the actual font files in your project.</p><pre id="detailCode"></pre><button class="button button-soft" id="copyDetailCode">Copy CSS snippet</button></article></div>
+<div class="detail-provider"><span>UPSTREAM SPECIMEN</span><a id="detailProvider" target="_blank" rel="noopener">Open provider page ↗</a></div></section>
+<section class="section studio-section" id="studio"><div class="section-heading"><div><div class="eyebrow">02 / CREATE</div><h2>Font Studio<span>.</span></h2><p>Build a typeface locally. Your drawings and source images never leave this device.</p></div><span class="local-pill"><i></i> LOCAL ONLY</span></div>
+<div class="studio-layout"><aside class="studio-sidebar"><div class="panel-label">YOUR TYPEFACE</div><label class="field-label">Family name<input id="fontFamilyName" value="My Pixel Font" maxlength="32"></label><label class="field-label">Style<select id="fontStyleName"><option>Regular</option><option>Bold</option><option>Light</option><option>Black</option></select></label><div class="panel-divider"></div><div class="panel-label">GLYPH SET</div><div class="glyph-tabs"><button class="glyph-tab active" data-set="basic">Latin</button><button class="glyph-tab" data-set="armenian">Armenian</button><button class="glyph-tab" data-set="numbers">Numbers</button></div><div class="glyph-list" id="glyphList"></div><div class="panel-divider"></div><label class="field-label">Import reference image <input type="file" id="glyphImage" accept="image/png,image/jpeg,image/webp"></label><p class="tiny-note">Image is processed in your browser only. Use a clear, high-contrast glyph image.</p><div class="studio-actions"><button class="button button-primary full" id="exportFont">Export .TTF ↓</button><button class="button button-soft full" id="saveDraft">Save local draft</button><button class="text-button" id="clearGlyph">Clear current glyph</button></div><p class="tiny-note">No upload, account, server or public publishing. Drafts remain in this browser.</p></aside>
+<div class="editor-main"><div class="editor-toolbar"><div><span class="panel-label">GLYPH EDITOR</span><strong id="currentGlyphLabel">A / U+0041</strong></div><div class="editor-tools"><button class="tool-button active" id="drawTool">✎ Draw</button><button class="tool-button" id="eraseTool">⌫ Erase</button><button class="tool-button active" id="gridToggle">▦ Grid</button></div></div><div class="canvas-wrap"><div class="canvas-ruler"><span>24</span><span>16</span><span>0</span></div><div id="pixelCanvas" class="pixel-canvas" role="grid"></div></div><div class="editor-footer"><span>16 × 24 GRID</span><span>Click or drag to draw · Select a character</span><span id="pixelCount">0 PIXELS</span></div><div class="preview-panel"><div class="panel-label">TYPE SPECIMEN</div><div class="made-preview" id="madePreview">Aa Bb 0123</div></div></div></div></section>
+<section class="section sources-section" id="sources"><div class="section-heading"><div><div class="eyebrow">03 / EXPLORE THE WORLD</div><h2>Sources & foundries<span>.</span></h2><p>Explore independent type foundries, archives, regional collections and professional marketplaces.</p></div><div class="library-count"><b id="sourceCount">60+</b><span>PROVIDERS</span></div></div><div class="source-groups" id="sourceGroups"></div></section>
+<section class="section developer-section" id="developers"><div class="section-heading"><div><div class="eyebrow">04 / BUILD</div><h2>For developers<span>.</span></h2><p>Static endpoints, easy embedding and no API key.</p></div></div><div class="dev-grid"><article class="dev-card dev-main"><div class="panel-label">QUICK START · CSS</div><h3>One link.<br>Better typography.</h3><p>Load a font from the AWEFonts static API. The stylesheet references the real upstream font files.</p><pre id="quickstartCode">&lt;link rel="stylesheet" href="https://fonts.api.aweconnect.dpdns.org/api/css/inter.css"&gt;
+&lt;style&gt;body { font-family: "Inter", sans-serif; }&lt;/style&gt;</pre><button class="button button-soft" id="quickstartCopy">Copy snippet</button></article><article class="dev-card"><div class="panel-label">FULL CATALOG · JSON</div><h3>Browse by data.</h3><p>All indexed families, provider metadata, scripts, weights and source links.</p><a class="inline-link" href="/api/v1/catalog.json" target="_blank">Open catalog JSON ↗</a><div class="mini-code">GET /api/v1/catalog.json</div></article><article class="dev-card"><div class="panel-label">STATIC CSS · CDN</div><h3>Use a hosted snippet.</h3><p>Static per-family stylesheets. Font binaries are delivered by the upstream provider.</p><a class="inline-link" href="/api/css/inter.css" target="_blank">View Inter CSS ↗</a><div class="mini-code">/api/css/{family}.css</div></article></div><div class="api-note"><strong>Static by design.</strong><p>The site does not use Workers, Functions, a database or backend. Local font creation and image processing run in your browser. Font downloads and preview assets are served by the respective upstream providers.</p></div></section>
+</main><footer class="footer"><a class="brand" href="#home"><span class="brand-mark">A</span><span>AWE<span class="brand-light">FONTS</span></span></a><span>TYPE IS FOR EVERYONE.</span><div><a href="#library">Fonts</a><a href="#studio">Studio</a><a href="#sources">Sources</a><a href="https://github.com/ARARAT33/awefonts" target="_blank">GitHub ↗</a></div></footer><div class="toast" id="toast" role="status"></div>
+</body></html>
