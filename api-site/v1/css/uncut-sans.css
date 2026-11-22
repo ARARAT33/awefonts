@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Uncut Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/uncut-sans/index.css");
+:root{--awe-font-uncut-sans:"Uncut Sans",sans-serif}

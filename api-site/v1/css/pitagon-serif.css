@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Pitagon Serif */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pitagon-serif/index.css");
+:root{--awe-font-pitagon-serif:"Pitagon Serif",sans-serif}

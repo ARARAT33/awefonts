@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Big Shoulders Display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/big-shoulders-display/index.css");
+:root{--awe-font-big-shoulders-display:"Big Shoulders Display",sans-serif}

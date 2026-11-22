@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Kaithi */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Kaithi:wght@400&display=swap");
+:root{--awe-font-noto-sans-kaithi:"Noto Sans Kaithi",sans-serif}

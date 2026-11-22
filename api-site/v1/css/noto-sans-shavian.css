@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Shavian */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian:wght@400&display=swap");
+:root{--awe-font-noto-sans-shavian:"Noto Sans Shavian",sans-serif}

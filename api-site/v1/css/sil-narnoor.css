@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Narnoor */
+@font-face{font-family:"Narnoor";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/narnoor/web/Narnoor-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-narnoor:"Narnoor",sans-serif}

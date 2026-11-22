@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Tifinagh */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh:wght@400&display=swap");
+:root{--awe-font-noto-sans-tifinagh:"Noto Sans Tifinagh",sans-serif}

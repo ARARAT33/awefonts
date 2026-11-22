@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Aileron */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/aileron/index.css");
+:root{--awe-font-aileron:"Aileron",sans-serif}

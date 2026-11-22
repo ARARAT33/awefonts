@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Open Runde */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/open-runde/index.css");
+:root{--awe-font-open-runde:"Open Runde",sans-serif}

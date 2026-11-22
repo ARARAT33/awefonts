@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Lextrall */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/lextrall/index.css");
+:root{--awe-font-lextrall:"Lextrall",sans-serif}

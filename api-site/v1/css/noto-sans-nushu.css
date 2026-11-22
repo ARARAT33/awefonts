@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Nushu */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Nushu:wght@400&display=swap");
+:root{--awe-font-noto-sans-nushu:"Noto Sans Nushu",sans-serif}

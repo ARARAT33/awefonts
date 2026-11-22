@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Bagnard Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bagnard-sans/index.css");
+:root{--awe-font-bagnard-sans:"Bagnard Sans",sans-serif}

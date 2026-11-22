@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Hatran */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hatran:wght@400&display=swap");
+:root{--awe-font-noto-sans-hatran:"Noto Sans Hatran",sans-serif}

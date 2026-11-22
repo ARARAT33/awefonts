@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Norwester */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/norwester/index.css");
+:root{--awe-font-norwester:"Norwester",sans-serif}

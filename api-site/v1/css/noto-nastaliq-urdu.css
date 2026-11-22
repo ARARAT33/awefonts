@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Nastaliq Urdu */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap");
+:root{--awe-font-noto-nastaliq-urdu:"Noto Nastaliq Urdu",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Egyptian Hieroglyphs */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs:wght@400&display=swap");
+:root{--awe-font-noto-sans-egyptian-hieroglyphs:"Noto Sans Egyptian Hieroglyphs",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Monaspace Radon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monaspace-radon/index.css");
+:root{--awe-font-monaspace-radon:"Monaspace Radon",sans-serif}

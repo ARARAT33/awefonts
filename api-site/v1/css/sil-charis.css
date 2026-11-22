@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Charis */
+@font-face{font-family:"Charis";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/charis/web/Charis-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-charis:"Charis",sans-serif}

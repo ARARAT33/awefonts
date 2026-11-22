@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Tirhuta */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tirhuta:wght@400&display=swap");
+:root{--awe-font-noto-sans-tirhuta:"Noto Sans Tirhuta",sans-serif}

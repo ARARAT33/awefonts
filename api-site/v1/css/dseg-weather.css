@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Dseg Weather */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dseg-weather/index.css");
+:root{--awe-font-dseg-weather:"Dseg Weather",sans-serif}

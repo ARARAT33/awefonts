@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Marchen */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Marchen:wght@400&display=swap");
+:root{--awe-font-noto-sans-marchen:"Noto Sans Marchen",sans-serif}

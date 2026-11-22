@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Acme */
+@import url("https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap");
+:root{--awe-font-acme:"Acme",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Manichaean */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Manichaean:wght@400&display=swap");
+:root{--awe-font-noto-sans-manichaean:"Noto Sans Manichaean",sans-serif}

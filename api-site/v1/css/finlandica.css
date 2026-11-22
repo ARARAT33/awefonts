@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Finlandica */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/finlandica/index.css");
+:root{--awe-font-finlandica:"Finlandica",sans-serif}

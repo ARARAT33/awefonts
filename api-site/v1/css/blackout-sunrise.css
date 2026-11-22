@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Blackout Sunrise */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/blackout-sunrise/index.css");
+:root{--awe-font-blackout-sunrise:"Blackout Sunrise",sans-serif}

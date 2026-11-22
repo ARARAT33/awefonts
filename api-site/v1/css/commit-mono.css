@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Commit Mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/commit-mono/index.css");
+:root{--awe-font-commit-mono:"Commit Mono",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Material Icons Round */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-icons-round/index.css");
+:root{--awe-font-material-icons-round:"Material Icons Round",sans-serif}

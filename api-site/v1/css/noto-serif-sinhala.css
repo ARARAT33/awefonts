@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Serif Sinhala */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root{--awe-font-noto-serif-sinhala:"Noto Serif Sinhala",sans-serif}

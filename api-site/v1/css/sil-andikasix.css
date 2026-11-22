@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Andika Six */
+@font-face{font-family:"Andika Six";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/andikasix/web/AndikaSix-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-andikasix:"Andika Six",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Win95fa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/win95fa/index.css");
+:root{--awe-font-win95fa:"Win95fa",sans-serif}

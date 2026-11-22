@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Anatolian Hieroglyphs */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs:wght@400&display=swap");
+:root{--awe-font-noto-sans-anatolian-hieroglyphs:"Noto Sans Anatolian Hieroglyphs",sans-serif}

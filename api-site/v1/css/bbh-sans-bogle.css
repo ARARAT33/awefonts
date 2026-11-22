@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Bbh Sans Bogle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bbh-sans-bogle/index.css");
+:root{--awe-font-bbh-sans-bogle:"Bbh Sans Bogle",sans-serif}

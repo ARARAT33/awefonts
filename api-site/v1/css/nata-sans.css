@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Nata Sans */
+@import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root{--awe-font-nata-sans:"Nata Sans",sans-serif}

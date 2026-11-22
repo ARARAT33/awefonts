@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Idiqlat */
+@font-face{font-family:"Idiqlat";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/idiqlat/web/Idiqlat-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-idiqlat:"Idiqlat",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Comic Mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/comic-mono/index.css");
+:root{--awe-font-comic-mono:"Comic Mono",sans-serif}

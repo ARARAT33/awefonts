@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Firago */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/firago/index.css");
+:root{--awe-font-firago:"Firago",sans-serif}

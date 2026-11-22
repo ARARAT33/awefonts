@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · League Mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/league-mono/index.css");
+:root{--awe-font-league-mono:"League Mono",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Karmilla */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/karmilla/index.css");
+:root{--awe-font-karmilla:"Karmilla",sans-serif}

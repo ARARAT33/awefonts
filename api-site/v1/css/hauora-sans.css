@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Hauora Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/hauora-sans/index.css");
+:root{--awe-font-hauora-sans:"Hauora Sans",sans-serif}

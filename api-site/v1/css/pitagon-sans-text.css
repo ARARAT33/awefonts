@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Pitagon Sans Text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pitagon-sans-text/index.css");
+:root{--awe-font-pitagon-sans-text:"Pitagon Sans Text",sans-serif}

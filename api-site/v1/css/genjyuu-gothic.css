@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Genjyuu Gothic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/genjyuu-gothic/index.css");
+:root{--awe-font-genjyuu-gothic:"Genjyuu Gothic",sans-serif}

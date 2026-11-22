@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Mononoki */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/mononoki/index.css");
+:root{--awe-font-mononoki:"Mononoki",sans-serif}

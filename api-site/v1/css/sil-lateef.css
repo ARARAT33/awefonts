@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Lateef */
+@font-face{font-family:"Lateef";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/lateef/web/Lateef-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-lateef:"Lateef",sans-serif}

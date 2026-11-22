@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Tirra */
+@font-face{font-family:"Tirra";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/tirra/web/Tirra-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-tirra:"Tirra",sans-serif}

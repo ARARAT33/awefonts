@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Argentum Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/argentum-sans/index.css");
+:root{--awe-font-argentum-sans:"Argentum Sans",sans-serif}

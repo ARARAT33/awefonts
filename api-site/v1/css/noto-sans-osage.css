@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Osage */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Osage:wght@400&display=swap");
+:root{--awe-font-noto-sans-osage:"Noto Sans Osage",sans-serif}

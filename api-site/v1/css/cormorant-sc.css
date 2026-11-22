@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Cormorant SC */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap");
+:root{--awe-font-cormorant-sc:"Cormorant SC",sans-serif}

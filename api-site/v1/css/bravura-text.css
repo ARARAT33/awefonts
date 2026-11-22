@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Bravura Text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bravura-text/index.css");
+:root{--awe-font-bravura-text:"Bravura Text",sans-serif}

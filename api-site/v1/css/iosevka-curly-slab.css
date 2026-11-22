@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Iosevka Curly Slab */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka-curly-slab/index.css");
+:root{--awe-font-iosevka-curly-slab:"Iosevka Curly Slab",sans-serif}

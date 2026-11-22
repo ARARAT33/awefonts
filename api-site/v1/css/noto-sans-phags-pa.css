@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Phags Pa */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-phags-pa/index.css");
+:root{--awe-font-noto-sans-phags-pa:"Noto Sans Phags Pa",sans-serif}

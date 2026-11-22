@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap");
+:root{--awe-font-noto-sans:"Noto Sans",sans-serif}

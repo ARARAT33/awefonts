@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Kay Pho Du */
+@font-face{font-family:"Kay Pho Du";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/kayphodu/web/KayPhoDu-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-kayphodu:"Kay Pho Du",sans-serif}

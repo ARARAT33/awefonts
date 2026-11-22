@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Gentium Book Basic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/gentium-book-basic/index.css");
+:root{--awe-font-gentium-book-basic:"Gentium Book Basic",sans-serif}

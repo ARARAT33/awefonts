@@ -19,3 +19,7 @@ Production UI Pages project now serves this feature branch on `fonts.aweconnect.
 The source directory indexes every platform supplied in the project brief. Only fonts with redistribution rights are mirrored in the downloadable catalogue; commercial and mixed archives remain linked and are not scraped or republished without permission. The library preview uses script-specific specimen strings and explicit font loading. The local studio offers glyph grids for 30+ writing systems and generates self-contained CSS `@font-face` embeds using a data URL from a locally exported TTF. Complex-script shaping (ligatures, contextual forms and mark positioning) requires a full OpenType shaping editor; this pixel-grid tool is a local glyph prototyping studio.
 
 API v4 options: `data-font`, `data-weights`, `data-selector`, `data-apply`, `data-size`, `data-line-height`, `data-letter-spacing`.
+
+
+## API-hosted font CSS endpoints
+Every indexed family now has an API-hosted stylesheet at `https://fonts.api.aweconnect.dpdns.org/v1/css/{font_id}.css`. The embed loader and site previews reference these API URLs. These are static CSS wrappers; the actual WOFF/WOFF2 binaries still come from the licensed upstream providers and are not yet mirrored into this repository. `api-site/v1/embed.v6.js` is the recommended loader.

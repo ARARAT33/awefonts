@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Libertinus Sans */
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Sans:wght@400;700&display=swap");
+:root{--awe-font-libertinus-sans:"Libertinus Sans",sans-serif}

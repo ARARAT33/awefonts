@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Busra */
+@font-face{font-family:"Busra";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/busra/web/Busra-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-busra:"Busra",sans-serif}

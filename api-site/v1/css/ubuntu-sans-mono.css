@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Ubuntu Sans Mono */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:wght@400;500;600;700&display=swap");
+:root{--awe-font-ubuntu-sans-mono:"Ubuntu Sans Mono",sans-serif}

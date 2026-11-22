@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Ugaritic */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Ugaritic:wght@400&display=swap");
+:root{--awe-font-noto-sans-ugaritic:"Noto Sans Ugaritic",sans-serif}

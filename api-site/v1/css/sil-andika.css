@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Andika */
+@font-face{font-family:"Andika";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/andika/web/Andika-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-andika:"Andika",sans-serif}

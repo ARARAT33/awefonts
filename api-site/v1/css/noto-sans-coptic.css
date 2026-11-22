@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Coptic */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic:wght@400&display=swap");
+:root{--awe-font-noto-sans-coptic:"Noto Sans Coptic",sans-serif}

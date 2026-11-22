@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Dejavu Serif */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dejavu-serif/index.css");
+:root{--awe-font-dejavu-serif:"Dejavu Serif",sans-serif}

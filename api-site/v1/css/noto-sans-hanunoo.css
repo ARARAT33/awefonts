@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Hanunoo */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo:wght@400&display=swap");
+:root{--awe-font-noto-sans-hanunoo:"Noto Sans Hanunoo",sans-serif}

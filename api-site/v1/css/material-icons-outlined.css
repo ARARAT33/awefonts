@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Material Icons Outlined */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-icons-outlined/index.css");
+:root{--awe-font-material-icons-outlined:"Material Icons Outlined",sans-serif}

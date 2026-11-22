@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Limbu */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Limbu:wght@400&display=swap");
+:root{--awe-font-noto-sans-limbu:"Noto Sans Limbu",sans-serif}

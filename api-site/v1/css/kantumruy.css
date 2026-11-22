@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Kantumruy */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/kantumruy/index.css");
+:root{--awe-font-kantumruy:"Kantumruy",sans-serif}

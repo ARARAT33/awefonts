@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Cascadia Mono */
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@200;300;400;500;600;700&display=swap");
+:root{--awe-font-cascadia-mono:"Cascadia Mono",sans-serif}

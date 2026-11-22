@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Sundanese */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400;500;600;700&display=swap");
+:root{--awe-font-noto-sans-sundanese:"Noto Sans Sundanese",sans-serif}

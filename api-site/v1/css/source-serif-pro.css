@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Source Serif Pro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/source-serif-pro/index.css");
+:root{--awe-font-source-serif-pro:"Source Serif Pro",sans-serif}

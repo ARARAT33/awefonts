@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · STIX Two Math */
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math:wght@400&display=swap");
+:root{--awe-font-stix-two-math:"STIX Two Math",sans-serif}

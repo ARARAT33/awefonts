@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Montserrat Subrayada */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/montserrat-subrayada/index.css");
+:root{--awe-font-montserrat-subrayada:"Montserrat Subrayada",sans-serif}

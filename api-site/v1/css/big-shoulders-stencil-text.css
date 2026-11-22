@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Big Shoulders Stencil Text */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/big-shoulders-stencil-text/index.css");
+:root{--awe-font-big-shoulders-stencil-text:"Big Shoulders Stencil Text",sans-serif}

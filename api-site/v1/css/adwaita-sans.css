@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Adwaita Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/adwaita-sans/index.css");
+:root{--awe-font-adwaita-sans:"Adwaita Sans",sans-serif}

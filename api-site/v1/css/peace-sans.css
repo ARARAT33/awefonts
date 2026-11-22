@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Peace Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/peace-sans/index.css");
+:root{--awe-font-peace-sans:"Peace Sans",sans-serif}

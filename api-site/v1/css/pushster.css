@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Pushster */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/pushster/index.css");
+:root{--awe-font-pushster:"Pushster",sans-serif}

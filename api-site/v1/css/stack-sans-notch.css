@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Stack Sans Notch */
+@import url("https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200;300;400;500;600;700&display=swap");
+:root{--awe-font-stack-sans-notch:"Stack Sans Notch",sans-serif}

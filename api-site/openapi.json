@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "AWEFonts Static API",
-    "version": "1.1.0",
-    "description": "Static worldwide font catalog and configurable browser embed. Supports selector, font weights, size, line-height and letter spacing. No backend or API keys."
+    "version": "1.2.0",
+    "description": "Static font catalog, API-hosted per-family CSS endpoints, and browser embed loader. Font binaries remain delivered by their licensed upstream providers."
   },
   "servers": [
     {
@@ -77,6 +77,36 @@
         "responses": {
           "200": {
             "description": "Global source directory JSON"
+          }
+        }
+      }
+    },
+    "/v1/embed.v6.js": {
+      "get": {
+        "summary": "API-hosted CSS browser embed loader",
+        "responses": {
+          "200": {
+            "description": "JavaScript embed loader"
+          }
+        }
+      }
+    },
+    "/v1/css/{font_id}.css": {
+      "get": {
+        "summary": "API-hosted stylesheet for a catalog font family",
+        "parameters": [
+          {
+            "name": "font_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "CSS stylesheet that loads the font from its licensed upstream provider"
           }
         }
       }

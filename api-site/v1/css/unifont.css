@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Unifont */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/unifont/index.css");
+:root{--awe-font-unifont:"Unifont",sans-serif}

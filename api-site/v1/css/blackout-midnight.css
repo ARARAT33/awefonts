@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Blackout Midnight */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/blackout-midnight/index.css");
+:root{--awe-font-blackout-midnight:"Blackout Midnight",sans-serif}

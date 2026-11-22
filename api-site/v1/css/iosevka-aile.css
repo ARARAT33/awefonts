@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Iosevka Aile */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka-aile/index.css");
+:root{--awe-font-iosevka-aile:"Iosevka Aile",sans-serif}

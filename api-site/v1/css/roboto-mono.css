@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Roboto Mono */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap");
+:root{--awe-font-roboto-mono:"Roboto Mono",sans-serif}

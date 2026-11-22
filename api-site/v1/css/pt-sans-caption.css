@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · PT Sans Caption */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap");
+:root{--awe-font-pt-sans-caption:"PT Sans Caption",sans-serif}

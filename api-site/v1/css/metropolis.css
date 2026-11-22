@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Metropolis */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/metropolis/index.css");
+:root{--awe-font-metropolis:"Metropolis",sans-serif}

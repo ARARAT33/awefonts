@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Ostrich Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ostrich-sans/index.css");
+:root{--awe-font-ostrich-sans:"Ostrich Sans",sans-serif}

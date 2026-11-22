@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Harmattan */
+@font-face{font-family:"Harmattan";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/harmattan/web/Harmattan-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-harmattan:"Harmattan",sans-serif}

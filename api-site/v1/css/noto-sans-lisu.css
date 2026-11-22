@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Lisu */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Lisu:wght@400;500;600;700&display=swap");
+:root{--awe-font-noto-sans-lisu:"Noto Sans Lisu",sans-serif}

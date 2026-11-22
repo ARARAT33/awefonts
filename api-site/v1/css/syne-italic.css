@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Syne Italic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/syne-italic/index.css");
+:root{--awe-font-syne-italic:"Syne Italic",sans-serif}

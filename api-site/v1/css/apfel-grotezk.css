@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Apfel Grotezk */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/apfel-grotezk/index.css");
+:root{--awe-font-apfel-grotezk:"Apfel Grotezk",sans-serif}

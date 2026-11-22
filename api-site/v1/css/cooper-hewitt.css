@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Cooper Hewitt */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/cooper-hewitt/index.css");
+:root{--awe-font-cooper-hewitt:"Cooper Hewitt",sans-serif}

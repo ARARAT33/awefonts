@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Chunk Five */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/chunk-five/index.css");
+:root{--awe-font-chunk-five:"Chunk Five",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Iosevka */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka/index.css");
+:root{--awe-font-iosevka:"Iosevka",sans-serif}

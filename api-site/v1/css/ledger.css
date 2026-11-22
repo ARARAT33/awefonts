@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Ledger */
+@import url("https://fonts.googleapis.com/css2?family=Ledger:wght@400&display=swap");
+:root{--awe-font-ledger:"Ledger",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Ia Writer Quattro */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ia-writer-quattro/index.css");
+:root{--awe-font-ia-writer-quattro:"Ia Writer Quattro",sans-serif}

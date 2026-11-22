@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Merienda One */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/merienda-one/index.css");
+:root{--awe-font-merienda-one:"Merienda One",sans-serif}

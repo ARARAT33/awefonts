@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Dejavu Mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/dejavu-mono/index.css");
+:root{--awe-font-dejavu-mono:"Dejavu Mono",sans-serif}

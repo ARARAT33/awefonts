@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Libre Bodoni */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400;500;600;700&display=swap");
+:root{--awe-font-libre-bodoni:"Libre Bodoni",sans-serif}

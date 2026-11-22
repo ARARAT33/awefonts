@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Annapurna SIL */
+@font-face{font-family:"Annapurna SIL";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/annapurnasil/web/AnnapurnaSIL-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-annapurnasil:"Annapurna SIL",sans-serif}

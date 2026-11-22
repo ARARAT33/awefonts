@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · SUSE Mono */
+@import url("https://fonts.googleapis.com/css2?family=SUSE+Mono:wght@100;200;300;400;500;600;700;800&display=swap");
+:root{--awe-font-suse-mono:"SUSE Mono",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Material Symbols Sharp */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-symbols-sharp/index.css");
+:root{--awe-font-material-symbols-sharp:"Material Symbols Sharp",sans-serif}

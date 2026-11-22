@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Doto */
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root{--awe-font-doto:"Doto",sans-serif}

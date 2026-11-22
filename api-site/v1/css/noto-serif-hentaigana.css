@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Serif Hentaigana */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Hentaigana:wght@200;300;400;500;600;700;800;900&display=swap");
+:root{--awe-font-noto-serif-hentaigana:"Noto Serif Hentaigana",sans-serif}

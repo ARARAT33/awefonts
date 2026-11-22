@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Ubuntu Sans */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+:root{--awe-font-ubuntu-sans:"Ubuntu Sans",sans-serif}

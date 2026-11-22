@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Material Symbols Rounded */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-symbols-rounded/index.css");
+:root{--awe-font-material-symbols-rounded:"Material Symbols Rounded",sans-serif}

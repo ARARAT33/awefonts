@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · 42dot Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/42dot-sans/index.css");
+:root{--awe-font-42dot-sans:"42dot Sans",sans-serif}

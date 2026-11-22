@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Big Shoulders Inline Display */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/big-shoulders-inline-display/index.css");
+:root{--awe-font-big-shoulders-inline-display:"Big Shoulders Inline Display",sans-serif}

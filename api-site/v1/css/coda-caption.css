@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Coda Caption */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/coda-caption/index.css");
+:root{--awe-font-coda-caption:"Coda Caption",sans-serif}

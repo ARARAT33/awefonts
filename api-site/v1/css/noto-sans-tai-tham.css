@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Tai Tham */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Tham:wght@400;500;600;700&display=swap");
+:root{--awe-font-noto-sans-tai-tham:"Noto Sans Tai Tham",sans-serif}

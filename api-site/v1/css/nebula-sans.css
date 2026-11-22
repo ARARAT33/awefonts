@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Nebula Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/nebula-sans/index.css");
+:root{--awe-font-nebula-sans:"Nebula Sans",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · IBM Plex Sans */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100..700&display=swap");
+:root{--awe-font-ibm-plex-sans:"IBM Plex Sans",sans-serif}

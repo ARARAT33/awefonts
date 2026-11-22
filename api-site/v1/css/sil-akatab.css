@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Akatab */
+@font-face{font-family:"Akatab";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/akatab/web/Akatab-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-akatab:"Akatab",sans-serif}

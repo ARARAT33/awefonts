@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Gentium Book Plus */
+@font-face{font-family:"Gentium Book Plus";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/gentiumbookplus/web/GentiumBookPlus-Regular.woff2") format("woff2");font-style:normal;font-weight:500;font-display:swap}
+:root{--awe-font-sil-gentiumbookplus:"Gentium Book Plus",sans-serif}

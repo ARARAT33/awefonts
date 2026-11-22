@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Japa Sans Oriya */
+@font-face{font-family:"Japa Sans Oriya";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/japasansoriya/web/JapaSansOriya-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-japasansoriya:"Japa Sans Oriya",sans-serif}

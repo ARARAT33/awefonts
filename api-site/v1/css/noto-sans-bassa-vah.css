@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Bassa Vah */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bassa+Vah:wght@400;500;600;700&display=swap");
+:root{--awe-font-noto-sans-bassa-vah:"Noto Sans Bassa Vah",sans-serif}

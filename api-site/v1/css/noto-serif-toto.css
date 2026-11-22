@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Serif Toto */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400;500;600;700&display=swap");
+:root{--awe-font-noto-serif-toto:"Noto Serif Toto",sans-serif}

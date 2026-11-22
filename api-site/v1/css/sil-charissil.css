@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Charis SIL */
+@font-face{font-family:"Charis SIL";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/charissil/web/CharisSIL-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-charissil:"Charis SIL",sans-serif}

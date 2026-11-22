@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Sans Runic */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Runic:wght@400&display=swap");
+:root{--awe-font-noto-sans-runic:"Noto Sans Runic",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Monaspace Xenon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monaspace-xenon/index.css");
+:root{--awe-font-monaspace-xenon:"Monaspace Xenon",sans-serif}

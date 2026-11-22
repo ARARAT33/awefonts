@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · DM Sans */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap");
+:root{--awe-font-dm-sans:"DM Sans",sans-serif}

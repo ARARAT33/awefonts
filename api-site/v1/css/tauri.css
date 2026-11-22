@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Tauri */
+@import url("https://fonts.googleapis.com/css2?family=Tauri:wght@400&display=swap");
+:root{--awe-font-tauri:"Tauri",sans-serif}

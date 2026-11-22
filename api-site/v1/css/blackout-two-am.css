@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Blackout Two Am */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/blackout-two-am/index.css");
+:root{--awe-font-blackout-two-am:"Blackout Two Am",sans-serif}

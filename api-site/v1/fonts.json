@@ -1,0 +1,1004 @@
+{
+  "name": "AWEFonts Static Catalog",
+  "version": "1.0.0",
+  "updated": "2026-11-22",
+  "source": "Google Fonts catalog index; verify upstream licenses",
+  "count": 67,
+  "fonts": [
+    {
+      "family": "Roboto",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "greek"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Roboto",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/roboto.css"
+    },
+    {
+      "family": "Open Sans",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "greek",
+        "vietnamese"
+      ],
+      "weights": [
+        300,
+        800
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Open%2BSans",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/open-sans.css"
+    },
+    {
+      "family": "Lato",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Lato",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/lato.css"
+    },
+    {
+      "family": "Montserrat",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "vietnamese"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Montserrat",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/montserrat.css"
+    },
+    {
+      "family": "Poppins",
+      "category": "sans-serif",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Poppins",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/poppins.css"
+    },
+    {
+      "family": "Inter",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "greek"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Inter",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/inter.css"
+    },
+    {
+      "family": "Oswald",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        200,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Oswald",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/oswald.css"
+    },
+    {
+      "family": "Raleway",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Raleway",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/raleway.css"
+    },
+    {
+      "family": "Nunito",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        200,
+        1000
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Nunito",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/nunito.css"
+    },
+    {
+      "family": "Ubuntu",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "greek"
+      ],
+      "weights": [
+        300,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Ubuntu",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/ubuntu.css"
+    },
+    {
+      "family": "Rubik",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "hebrew"
+      ],
+      "weights": [
+        300,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Rubik",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/rubik.css"
+    },
+    {
+      "family": "Manrope",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        200,
+        800
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Manrope",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/manrope.css"
+    },
+    {
+      "family": "DM Sans",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        100,
+        1000
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/DM%2BSans",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/dm-sans.css"
+    },
+    {
+      "family": "Space Grotesk",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        300,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Space%2BGrotesk",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/space-grotesk.css"
+    },
+    {
+      "family": "Fira Sans",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "greek"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Fira%2BSans",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/fira-sans.css"
+    },
+    {
+      "family": "IBM Plex Sans",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "greek"
+      ],
+      "weights": [
+        100,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/IBM%2BPlex%2BSans",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/ibm-plex-sans.css"
+    },
+    {
+      "family": "Noto Sans",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "armenian",
+        "cyrillic",
+        "greek",
+        "arabic",
+        "hebrew"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans.css"
+    },
+    {
+      "family": "Noto Sans Armenian",
+      "category": "sans-serif",
+      "languages": [
+        "armenian"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BArmenian",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-armenian.css"
+    },
+    {
+      "family": "Noto Serif Armenian",
+      "category": "serif",
+      "languages": [
+        "armenian"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSerif%2BArmenian",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-serif-armenian.css"
+    },
+    {
+      "family": "Noto Serif",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "armenian",
+        "cyrillic",
+        "greek"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSerif",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-serif.css"
+    },
+    {
+      "family": "Merriweather",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        300,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Merriweather",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/merriweather.css"
+    },
+    {
+      "family": "Playfair Display",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        400,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Playfair%2BDisplay",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/playfair-display.css"
+    },
+    {
+      "family": "Lora",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Lora",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/lora.css"
+    },
+    {
+      "family": "PT Serif",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/PT%2BSerif",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/pt-serif.css"
+    },
+    {
+      "family": "Source Serif 4",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic",
+        "greek"
+      ],
+      "weights": [
+        200,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Source%2BSerif%2B4",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/source-serif-4.css"
+    },
+    {
+      "family": "EB Garamond",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        400,
+        800
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/EB%2BGaramond",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/eb-garamond.css"
+    },
+    {
+      "family": "Cormorant Garamond",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        300,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Cormorant%2BGaramond",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/cormorant-garamond.css"
+    },
+    {
+      "family": "Bodoni Moda",
+      "category": "serif",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        400,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Bodoni%2BModa",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/bodoni-moda.css"
+    },
+    {
+      "family": "Bitter",
+      "category": "serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Bitter",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/bitter.css"
+    },
+    {
+      "family": "Josefin Sans",
+      "category": "sans-serif",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        100,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Josefin%2BSans",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/josefin-sans.css"
+    },
+    {
+      "family": "Barlow",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Barlow",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/barlow.css"
+    },
+    {
+      "family": "Archivo",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Archivo",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/archivo.css"
+    },
+    {
+      "family": "Karla",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        200,
+        800
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Karla",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/karla.css"
+    },
+    {
+      "family": "Mulish",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        200,
+        1000
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Mulish",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/mulish.css"
+    },
+    {
+      "family": "Exo 2",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Exo%2B2",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/exo-2.css"
+    },
+    {
+      "family": "Quicksand",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        300,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Quicksand",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/quicksand.css"
+    },
+    {
+      "family": "Comfortaa",
+      "category": "display",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        300,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Comfortaa",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/comfortaa.css"
+    },
+    {
+      "family": "Bebas Neue",
+      "category": "display",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        400
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/Bebas%2BNeue",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/bebas-neue.css"
+    },
+    {
+      "family": "Anton",
+      "category": "display",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        400
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/Anton",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/anton.css"
+    },
+    {
+      "family": "Abril Fatface",
+      "category": "display",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        400
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/Abril%2BFatface",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/abril-fatface.css"
+    },
+    {
+      "family": "Righteous",
+      "category": "display",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        400
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/Righteous",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/righteous.css"
+    },
+    {
+      "family": "Lobster",
+      "category": "handwriting",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        400
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/Lobster",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/lobster.css"
+    },
+    {
+      "family": "Pacifico",
+      "category": "handwriting",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        400
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/Pacifico",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/pacifico.css"
+    },
+    {
+      "family": "Dancing Script",
+      "category": "handwriting",
+      "languages": [
+        "latin"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Dancing%2BScript",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/dancing-script.css"
+    },
+    {
+      "family": "Caveat",
+      "category": "handwriting",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Caveat",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/caveat.css"
+    },
+    {
+      "family": "Fira Code",
+      "category": "monospace",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        300,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Fira%2BCode",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/fira-code.css"
+    },
+    {
+      "family": "JetBrains Mono",
+      "category": "monospace",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        100,
+        800
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/JetBrains%2BMono",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/jetbrains-mono.css"
+    },
+    {
+      "family": "Roboto Mono",
+      "category": "monospace",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        100,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Roboto%2BMono",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/roboto-mono.css"
+    },
+    {
+      "family": "Source Code Pro",
+      "category": "monospace",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        200,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Source%2BCode%2BPro",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/source-code-pro.css"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "category": "monospace",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        100,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/IBM%2BPlex%2BMono",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/ibm-plex-mono.css"
+    },
+    {
+      "family": "Noto Sans Arabic",
+      "category": "sans-serif",
+      "languages": [
+        "arabic"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BArabic",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-arabic.css"
+    },
+    {
+      "family": "Cairo",
+      "category": "sans-serif",
+      "languages": [
+        "arabic",
+        "latin"
+      ],
+      "weights": [
+        200,
+        1000
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Cairo",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/cairo.css"
+    },
+    {
+      "family": "Amiri",
+      "category": "serif",
+      "languages": [
+        "arabic"
+      ],
+      "weights": [
+        400,
+        700
+      ],
+      "variable": false,
+      "url": "https://fonts.google.com/specimen/Amiri",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/amiri.css"
+    },
+    {
+      "family": "Heebo",
+      "category": "sans-serif",
+      "languages": [
+        "hebrew",
+        "latin"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Heebo",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/heebo.css"
+    },
+    {
+      "family": "Noto Sans Hebrew",
+      "category": "sans-serif",
+      "languages": [
+        "hebrew"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BHebrew",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-hebrew.css"
+    },
+    {
+      "family": "Noto Sans JP",
+      "category": "sans-serif",
+      "languages": [
+        "japanese"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BJP",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-jp.css"
+    },
+    {
+      "family": "Noto Sans SC",
+      "category": "sans-serif",
+      "languages": [
+        "chinese"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BSC",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-sc.css"
+    },
+    {
+      "family": "Noto Sans TC",
+      "category": "sans-serif",
+      "languages": [
+        "chinese"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BTC",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-tc.css"
+    },
+    {
+      "family": "Noto Sans KR",
+      "category": "sans-serif",
+      "languages": [
+        "korean"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BKR",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-kr.css"
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "category": "sans-serif",
+      "languages": [
+        "devanagari"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BDevanagari",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-devanagari.css"
+    },
+    {
+      "family": "Hind",
+      "category": "sans-serif",
+      "languages": [
+        "devanagari",
+        "latin"
+      ],
+      "weights": [
+        300,
+        700
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Hind",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/hind.css"
+    },
+    {
+      "family": "Noto Sans Thai",
+      "category": "sans-serif",
+      "languages": [
+        "thai"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Noto%2BSans%2BThai",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/noto-sans-thai.css"
+    },
+    {
+      "family": "Kanit",
+      "category": "sans-serif",
+      "languages": [
+        "thai",
+        "latin"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Kanit",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/kanit.css"
+    },
+    {
+      "family": "Be Vietnam Pro",
+      "category": "sans-serif",
+      "languages": [
+        "vietnamese",
+        "latin"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Be%2BVietnam%2BPro",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/be-vietnam-pro.css"
+    },
+    {
+      "family": "Outfit",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Outfit",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/outfit.css"
+    },
+    {
+      "family": "Urbanist",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "latin-ext"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Urbanist",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/urbanist.css"
+    },
+    {
+      "family": "Onest",
+      "category": "sans-serif",
+      "languages": [
+        "latin",
+        "cyrillic"
+      ],
+      "weights": [
+        100,
+        900
+      ],
+      "variable": true,
+      "url": "https://fonts.google.com/specimen/Onest",
+      "css_url": "https://fonts.api.aweconnect.dpdns.org/v1/css/onest.css"
+    }
+  ]
+}

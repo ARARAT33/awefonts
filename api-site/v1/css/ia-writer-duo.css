@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Ia Writer Duo */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/ia-writer-duo/index.css");
+:root{--awe-font-ia-writer-duo:"Ia Writer Duo",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Monaspace Neon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monaspace-neon/index.css");
+:root{--awe-font-monaspace-neon:"Monaspace Neon",sans-serif}

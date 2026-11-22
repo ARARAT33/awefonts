@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Bbh Sans Bartle */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/bbh-sans-bartle/index.css");
+:root{--awe-font-bbh-sans-bartle:"Bbh Sans Bartle",sans-serif}

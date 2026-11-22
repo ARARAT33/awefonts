@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Monaspace Argon */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/monaspace-argon/index.css");
+:root{--awe-font-monaspace-argon:"Monaspace Argon",sans-serif}

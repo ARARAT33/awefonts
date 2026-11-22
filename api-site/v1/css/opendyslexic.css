@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Opendyslexic */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/opendyslexic/index.css");
+:root{--awe-font-opendyslexic:"Opendyslexic",sans-serif}

@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Noto Mono */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/noto-mono/index.css");
+:root{--awe-font-noto-mono:"Noto Mono",sans-serif}

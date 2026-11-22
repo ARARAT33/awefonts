@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Material Icons Two Tone */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/material-icons-two-tone/index.css");
+:root{--awe-font-material-icons-two-tone:"Material Icons Two Tone",sans-serif}

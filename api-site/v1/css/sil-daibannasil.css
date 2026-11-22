@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Dai Banna SIL */
+@font-face{font-family:"Dai Banna SIL";src:url("https://raw.githubusercontent.com/silnrsi/fonts/main/fonts/sil/daibannasil/web/DaiBannaSIL-Regular.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+:root{--awe-font-sil-daibannasil:"Dai Banna SIL",sans-serif}

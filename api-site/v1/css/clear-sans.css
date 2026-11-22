@@ -1,0 +1,3 @@
+/* AWEFonts API stylesheet · Clear Sans */
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/clear-sans/index.css");
+:root{--awe-font-clear-sans:"Clear Sans",sans-serif}
