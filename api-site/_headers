@@ -3,5 +3,6 @@
   Access-Control-Allow-Methods: GET, HEAD, OPTIONS
   Access-Control-Allow-Headers: Content-Type
   Cache-Control: public, max-age=3600
-/v1/embed.js
+/v1/*.js
   Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=300, must-revalidate
