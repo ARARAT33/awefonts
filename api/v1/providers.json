@@ -27,9 +27,12 @@
   "privacy": "Search and previews run in the browser. Provider catalog requests go directly from the visitor's browser to the named public providers.",
   "staticCatalog": {
     "endpoint": "/api/v1/catalog.json",
-    "families": 2103,
+    "families": 2105,
     "source": "Fontsource font-files registry",
     "refreshedAt": "2026-11-22",
-    "description": "Bundled, immutable index served by AWEFonts Pages; no runtime worker or function."
+    "description": "Bundled merged Google Fonts and Fontsource index with a pre-generated static CSS preset for every family.",
+    "googleFontsFamilies": 1960,
+    "fontsourceOnlyFamilies": 145,
+    "cssPresets": 2105
   }
 }
