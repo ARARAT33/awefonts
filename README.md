@@ -11,3 +11,5 @@ Deploy on Cloudflare Pages with no build command and output directory /.
 
 ## Separate API hostname
 Deploy `api-site/` as a second Cloudflare Pages project (root directory `api-site`, no build command, output directory `.`) and attach `fonts.api.aweconnect.dpdns.org`. Keep the main UI Pages project rooted at repository root for `fonts.aweconnect.dpdns.org`. API documentation and embed example are in `api-site/README.md`.
+
+Production UI Pages project now serves this feature branch on `fonts.aweconnect.dpdns.org`; API-only Pages project serves `api-site/` on `fonts.api.aweconnect.dpdns.org`.
