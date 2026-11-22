@@ -2,7 +2,7 @@
 "use strict";
 var script=document.currentScript;
 if(!script)return;
-var api=(script.src||"").replace(/\/v1\/embed\.js(?:\?.*)?$/,"");
+var api=(script.src||"").replace(/\/v1\/embed(?:\.v\d+)?\.js(?:\?.*)?$/,"");
 var names=(script.getAttribute("data-font")||"").split(",").map(function(x){return x.trim();}).filter(Boolean);
 var weights=(script.getAttribute("data-weights")||"400;700").split(/[;, ]+/).filter(Boolean);
 var familyStack=[];
