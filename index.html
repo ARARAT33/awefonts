@@ -1,5 +1,101 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080b12"><meta name="description" content="AWEFonts — a massive open font library and private professional font studio."><title>AWEFonts — Type without limits</title><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="/assets/next.css?v=1"></head><body class="home-page"><header class="topbar"><a class="brand" href="/"><span class="brand-mark">A</span>AWE<span>FONTS</span></a><nav><a href="/fonts/">Fonts</a><a href="/fontsstudio/">FontStudio <i>LOCAL</i></a><a href="/api/v1/openapi.json">API</a></nav><span class="live"><b></b> STATIC · NO WORKERS</span></header><main><section class="home-hero"><div class="eyebrow">THE OPEN TYPE ECOSYSTEM</div><h1>Every letter.<br><em>Its own universe.</em></h1><p>Explore thousands of open fonts, test them instantly, download and embed them. Or build a typeface of your own — privately, right in your browser.</p><div class="hero-actions"><a class="btn primary" href="/fonts/">Explore the library <span>↗</span></a><a class="btn secondary" href="/fontsstudio/">Open FontStudio <span>✳</span></a></div><div class="hero-stats"><div><strong>2,000+</strong><small>open font families in source catalogs</small></div><div><strong>100% local</strong><small>font creation stays on your device</small></div><div><strong>0</strong><small>Workers · Functions · databases</small></div></div></section><section class="home-panels"><a class="feature-panel" href="/fonts/"><span class="panel-kicker">01 / DISCOVER</span><div class="feature-glyph">Aa</div><h2>Fonts Library</h2><p>Search across Google Fonts and the wider Fontsource open-source catalog. Preview, filter, download and copy production-ready embed code.</p><span class="panel-link">Browse typefaces ↗</span></a><a class="feature-panel studio-panel" href="/fontsstudio/"><span class="panel-kicker">02 / CREATE · LOCAL</span><div class="feature-glyph">Ag</div><h2>FontStudio</h2><p>Draw glyphs with a mouse, finger or stylus. Import a scan, image or AWE glyph sheet. Export TTF, OTF, WOFF and WOFF2 on your device.</p><span class="panel-link">Create your typeface ↗</span></a></section><section class="home-api"><div><span class="panel-kicker">03 / DEVELOPERS</span><h2>Static API.<br><em>Fast by design.</em></h2><p>Versioned JSON, static CSS presets, immutable assets and edge caching from Pages. No request-time compute, no secrets, no server.</p></div><pre><code>GET /api/v1/fonts.json
-GET /api/v1/providers.json
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090d16">
+  <meta name="description" content="AWEFonts — discover, preview and use fonts. A static font library and local font studio for creators and developers.">
+  <title>AWEFonts — Type, without limits</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/assets/styles.css?v=3">
+  <script defer src="https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js"></script>
+  <script defer src="/assets/app.js?v=3"></script>
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="AWEFonts home"><span class="brand-mark">A</span><span>AWE<span class="brand-light">FONTS</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#library" class="nav-link active" data-view="library">Explore</a>
+      <a href="#studio" class="nav-link" data-view="studio">Font Studio <span class="new-tag">LOCAL</span></a>
+      <a href="#developers" class="nav-link" data-view="developers">Developers</a>
+    </nav>
+    <div class="top-actions"><span class="status-dot"></span><span class="status-label">STATIC · OPEN</span><button class="icon-button" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">◐</button></div>
+  </header>
 
-&lt;link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"&gt;</code></pre></section></main><footer><a class="brand" href="/"><span class="brand-mark">A</span>AWE<span>FONTS</span></a><span>TYPE IS FOR EVERYONE.</span><a href="https://github.com/ARARAT33/awefonts" target="_blank" rel="noopener">GitHub ↗</a></footer></body></html>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE OPEN TYPE LIBRARY</div>
+        <h1>Find your<br><span class="gradient-text">type.</span></h1>
+        <p class="hero-lead">A universe of typefaces for every language, interface and idea. Explore, test and take your typography anywhere.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#library">Explore fonts <span>↗</span></a><a class="button button-quiet" href="#studio">Create a font <span>✳</span></a></div>
+        <div class="hero-meta"><div><strong id="fontCount">—</strong><span>curated families</span></div><i></i><div><strong>Local-first</strong><span>private font studio</span></div><i></i><div><strong>Free</strong><span>open-source focus</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Typography specimen">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="specimen-card"><div class="specimen-top"><span>TYPE / 001</span><span>AWF—2026</span></div><div class="specimen-big">Aa</div><div class="specimen-name">The shape<br>of language.</div><div class="specimen-bottom"><span>ABCDEFGHIJKLMNOPQRSTUVWXYZ</span><span>0123456789</span></div></div>
+        <div class="floating-chip chip-one">Aa <span>Serif</span></div><div class="floating-chip chip-two">Աբ <span>Armenian</span></div><div class="floating-chip chip-three">01 <span>Variable</span></div>
+      </div>
+    </section>
+
+    <section class="section library-section" id="library">
+      <div class="section-heading"><div><div class="eyebrow">01 / DISCOVER</div><h2>Type library<span class="accent-dot">.</span></h2><p>Find a voice for every project.</p></div><div class="library-count"><span id="visibleCount">0</span> FAMILIES</div></div>
+      <div class="toolbar">
+        <label class="searchbox"><span>⌕</span><input id="searchInput" type="search" placeholder="Search fonts, styles, languages…" autocomplete="off"><kbd>/</kbd></label>
+        <select id="categoryFilter" aria-label="Filter by category"><option value="all">All styles</option><option value="sans-serif">Sans serif</option><option value="serif">Serif</option><option value="display">Display</option><option value="monospace">Monospace</option><option value="handwriting">Handwriting</option></select>
+        <select id="languageFilter" aria-label="Filter by language"><option value="all">All languages</option><option value="latin">Latin</option><option value="armenian">Armenian</option><option value="cyrillic">Cyrillic</option><option value="greek">Greek</option><option value="arabic">Arabic</option><option value="hebrew">Hebrew</option><option value="vietnamese">Vietnamese</option></select>
+        <button class="filter-button" id="favoritesFilter" aria-pressed="false">♡ Saved</button>
+      </div>
+      <div class="preview-control"><label for="previewText">LIVE PREVIEW</label><input id="previewText" value="The quick brown fox jumps over the lazy dog." maxlength="100"><button id="resetPreview" title="Reset preview">↺</button><span class="preview-size"><input id="previewSize" type="range" min="18" max="48" value="30" aria-label="Preview size"><b id="previewSizeValue">30px</b></span></div>
+      <div class="font-grid" id="fontGrid" aria-live="polite"><div class="loading-state">Loading the type library…</div></div>
+      <div class="empty-state hidden" id="emptyState"><div>∅</div><h3>No typefaces found</h3><p>Try another search or clear your filters.</p><button class="button button-quiet" id="clearFilters">Clear filters</button></div>
+      <div class="load-more-wrap"><button class="button button-quiet" id="loadMore">Load more typefaces <span>↓</span></button></div>
+      <p class="source-note">Catalog entries link to Google Fonts for live font delivery. Always check each font's license before commercial use.</p>
+    </section>
+
+    <section class="section studio-section" id="studio">
+      <div class="section-heading"><div><div class="eyebrow">02 / MAKE</div><h2>Your type lab<span class="accent-dot">.</span></h2><p>Draw a pixel typeface. Your work stays on this device.</p></div><span class="local-pill"><span class="status-dot"></span> LOCAL ONLY</span></div>
+      <div class="studio-layout">
+        <aside class="studio-sidebar">
+          <div class="panel-label">YOUR TYPEFACE</div>
+          <label class="field-label">Family name<input id="fontFamilyName" value="My Pixel Font" maxlength="32"></label>
+          <label class="field-label">Style name<select id="fontStyleName"><option>Regular</option><option>Bold</option><option>Light</option><option>Black</option></select></label>
+          <div class="panel-divider"></div>
+          <div class="panel-label">GLYPH SET</div>
+          <div class="glyph-tabs"><button class="glyph-tab active" data-set="basic">Basic Latin</button><button class="glyph-tab" data-set="armenian">Armenian</button><button class="glyph-tab" data-set="numbers">Numbers</button></div>
+          <div class="glyph-list" id="glyphList"></div>
+          <div class="panel-divider"></div>
+          <div class="studio-actions"><button class="button button-primary full" id="exportFont">Export .TTF <span>↓</span></button><button class="button button-quiet full" id="saveDraft">Save local draft</button><button class="text-button" id="clearGlyph">Clear current glyph</button></div>
+          <p class="tiny-note">Drafts are stored in this browser only. Exported fonts are yours to keep. No upload or public publishing is available in this static version.</p>
+        </aside>
+        <div class="editor-main">
+          <div class="editor-toolbar"><div><span class="panel-label">GLYPH EDITOR</span><strong id="currentGlyphLabel">A / U+0041</strong></div><div class="editor-tools"><button class="tool-button active" id="drawTool" title="Draw pixels">✎ Draw</button><button class="tool-button" id="eraseTool" title="Erase pixels">⌫ Erase</button><button class="tool-button" id="gridToggle" title="Toggle grid">▦ Grid</button></div></div>
+          <div class="canvas-wrap"><div class="canvas-ruler"><span>24</span><span>16</span><span>0</span></div><div id="pixelCanvas" class="pixel-canvas" role="grid" aria-label="Pixel glyph editor"></div></div>
+          <div class="editor-footer"><span>16 × 24 PIXEL GRID</span><span>Click or drag to draw · Select a character to edit</span><span id="pixelCount">0 PIXELS</span></div>
+          <div class="preview-panel"><div class="panel-label">TYPE SPECIMEN</div><div class="made-preview" id="madePreview">Aa Bb 0123</div><div class="preview-caption">Live preview of your current glyph set</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section developer-section" id="developers">
+      <div class="section-heading"><div><div class="eyebrow">03 / BUILD</div><h2>Made for the web<span class="accent-dot">.</span></h2><p>Use the catalog and static CSS assets in your own projects.</p></div></div>
+      <div class="dev-grid">
+        <article class="dev-card dev-main"><div class="dev-card-top"><span class="panel-label">QUICK START</span><span class="code-badge">CSS</span></div><h3>One link.<br>Better typography.</h3><p>Use AWEFonts static CSS presets directly. The API serves CSS files; Google Fonts delivers the underlying font binaries.</p><div class="code-window"><div class="code-window-top"><span>HTML</span><button class="copy-button" id="quickstartCopy" data-copy="quickstart">Copy</button></div><pre id="quickstartCode">&lt;link rel="stylesheet" href="https://fonts.api.aweconnect.dpdns.org/api/css/roboto.css"&gt;
+
+&lt;style&gt;
+  body { font-family: "Roboto", sans-serif; }
+&lt;/style&gt;</pre></div></article>
+        <article class="dev-card"><div class="dev-card-top"><span class="panel-label">STATIC CATALOG</span><span class="code-badge">JSON</span></div><div class="dev-icon">⌘</div><h3>Browse by data.</h3><p>Fetch the bundled catalog JSON from the AWEFonts static site. No key, account or backend required.</p><a class="inline-link" href="/api/v1/fonts.json" target="_blank" rel="noopener">Open catalog JSON ↗</a><div class="mini-code">GET /api/v1/fonts.json</div></article>
+        <article class="dev-card"><div class="dev-card-top"><span class="panel-label">STATIC CSS</span><span class="code-badge">CDN</span></div><div class="dev-icon">↗</div><h3>Use a hosted snippet.</h3><p>All catalog families have a static CSS preset on AWEFonts API. Google Fonts serves the underlying font files.</p><a class="inline-link" href="/api/css/roboto.css" target="_blank" rel="noopener">View Roboto CSS ↗</a><div class="mini-code">/api/css/{family}.css</div></article>
+      </div>
+      <div class="api-note"><div class="api-note-icon">i</div><div><strong>About the API domain</strong><p>The API hostname is intended to serve the same static catalog and CSS files. Static hosting cannot generate arbitrary on-demand responses, accept font uploads, or publish user-created fonts. Those features require a backend, which this version deliberately does not use.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#"><span class="brand-mark">A</span><span>AWE<span class="brand-light">FONTS</span></span></a><span>TYPE IS FOR EVERYONE.</span><div><a href="#library">Explore</a><a href="#studio">Font Studio</a><a href="#developers">Developers</a><a href="https://github.com/ARARAT33/awefonts" target="_blank" rel="noopener">GitHub ↗</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
