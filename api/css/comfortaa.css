@@ -1,3 +1,3 @@
-/* AWEFonts static CSS preset for Comfortaa. Font binaries are served by Google Fonts. */
+/* AWEFonts static CSS preset for Comfortaa. Google Fonts serves font binaries. */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
 :root { --awe-font-comfortaa: "Comfortaa", sans-serif; }
