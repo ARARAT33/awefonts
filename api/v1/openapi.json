@@ -1,1 +1,111 @@
-{"openapi":"3.1.0","info":{"title":"AWEFonts Static API","version":"1.0.0","description":"Static, cacheable font metadata and CSS presets. No Workers, Functions, runtime compute, authentication, or upload endpoints."},"servers":[{"url":"https://fonts.api.aweconnect.dpdns.org"}],"paths":{"/api/v1/fonts.json":{"get":{"summary":"Get the bundled curated font catalog","responses":{"200":{"description":"Static JSON catalog","content":{"application/json":{"schema":{"type":"object"}}}}}}},"/api/v1/providers.json":{"get":{"summary":"Get upstream catalog provider metadata","responses":{"200":{"description":"Static provider registry","content":{"application/json":{"schema":{"type":"object"}}}}}}},"/api/css/{family}.css":{"get":{"summary":"Get a pre-generated static CSS preset for a bundled family","parameters":[{"name":"family","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"Static CSS preset","content":{"text/css":{"schema":{"type":"string"}}}}}}}},"x-static-hosting":{"workers":false,"functions":false,"database":false,"uploads":false,"generated-on-request":false}}
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "AWEFonts Static API",
+    "version": "1.0.0",
+    "description": "Static, cacheable font metadata and CSS presets. No Workers, Functions, runtime compute, authentication, or upload endpoints."
+  },
+  "servers": [
+    {
+      "url": "https://fonts.api.aweconnect.dpdns.org"
+    }
+  ],
+  "paths": {
+    "/api/v1/fonts.json": {
+      "get": {
+        "summary": "Get the bundled curated font catalog",
+        "responses": {
+          "200": {
+            "description": "Static JSON catalog",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/providers.json": {
+      "get": {
+        "summary": "Get upstream catalog provider metadata",
+        "responses": {
+          "200": {
+            "description": "Static provider registry",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/css/{family}.css": {
+      "get": {
+        "summary": "Get a pre-generated static CSS preset for a bundled family",
+        "parameters": [
+          {
+            "name": "family",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Static CSS preset",
+            "content": {
+              "text/css": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/catalog.json": {
+      "get": {
+        "summary": "Get the full static open font family index (2,103 families)",
+        "responses": {
+          "200": {
+            "description": "Static JSON catalog",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer"
+                    },
+                    "fonts": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-static-hosting": {
+    "workers": false,
+    "functions": false,
+    "database": false,
+    "uploads": false,
+    "generated-on-request": false
+  }
+}
