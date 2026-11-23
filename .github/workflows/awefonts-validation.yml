@@ -49,3 +49,42 @@ jobs:
         run: node scripts/validate-static-site.mjs
       - name: Audit catalog, language coverage and resource shards
         run: node scripts/audit-world-library.mjs
+
+  refresh-glottolog-registry:
+    name: Refresh 7k+ language registry
+    if: github.event_name == 'push' && github.ref == 'refs/heads/feat/awefonts-world-library-2026'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/awefonts-world-library-2026
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download official Glottolog release
+        run: python scripts/fetch-glottolog.py --out-dir /tmp/awefonts-glottolog
+      - name: Build verified language-level registry
+        run: |
+          python scripts/build-glottolog-registry.py \
+            --csv /tmp/awefonts-glottolog/glottolog_languoid.csv \
+            --manifest /tmp/awefonts-glottolog/glottolog-download-manifest.json \
+            --minimum 7000
+      - name: Validate generated registry and API mirrors
+        run: node scripts/validate-static-site.mjs
+      - name: Commit updated registry when source data changes
+        run: |
+          if git diff --quiet -- v1/language-registry.json api-site/v1/language-registry.json v1/health.json api-site/v1/health.json; then
+            echo "Glottolog release is unchanged; no data commit required."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add v1/language-registry.json api-site/v1/language-registry.json v1/health.json api-site/v1/health.json
+            git commit -m "data: refresh Glottolog language registry [skip ci]"
+            git push origin HEAD:feat/awefonts-world-library-2026
+          fi
