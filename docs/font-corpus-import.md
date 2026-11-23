@@ -44,6 +44,36 @@ node scripts/sync-global-font-corpus.mjs --fonts ./upstream-fonts/google-fonts
 
 The downloader records the immutable Google Fonts commit SHA and reports unrecognized licences. It does not convert subset labels into language claims: subsets are not proof that a particular language is supported. Language links require explicit language metadata or later cmap/exemplar validation. The importer accepts Glottolog `level=language` rows by default; `--include-dialects` additionally admits dialect rows, never family rows.
 
+## Glyph-level language evidence
+
+After importing binaries, use the optional cmap validator to compare each family’s actual Unicode character map with a sourced language exemplar set. Install its local dependency first:
+
+```sh
+python -m pip install fonttools brotli
+python scripts/validate-language-cmap.py \\
+  --fonts-root ./upstream-fonts/google-fonts \\
+  --corpus ./v1/imported/verified-fonts.json \\
+  --exemplars ./language-exemplars.json \\
+  --out ./v1/imported/cmap-coverage.json
+```
+
+The exemplar input is JSON shaped like this (the exemplar text and source must come from a language-data source, not be guessed):
+
+```json
+{
+  "languages": [
+    {
+      "id": "hy",
+      "name": "Armenian",
+      "sourceUrl": "https://example.org/source-record",
+      "exemplarCharacters": "ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖաբգդեզըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆ"
+    }
+  ]
+}
+```
+
+By default a family qualifies only when every required exemplar letter/mark/number is present in the union of its font files’ cmap tables. The report also includes partial matches and missing codepoints. This is character-presence evidence only: it does not prove shaping, mark positioning, ligatures, orthographic correctness, or rendering quality. A language exemplar is only as complete as its cited source, and specialist review remains necessary.
+
 ## Run locally
 
 ```sh
