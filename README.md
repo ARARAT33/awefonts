@@ -10,12 +10,13 @@ A static-first global font library and local Font Studio.
 | Provider face/subset records | 99,159 |
 | Binary font files | 3,914 |
 | Total resource records | 103,073 |
-| Language codes | 1,404 |
+| Glottolog language-level registry entries | 8,623 |
+| Language codes in script profiles | 1,404 |
 | Language-script profiles | 1,695 |
 | Script identifiers | 172 |
 | Committed API CSS presets | 67 |
 
-103,073 resource records are **not** 103,073 unique families. The language index comes from Google Fonts language metadata, Unicode CLDR and Unicode script data; it is not a complete registry of all 7,000+ living languages.
+103,073 resource records are **not** 103,073 unique families. The 8,623-entry language-level registry is sourced from Glottolog 5.4; it includes multiple language-level categories and must not be read as 8,623 spoken L1 languages. The separate 1,404-code / 1,695-profile index comes from Google Fonts language metadata, Unicode CLDR and Unicode script data. Registry membership does not prove script assignment or font coverage.
 
 ## Language coverage targets (not claims)
 - Rare/endangered/very-low-resource: 10 distinct families.
@@ -33,6 +34,7 @@ Origin: `https://fonts.api.aweconnect.dpdns.org`
 
 - `/v1/catalog.json`
 - `/v1/languages.json`
+- `/v1/language-registry.json`
 - `/v1/assets-index.json` and `/v1/assets/*.json`
 - `/v1/sources.json`
 - `/v1/health.json`

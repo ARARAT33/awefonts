@@ -18,8 +18,8 @@
 A profile must have an explicit evidence-backed `coverageTier` before its target is audited. Unclassified profiles are not silently assigned a tier.
 
 ## Current evidence boundary
-The repository currently indexes 1,404 language codes, 1,695 language-script profiles and 172 script identifiers from Google Fonts language metadata, Unicode CLDR and Unicode script data. This is not a complete registry of all 7,000+ living languages. Unicode script presence does not prove that a living language has a published font.
+The repository now includes 8,623 Glottolog 5.4 `level=language` records in a separate source-backed registry. This is a count of language-level entries, not a claim that all 8,623 are spoken L1 languages. Glottolog's information page separately reports 7,685 spoken L1 languages. The independent script-profile index contains 1,404 language codes, 1,695 language-script profiles and 172 script identifiers from Google Fonts language metadata, Unicode CLDR and Unicode script data. The Glottolog registry deliberately leaves script assignment unassigned and font coverage unverified unless separate evidence is available.
 
-The family catalog (2,235) and resource index (103,073) are different units. Resource records include provider face/subset records and binary files. A target of 100,000 distinct families for a widely distributed language is aspirational; if published/licensed fonts do not exist in that quantity, publish the verified count and gap.
+The family catalog (2,204 distinct families) and resource index (103,073) are different units. Provider duplicates are consolidated into one family while provider-specific records and legacy IDs remain available. Resource records include provider face/subset records and binary files. A target of 100,000 distinct families for a widely distributed language is aspirational; if published/licensed fonts do not exist in that quantity, publish the verified count and gap.
 
 Run `node scripts/audit-world-library.mjs` for a read-only audit. It does not scrape, modify files, build or deploy.
