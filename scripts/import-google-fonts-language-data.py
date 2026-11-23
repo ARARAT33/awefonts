@@ -82,10 +82,11 @@ def main():
         exemplar=blocks.get("exemplar_chars",{})
         sample=blocks.get("sample_text",{})
         profile_id=str(top.get("id") or path.stem)
-        lang=str(top.get("language") or "").strip().lower()
-        script=str(top.get("script") or "").strip()
-        name=str(top.get("name") or "").strip()
-        if not lang or not script or not name:
+        id_parts=profile_id.split("_",1)
+        lang=str(top.get("language") or (id_parts[0] if id_parts else "")).strip().lower()
+        script=str(top.get("script") or (id_parts[1] if len(id_parts)>1 else "")).strip()
+        name=str(top.get("name") or top.get("preferred_name") or profile_id).strip()
+        if not lang or not script:
             continue
         base=str(exemplar.get("base") or "")
         auxiliary=str(exemplar.get("auxiliary") or "")
@@ -102,7 +103,7 @@ def main():
         source_url=f"https://github.com/googlefonts/lang/blob/{args.revision}/Lib/gflanguages/data/languages/{path.name}"
         profiles.append({
             "id":profile_id,"language":lang,"code":lang,"script":script,
-            "name":name,"preferredName":top.get("preferred_name"),
+            "name":name,"nameEvidence":"source-name" if top.get("name") else ("preferred-name" if top.get("preferred_name") else "profile-id-fallback"),"preferredName":top.get("preferred_name"),
             "autonym":top.get("autonym"),"population":population,
             "regions":regions,"historical":historical,
             "historicalEvidence":source_url if historical is True else None,
@@ -139,7 +140,7 @@ def main():
         profile=by_id.get(item.get("id"))
         if not profile:
             missing.append(item.get("id"));continue
-        for key in ("preferredName","autonym","population","regions","historical","historicalEvidence","populationEvidence","exemplarCharacters","exemplarParts","sampleText","sampleTextCharacters","exemplarType","sourceUrl"):
+        for key in ("preferredName","nameEvidence","autonym","population","regions","historical","historicalEvidence","populationEvidence","exemplarCharacters","exemplarParts","sampleText","sampleTextCharacters","exemplarType","sourceUrl"):
             item[key]=profile.get(key)
     langs["historicalProfileCount"]=historical
     langs["exemplarProfileCount"]=exemplars
