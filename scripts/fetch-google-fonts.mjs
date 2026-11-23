@@ -26,10 +26,10 @@ const root=join(out,".google-fonts-source");
 await mkdir(out,{recursive:true});
 if(!(await stat(root).catch(()=>null)))run("git",["clone","--filter=blob:none","--depth","1","--no-checkout","https://github.com/google/fonts.git",root]);
 run("git",["fetch","--depth","1","origin","main"],root);
-run("git",["reset","--hard","FETCH_HEAD"],root);
-const revision=run("git",["rev-parse","HEAD"],root);
 run("git",["sparse-checkout","init","--no-cone"],root);
 run("git",["sparse-checkout","set","--no-cone","ofl/*/METADATA.pb","apache/*/METADATA.pb","ufl/*/METADATA.pb"],root);
+run("git",["reset","--hard","FETCH_HEAD"],root);
+const revision=run("git",["rev-parse","HEAD"],root);
 const metadataPaths=run("git",["ls-files","-z"],root).split("\0").filter(p=>p.endsWith("/METADATA.pb"));
 const rejected=[];
 const parseScalar=(s,key)=>{const re=new RegExp("^\\s*"+key+":\\s*(?:\\\"([^\\\"]*)\\\"|([0-9.]+))","m");const m=s.match(re);return m?(m[1]??m[2]??""):""};
@@ -69,6 +69,6 @@ for(const f of chosen){
  const meta={id:f.id,canonicalId:f.id,family:f.family,designer:f.designer||null,provider:"Google Fonts",sourceUrl:"https://github.com/google/fonts/tree/"+revision+"/"+dirs[chosen.indexOf(f)],sourceRevision:revision,license:{id:f.licenseId,url:f.license==="OFL"?"https://openfontlicense.org/open-font-license-official-text/":null},languages:[],subsets:f.subsets,primaryScript:f.primaryScript||null,sourceFiles:localFiles,languageEvidence:"not inferred from subset names; requires exact language tags or cmap validation"};
  await writeFile(join(destDir,"family.json"),JSON.stringify(meta,null,2)+"\n");
 }
-const report={source:"https://github.com/google/fonts",revision,generatedAt:new Date().toISOString(),requested:all?"all":limit?{limit}:Array.from(wanted),selectedFamilies:chosen.length,importableFamilies:chosen.length-rejected.length,rejectedFamilies:rejected,copiedFontFiles:copied,skippedFontFiles:skipped,bytes,bytesMiB:Number((bytes/1048576).toFixed(2)),note:"Subset labels are not language tags. Review each family licence before redistribution."};
+const report={source:"https://github.com/google/fonts",revision,generatedAt:new Date().toISOString(),requested:all?"all":limit?{limit}:Array.from(wanted),selectedFamilies:chosen.length,importableFamilies:chosen.length,rejectedLicenceRecords:rejected.length,rejectedFamilies:rejected,copiedFontFiles:copied,skippedFontFiles:skipped,bytes,bytesMiB:Number((bytes/1048576).toFixed(2)),note:"Subset labels are not language tags. Review each family licence before redistribution."};
 await writeFile(join(out,"google-fonts-fetch-report.json"),JSON.stringify(report,null,2)+"\n");
 console.log(JSON.stringify(report,null,2));
