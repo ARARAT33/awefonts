@@ -91,10 +91,34 @@ for(const path of ["catalog.json","coverage-targets.json","css-index.json","heal
     if(!x.equals(y))errors.push("Static API mirror mismatch: "+a+" vs "+b);
   }
 }
+for(const path of allFiles.filter(p=>p.startsWith("v1/language-registry/")||p.startsWith("v1/language-cmap-coverage/"))){
+  const mirror=path.replace(/^v1\//,"api-site/v1/");
+  if(!fileSet.has(mirror))errors.push("Missing mirrored language detail shard: "+mirror);
+  else{
+    const [a,b]=await Promise.all([readFile(resolve(root,path)),readFile(resolve(root,mirror))]);
+    if(!a.equals(b))errors.push("Language detail shard mirror mismatch: "+path);
+  }
+}
 if(fileSet.has("v1/language-cmap-coverage.json")){
   const cmap=await readJson("v1/language-cmap-coverage.json");
   if(cmap.familyCountInspected<1000||!Array.isArray(cmap.languages))errors.push("Language cmap coverage dataset is incomplete.");
   if(health.cmapFontFamilyCountInspected!==cmap.familyCountInspected)errors.push("Health cmap family count does not match coverage data.");
+  for(const shard of cmap.shards||[]){
+    const path="v1/"+shard.path;
+    if(!fileSet.has(path))errors.push("Missing cmap detail shard: "+path);
+    if(Number(shard.bytes)>25*1024*1024)errors.push("Cmap detail shard exceeds 25 MiB: "+path);
+  }
+  if(cmap.shards?.length!==health.languageCmapCoverageShardCount)errors.push("Health cmap shard count does not match coverage index.");
+}
+if(fileSet.has("v1/language-registry.json")){
+  const registry=await readJson("v1/language-registry.json");
+  if(registry.count!==registry.languages?.length)errors.push("Language registry summary count mismatch.");
+  for(const shard of registry.shards||[]){
+    const path="v1/"+shard.path;
+    if(!fileSet.has(path))errors.push("Missing language registry detail shard: "+path);
+    if(Number(shard.bytes)>25*1024*1024)errors.push("Language registry detail shard exceeds 25 MiB: "+path);
+  }
+  if(registry.shards?.length!==health.languageRegistryShardCount)errors.push("Health registry shard count does not match registry index.");
 }
 if(fileSet.has("v1/language-evidence.json")){
   const evidence=await readJson("v1/language-evidence.json");
