@@ -6,17 +6,19 @@
     {
       "id": "glottolog",
       "name": "Glottolog",
-      "url": "https://glottolog.org/meta/downloads",
-      "format": "languoid.csv",
+      "url": "https://glottolog.org/download",
+      "format": "Official glottolog_languoid.csv.zip; CSV",
       "fields": [
-        "id",
+        "Glottocode ID",
         "name",
-        "level",
+        "level (language/dialect/family)",
+        "ISO 639-3 code when available",
         "parent_id",
         "latitude",
         "longitude"
       ],
-      "vitality": "not supplied by the base languoid table; keep unknown unless a separately sourced status field exists"
+      "vitality": "not supplied by the base languoid table; keep unknown unless a separately sourced status field exists",
+      "releasePolicy": "Resolve the current release from the official download page at fetch time; record exact download URL, release label and SHA-256"
     },
     {
       "id": "googlefonts-lang",

@@ -91,6 +91,20 @@ python scripts/import-cldr-exemplars.py --self-test
 
 Feed that JSON directly to `validate-language-cmap.py`. CLDR covers modern locales, not all world languages; it is not a replacement for Glottolog's language-level registry. Locale IDs are not automatically treated as Glottolog or ISO 639-3 IDs. Multi-character exemplar strings are retained, but the current cmap validator checks only individual codepoint presence and cannot verify shaping.
 
+## Download the Glottolog language registry
+
+Download the current `glottolog_languoid.csv.zip` from the official Glottolog downloads page, validate the archive member, and save a release/URL/SHA-256 manifest:
+
+```sh
+python scripts/fetch-glottolog.py --out-dir ./upstream/glottolog
+node scripts/sync-global-font-corpus.mjs \\\
+  --fonts ./upstream-fonts \\\
+  --languages ./upstream/glottolog/glottolog_languoid.csv \\\
+  --write --out ./v1/imported
+```
+
+The downloader follows the current link on Glottolog's official page rather than hard-coding a stale release file. The importer normalizes CSV header names (including `ISO639P3code`) and imports `level=language` by default. Glottolog also includes dialect and family records; these are not counted as languages unless the optional dialect flag is deliberately used.
+
 ## Run locally
 
 ```sh

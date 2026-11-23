@@ -68,10 +68,10 @@ if(languageFile){
  const raw=await readFile(resolve(languageFile),"utf8"),lines=raw.split(/\r?\n/).filter(Boolean);
  if(lines.length){
   const delimiter=lines[0].includes("\t")?"\t":",",headers=csv(lines[0],delimiter).map(x=>x.trim());
-  for(const line of lines.slice(1)){const vals=csv(line,delimiter);if(vals.length<headers.length)continue;const row=Object.fromEntries(headers.map((h,i)=>[h,vals[i]??""]));const id=row.id||row.glottocode||row.code,name=row.name||row.language;if(!id||!name)continue;
+  for(const line of lines.slice(1)){const vals=csv(line,delimiter);if(vals.length<headers.length)continue;const rawRow=Object.fromEntries(headers.map((h,i)=>[h,vals[i]??""]));const row=Object.fromEntries(Object.entries(rawRow).map(([k,v])=>[k.toLowerCase().replace(/[^a-z0-9]/g,""),v]));const id=row.id||row.glottocode||row.code,name=row.name||row.language;if(!id||!name)continue;
    const level=String(row.level||"").toLowerCase();
    if(!["language",...(includeDialects?["dialect"]:[])].includes(level))continue;
-   const iso6393=String(row.iso639P3code||row.iso6393||row.iso_639_3||"").trim().toLowerCase()||null;
+   const iso6393=String(row.iso639p3code||row.iso6393||row.iso639_3||"").trim().toLowerCase()||null;
    languageRecords.push({id:String(id),name:String(name),level,iso6393,source:"Glottolog",sourceUrl:"https://glottolog.org/resource/languoid/id/"+encodeURIComponent(id),vitality:row.vitality||row.status||"unknown",vitalityEvidence:row.vitality_source||row.status_source||null,script:"Zzzz",scriptStatus:"unassigned",fontFamilyIds:[]});
   }
  }
