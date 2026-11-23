@@ -84,14 +84,14 @@ for(const html of allFiles.filter(p=>p.endsWith(".html"))){
 }
 
 // These files are intentionally mirrored between the root and API-only Pages site.
-for(const path of ["catalog.json","coverage-targets.json","css-index.json","health.json","openapi.json","sources.json","world-language-sources.json","embed.v6.js","language-registry.json"]){
+for(const path of ["catalog.json","coverage-targets.json","css-index.json","health.json","openapi.json","sources.json","world-language-sources.json","embed.v6.js","language-registry.json","languages.json","language-evidence.json","corpora/google-fonts.json"]){
   const a="v1/"+path,b="api-site/v1/"+path;
   if(await exists(a)&&await exists(b)){
     const [x,y]=await Promise.all([readFile(resolve(root,a)),readFile(resolve(root,b))]);
     if(!x.equals(y))errors.push("Static API mirror mismatch: "+a+" vs "+b);
   }
 }
-if(fileSet.has("v1/language-registry.json")){
+if(fileSet.has("v1/language-evidence.json")){\n  const evidence=await readJson("v1/language-evidence.json");\n  if(evidence.profileCount!==evidence.languages?.length||evidence.profileCount<1600)errors.push("Google Fonts language evidence profile count is invalid.");\n  if(health.languageEvidenceProfileCount!==evidence.profileCount)errors.push("Health languageEvidenceProfileCount does not match language evidence.");\n  if(health.historicalLanguageProfileCount!==evidence.historicalProfileCount)errors.push("Health historicalLanguageProfileCount does not match language evidence.");\n}\nif(fileSet.has("v1/language-registry.json")){
   const registry=await readJson("v1/language-registry.json");
   if(registry.count!==registry.languages?.length||registry.count<7000)errors.push("Glottolog language registry count is invalid or below 7,000.");
   if(health.languageRegistryCount!==registry.count)errors.push("Health languageRegistryCount does not match the Glottolog registry.");

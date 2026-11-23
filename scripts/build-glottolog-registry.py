@@ -30,9 +30,15 @@ def main():
     ap.add_argument("--health",default="v1/health.json")
     ap.add_argument("--health-mirror",default="api-site/v1/health.json")
     ap.add_argument("--minimum",type=int,default=7000)
+    ap.add_argument("--profiles",default="v1/language-evidence.json")
     args=ap.parse_args()
     manifest=json.loads(Path(args.manifest).read_text(encoding="utf-8"))
     source=manifest.get("csv",{})
+    profiles_doc=json.loads(Path(args.profiles).read_text(encoding="utf-8")) if Path(args.profiles).exists() else {"languages":[]}
+    profiles=profiles_doc.get("languages",[])
+    by_code={}
+    for profile in profiles:
+        by_code.setdefault(str(profile.get("language") or profile.get("code") or "").lower(),[]).append(profile)
     with Path(args.csv).open("r",encoding="utf-8-sig",newline="") as handle:
         reader=csv.DictReader(handle)
         headers={key(h):h for h in (reader.fieldnames or [])}
@@ -55,6 +61,11 @@ def main():
             countries=split_values(row.get("countries"))
             category=str(row.get("category") or "").strip() or None
             aes=str(row.get("aes") or row.get("agglomeratedendangermentstatus") or "").strip() or None
+            matched=by_code.get(iso or "",[])
+            scripts=sorted({str(p.get("script")) for p in matched if p.get("script")})
+            historical_flags=[p.get("historical") for p in matched if isinstance(p.get("historical"),bool)]
+            historical=True if True in historical_flags else (False if historical_flags and all(x is False for x in historical_flags) else None)
+            population=next((p.get("population") for p in matched if p.get("population") is not None),None)
             item={
                 "id":glottocode,
                 "name":name,
@@ -68,8 +79,14 @@ def main():
                 "classification":str(row.get("classification") or "").strip() or None,
                 "endangerment":aes,
                 "endangermentEvidence":"Glottolog 5.4 AES field" if aes else None,
-                "script":None,
-                "scriptStatus":"unassigned",
+                "historical":historical,
+                "historicalEvidence":[p.get("historicalEvidence") for p in matched if p.get("historicalEvidence")],
+                "population":population,
+                "populationEvidence":[p.get("populationEvidence") for p in matched if p.get("populationEvidence")],
+                "googleFontsProfileIds":[p.get("id") for p in matched],
+                "script":scripts[0] if len(scripts)==1 else None,
+                "scriptCodes":scripts,
+                "scriptStatus":"source-linked-by-ISO-639-3" if matched else "unassigned",
                 "fontCoverage":"unverified",
                 "sourceUrl":"https://glottolog.org/resource/languoid/id/"+glottocode
             }
@@ -83,18 +100,20 @@ def main():
         "generatedAt":datetime.now(timezone.utc).isoformat(),
         "count":len(rows),
         "languageCount":len(rows),
-        "profileCount":1695,
+        "profileCount":len(profiles),
         "source":{
             "name":"Glottolog",
             "release":manifest.get("release"),
             "sourcePage":manifest.get("sourcePage"),
             "downloadUrl":manifest.get("downloadUrl"),
             "csvSha256":source.get("sha256"),
+            "googleFontsLangRevision":profiles_doc.get("source",{}).get("revision"),
+            "googleFontsLangLicense":profiles_doc.get("source",{}).get("license"),
             "license":"CC-BY-4.0",
             "citation":"Hammarström, Harald, Robert Forkel, Martin Haspelmath and Sebastian Bank. 2026. Glottolog 5.4. Leipzig: Max Planck Institute for Evolutionary Anthropology."
         },
         "countingPolicy":"Only Glottolog level=language records are included. Dialects, families, and other languoids are excluded.",
-        "coveragePolicy":"Script assignment and font coverage remain unassigned/unverified unless separately evidenced. Glottolog language presence is not font-support evidence.",
+        "coveragePolicy":"Scripts, historical flags and population are linked only by exact ISO 639-3 matches to Google Fonts language data. Font coverage remains unverified until actual binary cmap evidence is computed. No script or font support is inferred from a Glottolog language name.",
         "languages":rows
     }
     out=Path(args.out)
@@ -102,7 +121,7 @@ def main():
     if out.exists():
         try: existing=json.loads(out.read_text(encoding="utf-8"))
         except Exception: existing=None
-    if existing and existing.get("source",{}).get("csvSha256")==source.get("sha256") and existing.get("count")==len(rows):
+    if existing and existing.get("source",{}).get("csvSha256")==source.get("sha256") and existing.get("count")==len(rows) and existing.get("source",{}).get("googleFontsLangRevision")==profiles_doc.get("source",{}).get("revision"):
         print(json.dumps({"changed":False,"count":len(rows),"release":manifest.get("release"),"csvSha256":source.get("sha256")}))
         return
     text=json.dumps(registry,ensure_ascii=False,separators=(",",":"))+"\n"
@@ -115,6 +134,8 @@ def main():
             h["languageRegistryCount"]=len(rows)
             h["languageRegistryRelease"]=manifest.get("release")
             h["languageRegistrySource"]="Glottolog"
+            h["languageEvidenceProfileCount"]=len(profiles)
+            h["historicalLanguageProfileCount"]=profiles_doc.get("historicalProfileCount",0)
             hp.write_text(json.dumps(h,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"changed":True,"count":len(rows),"release":manifest.get("release"),"csvSha256":source.get("sha256")}))
 if __name__=="__main__":
