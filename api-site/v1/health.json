@@ -33,5 +33,10 @@
     "rejectedFamilyCount": 7,
     "releaseUrl": "https://github.com/ARARAT33/awefonts/releases/tag/font-corpus-google-2026-11",
     "manifestUrl": "https://github.com/ARARAT33/awefonts/releases/download/font-corpus-google-2026-11/google-fonts-corpus-manifest.json"
-  }
+  },
+  "languageEvidenceProfileCount": 1695,
+  "historicalLanguageProfileCount": 197,
+  "languageExemplarProfileCount": 1068,
+  "sampleTextOnlyLanguageProfileCount": 308,
+  "languageEvidenceSourceRevision": "4b64a18f91a921287147d7dca95671f00a59e9ca"
 }
