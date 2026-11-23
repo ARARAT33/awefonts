@@ -14,6 +14,7 @@ const exists=async path=>!!(await stat(resolve(root,path)).catch(()=>null));
 const files=async dir=>{
   const out=[];
   for(const entry of await readdir(resolve(root,dir),{withFileTypes:true})){
+    if(entry.name===".git"||entry.name==="node_modules")continue;
     const p=dir+"/"+entry.name;
     if(entry.isDirectory())out.push(...await files(p));
     else out.push(p);
@@ -54,7 +55,7 @@ const counts={
   resources:assets.count,
   faceRecords:assets.faceRecords,
   binaryFontFiles:assets.binaryFiles,
-  cssPresets:cssIndex.presets?.length??cssIndex.fonts?.length??null
+  cssPresets:cssIndex.items?.length??cssIndex.presets?.length??cssIndex.fonts?.length??null
 };
 for(const [key,expected] of Object.entries({
   catalogCount:counts.families,
