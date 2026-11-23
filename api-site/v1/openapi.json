@@ -1,0 +1,85 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "AWEFonts Static API",
+    "version": "3.2.0",
+    "description": "Static API for 2,235 distinct families, 103,073 provider resource records, 1,404 language codes and 172 script identifiers. Counts are separate units."
+  },
+  "servers": [
+    {
+      "url": "https://fonts.api.aweconnect.dpdns.org"
+    }
+  ],
+  "paths": {
+    "/v1/catalog.json": {
+      "get": {
+        "summary": "Get distinct font family catalog",
+        "responses": {
+          "200": {
+            "description": "Font catalog"
+          }
+        }
+      }
+    },
+    "/v1/languages.json": {
+      "get": {
+        "summary": "Get indexed language and script profiles",
+        "responses": {
+          "200": {
+            "description": "Language/script metadata; not exhaustive"
+          }
+        }
+      }
+    },
+    "/v1/assets-index.json": {
+      "get": {
+        "summary": "Get provider resource shard manifest",
+        "responses": {
+          "200": {
+            "description": "Resource manifest; records are not unique families"
+          }
+        }
+      }
+    },
+    "/v1/css-index.json": {
+      "get": {
+        "summary": "List committed API CSS presets",
+        "responses": {
+          "200": {
+            "description": "Curated CSS preset list"
+          }
+        }
+      }
+    },
+    "/v1/embed.v6.js": {
+      "get": {
+        "summary": "API-origin browser embed loader",
+        "responses": {
+          "200": {
+            "description": "Static JavaScript embed loader"
+          }
+        }
+      }
+    },
+    "/v1/health.json": {
+      "get": {
+        "summary": "Static inventory metadata",
+        "responses": {
+          "200": {
+            "description": "Inventory counts and hosting mode"
+          }
+        }
+      }
+    },
+    "/v1/sources.json": {
+      "get": {
+        "summary": "List font sources and licensing notes",
+        "responses": {
+          "200": {
+            "description": "Source directory"
+          }
+        }
+      }
+    }
+  }
+}

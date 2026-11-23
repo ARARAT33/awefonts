@@ -1,81 +1,52 @@
 # AWEFonts
 
-AWEFonts is a static-first worldwide typography library and local font studio. Browse real font families, preview scripts, compare typefaces, download permitted font files, and create custom fonts locally in the browser.
+A static-first global font library and local Font Studio.
 
-## Library
+## Verified inventory (2026-11-23)
 
-**2,235 indexed families** across five catalog sources:
-
-| Source | Families |
+| Unit | Count |
 |---|---:|
-| Google Fonts | 1,960 |
-| Fontsource-only packages | 137 |
-| SIL International | 63 |
-| Additional Fontshare families | 67 |
-| Google Material Icons / Symbols | 8 |
+| Distinct font families | 2,235 |
+| Provider face/subset records | 99,159 |
+| Binary font files | 3,914 |
+| Total resource records | 103,073 |
+| Language codes | 1,404 |
+| Language-script profiles | 1,695 |
+| Script identifiers | 172 |
+| Committed API CSS presets | 67 |
 
-The 67 additional Fontshare records are deduplicated against the existing catalog. Fontshare licensing is preserved: 64 ITF Free Font License records are preview/embed-only; 3 additional SIL OFL records can be packaged locally. Always check the upstream licence before redistribution or commercial use.
+103,073 resource records are **not** 103,073 unique families. The language index comes from Google Fonts language metadata, Unicode CLDR and Unicode script data; it is not a complete registry of all 7,000+ living languages.
 
-Bunny Fonts is offered as a privacy-focused, Google Fonts-compatible alternative delivery provider for the 1,960 Google families. It does not add duplicate family records.
+## Language coverage targets (not claims)
+- Rare/endangered/very-low-resource: 10 distinct families.
+- Low distribution: 1,000.
+- Medium distribution: 10,000.
+- Wide distribution: 100,000.
 
-## Features
-
-- Search across family names, designers, tags, categories, scripts and licences.
-- Filter by source, writing system, category and variable-font availability.
-- Sort by name, recent update, popularity metadata or variable-font status.
-- Real font previews, script-aware specimens and local saved favourites.
-- Compare up to four families side by side.
-- Material Symbols variable axes: optical size, weight, fill and grade.
-- Language packs and browser-local ZIP assembly for files permitted by their licences.
-- Font Studio: local drawing/import workflow and local exports. User artwork is not uploaded.
-- Static API and embed loader; no account, API key, database, Worker or Functions.
+Only source-verified families count. Script support alone is not language support. Do not pad with duplicates, weights, subsets, mirrors or placeholders. See [coverage policy](docs/world-language-coverage.md). Run `node scripts/audit-world-library.mjs` for a read-only integrity audit.
 
 ## Pages
-
-- `/` — home
-- `/fonts.html` — font discovery
-- `/font.html?id=family-id` — specimen and family details
-- `/compare.html` — side-by-side comparison
-- `/packs.html` — language packs
-- `/studio.html` — local font studio
-- `/sources.html` — source directory with external catalogue counts and licence notes
-- `/developers.html` — API and embed documentation
-
-External discovery links include DaFont (101,662 listings) and Fontist (6,656 families). They remain external indexes, are not mirrored into AWEFonts, and are not included in the 103,073 local resource count. Third-party licences must be checked per listing.
+Home, Fonts, Specimen, Compare, Packs, Font Studio, Assets, Languages, Sources and Developers.
 
 ## Static API
-
-The root Pages project serves the API from `/v1/` so the UI and catalog are updated together in one deployment:
+Origin: `https://fonts.api.aweconnect.dpdns.org`
 
 - `/v1/catalog.json`
+- `/v1/languages.json`
+- `/v1/assets-index.json` and `/v1/assets/*.json`
 - `/v1/sources.json`
 - `/v1/health.json`
-- `/v1/embed.v5.js`
-- `/v1/openapi.json`
-
-The API custom hostname is `fonts.api.aweconnect.dpdns.org`. The same project also serves the main website at `fonts.aweconnect.dpdns.org`. The legacy `api-site/` directory remains as a synchronized source mirror and rollback reference.
+- `/v1/css-index.json`
+- `/v1/embed.v6.js`
 
 Example:
-
 ```html
-<script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v5.js" data-font="Inter" data-weights="400;700"></script>
+<script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v6.js"
+ data-font="roboto,noto-sans-armenian" data-apply="true"
+ data-selector=".article" data-size="18px" data-line-height="1.6"></script>
 ```
 
-For supported Google families, add `data-provider="bunny"` to use the Bunny Fonts privacy CDN.
+The embed loader uses AWEFonts API-origin CSS preset URLs. The preset list is a curated subset; unsupported catalog families are explicitly reported, not silently loaded from another provider. AWEFonts-hosted CSS may still reference an upstream CDN; that is not a locally mirrored binary. See [static API contract](docs/static-api-and-embed.md).
 
-## Cloudflare Pages
-
-- Root directory: `/`
-- Build command: empty (static assets only)
-- Build output directory: `/`
-- No Workers or Functions.
-- Automatic Git deployments remain disabled; this release is initiated manually once. All static page asset references are versioned together to prevent stale cached JavaScript/CSS from causing UI errors.
-
-
-## Global resource and language index
-
-- **2,235 distinct font families** remain the family count.
-- **103,073 provider-specific resources**: 71,070 Fontsource face/subset records, 28,089 Google Fonts CSS face/subset records, and 3,914 Google Fonts repository binary files. These are not 103,073 unique families.
-- **1,404 language codes**, 1,695 language-script profiles and 172 writing systems are indexed from Google Fonts language data, Unicode CLDR and Unicode 17.0 script ranges.
-- `/assets.html` searches the 100k+ resource index; `/languages.html` browses language/script profiles. Font Studio can load the selected script's glyph sample.
-- The root `/v1/` API is served by the same Cloudflare Pages project as the website. No build command or Workers are required.
+## Deployment safety
+Static assets only; root directory `/`; build command empty; no Workers or Functions. Do not trigger Cloudflare builds/deployments. Keep work on `feat/awefonts-world-library-2026`; do not merge to `main` without explicit approval.

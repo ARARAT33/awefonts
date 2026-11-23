@@ -1,6 +1,6 @@
 {
   "name": "AWEFonts Static Font API",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "catalogCount": 2235,
   "fontAssetCount": 103073,
   "fontFaceRecords": 99159,
@@ -13,20 +13,10 @@
     "google": 28089,
     "google-files": 3914
   },
+  "cssPresetCount": 67,
+  "embedVersion": 6,
   "generatedAt": "2026-11-23",
-  "deploymentMode": "single static Cloudflare Pages project; build command empty",
+  "deploymentMode": "static assets only; no build, Workers or Functions",
   "apiHost": "fonts.api.aweconnect.dpdns.org",
-  "externalCatalogs": {
-    "dafont": {
-      "count": 101662,
-      "unit": "font listings",
-      "mirrored": false
-    },
-    "fontist": {
-      "count": 6656,
-      "unit": "font families",
-      "mirrored": false
-    }
-  },
-  "uiAssetVersion": 9
+  "inventoryNote": "Font families, provider face/subset records and binary files are separate units. Language index is not a complete 7,000+ language registry."
 }
