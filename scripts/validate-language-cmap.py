@@ -72,7 +72,7 @@ def main():
         chars = item.get("exemplarCharacters", "")
         source = item.get("sourceUrl") or item.get("source")
         required = required_codepoints(chars)
-        if not item.get("id") or not source or not required:
+        if not item.get("id") or not isinstance(source, str) or not source.startswith(("https://", "http://")) or not required:
             rejected_languages.append({
                 "id": item.get("id"),
                 "reason": "requires id, sourceUrl/source, and non-empty exemplarCharacters"
@@ -111,12 +111,15 @@ def main():
     for lang in usable_languages:
         required = lang["required"]
         exact = []
+        qualifying = []
         partial = []
         for family_id, available in family_codepoints.items():
             present = required & available
             ratio = len(present) / len(required)
-            if ratio >= args.minimum_ratio:
+            if ratio == 1.0:
                 exact.append(family_id)
+            if ratio >= args.minimum_ratio:
+                qualifying.append(family_id)
             elif ratio:
                 partial.append({
                     "familyId": family_id,
@@ -131,6 +134,8 @@ def main():
             "requiredCharacterCount": len(required),
             "completeFamilyCount": len(exact),
             "completeFamilyIds": sorted(exact),
+            "thresholdQualifiedFamilyCount": len(qualifying),
+            "thresholdQualifiedFamilyIds": sorted(qualifying),
             "partialFamilyCount": len(partial),
             "bestPartial": partial[:20],
             "minimumRatio": args.minimum_ratio,
