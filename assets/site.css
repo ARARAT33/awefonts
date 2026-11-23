@@ -18,3 +18,10 @@
 .language-card p{font-size:17px;line-height:1.7;overflow-wrap:anywhere}
 .language-sample{display:block;color:var(--muted);line-height:1.5;margin:8px 0}
 @media(max-width:760px){.asset-toolbar,.language-toolbar{grid-template-columns:1fr 1fr}.asset-toolbar input,.language-toolbar input{grid-column:1/-1}.asset-toolbar button{grid-column:1/-1}.asset-row{align-items:flex-start;flex-direction:column}.asset-actions{gap:10px}}
+
+/* Release 9: resource navigation, archive metadata and resilient loading */
+@media(min-width:651px){.tiles{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:650px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:380px){.tiles{grid-template-columns:1fr}}
+.source-license{display:block!important;margin-top:6px;line-height:1.5;color:var(--muted);font-size:10px!important}
+#languageHint{margin:0 0 12px;line-height:1.5}

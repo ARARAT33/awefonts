@@ -2,7 +2,7 @@
   "name": "AWEFonts Global Source Directory",
   "version": "1.0.0",
   "generatedAt": "2026-11-23",
-  "total": 97,
+  "total": 98,
   "groups": [
     {
       "category": "Open-source catalogues",
@@ -138,6 +138,15 @@
           "url": "https://github.com/google/material-design-icons",
           "kind": "Apache-2.0 icon-font-library",
           "mirrorStatus": "8 Material Symbols / Material Icons families indexed"
+        },
+        {
+          "name": "Fontist Family Index",
+          "url": "https://www.fontist.org/families/",
+          "kind": "open-family-index",
+          "mirrorStatus": "external catalogue; not mirrored",
+          "catalogCount": 6656,
+          "countUnit": "font families",
+          "licenseNote": "5,580 open-source families; other entries include bundled, restricted or unknown licensing. Check each record."
         }
       ]
     },
@@ -154,7 +163,10 @@
           "name": "DaFont",
           "url": "https://www.dafont.com",
           "kind": "mixed",
-          "mirrorStatus": "source-index-only"
+          "mirrorStatus": "source-index-only",
+          "catalogCount": 101662,
+          "countUnit": "font listings",
+          "licenseNote": "External catalogue only. Licensing varies by listing, including personal-use and commercial restrictions; verify before use."
         },
         {
           "name": "1001 Fonts",
@@ -611,5 +623,6 @@
         }
       ]
     }
-  ]
+  ],
+  "updatedAt": "2026-11-23"
 }

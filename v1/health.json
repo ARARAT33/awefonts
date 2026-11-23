@@ -1,6 +1,6 @@
 {
   "name": "AWEFonts Static Font API",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "catalogCount": 2235,
   "fontAssetCount": 103073,
   "fontFaceRecords": 99159,
@@ -15,5 +15,18 @@
   },
   "generatedAt": "2026-11-23",
   "deploymentMode": "single static Cloudflare Pages project; build command empty",
-  "apiHost": "fonts.api.aweconnect.dpdns.org"
+  "apiHost": "fonts.api.aweconnect.dpdns.org",
+  "externalCatalogs": {
+    "dafont": {
+      "count": 101662,
+      "unit": "font listings",
+      "mirrored": false
+    },
+    "fontist": {
+      "count": 6656,
+      "unit": "font families",
+      "mirrored": false
+    }
+  },
+  "uiAssetVersion": 9
 }

@@ -38,8 +38,10 @@ Bunny Fonts is offered as a privacy-focused, Google Fonts-compatible alternative
 - `/compare.html` — side-by-side comparison
 - `/packs.html` — language packs
 - `/studio.html` — local font studio
-- `/sources.html` — source directory
+- `/sources.html` — source directory with external catalogue counts and licence notes
 - `/developers.html` — API and embed documentation
+
+External discovery links include DaFont (101,662 listings) and Fontist (6,656 families). They remain external indexes, are not mirrored into AWEFonts, and are not included in the 103,073 local resource count. Third-party licences must be checked per listing.
 
 ## Static API
 
@@ -67,7 +69,7 @@ For supported Google families, add `data-provider="bunny"` to use the Bunny Font
 - Build command: empty (static assets only)
 - Build output directory: `/`
 - No Workers or Functions.
-- Automatic Git deployments remain disabled; the release is initiated manually once.
+- Automatic Git deployments remain disabled; this release is initiated manually once. All static page asset references are versioned together to prevent stale cached JavaScript/CSS from causing UI errors.
 
 
 ## Global resource and language index
