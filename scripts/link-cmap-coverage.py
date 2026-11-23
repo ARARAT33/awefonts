@@ -8,6 +8,22 @@ from datetime import datetime, timezone
 def load(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
+def expand_shards(document):
+    if not document.get("shards"):
+        return document
+    details={}
+    for shard in document.get("shards",[]):
+        part=load(Path("v1")/shard["path"])
+        for item in part.get("languages",[]):
+            details[item["id"]]=item
+    merged=[]
+    for summary in document.get("languages",[]):
+        item=dict(summary)
+        item.update(details.get(summary.get("id"),{}))
+        merged.append(item)
+    document["languages"]=merged
+    return document
+
 def save(path, value):
     target=Path(path);target.parent.mkdir(parents=True,exist_ok=True)
     target.write_text(json.dumps(value,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
@@ -23,8 +39,8 @@ def main():
     ap.add_argument("--health",default="v1/health.json")
     ap.add_argument("--health-mirror",default="api-site/v1/health.json")
     args=ap.parse_args()
-    coverage=load(args.coverage)
-    registry=load(args.registry)
+    coverage=expand_shards(load(args.coverage))
+    registry=expand_shards(load(args.registry))
     catalog=load(args.catalog)
     profile_map={x["id"]:x for x in coverage.get("languages",[])}
     catalog_ids={}
@@ -40,15 +56,15 @@ def main():
     languages_with_exemplar=0
     languages_with_sample_only=0
     for record in coverage.get("languages",[]):
-        original=record.get("completeFamilyIds") or []
+        original=record.get("completeProviderFamilyIds") or record.get("completeFamilyIds") or []
         record["completeProviderFamilyIds"]=original
         record["completeFamilyIds"]=sorted({catalog_ids.get(x,x) for x in original})
-        threshold=record.get("thresholdQualifiedFamilyIds") or []
+        threshold=record.get("thresholdQualifiedProviderFamilyIds") or record.get("thresholdQualifiedFamilyIds") or []
         record["thresholdQualifiedProviderFamilyIds"]=threshold
         record["thresholdQualifiedFamilyIds"]=sorted({catalog_ids.get(x,x) for x in threshold})
         for partial in record.get("bestPartial",[]):
-            partial["providerFamilyId"]=partial.get("familyId")
-            partial["familyId"]=catalog_ids.get(partial.get("familyId"),partial.get("familyId"))
+            partial["providerFamilyId"]=partial.get("providerFamilyId") or partial.get("familyId")
+            partial["familyId"]=catalog_ids.get(partial.get("providerFamilyId"),partial.get("providerFamilyId"))
     for language in registry.get("languages",[]):
         profile_ids=language.get("googleFontsProfileIds") or []
         by_profile=[]
@@ -90,7 +106,7 @@ def main():
             language["fontCoverage"]="unverified"
             language["fontCoverageEvidence"]="no matching language-script profile with usable character evidence"
     registry["cmapCoverage"]={
-        "generatedAt":datetime.now(timezone.utc).isoformat(),
+        "generatedAt":coverage.get("generatedAt"),
         "sourceFontFamilyCountInspected":coverage.get("familyCountInspected"),
         "languageScriptProfilesChecked":coverage.get("languageCountChecked"),
         "languageScriptProfilesRejected":coverage.get("languageCountRejected"),
