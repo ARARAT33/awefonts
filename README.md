@@ -85,3 +85,7 @@ python scripts/validate-language-cmap.py --fonts-root ./upstream-fonts/google-fo
 ```
 
 The Glottolog importer counts language-level rows separately from dialects and families. Every source snapshot records immutable provenance. Character-map matches are only codepoint evidence; shaping and full language usability need additional validation.
+
+## Final validation workflow
+
+The repository includes an offline validation workflow at `.github/workflows/awefonts-validation.yml`. It checks JavaScript/Python syntax, CLDR parser self-tests, JSON validity, catalog IDs, language profile IDs, resource shard totals, health counters, CSS preset files, local HTML asset references, and the duplicated static API mirror. It does not download upstream corpora, claim complete language/font coverage, run a Cloudflare build, or deploy. The checks run on pushes to the working branch and pull requests to `main`.

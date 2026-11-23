@@ -1,0 +1,51 @@
+name: AWEFonts validation
+
+on:
+  push:
+    branches:
+      - feat/awefonts-world-library-2026
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: awefonts-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Static data and source validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/site.js
+          node --check assets/app.js
+          node --check v1/embed.v6.js
+          node --check api-site/v1/embed.v6.js
+          node --check scripts/fetch-google-fonts.mjs
+          node --check scripts/sync-global-font-corpus.mjs
+          node --check scripts/audit-world-library.mjs
+      - name: Check Python syntax and CLDR parser
+        run: |
+          python -m py_compile scripts/fetch-glottolog.py scripts/import-cldr-exemplars.py scripts/validate-language-cmap.py
+          python scripts/import-cldr-exemplars.py --self-test
+      - name: Validate static site and mirrored API data
+        run: node scripts/validate-static-site.mjs
+      - name: Audit catalog, language coverage and resource shards
+        run: node scripts/audit-world-library.mjs
