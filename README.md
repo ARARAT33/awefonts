@@ -13,14 +13,14 @@ A static-first global font library and local Font Studio.
 | Verified Google Fonts GitHub Release | 1,992 families / 3,719 binaries |
 | Total resource records | 103,073 |
 | Glottolog language-level registry entries | 8,623 |
-| Language codes in script profiles | 1,404 |
+| Language codes in script profiles | 1,399 |
 | Language-script profiles | 1,695 |
 | Profiles with sourced language exemplars | populated from Google Fonts language data |
 | Historical profiles explicitly marked by source | published in `v1/language-evidence.json` |
 | Script identifiers | 172 |
 | Committed API CSS presets | 67 |
 
-103,073 resource records are **not** 103,073 unique families. The 3,914 binary-file records are upstream references, not files bundled in this repository. A separate GitHub Release now hosts 1,992 verified Google Fonts families and 3,719 real font binaries (2.356 GB uncompressed); see `/v1/corpora/google-fonts.json` for checksums and download instructions. The 8,623-entry language-level registry is sourced from Glottolog 5.4; it includes multiple language-level categories and must not be read as 8,623 spoken L1 languages. The separate 1,404-code / 1,695-profile index is enriched from the pinned Google Fonts language dataset with autonyms, population fields, explicit historical flags, region data and exemplar characters; CLDR and Unicode script data remain separate evidence sources. Registry membership does not prove script assignment or font coverage.
+103,073 resource records are **not** 103,073 unique families. The 3,914 binary-file records are upstream references, not files bundled in this repository. A separate GitHub Release now hosts 1,992 verified Google Fonts families and 3,719 real font binaries (2.356 GB uncompressed); see `/v1/corpora/google-fonts.json` for checksums and download instructions. The 8,623-entry language-level registry is sourced from Glottolog 5.4; it includes multiple language-level categories and must not be read as 8,623 spoken L1 languages. The separate 1,399-code / 1,695-profile index is enriched from the pinned Google Fonts language dataset with autonyms, population fields, explicit historical flags, region data and exemplar characters; CLDR and Unicode script data remain separate evidence sources. Registry membership does not prove script assignment or font coverage.
 
 ## Language coverage targets (not claims)
 - Rare/endangered/very-low-resource: 10 distinct families.
