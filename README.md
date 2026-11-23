@@ -6,7 +6,7 @@ A static-first global font library and local Font Studio.
 
 | Unit | Count |
 |---|---:|
-| Distinct font families | 2,235 |
+| Distinct font families | 2,204 |
 | Provider face/subset records | 99,159 |
 | Binary font files | 3,914 |
 | Total resource records | 103,073 |
@@ -89,3 +89,6 @@ The Glottolog importer counts language-level rows separately from dialects and f
 ## Final validation workflow
 
 The repository includes an offline validation workflow at `.github/workflows/awefonts-validation.yml`. It checks JavaScript/Python syntax, CLDR parser self-tests, JSON validity, catalog IDs, language profile IDs, resource shard totals, health counters, CSS preset files, local HTML asset references, and the duplicated static API mirror. It does not download upstream corpora, claim complete language/font coverage, run a Cloudflare build, or deploy. The checks run on pushes to the working branch and pull requests to `main`.
+
+
+Duplicate provider records are consolidated into one family identity. Provider-specific licences, CSS endpoints, downloads and legacy IDs remain available under each family's `providers` and `aliases` fields.
