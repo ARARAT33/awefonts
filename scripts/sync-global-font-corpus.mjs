@@ -31,7 +31,10 @@ if(fontRoot){
    if(!family||!id)throw Error("family and id are required");
    const lic=typeof m.license==="string"?m.license:(m.license?.id||m.license?.name||"");
    const licenceUrl=typeof m.license==="object"?m.license.url:"";
-   if(!lic)throw Error("missing explicit licence");\n   const spdx=new Set(["OFL-1.1","Apache-2.0","MIT","Ubuntu-Font-1.0","GPL-2.0","GPL-3.0","BSD-2-Clause","BSD-3-Clause"]);\n   if(!licenceUrl&&!spdx.has(lic))throw Error("licence must have a source URL or recognized SPDX identifier");\n   const sourceUrl=m.sourceUrl||m.url||"";if(!/^https?:\\/\\//i.test(sourceUrl))throw Error("missing verifiable upstream sourceUrl");
+   if(!lic)throw Error("missing explicit licence");
+   const spdx=new Set(["OFL-1.1","Apache-2.0","MIT","Ubuntu-Font-1.0","GPL-2.0","GPL-3.0","BSD-2-Clause","BSD-3-Clause"]);
+   if(!licenceUrl&&!spdx.has(lic))throw Error("licence must have a source URL or recognized SPDX identifier");
+   const sourceUrl=m.sourceUrl||m.url||"";if(!/^https?:\\/\\//i.test(sourceUrl))throw Error("missing verifiable upstream sourceUrl");
    const rawFiles=Array.isArray(m.sourceFiles)?m.sourceFiles:(Array.isArray(m.files)?m.files:[]);
    if(!rawFiles.length)throw Error("no declared binary source files");
    const checked=[];
@@ -43,7 +46,9 @@ if(fontRoot){
     if(!["ttf","otf","woff","woff2"].includes(format))throw Error("unsupported font format: "+format);
     checked.push({path:relative(resolve(fontRoot),p).replaceAll("\\","/"),format,bytes:st.size,sha256:await sha(p),variant:f.variant||null});
    }
-   if(seenIds.has(id))throw Error("duplicate family id also used by "+seenIds.get(id));\n   seenIds.set(id,file);\n   const identity=norm(m.canonicalId||[family,m.designer||m.foundry||""].join("|"));
+   if(seenIds.has(id))throw Error("duplicate family id also used by "+seenIds.get(id));
+   seenIds.set(id,file);
+   const identity=norm(m.canonicalId||[family,m.designer||m.foundry||""].join("|"));
    if(seen.has(identity)){const prior=seen.get(identity);prior.alternateSources.push({provider:m.provider||m.source||"unspecified",id,sourceUrl:m.sourceUrl||m.url||"",license:lic});continue}
    const rec={id,canonicalKey:identity,family,designer:m.designer||m.foundry||null,provider:m.provider||m.source||"unspecified",sourceUrl,license:{id:lic,url:licenceUrl||null},languages:[...new Set((m.languages||m.languageTags||[]).map(String))],sourceFiles:checked,alternateSources:[],evidence:"explicit-source-metadata",metadataPath:relative(resolve(fontRoot),file).replaceAll("\\","/")};
    seen.set(identity,rec);families.push(rec);
