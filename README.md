@@ -1,6 +1,6 @@
 AWEFonts static multi-page worldwide typography library and local font studio.
 
-Pages: home, fonts.html, font.html?id=family-id, packs.html, studio.html, sources.html, developers.html.
+Pages: home, fonts.html, font.html?id=family-id, packs.html, studio.html, sources.html, compare.html, developers.html.
 
 Catalog: 2235 indexed families: 2168 existing Google Fonts / Fontsource / SIL families plus 67 additional Fontshare families (100 total Fontshare records; 33 were already represented). Fontshare licensing is preserved: SIL OFL entries can be packaged locally; ITF FFL entries are preview/embed-only and link to the official foundry page. SIL entries include OFL/license metadata and direct font file references.
 
