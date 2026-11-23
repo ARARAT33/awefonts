@@ -93,6 +93,7 @@ for(const path of ["catalog.json","coverage-targets.json","css-index.json","heal
 }
 if(fileSet.has("v1/language-evidence.json")){
   const evidence=await readJson("v1/language-evidence.json");
+  const languageIndex=await readJson("v1/languages.json");
   if(evidence.profileCount!==evidence.languages?.length||evidence.profileCount<1600)errors.push("Google Fonts language evidence profile count is invalid.");
   if(health.languageEvidenceProfileCount!==evidence.profileCount)errors.push("Health languageEvidenceProfileCount does not match language evidence.");
   if(languageIndex.languageCount!==evidence.languageCodeCount)errors.push("Language code count does not match sourced Google Fonts language evidence.");

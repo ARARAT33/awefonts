@@ -45,6 +45,7 @@ jobs:
         run: |
           python -m py_compile scripts/fetch-glottolog.py scripts/build-glottolog-registry.py scripts/import-google-fonts-language-data.py scripts/import-cldr-exemplars.py scripts/validate-language-cmap.py
           python scripts/import-cldr-exemplars.py --self-test
+          python scripts/import-google-fonts-language-data.py --self-test
       - name: Validate static site and mirrored API data
         run: node scripts/validate-static-site.mjs
       - name: Audit catalog, language coverage and resource shards
