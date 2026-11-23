@@ -34,7 +34,7 @@ if(fontRoot){
    if(!lic)throw Error("missing explicit licence");
    const spdx=new Set(["OFL-1.1","Apache-2.0","MIT","Ubuntu-Font-1.0","GPL-2.0","GPL-3.0","BSD-2-Clause","BSD-3-Clause"]);
    if(!licenceUrl&&!spdx.has(lic))throw Error("licence must have a source URL or recognized SPDX identifier");
-   const sourceUrl=m.sourceUrl||m.url||"";if(!/^https?:\\/\\//i.test(sourceUrl))throw Error("missing verifiable upstream sourceUrl");
+    const sourceUrl=m.sourceUrl||m.url||"";if(!(sourceUrl.startsWith("https://")||sourceUrl.startsWith("http://")))throw Error("missing verifiable upstream sourceUrl");
    const rawFiles=Array.isArray(m.sourceFiles)?m.sourceFiles:(Array.isArray(m.files)?m.files:[]);
    if(!rawFiles.length)throw Error("no declared binary source files");
    const checked=[];
@@ -44,7 +44,8 @@ if(fontRoot){
     const st=await stat(p);if(!st.isFile()||!st.size)throw Error("missing or empty binary: "+(f.path||f.file));
     const format=extname(p).slice(1).toLowerCase();
     if(!["ttf","otf","woff","woff2"].includes(format))throw Error("unsupported font format: "+format);
-    checked.push({path:relative(resolve(fontRoot),p).replaceAll("\\","/"),format,bytes:st.size,sha256:await sha(p),variant:f.variant||null});
+     const digest=await sha(p);if(binaryOwners.has(digest))warnings.push("Identical binary hash shared by "+binaryOwners.get(digest)+" and "+id+"/"+(f.path||f.file));else binaryOwners.set(digest,id+"/"+(f.path||f.file));
+     checked.push({path:relative(resolve(fontRoot),p).replaceAll("\\","/"),format,bytes:st.size,sha256:digest,variant:f.variant||null});
    }
    if(seenIds.has(id))throw Error("duplicate family id also used by "+seenIds.get(id));
    seenIds.set(id,file);
