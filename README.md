@@ -68,3 +68,12 @@ For supported Google families, add `data-provider="bunny"` to use the Bunny Font
 - Build output directory: `/`
 - No Workers or Functions.
 - Automatic Git deployments remain disabled; the release is initiated manually once.
+
+
+## Global resource and language index
+
+- **2,235 distinct font families** remain the family count.
+- **103,073 provider-specific resources**: 71,070 Fontsource face/subset records, 28,089 Google Fonts CSS face/subset records, and 3,914 Google Fonts repository binary files. These are not 103,073 unique families.
+- **1,404 language codes**, 1,695 language-script profiles and 172 writing systems are indexed from Google Fonts language data, Unicode CLDR and Unicode 17.0 script ranges.
+- `/assets.html` searches the 100k+ resource index; `/languages.html` browses language/script profiles. Font Studio can load the selected script's glyph sample.
+- The root `/v1/` API is served by the same Cloudflare Pages project as the website. No build command or Workers are required.

@@ -2,8 +2,8 @@
   "openapi": "3.1.0",
   "info": {
     "title": "AWEFonts Static API",
-    "version": "1.1.0",
-    "description": "Static worldwide font catalog and configurable browser embed. Supports selector, font weights, size, line-height and letter spacing. No backend or API keys."
+    "version": "3.0.0",
+    "description": "Static typography API: 2,235 families, 103,073 provider-specific font resources, 1,404 language codes and 172 writing systems."
   },
   "servers": [
     {
@@ -78,6 +78,36 @@
         "responses": {
           "200": {
             "description": "Global source directory JSON"
+          }
+        }
+      }
+    },
+    "/v1/assets-index.json": {
+      "get": {
+        "summary": "Get the 100k+ font resource index and shard manifest",
+        "responses": {
+          "200": {
+            "description": "Static asset index JSON"
+          }
+        }
+      }
+    },
+    "/v1/assets/{shard}.json": {
+      "get": {
+        "summary": "Get a font resource shard",
+        "responses": {
+          "200": {
+            "description": "Font resource shard JSON"
+          }
+        }
+      }
+    },
+    "/v1/languages.json": {
+      "get": {
+        "summary": "Get language and script profiles",
+        "responses": {
+          "200": {
+            "description": "Language profiles JSON"
           }
         }
       }

@@ -2,7 +2,7 @@
   "name": "AWEFonts Global Source Directory",
   "version": "1.0.0",
   "generatedAt": "2026-11-23",
-  "total": 97,
+  "total": 102,
   "groups": [
     {
       "category": "Open-source catalogues",
@@ -138,6 +138,36 @@
           "url": "https://github.com/google/material-design-icons",
           "kind": "Apache-2.0 icon-font-library",
           "mirrorStatus": "8 Material Symbols / Material Icons families indexed"
+        },
+        {
+          "name": "Fontsource Font Files registry",
+          "url": "https://github.com/fontsource/font-files",
+          "kind": "font-face-and-package-index",
+          "mirrorStatus": "71,070 provider-specific face/subset records indexed"
+        },
+        {
+          "name": "Google Fonts source repository",
+          "url": "https://github.com/google/fonts",
+          "kind": "font-binary-and-license-index",
+          "mirrorStatus": "3,914 upstream binary font files indexed"
+        },
+        {
+          "name": "Google Fonts language data",
+          "url": "https://github.com/google/fonts/tree/main/lang",
+          "kind": "language-script-metadata",
+          "mirrorStatus": "1,404 language codes and 1,695 language-script profiles"
+        },
+        {
+          "name": "Unicode CLDR",
+          "url": "https://github.com/unicode-org/cldr-json",
+          "kind": "language-and-script-display-names",
+          "mirrorStatus": "Language and writing-system display names"
+        },
+        {
+          "name": "Unicode Character Database 17.0",
+          "url": "https://www.unicode.org/Public/17.0.0/ucd/Scripts.txt",
+          "kind": "unicode-script-property-data",
+          "mirrorStatus": "Unicode 17.0 script ranges used for Studio glyph samples"
         }
       ]
     },

@@ -1,23 +1,19 @@
 {
   "name": "AWEFonts Static Font API",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "catalogCount": 2235,
+  "fontAssetCount": 103073,
+  "fontFaceRecords": 99159,
+  "binaryFontFiles": 3914,
+  "languageCount": 1404,
+  "languageScriptProfiles": 1695,
+  "scriptCount": 172,
   "sourceCounts": {
-    "google": 1960,
-    "fontsource": 137,
-    "sil": 63,
-    "fontshare": 67,
-    "google-icons": 8
+    "fontsource": 71070,
+    "google": 28089,
+    "google-files": 3914
   },
-  "sources": [
-    "google",
-    "fontsource",
-    "sil",
-    "fontshare",
-    "google-icons",
-    "bunny"
-  ],
   "generatedAt": "2026-11-23",
-  "ui": true,
-  "deploymentMode": "shared static Cloudflare Pages project; build command empty"
+  "deploymentMode": "single static Cloudflare Pages project; build command empty",
+  "apiHost": "fonts.api.aweconnect.dpdns.org"
 }
