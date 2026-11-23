@@ -1,13 +1,13 @@
 {
   "name": "AWEFonts Static Font API",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "catalogCount": 2235,
   "sourceCounts": {
     "google": 1960,
-    "fontsource": 145,
+    "fontsource": 137,
     "sil": 63,
     "fontshare": 67,
-    "google-icons": 0
+    "google-icons": 8
   },
   "sources": [
     "google",
