@@ -62,7 +62,7 @@ if(languageFile){
   const delimiter=lines[0].includes("\t")?"\t":",",headers=csv(lines[0],delimiter).map(x=>x.trim());
   for(const line of lines.slice(1)){const vals=csv(line,delimiter);if(vals.length<headers.length)continue;const row=Object.fromEntries(headers.map((h,i)=>[h,vals[i]??""]));const id=row.id||row.glottocode||row.code,name=row.name||row.language;if(!id||!name)continue;
    const level=String(row.level||"").toLowerCase();
-   if(!includeDialects && level && level!=="language")continue;
+   if(!["language",...(includeDialects?["dialect"]:[])].includes(level))continue;
    const iso6393=String(row.iso639P3code||row.iso6393||row.iso_639_3||"").trim().toLowerCase()||null;
    languageRecords.push({id:String(id),name:String(name),level,iso6393,source:"Glottolog",sourceUrl:"https://glottolog.org/resource/languoid/id/"+encodeURIComponent(id),vitality:row.vitality||row.status||"unknown",vitalityEvidence:row.vitality_source||row.status_source||null,script:"Zzzz",scriptStatus:"unassigned",fontFamilyIds:[]});
   }

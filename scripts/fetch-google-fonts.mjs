@@ -25,10 +25,11 @@ const run=(cmd,argv,cwd)=>{const r=spawnSync(cmd,argv,{cwd,encoding:"utf8",maxBu
 const root=join(out,".google-fonts-source");
 await mkdir(out,{recursive:true});
 if(!(await stat(root).catch(()=>null)))run("git",["clone","--filter=blob:none","--depth","1","--no-checkout","https://github.com/google/fonts.git",root]);
+run("git",["fetch","--depth","1","origin","main"],root);
+run("git",["reset","--hard","FETCH_HEAD"],root);
 const revision=run("git",["rev-parse","HEAD"],root);
 run("git",["sparse-checkout","init","--no-cone"],root);
 run("git",["sparse-checkout","set","--no-cone","ofl/*/METADATA.pb","apache/*/METADATA.pb","ufl/*/METADATA.pb"],root);
-run("git",["checkout","HEAD","--","ofl","apache","ufl"],root);
 const metadataPaths=run("git",["ls-files","-z"],root).split("\0").filter(p=>p.endsWith("/METADATA.pb"));
 const parseScalar=(s,key)=>{const re=new RegExp("^\\s*"+key+":\\s*\\\"([^\\\"]*)\\\"","m");const m=s.match(re);return m?m[1]:""};
 const parseList=(s,key)=>[...s.matchAll(new RegExp("^\\s*"+key+":\\s*\\\"([^\\\"]*)\\\"","gm"))].map(m=>m[1]);
@@ -39,6 +40,7 @@ for(const p of metadataPaths){
  const family=parseScalar(content,"name")||basename(join(root,p,".."));
  const license=parseScalar(content,"license"),id=p.split("/")[1];
  const licenseMap={OFL:"OFL-1.1",APACHE:"Apache-2.0",UFL:"Ubuntu-Font-1.0"};
+ if(!licenseMap[license]){rejected.push({id,family,reason:"unrecognized or missing explicit licence: "+license});continue;}
  const fonts=parseBlocks(content,"fonts").map(b=>({filename:parseScalar(b,"filename"),style:parseScalar(b,"style")||"normal",weight:Number(parseScalar(b,"weight")||400)})).filter(x=>x.filename);
  families.push({id,family,license,licenseId:licenseMap[license]||license,fonts,subsets:parseList(content,"subsets"),primaryScript:parseScalar(content,"primary_script"),designer:parseScalar(content,"designer"),path:p});
 }
@@ -47,8 +49,7 @@ const chosen=all?selected:(limit?selected.slice(0,limit):selected);
 if(!chosen.length){console.error("No matching Google Fonts families.");process.exit(1);}
 const dirs=chosen.map(f=>f.path.slice(0,-"METADATA.pb".length));
 run("git",["sparse-checkout","set","--no-cone",...dirs.map(p=>p+"*")],root);
-run("git",["checkout","HEAD","--",...dirs],root);
-let copied=0,bytes=0,skipped=0;
+let copied=0,bytes=0,skipped=0;const rejected=[];
 for(const f of chosen){
  const sourceDir=join(root,f.path,".."),destDir=join(out,f.id);
  await mkdir(destDir,{recursive:true});
@@ -67,6 +68,6 @@ for(const f of chosen){
  const meta={id:f.id,canonicalId:f.id,family:f.family,designer:f.designer||null,provider:"Google Fonts",sourceUrl:"https://github.com/google/fonts/tree/"+revision+"/"+dirs[chosen.indexOf(f)],sourceRevision:revision,license:{id:f.licenseId,url:f.license==="OFL"?"https://openfontlicense.org/open-font-license-official-text/":null},languages:[],subsets:f.subsets,primaryScript:f.primaryScript||null,sourceFiles:localFiles,languageEvidence:"not inferred from subset names; requires exact language tags or cmap validation"};
  await writeFile(join(destDir,"family.json"),JSON.stringify(meta,null,2)+"\n");
 }
-const report={source:"https://github.com/google/fonts",revision,generatedAt:new Date().toISOString(),requested:all?"all":limit?{limit}:Array.from(wanted),selectedFamilies:chosen.length,copiedFontFiles:copied,skippedFontFiles:skipped,bytes,bytesMiB:Number((bytes/1048576).toFixed(2)),note:"Subset labels are not language tags. Review each family licence before redistribution."};
+const report={source:"https://github.com/google/fonts",revision,generatedAt:new Date().toISOString(),requested:all?"all":limit?{limit}:Array.from(wanted),selectedFamilies:chosen.length,importableFamilies:chosen.length-rejected.length,rejectedFamilies:rejected,copiedFontFiles:copied,skippedFontFiles:skipped,bytes,bytesMiB:Number((bytes/1048576).toFixed(2)),note:"Subset labels are not language tags. Review each family licence before redistribution."};
 await writeFile(join(out,"google-fonts-fetch-report.json"),JSON.stringify(report,null,2)+"\n");
 console.log(JSON.stringify(report,null,2));
