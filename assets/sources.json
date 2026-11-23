@@ -2,7 +2,7 @@
   "name": "AWEFonts Global Source Directory",
   "version": "1.0.0",
   "generatedAt": "2026-11-23",
-  "total": 98,
+  "total": 112,
   "groups": [
     {
       "category": "Open-source catalogues",
@@ -140,13 +140,34 @@
           "mirrorStatus": "8 Material Symbols / Material Icons families indexed"
         },
         {
-          "name": "Fontist Family Index",
-          "url": "https://www.fontist.org/families/",
-          "kind": "open-family-index",
-          "mirrorStatus": "external catalogue; not mirrored",
-          "catalogCount": 6656,
-          "countUnit": "font families",
-          "licenseNote": "5,580 open-source families; other entries include bundled, restricted or unknown licensing. Check each record."
+          "name": "Fontsource Font Files registry",
+          "url": "https://github.com/fontsource/font-files",
+          "kind": "font-face-and-package-index",
+          "mirrorStatus": "71,070 provider-specific face/subset records indexed"
+        },
+        {
+          "name": "Google Fonts source repository",
+          "url": "https://github.com/google/fonts",
+          "kind": "font-binary-and-license-index",
+          "mirrorStatus": "3,914 upstream binary font files indexed"
+        },
+        {
+          "name": "Google Fonts language data",
+          "url": "https://github.com/google/fonts/tree/main/lang",
+          "kind": "language-script-metadata",
+          "mirrorStatus": "1,404 language codes and 1,695 language-script profiles"
+        },
+        {
+          "name": "Unicode CLDR",
+          "url": "https://github.com/unicode-org/cldr-json",
+          "kind": "language-and-script-display-names",
+          "mirrorStatus": "Language and writing-system display names"
+        },
+        {
+          "name": "Unicode Character Database 17.0",
+          "url": "https://www.unicode.org/Public/17.0.0/ucd/Scripts.txt",
+          "kind": "unicode-script-property-data",
+          "mirrorStatus": "Unicode 17.0 script ranges used for Studio glyph samples"
         }
       ]
     },
@@ -163,10 +184,7 @@
           "name": "DaFont",
           "url": "https://www.dafont.com",
           "kind": "mixed",
-          "mirrorStatus": "source-index-only",
-          "catalogCount": 101662,
-          "countUnit": "font listings",
-          "licenseNote": "External catalogue only. Licensing varies by listing, including personal-use and commercial restrictions; verify before use."
+          "mirrorStatus": "source-index-only"
         },
         {
           "name": "1001 Fonts",
@@ -622,7 +640,77 @@
           "mirrorStatus": "source-index-only"
         }
       ]
+    },
+    {
+      "category": "Language and historical-language registries",
+      "sources": [
+        {
+          "name": "Glottolog",
+          "url": "https://glottolog.org",
+          "kind": "language-registry",
+          "mirrorStatus": "external-registry; import through local CSV adapter; not a font source",
+          "license": "CC BY 4.0 for Glottolog data; verify release-specific terms"
+        },
+        {
+          "name": "Glottolog Downloads",
+          "url": "https://glottolog.org/meta/downloads",
+          "kind": "language-data-download",
+          "mirrorStatus": "languoid CSV import supported; vitality is not inferred from existence"
+        },
+        {
+          "name": "Google Fonts Language Data",
+          "url": "https://github.com/googlefonts/lang",
+          "kind": "language-exemplar-data",
+          "mirrorStatus": "language exemplar and sample text source; font inventory not exhaustive"
+        },
+        {
+          "name": "Unicode CLDR",
+          "url": "https://github.com/unicode-org/cldr",
+          "kind": "language-script-data",
+          "mirrorStatus": "language names, exemplars and locale data; not a font source"
+        },
+        {
+          "name": "Unicode Character Database",
+          "url": "https://www.unicode.org/ucd/",
+          "kind": "character-data",
+          "mirrorStatus": "code point properties and script assignment; not evidence that a font exists"
+        }
+      ]
+    },
+    {
+      "category": "Specialist and historic font repositories",
+      "sources": [
+        {
+          "name": "SIL International Fonts",
+          "url": "https://software.sil.org/fonts/",
+          "kind": "specialist-font-catalogue",
+          "mirrorStatus": "catalogue/source links; download and redistribution rights checked per family"
+        },
+        {
+          "name": "Noto Fonts",
+          "url": "https://github.com/notofonts",
+          "kind": "open-font-repositories",
+          "mirrorStatus": "per-repository binaries and licences; inspect individual families"
+        },
+        {
+          "name": "Open Font Library",
+          "url": "https://fontlibrary.org",
+          "kind": "open-font-catalogue",
+          "mirrorStatus": "candidate source; licence and binary availability checked per family"
+        },
+        {
+          "name": "Unicode Fonts Project",
+          "url": "https://www.unifoundry.com/unifont/",
+          "kind": "unicode-font-project",
+          "mirrorStatus": "specialist Unicode glyph coverage; not automatically language-specific"
+        },
+        {
+          "name": "Ancient Scripts Fonts",
+          "url": "https://www.unicode.org/standard/supported.html",
+          "kind": "script-reference",
+          "mirrorStatus": "reference only; not a font download source"
+        }
+      ]
     }
-  ],
-  "updatedAt": "2026-11-23"
+  ]
 }

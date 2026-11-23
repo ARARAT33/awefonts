@@ -50,3 +50,8 @@ The embed loader uses AWEFonts API-origin CSS preset URLs. The preset list is a 
 
 ## Deployment safety
 Static assets only; root directory `/`; build command empty; no Workers or Functions. Do not trigger Cloudflare builds/deployments. Keep work on `feat/awefonts-world-library-2026`; do not merge to `main` without explicit approval.
+
+
+## Full-corpus import pipeline
+
+Use `scripts/sync-global-font-corpus.mjs` to import local upstream snapshots after downloading them. It verifies that each record has a family ID, source URL, explicit licence, and real local font binaries; computes SHA-256 hashes; records exact language tags; and reports identical binaries and rejected metadata. It does not invent or infer language coverage. See [font corpus import contract](docs/font-corpus-import.md). This is an ingestion tool, not evidence that all upstream repositories have already been downloaded.

@@ -17,7 +17,7 @@ import { createHash } from "node:crypto";
 const args=process.argv.slice(2),get=(k)=>{const i=args.indexOf(k);return i<0?null:args[i+1]};
 const fontRoot=get("--fonts"),languageFile=get("--languages"),write=args.includes("--write");
 const out=resolve(get("--out")||"v1/imported");
-const errors=[],warnings=[];
+const errors=[],warnings=[],seenIds=new Map(),binaryOwners=new Map();
 const sha=async p=>createHash("sha256").update(await readFile(p)).digest("hex");
 const walk=async root=>{const out=[];const visit=async d=>{for(const e of await readdir(d,{withFileTypes:true})){const p=resolve(d,e.name);if(e.isDirectory())await visit(p);else if(["family.json","metadata.json"].includes(e.name))out.push(p)}};await visit(resolve(root));return out};
 const norm=s=>String(s||"").normalize("NFKC").toLocaleLowerCase("en").replace(/[\s\p{P}\p{S}]+/gu,"");
@@ -31,7 +31,7 @@ if(fontRoot){
    if(!family||!id)throw Error("family and id are required");
    const lic=typeof m.license==="string"?m.license:(m.license?.id||m.license?.name||"");
    const licenceUrl=typeof m.license==="object"?m.license.url:"";
-   if(!lic)throw Error("missing explicit licence");
+   if(!lic)throw Error("missing explicit licence");\n   const spdx=new Set(["OFL-1.1","Apache-2.0","MIT","Ubuntu-Font-1.0","GPL-2.0","GPL-3.0","BSD-2-Clause","BSD-3-Clause"]);\n   if(!licenceUrl&&!spdx.has(lic))throw Error("licence must have a source URL or recognized SPDX identifier");\n   const sourceUrl=m.sourceUrl||m.url||"";if(!/^https?:\\/\\//i.test(sourceUrl))throw Error("missing verifiable upstream sourceUrl");
    const rawFiles=Array.isArray(m.sourceFiles)?m.sourceFiles:(Array.isArray(m.files)?m.files:[]);
    if(!rawFiles.length)throw Error("no declared binary source files");
    const checked=[];
@@ -43,9 +43,9 @@ if(fontRoot){
     if(!["ttf","otf","woff","woff2"].includes(format))throw Error("unsupported font format: "+format);
     checked.push({path:relative(resolve(fontRoot),p).replaceAll("\\","/"),format,bytes:st.size,sha256:await sha(p),variant:f.variant||null});
    }
-   const identity=norm(m.canonicalId||[family,m.designer||m.foundry||""].join("|"));
+   if(seenIds.has(id))throw Error("duplicate family id also used by "+seenIds.get(id));\n   seenIds.set(id,file);\n   const identity=norm(m.canonicalId||[family,m.designer||m.foundry||""].join("|"));
    if(seen.has(identity)){const prior=seen.get(identity);prior.alternateSources.push({provider:m.provider||m.source||"unspecified",id,sourceUrl:m.sourceUrl||m.url||"",license:lic});continue}
-   const rec={id,canonicalKey:identity,family,designer:m.designer||m.foundry||null,provider:m.provider||m.source||"unspecified",sourceUrl:m.sourceUrl||m.url||"",license:{id:lic,url:licenceUrl||null},languages:[...new Set((m.languages||m.languageTags||[]).map(String))],sourceFiles:checked,alternateSources:[],evidence:"explicit-source-metadata",metadataPath:relative(resolve(fontRoot),file).replaceAll("\\","/")};
+   const rec={id,canonicalKey:identity,family,designer:m.designer||m.foundry||null,provider:m.provider||m.source||"unspecified",sourceUrl,license:{id:lic,url:licenceUrl||null},languages:[...new Set((m.languages||m.languageTags||[]).map(String))],sourceFiles:checked,alternateSources:[],evidence:"explicit-source-metadata",metadataPath:relative(resolve(fontRoot),file).replaceAll("\\","/")};
    seen.set(identity,rec);families.push(rec);
   }catch(e){errors.push({file,reason:e.message})}
  }
