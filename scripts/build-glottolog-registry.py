@@ -80,6 +80,8 @@ def main():
                 "endangerment":aes,
                 "endangermentEvidence":"Glottolog 5.4 AES field" if aes else None,
                 "historical":historical,
+                "historicalInterpretation":"source-marked historical flag; does not independently prove extinction",
+                "extinctionStatus":"unknown",
                 "historicalEvidence":[p.get("historicalEvidence") for p in matched if p.get("historicalEvidence")],
                 "population":population,
                 "populationEvidence":[p.get("populationEvidence") for p in matched if p.get("populationEvidence")],
@@ -101,6 +103,8 @@ def main():
         "count":len(rows),
         "languageCount":len(rows),
         "profileCount":len(profiles),
+        "googleFontsLanguageCodeCount":profiles_doc.get("languageCodeCount",0),
+        "sourceMarkedHistoricalProfileCount":profiles_doc.get("historicalProfileCount",0),
         "source":{
             "name":"Glottolog",
             "release":manifest.get("release"),

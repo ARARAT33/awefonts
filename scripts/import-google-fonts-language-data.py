@@ -72,6 +72,9 @@ def main():
     ap.add_argument("--api-mirror",default="api-site/v1/language-evidence.json")
     ap.add_argument("--health",default="v1/health.json")
     ap.add_argument("--health-mirror",default="api-site/v1/health.json")
+    ap.add_argument("--catalog",default="v1/catalog.json")
+    ap.add_argument("--catalog-mirror",default="api-site/v1/catalog.json")
+    ap.add_argument("--assets-index",default="v1/assets-index.json")
     ap.add_argument("--minimum",type=int,default=1600)
     args=ap.parse_args()
     root=Path(args.root)
@@ -140,8 +143,10 @@ def main():
         profile=by_id.get(item.get("id"))
         if not profile:
             missing.append(item.get("id"));continue
+        item["code"]=profile["language"]
         for key in ("preferredName","nameEvidence","autonym","population","regions","historical","historicalEvidence","populationEvidence","exemplarCharacters","exemplarParts","sampleText","sampleTextCharacters","exemplarType","sourceUrl"):
             item[key]=profile.get(key)
+    langs["languageCount"]=codes
     langs["historicalProfileCount"]=historical
     langs["exemplarProfileCount"]=exemplars
     langs["sampleTextOnlyProfileCount"]=sample_only
@@ -161,12 +166,20 @@ def main():
         target=Path(path)
         if target.exists():
             health=json.loads(target.read_text(encoding="utf-8"))
+            health["languageCount"]=codes
             health["languageEvidenceProfileCount"]=len(profiles)
             health["historicalLanguageProfileCount"]=historical
             health["languageExemplarProfileCount"]=exemplars
             health["sampleTextOnlyLanguageProfileCount"]=sample_only
             health["languageEvidenceSourceRevision"]=args.revision
+            health["inventoryNote"]=re.sub(r"[0-9,]+ language codes",f"{codes:,} language codes",health.get("inventoryNote",""))
             target.write_text(json.dumps(health,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    for path in (args.catalog,args.catalog_mirror,args.assets_index):
+        target=Path(path)
+        if target.exists():
+            doc=json.loads(target.read_text(encoding="utf-8"))
+            doc["languageCount"]=codes
+            target.write_text(json.dumps(doc,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
     print(json.dumps({"changed":True,"profileCount":len(profiles),"languageCodeCount":codes,"historicalProfileCount":historical,"exemplarProfileCount":exemplars,"sampleTextOnlyProfileCount":sample_only,"sourceRevision":args.revision,"profilesMissingFromIndex":len(missing)}))
 if __name__=="__main__":
     main()

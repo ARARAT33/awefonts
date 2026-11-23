@@ -95,6 +95,10 @@ if(fileSet.has("v1/language-evidence.json")){
   const evidence=await readJson("v1/language-evidence.json");
   if(evidence.profileCount!==evidence.languages?.length||evidence.profileCount<1600)errors.push("Google Fonts language evidence profile count is invalid.");
   if(health.languageEvidenceProfileCount!==evidence.profileCount)errors.push("Health languageEvidenceProfileCount does not match language evidence.");
+  if(languageIndex.languageCount!==evidence.languageCodeCount)errors.push("Language code count does not match sourced Google Fonts language evidence.");
+  if(health.languageCount!==evidence.languageCodeCount)errors.push("Health languageCount does not match sourced Google Fonts language evidence.");
+  if(catalog.languageCount!==evidence.languageCodeCount)errors.push("Catalog languageCount does not match sourced Google Fonts language evidence.");
+  if(assets.languageCount!==evidence.languageCodeCount)errors.push("Asset index languageCount does not match sourced Google Fonts language evidence.");
   if(health.historicalLanguageProfileCount!==evidence.historicalProfileCount)errors.push("Health historicalLanguageProfileCount does not match language evidence.");
 }
 if(fileSet.has("v1/language-registry.json")){
