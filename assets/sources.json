@@ -2,7 +2,7 @@
   "name": "AWEFonts Global Source Directory",
   "version": "1.0.0",
   "generatedAt": "2026-11-23",
-  "total": 94,
+  "total": 95,
   "groups": [
     {
       "category": "Open-source catalogues",
@@ -54,6 +54,12 @@
           "url": "https://www.fontshare.com",
           "kind": "mixed",
           "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontshare API",
+          "url": "https://api.fontshare.com/v2/fonts?limit=100&offset=0",
+          "kind": "mixed-open",
+          "mirrorStatus": "100 families indexed; SIL OFL downloadable, ITF FFL official embed only"
         },
         {
           "name": "Fontsource",
