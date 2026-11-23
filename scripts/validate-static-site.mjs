@@ -84,14 +84,14 @@ for(const html of allFiles.filter(p=>p.endsWith(".html"))){
 }
 
 // These files are intentionally mirrored between the root and API-only Pages site.
-for(const path of ["catalog.json","coverage-targets.json","css-index.json","health.json","openapi.json","sources.json","world-language-sources.json","embed.v6.js","language-registry.json","languages.json","language-evidence.json","corpora/google-fonts.json"]){
+for(const path of ["catalog.json","coverage-targets.json","css-index.json","health.json","openapi.json","sources.json","world-language-sources.json","embed.v6.js","language-registry.json","languages.json","language-evidence.json","corpora/google-fonts.json","language-cmap-coverage.json"]){
   const a="v1/"+path,b="api-site/v1/"+path;
   if(await exists(a)&&await exists(b)){
     const [x,y]=await Promise.all([readFile(resolve(root,a)),readFile(resolve(root,b))]);
     if(!x.equals(y))errors.push("Static API mirror mismatch: "+a+" vs "+b);
   }
 }
-if(fileSet.has("v1/language-evidence.json")){
+if(fileSet.has("v1/language-cmap-coverage.json")){\n  const cmap=await readJson("v1/language-cmap-coverage.json");\n  if(cmap.familyCountInspected<1000||!Array.isArray(cmap.languages))errors.push("Language cmap coverage dataset is incomplete.");\n  if(health.cmapFontFamilyCountInspected!==cmap.familyCountInspected)errors.push("Health cmap family count does not match coverage data.");\n}\nif(fileSet.has("v1/language-evidence.json")){
   const evidence=await readJson("v1/language-evidence.json");
   const languageIndex=await readJson("v1/languages.json");
   if(evidence.profileCount!==evidence.languages?.length||evidence.profileCount<1600)errors.push("Google Fonts language evidence profile count is invalid.");

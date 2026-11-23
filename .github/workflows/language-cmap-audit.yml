@@ -1,0 +1,88 @@
+name: Verify font glyph coverage for world languages
+
+on:
+  push:
+    branches:
+      - feat/awefonts-world-library-2026
+    paths:
+      - ".github/workflows/language-cmap-audit.yml"
+      - "scripts/validate-language-cmap.py"
+      - "scripts/link-cmap-coverage.py"
+      - "v1/language-evidence.json"
+      - "v1/corpora/google-fonts.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: awefonts-language-cmap-audit
+  cancel-in-progress: false
+
+jobs:
+  cmap-audit:
+    name: Inspect real font binaries against sourced language characters
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/awefonts-world-library-2026
+          fetch-depth: 0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download verified Google Fonts release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p ./work/parts ./work/google-fonts
+          gh release download font-corpus-google-2026-11 --repo "$GITHUB_REPOSITORY" --pattern "google-fonts.tar.gz.part-*" --dir ./work/parts
+          cat ./work/parts/google-fonts.tar.gz.part-* > ./work/google-fonts.tar.gz
+          tar -xzf ./work/google-fonts.tar.gz -C ./work/google-fonts
+      - name: Re-verify source metadata and binary SHA-256
+        run: node scripts/sync-global-font-corpus.mjs --fonts ./work/google-fonts --write --out ./work/corpus-audit
+      - name: Install font table inspection dependencies
+        run: python -m pip install --disable-pip-version-check fonttools brotli
+      - name: Validate real cmap coverage for language exemplars and historical sample texts
+        run: |
+          python scripts/validate-language-cmap.py \
+            --fonts-root ./work/google-fonts \
+            --corpus ./work/corpus-audit/verified-fonts.json \
+            --exemplars ./v1/language-evidence.json \
+            --out ./work/language-cmap-coverage.json
+      - name: Link verified font families to Glottolog language records
+        run: python scripts/link-cmap-coverage.py --coverage ./work/language-cmap-coverage.json
+      - name: Validate static API and coverage data
+        run: node scripts/validate-static-site.mjs
+      - name: Commit evidence-backed coverage index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin feat/awefonts-world-library-2026
+          git rebase origin/feat/awefonts-world-library-2026
+          git add v1/language-cmap-coverage.json api-site/v1/language-cmap-coverage.json v1/language-registry.json api-site/v1/language-registry.json v1/health.json api-site/v1/health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: publish cmap-verified language font coverage [skip ci]"
+            git push origin HEAD:feat/awefonts-world-library-2026
+          fi
+      - name: Publish coverage summary
+        if: always()
+        run: |
+          if [ -f ./work/language-cmap-coverage.json ]; then
+            python - <<'PY'
+            import json
+            d=json.load(open("./work/language-cmap-coverage.json",encoding="utf-8"))
+            print("Font families inspected:",d.get("familyCountInspected"))
+            print("Language profiles checked:",d.get("languageCountChecked"))
+            print("Formal exemplar profiles:",d.get("exemplarLanguageCountChecked"))
+            print("Sample-text-only profiles:",d.get("sampleTextLanguageCountChecked"))
+            print("Rejected profiles:",d.get("languageCountRejected"))
+            PY
+          fi

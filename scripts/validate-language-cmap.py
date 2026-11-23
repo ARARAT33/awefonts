@@ -70,18 +70,23 @@ def main():
     rejected_languages = []
     for item in languages:
         chars = unicodedata.normalize("NFC", item.get("exemplarCharacters", ""))
+        evidence_type = "language-exemplar"
+        if not required_codepoints(chars):
+            chars = unicodedata.normalize("NFC", item.get("sampleTextCharacters", ""))
+            evidence_type = "sample-text-only"
         source = item.get("sourceUrl") or item.get("source")
         required = required_codepoints(chars)
         if not item.get("id") or not isinstance(source, str) or not source.startswith(("https://", "http://")) or not required:
             rejected_languages.append({
                 "id": item.get("id"),
-                "reason": "requires id, sourceUrl/source, and non-empty exemplarCharacters"
+                "reason": "requires id, sourceUrl/source, and non-empty sourced exemplar or sample-text characters"
             })
             continue
         usable_languages.append({
             "id": str(item["id"]),
             "name": item.get("name"),
             "sourceUrl": source,
+            "evidenceType": evidence_type,
             "sequences": item.get("exemplarSequences", []),
             "required": required
         })
@@ -132,6 +137,7 @@ def main():
             "id": lang["id"],
             "name": lang["name"],
             "sourceUrl": lang["sourceUrl"],
+            "evidenceType": lang["evidenceType"],
             "requiredCharacterCount": len(required),
             "exemplarSequenceCountNotShapingValidated": len(lang["sequences"]),
             "completeFamilyCount": len(exact),
@@ -141,7 +147,7 @@ def main():
             "partialFamilyCount": len(partial),
             "bestPartial": partial[:20],
             "minimumRatio": args.minimum_ratio,
-            "evidence": "cmap codepoint presence against sourced exemplarCharacters; not shaping validation"
+            "evidence": "cmap codepoint presence against sourced " + lang["evidenceType"] + "; not shaping validation"
         })
 
     output = {
@@ -150,6 +156,8 @@ def main():
         "familyCountInspected": len(family_codepoints),
         "languageCountChecked": len(results),
         "languageCountRejected": len(rejected_languages),
+        "exemplarLanguageCountChecked": sum(x["evidenceType"] == "language-exemplar" for x in usable_languages),
+        "sampleTextLanguageCountChecked": sum(x["evidenceType"] == "sample-text-only" for x in usable_languages),
         "familiesWithAnyCmapData": sum(bool(v) for v in family_codepoints.values()),
         "errors": errors,
         "rejectedLanguages": rejected_languages,
@@ -158,6 +166,7 @@ def main():
             "Cmap presence does not prove shaping, mark positioning, ligatures, orthography, or rendering quality.",
             "CLDR multi-character exemplar strings are preserved in source data but are not validated as shaped sequences by cmap checks.",
             "An exemplar is only as complete as its cited source; full language support needs specialist review.",
+            "Sample-text-only matches prove only that the cited sample text can be represented; they do not prove complete language orthography.",
             "No language support is inferred from script names or generic subset labels."
         ]
     }
