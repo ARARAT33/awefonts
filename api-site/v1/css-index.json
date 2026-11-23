@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-23",
+  "apiOrigin": "https://fonts.api.aweconnect.dpdns.org",
+  "count": 67,
+  "kind": "committed-css-presets",
+  "notACompleteFamilyCatalog": true,
+  "items": [
+    {
+      "id": "abril-fatface",
+      "href": "/api/css/abril-fatface.css"
+    },
+    {
+      "id": "amiri",
+      "href": "/api/css/amiri.css"
+    },
+    {
+      "id": "anton",
+      "href": "/api/css/anton.css"
+    },
+    {
+      "id": "archivo",
+      "href": "/api/css/archivo.css"
+    },
+    {
+      "id": "barlow",
+      "href": "/api/css/barlow.css"
+    },
+    {
+      "id": "be-vietnam-pro",
+      "href": "/api/css/be-vietnam-pro.css"
+    },
+    {
+      "id": "bebas-neue",
+      "href": "/api/css/bebas-neue.css"
+    },
+    {
+      "id": "bitter",
+      "href": "/api/css/bitter.css"
+    },
+    {
+      "id": "bodoni-moda",
+      "href": "/api/css/bodoni-moda.css"
+    },
+    {
+      "id": "cairo",
+      "href": "/api/css/cairo.css"
+    },
+    {
+      "id": "caveat",
+      "href": "/api/css/caveat.css"
+    },
+    {
+      "id": "comfortaa",
+      "href": "/api/css/comfortaa.css"
+    },
+    {
+      "id": "cormorant-garamond",
+      "href": "/api/css/cormorant-garamond.css"
+    },
+    {
+      "id": "dancing-script",
+      "href": "/api/css/dancing-script.css"
+    },
+    {
+      "id": "dm-sans",
+      "href": "/api/css/dm-sans.css"
+    },
+    {
+      "id": "eb-garamond",
+      "href": "/api/css/eb-garamond.css"
+    },
+    {
+      "id": "exo-2",
+      "href": "/api/css/exo-2.css"
+    },
+    {
+      "id": "fira-code",
+      "href": "/api/css/fira-code.css"
+    },
+    {
+      "id": "fira-sans",
+      "href": "/api/css/fira-sans.css"
+    },
+    {
+      "id": "heebo",
+      "href": "/api/css/heebo.css"
+    },
+    {
+      "id": "hind",
+      "href": "/api/css/hind.css"
+    },
+    {
+      "id": "ibm-plex-mono",
+      "href": "/api/css/ibm-plex-mono.css"
+    },
+    {
+      "id": "ibm-plex-sans",
+      "href": "/api/css/ibm-plex-sans.css"
+    },
+    {
+      "id": "inter",
+      "href": "/api/css/inter.css"
+    },
+    {
+      "id": "jetbrains-mono",
+      "href": "/api/css/jetbrains-mono.css"
+    },
+    {
+      "id": "josefin-sans",
+      "href": "/api/css/josefin-sans.css"
+    },
+    {
+      "id": "kanit",
+      "href": "/api/css/kanit.css"
+    },
+    {
+      "id": "karla",
+      "href": "/api/css/karla.css"
+    },
+    {
+      "id": "lato",
+      "href": "/api/css/lato.css"
+    },
+    {
+      "id": "lobster",
+      "href": "/api/css/lobster.css"
+    },
+    {
+      "id": "lora",
+      "href": "/api/css/lora.css"
+    },
+    {
+      "id": "manrope",
+      "href": "/api/css/manrope.css"
+    },
+    {
+      "id": "merriweather",
+      "href": "/api/css/merriweather.css"
+    },
+    {
+      "id": "montserrat",
+      "href": "/api/css/montserrat.css"
+    },
+    {
+      "id": "mulish",
+      "href": "/api/css/mulish.css"
+    },
+    {
+      "id": "noto-sans-arabic",
+      "href": "/api/css/noto-sans-arabic.css"
+    },
+    {
+      "id": "noto-sans-armenian",
+      "href": "/api/css/noto-sans-armenian.css"
+    },
+    {
+      "id": "noto-sans-devanagari",
+      "href": "/api/css/noto-sans-devanagari.css"
+    },
+    {
+      "id": "noto-sans-hebrew",
+      "href": "/api/css/noto-sans-hebrew.css"
+    },
+    {
+      "id": "noto-sans-jp",
+      "href": "/api/css/noto-sans-jp.css"
+    },
+    {
+      "id": "noto-sans-kr",
+      "href": "/api/css/noto-sans-kr.css"
+    },
+    {
+      "id": "noto-sans-sc",
+      "href": "/api/css/noto-sans-sc.css"
+    },
+    {
+      "id": "noto-sans-tc",
+      "href": "/api/css/noto-sans-tc.css"
+    },
+    {
+      "id": "noto-sans-thai",
+      "href": "/api/css/noto-sans-thai.css"
+    },
+    {
+      "id": "noto-sans",
+      "href": "/api/css/noto-sans.css"
+    },
+    {
+      "id": "noto-serif-armenian",
+      "href": "/api/css/noto-serif-armenian.css"
+    },
+    {
+      "id": "noto-serif",
+      "href": "/api/css/noto-serif.css"
+    },
+    {
+      "id": "nunito",
+      "href": "/api/css/nunito.css"
+    },
+    {
+      "id": "onest",
+      "href": "/api/css/onest.css"
+    },
+    {
+      "id": "open-sans",
+      "href": "/api/css/open-sans.css"
+    },
+    {
+      "id": "oswald",
+      "href": "/api/css/oswald.css"
+    },
+    {
+      "id": "outfit",
+      "href": "/api/css/outfit.css"
+    },
+    {
+      "id": "pacifico",
+      "href": "/api/css/pacifico.css"
+    },
+    {
+      "id": "playfair-display",
+      "href": "/api/css/playfair-display.css"
+    },
+    {
+      "id": "poppins",
+      "href": "/api/css/poppins.css"
+    },
+    {
+      "id": "pt-serif",
+      "href": "/api/css/pt-serif.css"
+    },
+    {
+      "id": "quicksand",
+      "href": "/api/css/quicksand.css"
+    },
+    {
+      "id": "raleway",
+      "href": "/api/css/raleway.css"
+    },
+    {
+      "id": "righteous",
+      "href": "/api/css/righteous.css"
+    },
+    {
+      "id": "roboto-mono",
+      "href": "/api/css/roboto-mono.css"
+    },
+    {
+      "id": "roboto",
+      "href": "/api/css/roboto.css"
+    },
+    {
+      "id": "rubik",
+      "href": "/api/css/rubik.css"
+    },
+    {
+      "id": "source-code-pro",
+      "href": "/api/css/source-code-pro.css"
+    },
+    {
+      "id": "source-serif-4",
+      "href": "/api/css/source-serif-4.css"
+    },
+    {
+      "id": "space-grotesk",
+      "href": "/api/css/space-grotesk.css"
+    },
+    {
+      "id": "ubuntu",
+      "href": "/api/css/ubuntu.css"
+    },
+    {
+      "id": "urbanist",
+      "href": "/api/css/urbanist.css"
+    }
+  ]
+}

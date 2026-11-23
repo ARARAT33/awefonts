@@ -1,0 +1,110 @@
+name: AWEFonts validation
+
+on:
+  push:
+    branches:
+      - feat/awefonts-world-library-2026
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: awefonts-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Static data and source validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check JavaScript syntax
+        run: |
+          node --check assets/site.js
+          node --check assets/app.js
+          node --check v1/embed.v6.js
+          node --check api-site/v1/embed.v6.js
+          node --check scripts/fetch-google-fonts.mjs
+          node --check scripts/sync-global-font-corpus.mjs
+          node --check scripts/audit-world-library.mjs
+      - name: Check Python syntax and CLDR parser
+        run: |
+          python -m py_compile scripts/fetch-glottolog.py scripts/build-glottolog-registry.py scripts/import-google-fonts-language-data.py scripts/import-cldr-exemplars.py scripts/validate-language-cmap.py scripts/link-cmap-coverage.py scripts/shard-language-coverage.py
+          python scripts/import-cldr-exemplars.py --self-test
+      - name: Validate static site and mirrored API data
+        run: node scripts/validate-static-site.mjs
+      - name: Audit catalog, language coverage and resource shards
+        run: node scripts/audit-world-library.mjs
+
+  refresh-glottolog-registry:
+    name: Refresh 7k+ language registry
+    if: github.event_name == 'push' && github.ref == 'refs/heads/feat/awefonts-world-library-2026'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout working branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/awefonts-world-library-2026
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download official Glottolog release
+        run: python scripts/fetch-glottolog.py --out-dir /tmp/awefonts-glottolog
+      - name: Fetch Google Fonts language metadata
+        run: git clone --depth 1 https://github.com/googlefonts/lang.git /tmp/awefonts-google-lang
+      - name: Import historical flags, population and language exemplars
+        run: |
+          python scripts/import-google-fonts-language-data.py \
+            --root /tmp/awefonts-google-lang/Lib/gflanguages/data/languages \
+            --revision "$(git -C /tmp/awefonts-google-lang rev-parse HEAD)" \
+            --minimum 1600 \
+            --catalog v1/catalog.json \
+            --catalog-mirror api-site/v1/catalog.json \
+            --assets-index v1/assets-index.json
+      - name: Build verified language-level registry
+        run: |
+          python scripts/build-glottolog-registry.py \
+            --csv /tmp/awefonts-glottolog/glottolog_languoid.csv \
+            --manifest /tmp/awefonts-glottolog/glottolog-download-manifest.json \
+            --minimum 7000 \
+            --profiles v1/language-evidence.json
+      - name: Reapply cmap evidence after registry refresh
+        run: |
+          if [ -f v1/language-cmap-coverage.json ]; then
+            python scripts/link-cmap-coverage.py --coverage v1/language-cmap-coverage.json
+            python scripts/shard-language-coverage.py --root .
+          fi
+      - name: Validate generated registry and API mirrors
+        run: node scripts/validate-static-site.mjs
+      - name: Commit updated registry when source data changes
+        run: |
+          if git diff --quiet -- v1/language-registry.json api-site/v1/language-registry.json v1/language-registry api-site/v1/language-registry v1/language-cmap-coverage.json api-site/v1/language-cmap-coverage.json v1/language-cmap-coverage api-site/v1/language-cmap-coverage v1/languages.json api-site/v1/languages.json v1/language-evidence.json api-site/v1/language-evidence.json v1/catalog.json api-site/v1/catalog.json v1/assets-index.json v1/health.json api-site/v1/health.json; then
+            echo "Glottolog release is unchanged; no data commit required."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add v1/language-registry.json api-site/v1/language-registry.json v1/language-registry api-site/v1/language-registry v1/language-cmap-coverage.json api-site/v1/language-cmap-coverage.json v1/language-cmap-coverage api-site/v1/language-cmap-coverage v1/languages.json api-site/v1/languages.json v1/language-evidence.json api-site/v1/language-evidence.json v1/catalog.json api-site/v1/catalog.json v1/assets-index.json v1/health.json api-site/v1/health.json
+            git commit -m "data: refresh Glottolog language registry [skip ci]"
+            git fetch origin feat/awefonts-world-library-2026
+            git rebase origin/feat/awefonts-world-library-2026
+            git push origin HEAD:feat/awefonts-world-library-2026
+          fi

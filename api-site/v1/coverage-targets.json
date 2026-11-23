@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-23",
+  "targets": [
+    {
+      "tier": "historical-or-very-low-resource",
+      "minimum": 10,
+      "goal": 100
+    },
+    {
+      "tier": "low-distribution",
+      "minimum": 1000,
+      "goal": 10000
+    },
+    {
+      "tier": "medium-distribution",
+      "minimum": 10000,
+      "goal": 100000
+    },
+    {
+      "tier": "wide-distribution",
+      "minimum": 100000,
+      "goal": null
+    }
+  ],
+  "classificationPolicy": "Do not infer a language distribution tier from alphabet, country, population guesses, or availability of fonts. Assign only from a cited population/usage dataset with a documented threshold.",
+  "countingPolicy": "Distinct family identity only; no weights, styles, subsets, file formats, mirrors or duplicate provider records.",
+  "statusPolicy": "Dead/historical languages require cited vitality evidence. Unknown status remains unknown.",
+  "unmetTargetPolicy": "Report actual verified families and numeric gap. Never fabricate or duplicate families to meet target."
+}

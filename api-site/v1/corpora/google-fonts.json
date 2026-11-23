@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "status": "available",
+  "provider": "Google Fonts",
+  "source": "https://github.com/google/fonts",
+  "sourceRevision": "06bfe0d62a98375cb09c942fa18e68bd32cff057",
+  "generatedAt": "2026-11-23T01:58:31.563Z",
+  "releaseTag": "font-corpus-google-2026-11",
+  "releaseUrl": "https://github.com/ARARAT33/awefonts/releases/tag/font-corpus-google-2026-11",
+  "familyCount": 1992,
+  "binaryFileCount": 3719,
+  "totalBytes": 2356676768,
+  "licenseCounts": {
+    "OFL-1.1": 1989,
+    "Ubuntu-Font-1.0": 3
+  },
+  "duplicateRecordsRemoved": 2,
+  "rejectedFamilyCount": 7,
+  "parts": [
+    {
+      "name": "google-fonts.tar.gz.part-000",
+      "url": "https://github.com/ARARAT33/awefonts/releases/download/font-corpus-google-2026-11/google-fonts.tar.gz.part-000",
+      "bytes": 1173785092,
+      "sha256": "70c49d339c4d020ed0e66b9d93ec7fd08c9ed33e8883235d469568065420deb9"
+    }
+  ],
+  "manifestAsset": {
+    "name": "google-fonts-corpus-manifest.json",
+    "url": "https://github.com/ARARAT33/awefonts/releases/download/font-corpus-google-2026-11/google-fonts-corpus-manifest.json",
+    "bytes": 1870476
+  },
+  "checksumsAsset": {
+    "name": "SHA256SUMS.txt",
+    "url": "https://github.com/ARARAT33/awefonts/releases/download/font-corpus-google-2026-11/SHA256SUMS.txt"
+  },
+  "restoreInstructions": {
+    "linuxMac": "cat google-fonts.tar.gz.part-* | tar -xz",
+    "windowsPowerShell": "Copy-Item google-fonts.tar.gz.part-000 google-fonts.tar.gz; tar -xzf google-fonts.tar.gz",
+    "note": "Download every part into one directory before reassembling. Verify each part against its SHA-256 first."
+  },
+  "notes": [
+    "Only families with explicit supported upstream licences and bundled licence text were included.",
+    "Exact duplicate binaries and duplicate family identities were removed before packaging.",
+    "This archive is hosted as a GitHub Release asset; it is not stored as Git history or deployed as a Cloudflare Pages asset.",
+    "Language support still requires separate evidence; font binaries are not assigned to languages from subset labels."
+  ]
+}

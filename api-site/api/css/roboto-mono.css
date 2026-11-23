@@ -1,0 +1,3 @@
+/* AWEFonts static CSS preset for Roboto Mono. Google Fonts serves font binaries. */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+:root { --awe-font-roboto-mono: "Roboto Mono", sans-serif; }

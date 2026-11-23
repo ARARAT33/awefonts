@@ -1,0 +1,76 @@
+name: Build and publish Google Fonts binary corpus
+
+on:
+  push:
+    branches:
+      - feat/awefonts-world-library-2026
+    paths:
+      - ".github/workflows/google-font-corpus.yml"
+      - "scripts/fetch-google-fonts.mjs"
+      - "scripts/prepare-google-font-release.mjs"
+      - "scripts/finalize-font-release.mjs"
+      - "scripts/sync-global-font-corpus.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: awefonts-google-font-corpus
+  cancel-in-progress: false
+
+jobs:
+  fetch-verify-package-release:
+    name: Fetch, verify, deduplicate and publish real font binaries
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout AWEFonts working branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/awefonts-world-library-2026
+          fetch-depth: 0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check available disk space
+        run: df -h .
+      - name: Fetch all redistributable Google Fonts families and binaries
+        run: node scripts/fetch-google-fonts.mjs --all --out ./work/google-fonts
+      - name: Verify licence files, binary hashes and duplicate families
+        run: node scripts/prepare-google-font-release.mjs --root ./work/google-fonts --out ./work/google-fonts-release-manifest.json
+      - name: Run independent corpus importer and SHA-256 validation
+        run: node scripts/sync-global-font-corpus.mjs --fonts ./work/google-fonts --write --out ./work/corpus-audit
+      - name: Create split archive parts below GitHub release asset limit
+        run: |
+          mkdir -p ./work/release-parts
+          cp ./work/google-fonts-release-manifest.json ./work/release-parts/google-fonts-corpus-manifest.json
+          tar -czf - --exclude='./.google-fonts-source' -C ./work/google-fonts . | split -b 1500M -d -a 3 - ./work/release-parts/google-fonts.tar.gz.part-
+          sha256sum ./work/release-parts/google-fonts.tar.gz.part-* > ./work/release-parts/SHA256SUMS.txt
+      - name: Publish immutable GitHub Release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="font-corpus-google-2026-11"
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" ./work/release-parts/* --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create "$TAG" ./work/release-parts/* --repo "$GITHUB_REPOSITORY" --title "AWEFonts Google Fonts binary corpus" --target "$GITHUB_SHA" --notes "Verified Google Fonts family binaries and licence files. The attached manifest records upstream revision, per-file SHA-256 hashes, file sizes, licences, rejected records and deduplication. Download all archive parts and reassemble them before extraction. This release contains only files accepted by the upstream family metadata and redistribution licence."
+          fi
+      - name: Publish static API corpus index
+        run: |
+          node scripts/finalize-font-release.mjs --manifest ./work/google-fonts-release-manifest.json --parts-dir ./work/release-parts --tag font-corpus-google-2026-11
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add v1/corpora/google-fonts.json api-site/v1/corpora/google-fonts.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: publish verified Google Fonts binary corpus index [skip ci]"
+            git push origin HEAD:feat/awefonts-world-library-2026
+          fi
+      - name: Report verified corpus
+        if: always()
+        run: |
+          if [ -f ./work/google-fonts-release-manifest.json ]; then
+            node -e "const m=require('./work/google-fonts-release-manifest.json'); console.log('Families:',m.familyCount,'Binaries:',m.binaryFileCount,'Bytes:',m.totalBytes,'Duplicates removed:',m.duplicateRecordsRemoved,'Rejected:',m.rejectedFamilyCount)" >> "$GITHUB_STEP_SUMMARY"
+          fi

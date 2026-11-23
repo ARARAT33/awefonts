@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+"""Link real cmap results to Glottolog languages without merging script profiles into false claims."""
+import argparse
+import json
+from pathlib import Path
+from datetime import datetime, timezone
+
+def load(path):
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+def expand_shards(document):
+    if not document.get("shards"):
+        return document
+    details={}
+    for shard in document.get("shards",[]):
+        part=load(Path("v1")/shard["path"])
+        for item in part.get("languages",[]):
+            details[item["id"]]=item
+    merged=[]
+    for summary in document.get("languages",[]):
+        item=dict(summary)
+        item.update(details.get(summary.get("id"),{}))
+        merged.append(item)
+    document["languages"]=merged
+    return document
+
+def save(path, value):
+    target=Path(path);target.parent.mkdir(parents=True,exist_ok=True)
+    target.write_text(json.dumps(value,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+
+def main():
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--coverage",default="work/language-cmap-coverage.json")
+    ap.add_argument("--registry",default="v1/language-registry.json")
+    ap.add_argument("--registry-mirror",default="api-site/v1/language-registry.json")
+    ap.add_argument("--catalog",default="v1/catalog.json")
+    ap.add_argument("--out",default="v1/language-cmap-coverage.json")
+    ap.add_argument("--api-mirror",default="api-site/v1/language-cmap-coverage.json")
+    ap.add_argument("--health",default="v1/health.json")
+    ap.add_argument("--health-mirror",default="api-site/v1/health.json")
+    args=ap.parse_args()
+    coverage=expand_shards(load(args.coverage))
+    registry=expand_shards(load(args.registry))
+    catalog=load(args.catalog)
+    profile_map={x["id"]:x for x in coverage.get("languages",[])}
+    catalog_ids={}
+    for family in catalog.get("fonts",[]):
+        canonical=family.get("id")
+        if not canonical: continue
+        for alias in [canonical,*(family.get("aliases") or [])]:
+            catalog_ids[str(alias)]=canonical
+        for provider in family.get("providers") or []:
+            if provider.get("id"): catalog_ids[str(provider["id"])]=canonical
+    all_links=0
+    languages_with_any=0
+    languages_with_exemplar=0
+    languages_with_sample_only=0
+    for record in coverage.get("languages",[]):
+        evidence_type=record.get("evidenceType")
+        if evidence_type=="sample-text-only":
+            original=record.get("sampleTextProviderFamilyIds") or record.get("completeProviderFamilyIds") or record.get("completeFamilyIds") or []
+            record["sampleTextProviderFamilyIds"]=original
+            record["sampleTextFamilyIds"]=sorted({catalog_ids.get(x,x) for x in original})
+            record["sampleTextFamilyCount"]=len(record["sampleTextFamilyIds"])
+            threshold=record.get("sampleTextThresholdProviderFamilyIds") or record.get("thresholdQualifiedProviderFamilyIds") or record.get("thresholdQualifiedFamilyIds") or []
+            record["sampleTextThresholdProviderFamilyIds"]=threshold
+            record["sampleTextThresholdFamilyIds"]=sorted({catalog_ids.get(x,x) for x in threshold})
+            record["completeProviderFamilyIds"]=[]
+            record["completeFamilyIds"]=[]
+            record["completeFamilyCount"]=0
+            record["thresholdQualifiedFamilyIds"]=[]
+            record["topFamilyIds"]=[]
+            record["topSampleTextFamilyIds"]=record["sampleTextFamilyIds"][:8]
+        else:
+            original=record.get("completeProviderFamilyIds") or record.get("completeFamilyIds") or []
+            record["completeProviderFamilyIds"]=original
+            record["completeFamilyIds"]=sorted({catalog_ids.get(x,x) for x in original})
+            threshold=record.get("thresholdQualifiedProviderFamilyIds") or record.get("thresholdQualifiedFamilyIds") or []
+            record["thresholdQualifiedProviderFamilyIds"]=threshold
+            record["thresholdQualifiedFamilyIds"]=sorted({catalog_ids.get(x,x) for x in threshold})
+            record["completeFamilyCount"]=len(record["completeFamilyIds"])
+            record["topFamilyIds"]=record["completeFamilyIds"][:8]
+            record["topSampleTextFamilyIds"]=[]
+    for language in registry.get("languages",[]):
+        profile_ids=language.get("googleFontsProfileIds") or []
+        by_profile=[]
+        union=set()
+        exemplar_union=set()
+        sample_union=set()
+        for profile_id in profile_ids:
+            record=profile_map.get(profile_id)
+            if not record: continue
+            mapped=sorted(set(record.get("completeFamilyIds",[])))
+            sample_mapped=sorted(set(record.get("sampleTextFamilyIds",[])))
+            union.update(mapped)
+            exemplar_union.update(mapped)
+            sample_union.update(sample_mapped)
+            by_profile.append({
+                "profileId":profile_id,
+                "evidenceType":record.get("evidenceType"),
+                "completeFamilyCount":len(mapped),
+                "fontFamilyIds":mapped,
+                "sampleTextFamilyCount":len(sample_mapped),
+                "sampleTextFamilyIds":sample_mapped,
+                "requiredCharacterCount":record.get("requiredCharacterCount")
+            })
+        if exemplar_union: languages_with_any+=1
+        if exemplar_union: languages_with_exemplar+=1
+        if sample_union and not exemplar_union: languages_with_sample_only+=1
+        all_links+=len(union)
+        language["fontFamilyIds"]=sorted(union)
+        language["fontFamilyCount"]=len(exemplar_union)
+        language["sampleTextFamilyIds"]=sorted(sample_union)
+        language["sampleTextFamilyCount"]=len(sample_union)
+        language["fontCoverageByProfile"]=by_profile
+        language["fontCoverageScope"]="language-script-profile; profile results are not merged into an assertion that every script is interchangeable"
+        if exemplar_union:
+            language["fontCoverage"]="cmap-exemplar-profile-match" if len(by_profile)<=1 else "multi-script-profile-matches"
+            language["fontCoverageEvidence"]="all required codepoints from a sourced language exemplar are present in each listed matching font family"
+        elif sample_union:
+            language["fontCoverage"]="sample-text-only-cmap-match"
+            language["fontCoverageEvidence"]="matching fonts contain all required codepoints from the cited sample text only; complete orthography is not established"
+        elif by_profile:
+            language["fontCoverage"]="no-complete-cmap-match"
+            language["fontCoverageEvidence"]="no font family covered every required codepoint in the sourced exemplar/sample text"
+        else:
+            language["fontCoverage"]="unverified"
+            language["fontCoverageEvidence"]="no matching language-script profile with usable character evidence"
+    registry["cmapCoverage"]={
+        "generatedAt":coverage.get("generatedAt"),
+        "sourceFontFamilyCountInspected":coverage.get("familyCountInspected"),
+        "languageScriptProfilesChecked":coverage.get("languageCountChecked"),
+        "languageScriptProfilesRejected":coverage.get("languageCountRejected"),
+        "exemplarProfilesChecked":coverage.get("exemplarLanguageCountChecked"),
+        "sampleTextOnlyProfilesChecked":coverage.get("sampleTextLanguageCountChecked"),
+        "glottologLanguagesWithAnyCompleteMatch":languages_with_any,
+        "glottologLanguagesWithExemplarMatches":languages_with_exemplar,
+        "glottologLanguagesWithSampleTextOnlyMatches":languages_with_sample_only,
+        "languageFontFamilyLinks":all_links,
+        "languageSampleTextFamilyLinks":sum(len(x.get("sampleTextFamilyIds",[])) for x in registry.get("languages",[])),
+        "evidence":"FontTools cmap codepoint presence against exact Google Fonts language exemplars or sample text; not shaping validation"
+    }
+    registry["coveragePolicy"]="fontFamilyIds are only actual cmap matches from the pinned Google Fonts binary corpus. Results are profile-level; sample-text-only results do not prove full orthography. Multi-script language records retain per-profile results. No shaping or rendering claim is made."
+    coverage["catalogFamilyIdsMapped"]=True
+    coverage["catalogMappingNote"]="Google Fonts source family IDs are mapped to canonical AWEFonts catalog family IDs through exact provider IDs and aliases where available; unmatched IDs remain explicit."
+    save(args.out,coverage)
+    save(args.api_mirror,coverage)
+    save(args.registry,registry)
+    save(args.registry_mirror,registry)
+    for path in (args.health,args.health_mirror):
+        p=Path(path)
+        if p.exists():
+            health=load(path)
+            health["cmapFontFamilyCountInspected"]=coverage.get("familyCountInspected",0)
+            health["cmapLanguageScriptProfilesChecked"]=coverage.get("languageCountChecked",0)
+            health["cmapLanguageScriptProfilesRejected"]=coverage.get("languageCountRejected",0)
+            health["glottologLanguagesWithCmapMatches"]=languages_with_any
+            health["glottologLanguagesWithExemplarMatches"]=languages_with_exemplar
+            health["glottologLanguagesWithSampleTextOnlyMatches"]=languages_with_sample_only
+            health["languageFontFamilyLinks"]=all_links
+            save(path,health)
+    print(json.dumps({"fontFamiliesInspected":coverage.get("familyCountInspected"),"languageProfilesChecked":coverage.get("languageCountChecked"),"exemplarProfilesChecked":coverage.get("exemplarLanguageCountChecked"),"sampleTextProfilesChecked":coverage.get("sampleTextLanguageCountChecked"),"glottologLanguagesWithAnyCompleteMatch":languages_with_any,"glottologLanguagesWithExemplarMatches":languages_with_exemplar,"glottologLanguagesWithSampleTextOnlyMatches":languages_with_sample_only,"languageFontFamilyLinks":all_links},indent=2))
+
+if __name__=="__main__":
+    main()

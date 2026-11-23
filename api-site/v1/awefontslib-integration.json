@@ -1,0 +1,31 @@
+{
+  "name": "AWEFonts + Awefontslib integration",
+  "version": 1,
+  "updatedAt": "2026-11-23",
+  "uiOrigin": "https://fonts.aweconnect.dpdns.org",
+  "apiOrigin": "https://fonts.api.aweconnect.dpdns.org",
+  "fontLibrary": {
+    "catalog": "https://fonts.aweconnect.dpdns.org/api/fonts.json",
+    "languages": "https://fonts.aweconnect.dpdns.org/api/v1/languages.json",
+    "scripts": "https://fonts.aweconnect.dpdns.org/api/v1/scripts.json",
+    "stats": "https://fonts.aweconnect.dpdns.org/api/v1/stats.json",
+    "fontFiles": "https://fonts.aweconnect.dpdns.org/fonts/{font-file}"
+  },
+  "globalData": {
+    "catalog": "/v1/catalog.json",
+    "languages": "/v1/languages.json",
+    "languageRegistry": "/v1/language-registry.json",
+    "languageCmapCoverage": "/v1/language-cmap-coverage.json",
+    "sources": "/v1/sources.json",
+    "cssIndex": "/v1/css-index.json",
+    "embed": "/v1/embed.v6.js",
+    "openapi": "/v1/openapi.json",
+    "health": "/v1/health.json"
+  },
+  "compatibility": {
+    "legacyCssPresets": "/api/css/{font-id}.css",
+    "providerAndLicensingData": "/v1/catalog.json",
+    "localBinaryDelivery": "https://fonts.aweconnect.dpdns.org/fonts/{font-file}"
+  },
+  "architecture": "Static-first; no Worker, database, or mandatory backend."
+}
