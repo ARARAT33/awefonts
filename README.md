@@ -66,3 +66,22 @@ node scripts/sync-global-font-corpus.mjs --fonts ./upstream-fonts/google-fonts
 ```
 
 Use `--families "Noto Sans,Roboto"` for exact families or `--all` for the full upstream collection (large download). The downloader pins and records the upstream Git commit, preserves per-family licence metadata, and does not infer language support from subset names. Importing and committing the resulting binaries is a separate, size- and licence-reviewed step; this branch does not yet contain a bulk mirror of the Google Fonts binaries.
+
+### Global language evidence pipeline
+
+```sh
+# Fetch the latest official Glottolog languoid registry + provenance hashes
+python scripts/fetch-glottolog.py --out-dir ./upstream/glottolog
+
+# Extract sourced modern-language exemplar characters from Unicode CLDR
+# (CLDR is not a full 7,000+ language census)
+git clone --depth 1 https://github.com/unicode-org/cldr.git ./upstream/cldr
+python scripts/import-cldr-exemplars.py --cldr-root ./upstream/cldr --include-auxiliary --out ./language-exemplars/cldr.json
+python scripts/import-cldr-exemplars.py --self-test
+
+# Validate actual downloaded font binaries against sourced exemplars
+python -m pip install fonttools brotli
+python scripts/validate-language-cmap.py --fonts-root ./upstream-fonts/google-fonts --corpus ./v1/imported/verified-fonts.json --exemplars ./language-exemplars/cldr.json --out ./v1/imported/cldr-cmap-coverage.json
+```
+
+The Glottolog importer counts language-level rows separately from dialects and families. Every source snapshot records immutable provenance. Character-map matches are only codepoint evidence; shaping and full language usability need additional validation.
