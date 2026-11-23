@@ -22,13 +22,15 @@ Each upstream family directory must contain `family.json` or `metadata.json`:
 }
 ```
 
-Required: family, id, explicit licence, and at least one real local TTF/OTF/WOFF/WOFF2 file. The importer computes SHA-256 and byte size from the actual binary. Source paths must stay inside the family directory. Language tags are only imported when explicitly supplied by the upstream source or reviewed metadata.
+Required: family, id, explicit licence, and at least one real local TTF/OTF/WOFF/WOFF2 file. The importer computes SHA-256 and byte size from the actual binary. Source paths must stay inside the family directory. Language tags are only imported when explicitly supplied by the upstream source or reviewed metadata. The CSV adapter imports Glottolog rows with level `language` by default (not dialect/family records); use `--include-dialects` only when those are intentionally wanted. Exact font links are made only by Glottolog ID or ISO 639-3 tag. No script-based fallback is used.
 
 ## Run locally
 
 ```sh
 node scripts/sync-global-font-corpus.mjs --fonts ./upstream-fonts --languages ./languoid.csv
 node scripts/sync-global-font-corpus.mjs --fonts ./upstream-fonts --languages ./languoid.csv --write --out ./v1/imported
+# Optional: include dialect-level Glottolog records too
+node scripts/sync-global-font-corpus.mjs --fonts ./upstream-fonts --languages ./languoid.csv --include-dialects --write --out ./v1/imported
 ```
 
 The script performs no network calls and no deployment. It creates:

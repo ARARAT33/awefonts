@@ -15,7 +15,7 @@ import { resolve, relative, extname, dirname, basename } from "node:path";
 import { createHash } from "node:crypto";
 
 const args=process.argv.slice(2),get=(k)=>{const i=args.indexOf(k);return i<0?null:args[i+1]};
-const fontRoot=get("--fonts"),languageFile=get("--languages"),write=args.includes("--write");
+const fontRoot=get("--fonts"),languageFile=get("--languages"),write=args.includes("--write"),includeDialects=args.includes("--include-dialects");
 const out=resolve(get("--out")||"v1/imported");
 const errors=[],warnings=[],seenIds=new Map(),binaryOwners=new Map();
 const sha=async p=>createHash("sha256").update(await readFile(p)).digest("hex");
@@ -66,7 +66,13 @@ if(languageFile){
   }
  }
 }
-const report={generatedAt:new Date().toISOString(),inputs:{fontRoot:fontRoot||null,languageFile:languageFile||null},fontFamilies:families.length,languageRecords:languageRecords.length,languageRecordsWithUnknownVitality:languageRecords.filter(x=>x.vitality==="unknown").length,errors,warnings:["No font is counted unless a real binary file exists and has a SHA-256 hash.","No language coverage is inferred from script alone.","Historical/extinct status and script assignment are never guessed.","This importer does not fetch upstream repositories; prepare source snapshots locally and record their immutable revisions."],familyRecords:families,languageRegistry:languageRecords};
+for(const lang of languageRecords){
+ const keys=new Set([lang.id,lang.iso6393].filter(Boolean).map(x=>String(x).toLowerCase()));
+ lang.fontFamilyIds=families.filter(f=>f.languages.some(tag=>keys.has(String(tag).toLowerCase()))).map(f=>f.id);
+ lang.verifiedFamilyCount=lang.fontFamilyIds.length;
+}
+const languagesWithFonts=languageRecords.filter(x=>x.verifiedFamilyCount>0).length;
+const report={generatedAt:new Date().toISOString(),inputs:{fontRoot:fontRoot||null,languageFile:languageFile||null},fontFamilies:families.length,languageRecords:languageRecords.length,languagesWithExactTaggedFonts:languagesWithFonts,languagesWithoutExactTaggedFonts:languageRecords.length-languagesWithFonts,languageRecordsWithUnknownVitality:languageRecords.filter(x=>x.vitality==="unknown").length,errors,warnings:["No font is counted unless a real binary file exists and has a SHA-256 hash.","Coverage is linked only by exact Glottolog ID or ISO 639-3 tag; no script-based inference is used.","Historical/extinct status and script assignment are never guessed.","This importer does not fetch upstream repositories; prepare source snapshots locally and record their immutable revisions."],familyRecords:families,languageRegistry:languageRecords};
 if(write){await mkdir(out,{recursive:true});await writeFile(resolve(out,"verified-fonts.json"),JSON.stringify({version:1,count:families.length,families},null,2)+"\n");await writeFile(resolve(out,"world-languages.json"),JSON.stringify({version:1,count:languageRecords.length,languages:languageRecords},null,2)+"\n");await writeFile(resolve(out,"import-report.json"),JSON.stringify({...report,familyRecords:undefined,languageRegistry:undefined},null,2)+"\n")}
 else console.log(JSON.stringify({...report,familyRecords:families.slice(0,5),languageRegistry:languageRecords.slice(0,5)},null,2));
 if(errors.length)process.exitCode=1;
