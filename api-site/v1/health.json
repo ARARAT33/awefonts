@@ -18,5 +18,8 @@
   "generatedAt": "2026-11-23",
   "deploymentMode": "static assets only; no build, Workers or Functions",
   "apiHost": "fonts.api.aweconnect.dpdns.org",
-  "inventoryNote": "Font families, provider face/subset records and binary files are separate units. Language index is not a complete 7,000+ language registry."
+  "inventoryNote": "Font families, provider face/subset records and binary files are separate units. Language index is not a complete 7,000+ language registry.",
+  "languageRegistryCount": 8623,
+  "languageRegistryRelease": "5.4",
+  "languageRegistrySource": "Glottolog"
 }
