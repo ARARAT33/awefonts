@@ -4,7 +4,7 @@ This directory is deployed as a **separate Cloudflare Pages project** for `https
 
 ## Cloudflare Pages setup
 - Create a second Pages project connected to this same GitHub repository.
-- Production branch: `feat/full-font-library-static-multipage-packs`.
+- Production branch currently remains `feat/full-font-library-static-multipage-packs`; automatic production and preview deployments are disabled. The new enhancement branch is not deployed.
 - Root directory: `api-site`.
 - Build command: leave empty.
 - Build output directory: `.`.
