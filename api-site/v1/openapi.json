@@ -3,7 +3,7 @@
   "info": {
     "title": "AWEFonts Static API",
     "version": "3.2.0",
-    "description": "Static API for 2,204 distinct families, 103,073 provider resource records, 1,404 language codes and 172 script identifiers. Counts are separate units."
+    "description": "Static API for 2,204 distinct families, 103,073 provider resource records, 1,404 language codes, 8,623 Glottolog language-level registry entries and 172 script identifiers. Counts are separate units."
   },
   "servers": [
     {
@@ -77,6 +77,67 @@
         "responses": {
           "200": {
             "description": "Source directory"
+          }
+        }
+      }
+    },
+    "/v1/language-registry.json": {
+      "get": {
+        "summary": "Glottolog language-level registry",
+        "description": "Source-backed language-level entries from the cited Glottolog release. This registry does not infer scripts or font coverage.",
+        "responses": {
+          "200": {
+            "description": "Language registry JSON",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "version": {
+                      "type": "integer"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "languageCount": {
+                      "type": "integer"
+                    },
+                    "source": {
+                      "type": "object"
+                    },
+                    "languages": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "iso6393": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          },
+                          "scriptStatus": {
+                            "type": "string"
+                          },
+                          "fontCoverage": {
+                            "type": "string"
+                          },
+                          "sourceUrl": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
