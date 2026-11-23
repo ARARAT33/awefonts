@@ -69,7 +69,7 @@ def main():
     usable_languages = []
     rejected_languages = []
     for item in languages:
-        chars = item.get("exemplarCharacters", "")
+        chars = unicodedata.normalize("NFC", item.get("exemplarCharacters", ""))
         source = item.get("sourceUrl") or item.get("source")
         required = required_codepoints(chars)
         if not item.get("id") or not isinstance(source, str) or not source.startswith(("https://", "http://")) or not required:
@@ -82,6 +82,7 @@ def main():
             "id": str(item["id"]),
             "name": item.get("name"),
             "sourceUrl": source,
+            "sequences": item.get("exemplarSequences", []),
             "required": required
         })
 
@@ -132,6 +133,7 @@ def main():
             "name": lang["name"],
             "sourceUrl": lang["sourceUrl"],
             "requiredCharacterCount": len(required),
+            "exemplarSequenceCountNotShapingValidated": len(lang["sequences"]),
             "completeFamilyCount": len(exact),
             "completeFamilyIds": sorted(exact),
             "thresholdQualifiedFamilyCount": len(qualifying),
@@ -154,6 +156,7 @@ def main():
         "languages": results,
         "limitations": [
             "Cmap presence does not prove shaping, mark positioning, ligatures, orthography, or rendering quality.",
+            "CLDR multi-character exemplar strings are preserved in source data but are not validated as shaped sequences by cmap checks.",
             "An exemplar is only as complete as its cited source; full language support needs specialist review.",
             "No language support is inferred from script names or generic subset labels."
         ]

@@ -74,6 +74,23 @@ The exemplar input is JSON shaped like this (the exemplar text and source must c
 
 By default a family qualifies only when every required exemplar letter/mark/number is present in the union of its font files’ cmap tables. The report also includes partial matches and missing codepoints. This is character-presence evidence only: it does not prove shaping, mark positioning, ligatures, orthographic correctness, or rendering quality. A language exemplar is only as complete as its cited source, and specialist review remains necessary.
 
+## Import Unicode CLDR language exemplars
+
+The CLDR extractor imports main exemplar characters (and optionally auxiliary characters) from a pinned Unicode CLDR checkout. It preserves the source revision, locale code, script/territory hints, and multi-character exemplar strings separately.
+
+```sh
+git clone --depth 1 https://github.com/unicode-org/cldr.git ./upstream/cldr
+python scripts/import-cldr-exemplars.py \\\
+  --cldr-root ./upstream/cldr \\\
+  --include-auxiliary \\\
+  --out ./language-exemplars/cldr.json
+
+# Test the UnicodeSet range/escape parser without downloading CLDR
+python scripts/import-cldr-exemplars.py --self-test
+```
+
+Feed that JSON directly to `validate-language-cmap.py`. CLDR covers modern locales, not all world languages; it is not a replacement for Glottolog's language-level registry. Locale IDs are not automatically treated as Glottolog or ISO 639-3 IDs. Multi-character exemplar strings are retained, but the current cmap validator checks only individual codepoint presence and cannot verify shaping.
+
 ## Run locally
 
 ```sh

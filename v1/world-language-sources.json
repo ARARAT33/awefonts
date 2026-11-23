@@ -39,14 +39,18 @@
       "id": "unicode-cldr",
       "name": "Unicode CLDR",
       "url": "https://github.com/unicode-org/cldr",
-      "format": "JSON/XML",
+      "format": "CLDR common/main XML; main and optional auxiliary UnicodeSet exemplars",
       "fields": [
-        "locale",
-        "exemplar characters",
+        "locale language identifier",
+        "main exemplar characters",
+        "optional auxiliary exemplar characters",
+        "multi-character exemplar strings",
         "script",
-        "display names"
+        "territory",
+        "immutable source revision"
       ],
-      "vitality": "not a vitality registry"
+      "vitality": "not a vitality registry",
+      "coverageLimit": "Modern locale data (100+ languages); not a 7,000+ world-language census"
     }
   ],
   "fontRepositories": [
