@@ -56,15 +56,31 @@ def main():
     languages_with_exemplar=0
     languages_with_sample_only=0
     for record in coverage.get("languages",[]):
-        original=record.get("completeProviderFamilyIds") or record.get("completeFamilyIds") or []
-        record["completeProviderFamilyIds"]=original
-        record["completeFamilyIds"]=sorted({catalog_ids.get(x,x) for x in original})
-        threshold=record.get("thresholdQualifiedProviderFamilyIds") or record.get("thresholdQualifiedFamilyIds") or []
-        record["thresholdQualifiedProviderFamilyIds"]=threshold
-        record["thresholdQualifiedFamilyIds"]=sorted({catalog_ids.get(x,x) for x in threshold})
-        for partial in record.get("bestPartial",[]):
-            partial["providerFamilyId"]=partial.get("providerFamilyId") or partial.get("familyId")
-            partial["familyId"]=catalog_ids.get(partial.get("providerFamilyId"),partial.get("providerFamilyId"))
+        evidence_type=record.get("evidenceType")
+        if evidence_type=="sample-text-only":
+            original=record.get("sampleTextProviderFamilyIds") or record.get("completeProviderFamilyIds") or record.get("completeFamilyIds") or []
+            record["sampleTextProviderFamilyIds"]=original
+            record["sampleTextFamilyIds"]=sorted({catalog_ids.get(x,x) for x in original})
+            record["sampleTextFamilyCount"]=len(record["sampleTextFamilyIds"])
+            threshold=record.get("sampleTextThresholdProviderFamilyIds") or record.get("thresholdQualifiedProviderFamilyIds") or record.get("thresholdQualifiedFamilyIds") or []
+            record["sampleTextThresholdProviderFamilyIds"]=threshold
+            record["sampleTextThresholdFamilyIds"]=sorted({catalog_ids.get(x,x) for x in threshold})
+            record["completeProviderFamilyIds"]=[]
+            record["completeFamilyIds"]=[]
+            record["completeFamilyCount"]=0
+            record["thresholdQualifiedFamilyIds"]=[]
+            record["topFamilyIds"]=[]
+            record["topSampleTextFamilyIds"]=record["sampleTextFamilyIds"][:8]
+        else:
+            original=record.get("completeProviderFamilyIds") or record.get("completeFamilyIds") or []
+            record["completeProviderFamilyIds"]=original
+            record["completeFamilyIds"]=sorted({catalog_ids.get(x,x) for x in original})
+            threshold=record.get("thresholdQualifiedProviderFamilyIds") or record.get("thresholdQualifiedFamilyIds") or []
+            record["thresholdQualifiedProviderFamilyIds"]=threshold
+            record["thresholdQualifiedFamilyIds"]=sorted({catalog_ids.get(x,x) for x in threshold})
+            record["completeFamilyCount"]=len(record["completeFamilyIds"])
+            record["topFamilyIds"]=record["completeFamilyIds"][:8]
+            record["topSampleTextFamilyIds"]=[]
     for language in registry.get("languages",[]):
         profile_ids=language.get("googleFontsProfileIds") or []
         by_profile=[]
@@ -74,23 +90,28 @@ def main():
         for profile_id in profile_ids:
             record=profile_map.get(profile_id)
             if not record: continue
-            mapped=sorted({catalog_ids.get(x,x) for x in record.get("completeFamilyIds",[])})
+            mapped=sorted(set(record.get("completeFamilyIds",[])))
+            sample_mapped=sorted(set(record.get("sampleTextFamilyIds",[])))
             union.update(mapped)
-            if record.get("evidenceType")=="language-exemplar": exemplar_union.update(mapped)
-            if record.get("evidenceType")=="sample-text-only": sample_union.update(mapped)
+            exemplar_union.update(mapped)
+            sample_union.update(sample_mapped)
             by_profile.append({
                 "profileId":profile_id,
                 "evidenceType":record.get("evidenceType"),
                 "completeFamilyCount":len(mapped),
                 "fontFamilyIds":mapped,
+                "sampleTextFamilyCount":len(sample_mapped),
+                "sampleTextFamilyIds":sample_mapped,
                 "requiredCharacterCount":record.get("requiredCharacterCount")
             })
-        if union: languages_with_any+=1
+        if exemplar_union: languages_with_any+=1
         if exemplar_union: languages_with_exemplar+=1
         if sample_union and not exemplar_union: languages_with_sample_only+=1
         all_links+=len(union)
         language["fontFamilyIds"]=sorted(union)
-        language["fontFamilyCount"]=len(union)
+        language["fontFamilyCount"]=len(exemplar_union)
+        language["sampleTextFamilyIds"]=sorted(sample_union)
+        language["sampleTextFamilyCount"]=len(sample_union)
         language["fontCoverageByProfile"]=by_profile
         language["fontCoverageScope"]="language-script-profile; profile results are not merged into an assertion that every script is interchangeable"
         if exemplar_union:
@@ -116,6 +137,7 @@ def main():
         "glottologLanguagesWithExemplarMatches":languages_with_exemplar,
         "glottologLanguagesWithSampleTextOnlyMatches":languages_with_sample_only,
         "languageFontFamilyLinks":all_links,
+        "languageSampleTextFamilyLinks":sum(len(x.get("sampleTextFamilyIds",[])) for x in registry.get("languages",[])),
         "evidence":"FontTools cmap codepoint presence against exact Google Fonts language exemplars or sample text; not shaping validation"
     }
     registry["coveragePolicy"]="fontFamilyIds are only actual cmap matches from the pinned Google Fonts binary corpus. Results are profile-level; sample-text-only results do not prove full orthography. Multi-script language records retain per-profile results. No shaping or rendering claim is made."
