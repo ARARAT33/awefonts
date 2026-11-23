@@ -8,7 +8,8 @@ A static-first global font library and local Font Studio.
 |---|---:|
 | Distinct font families | 2,204 |
 | Provider face/subset records | 99,159 |
-| Binary font files | 3,914 |
+| Bundled font binaries in repository | 0 |
+| Upstream binary-file references | 3,914 |
 | Total resource records | 103,073 |
 | Glottolog language-level registry entries | 8,623 |
 | Language codes in script profiles | 1,404 |
@@ -16,7 +17,7 @@ A static-first global font library and local Font Studio.
 | Script identifiers | 172 |
 | Committed API CSS presets | 67 |
 
-103,073 resource records are **not** 103,073 unique families. The 8,623-entry language-level registry is sourced from Glottolog 5.4; it includes multiple language-level categories and must not be read as 8,623 spoken L1 languages. The separate 1,404-code / 1,695-profile index comes from Google Fonts language metadata, Unicode CLDR and Unicode script data. Registry membership does not prove script assignment or font coverage.
+103,073 resource records are **not** 103,073 unique families. The 3,914 binary-file records are upstream references, not files bundled in this repository. The 8,623-entry language-level registry is sourced from Glottolog 5.4; it includes multiple language-level categories and must not be read as 8,623 spoken L1 languages. The separate 1,404-code / 1,695-profile index comes from Google Fonts language metadata, Unicode CLDR and Unicode script data. Registry membership does not prove script assignment or font coverage.
 
 ## Language coverage targets (not claims)
 - Rare/endangered/very-low-resource: 10 distinct families.
@@ -94,3 +95,8 @@ The repository includes an offline validation workflow at `.github/workflows/awe
 
 
 Duplicate provider records are consolidated into one family identity. Provider-specific licences, CSS endpoints, downloads and legacy IDs remain available under each family's `providers` and `aliases` fields.
+
+
+## Real font binary corpus
+
+A GitHub Actions workflow fetches the complete redistributable Google Fonts snapshot, verifies each family's licence text and every binary SHA-256, removes exact duplicate binaries/family identities, and publishes split archive assets to the GitHub Release. The static API index is `/v1/corpora/google-fonts.json`. The archive is stored as GitHub Release assets rather than bloating Git history; no Cloudflare build or deployment is part of this workflow. See [binary corpus release process](docs/font-corpus-release.md).
