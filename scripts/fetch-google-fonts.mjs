@@ -31,7 +31,8 @@ const revision=run("git",["rev-parse","HEAD"],root);
 run("git",["sparse-checkout","init","--no-cone"],root);
 run("git",["sparse-checkout","set","--no-cone","ofl/*/METADATA.pb","apache/*/METADATA.pb","ufl/*/METADATA.pb"],root);
 const metadataPaths=run("git",["ls-files","-z"],root).split("\0").filter(p=>p.endsWith("/METADATA.pb"));
-const parseScalar=(s,key)=>{const re=new RegExp("^\\s*"+key+":\\s*\\\"([^\\\"]*)\\\"","m");const m=s.match(re);return m?m[1]:""};
+const rejected=[];
+const parseScalar=(s,key)=>{const re=new RegExp("^\\s*"+key+":\\s*(?:\\\"([^\\\"]*)\\\"|([0-9.]+))","m");const m=s.match(re);return m?(m[1]??m[2]??""):""};
 const parseList=(s,key)=>[...s.matchAll(new RegExp("^\\s*"+key+":\\s*\\\"([^\\\"]*)\\\"","gm"))].map(m=>m[1]);
 const parseBlocks=(s,key)=>[...s.matchAll(new RegExp("^"+key+"\\s*\\{([\\s\\S]*?)^\\s*\\}","gm"))].map(m=>m[1]);
 const families=[];
@@ -49,7 +50,7 @@ const chosen=all?selected:(limit?selected.slice(0,limit):selected);
 if(!chosen.length){console.error("No matching Google Fonts families.");process.exit(1);}
 const dirs=chosen.map(f=>f.path.slice(0,-"METADATA.pb".length));
 run("git",["sparse-checkout","set","--no-cone",...dirs.map(p=>p+"*")],root);
-let copied=0,bytes=0,skipped=0;const rejected=[];
+let copied=0,bytes=0,skipped=0;
 for(const f of chosen){
  const sourceDir=join(root,f.path,".."),destDir=join(out,f.id);
  await mkdir(destDir,{recursive:true});
