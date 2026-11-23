@@ -11,14 +11,15 @@
  * a separate, cited status field is provided.
  */
 import { readFile, readdir, stat, mkdir, writeFile } from "node:fs/promises";
-import { resolve, relative, extname, dirname, basename } from "node:path";
+import { createReadStream } from "node:fs";
+import { resolve, relative, extname, dirname, basename, isAbsolute } from "node:path";
 import { createHash } from "node:crypto";
 
 const args=process.argv.slice(2),get=(k)=>{const i=args.indexOf(k);return i<0?null:args[i+1]};
 const fontRoot=get("--fonts"),languageFile=get("--languages"),write=args.includes("--write"),includeDialects=args.includes("--include-dialects");
 const out=resolve(get("--out")||"v1/imported");
 const errors=[],warnings=[],seenIds=new Map(),binaryOwners=new Map();
-const sha=async p=>createHash("sha256").update(await readFile(p)).digest("hex");
+const sha=p=>new Promise((resolveHash,reject)=>{const h=createHash("sha256");createReadStream(p).on("data",chunk=>h.update(chunk)).on("end",()=>resolveHash(h.digest("hex"))).on("error",reject)});
 const walk=async root=>{const out=[];const visit=async d=>{for(const e of await readdir(d,{withFileTypes:true})){const p=resolve(d,e.name);if(e.isDirectory())await visit(p);else if(["family.json","metadata.json"].includes(e.name))out.push(p)}};await visit(resolve(root));return out};
 const norm=s=>String(s||"").normalize("NFKC").toLocaleLowerCase("en").replace(/[\s\p{P}\p{S}]+/gu,"");
 const csv=(line,delimiter)=>{const a=[];let s="",q=false;for(let i=0;i<line.length;i++){const c=line[i];if(c==='"'&&line[i+1]==='"'&&q){s+='"';i++}else if(c==='"')q=!q;else if(c===delimiter&&!q){a.push(s);s=""}else s+=c}a.push(s);return a};
@@ -29,29 +30,36 @@ if(fontRoot){
    const m=JSON.parse(await readFile(file,"utf8"));
    const family=String(m.family||m.name||"").trim(),id=String(m.id||"").trim();
    if(!family||!id)throw Error("family and id are required");
+   if(seenIds.has(id))throw Error("duplicate family id also used by "+seenIds.get(id));
+   const canonicalId=String(m.canonicalId||"").trim(), designer=String(m.designer||m.foundry||"").trim();
+   if(!canonicalId&&!designer)throw Error("canonicalId or designer/foundry is required to prevent ambiguous family-name collisions");
+   const identity=norm(canonicalId||[family,designer].join("|"));
    const lic=typeof m.license==="string"?m.license:(m.license?.id||m.license?.name||"");
    const licenceUrl=typeof m.license==="object"?m.license.url:"";
    if(!lic)throw Error("missing explicit licence");
    const spdx=new Set(["OFL-1.1","Apache-2.0","MIT","Ubuntu-Font-1.0","GPL-2.0","GPL-3.0","BSD-2-Clause","BSD-3-Clause"]);
    if(!licenceUrl&&!spdx.has(lic))throw Error("licence must have a source URL or recognized SPDX identifier");
     const sourceUrl=m.sourceUrl||m.url||"";if(!(sourceUrl.startsWith("https://")||sourceUrl.startsWith("http://")))throw Error("missing verifiable upstream sourceUrl");
+   if(seen.has(identity)){const prior=seen.get(identity);prior.alternateSources.push({provider:m.provider||m.source||"unspecified",id,sourceUrl,license:lic});continue}
    const rawFiles=Array.isArray(m.sourceFiles)?m.sourceFiles:(Array.isArray(m.files)?m.files:[]);
    if(!rawFiles.length)throw Error("no declared binary source files");
    const checked=[];
    for(const f of rawFiles){
-    const p=resolve(dirname(file),f.path||f.file||"");
-    if(!p.startsWith(resolve(dirname(file))+ "/"))throw Error("binary path escapes family directory");
+    const familyDir=resolve(dirname(file));
+    const p=resolve(familyDir,f.path||f.file||"");
+    const rel=relative(familyDir,p);
+    if(!rel||isAbsolute(rel)||rel.split(/[\\/]/).includes(".."))throw Error("binary path escapes family directory");
     const st=await stat(p);if(!st.isFile()||!st.size)throw Error("missing or empty binary: "+(f.path||f.file));
     const format=extname(p).slice(1).toLowerCase();
     if(!["ttf","otf","woff","woff2"].includes(format))throw Error("unsupported font format: "+format);
-     const digest=await sha(p);if(binaryOwners.has(digest))warnings.push("Identical binary hash shared by "+binaryOwners.get(digest)+" and "+id+"/"+(f.path||f.file));else binaryOwners.set(digest,id+"/"+(f.path||f.file));
+     const digest=await sha(p);
+     if(binaryOwners.has(digest)){warnings.push("Duplicate binary excluded: "+binaryOwners.get(digest)+" == "+id+"/"+(f.path||f.file));continue}
+     binaryOwners.set(digest,id+"/"+(f.path||f.file));
      checked.push({path:relative(resolve(fontRoot),p).replaceAll("\\","/"),format,bytes:st.size,sha256:digest,variant:f.variant||null});
    }
-   if(seenIds.has(id))throw Error("duplicate family id also used by "+seenIds.get(id));
+   if(!checked.length)throw Error("all declared binaries are exact duplicates of previously imported files");
    seenIds.set(id,file);
-   const identity=norm(m.canonicalId||[family,m.designer||m.foundry||""].join("|"));
-   if(seen.has(identity)){const prior=seen.get(identity);prior.alternateSources.push({provider:m.provider||m.source||"unspecified",id,sourceUrl:m.sourceUrl||m.url||"",license:lic});continue}
-   const rec={id,canonicalKey:identity,family,designer:m.designer||m.foundry||null,provider:m.provider||m.source||"unspecified",sourceUrl,license:{id:lic,url:licenceUrl||null},languages:[...new Set((m.languages||m.languageTags||[]).map(String))],sourceFiles:checked,alternateSources:[],evidence:"explicit-source-metadata",metadataPath:relative(resolve(fontRoot),file).replaceAll("\\","/")};
+   const rec={id,canonicalKey:identity,family,designer:designer||null,provider:m.provider||m.source||"unspecified",sourceUrl,license:{id:lic,url:licenceUrl||null},languages:[...new Set((m.languages||m.languageTags||[]).map(String))],sourceFiles:checked,alternateSources:[],evidence:"explicit-source-metadata",metadataPath:relative(resolve(fontRoot),file).replaceAll("\\","/")};
    seen.set(identity,rec);families.push(rec);
   }catch(e){errors.push({file,reason:e.message})}
  }

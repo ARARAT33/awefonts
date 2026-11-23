@@ -22,7 +22,7 @@ Each upstream family directory must contain `family.json` or `metadata.json`:
 }
 ```
 
-Required: family, id, explicit licence, and at least one real local TTF/OTF/WOFF/WOFF2 file. The importer computes SHA-256 and byte size from the actual binary. Source paths must stay inside the family directory. Language tags are only imported when explicitly supplied by the upstream source or reviewed metadata. The CSV adapter imports Glottolog rows with level `language` by default (not dialect/family records); use `--include-dialects` only when those are intentionally wanted. Exact font links are made only by Glottolog ID or ISO 639-3 tag. No script-based fallback is used.
+Required: family, id, explicit licence, a verifiable upstream source URL, a canonicalId or designer/foundry identity, and at least one real local TTF/OTF/WOFF/WOFF2 file. The importer streams SHA-256 hashing (so large font files are not loaded entirely into memory) and records byte size from the actual binary. Source paths must stay inside the family directory on Windows, macOS and Linux. Exact duplicate binary hashes are excluded from subsequent family records; a family whose binaries are all duplicates is rejected. Language tags are only imported when explicitly supplied by the upstream source or reviewed metadata. The CSV adapter imports Glottolog rows with level `language` by default (not dialect/family records); use `--include-dialects` only when those are intentionally wanted. Exact font links are made only by Glottolog ID or ISO 639-3 tag. No script-based fallback is used.
 
 ## Download a Google Fonts snapshot
 
@@ -108,7 +108,7 @@ The script performs no network calls and no deployment. It creates:
 ## Coverage policy
 
 - One family is one family. Weights, styles, variable instances, subsets, mirrors and formats are not additional families.
-- The canonical identity is a reviewed `canonicalId`, or normalized family plus designer/foundry. Name collisions are retained as possible distinct families when foundries differ.
+- The canonical identity is a reviewed `canonicalId`, or normalized family plus designer/foundry. Records without either are rejected to avoid merging same-name families from different foundries. Alternate sources are recorded only after their licence and source URL pass validation.
 - Each family has per-file SHA-256 hashes and an explicit licence. Redistribution is allowed only when the family licence permits it.
 - Explicit language tags and reviewed character coverage are accepted evidence. Script membership alone is not.
 - Historical/extinct status must be supported by a cited language-data source. Unknown remains unknown.

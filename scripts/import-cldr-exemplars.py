@@ -26,6 +26,7 @@ def parse_set(value):
             seq = unicodedata.normalize("NFC", token[1:-1])
             if seq:
                 sequences.add(seq)
+                chars.update(seq)
             continue
         if token.startswith("[:") and token.endswith(":]"):
             warnings.append("UnicodeSet property pattern not expanded: " + token)
