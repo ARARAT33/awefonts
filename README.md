@@ -1,23 +1,70 @@
-AWEFonts static multi-page worldwide typography library and local font studio.
+# AWEFonts
 
-Pages: home, fonts.html, font.html?id=family-id, packs.html, studio.html, sources.html, compare.html, developers.html.
+AWEFonts is a static-first worldwide typography library and local font studio. Browse real font families, preview scripts, compare typefaces, download permitted font files, and create custom fonts locally in the browser.
 
-Catalog: 2243 indexed families: 1,960 Google Fonts, 145 Fontsource-only packages, 63 SIL families, 67 additional Fontshare families and 8 Google Material icon families. Bunny Fonts is an alternative privacy-focused CDN for Google families.ng Google Fonts / Fontsource / SIL families plus 67 additional Fontshare families (100 total Fontshare records; 33 were already represented). Fontshare licensing is preserved: SIL OFL entries can be packaged locally; ITF FFL entries are preview/embed-only and link to the official foundry page. SIL entries include OFL/license metadata and direct font file references.
+## Library
 
-Language packs fetch provider stylesheets and font binaries in the browser and create ZIP files locally. SIL packs include TTF/WOFF2 files where available. No Workers, Functions, backend, database, login or API keys. The studio imports images and exports TTF locally. Check original licenses before commercial use. Android does not universally install fonts system-wide from ZIP files.
+**2,235 indexed families** across five catalog sources:
 
-Cloudflare Pages build command is empty. Automatic deployments are disabled in the connected Pages projects (production disabled; preview setting `none`). Do not trigger manual deployments for this preview branch.
+| Source | Families |
+|---|---:|
+| Google Fonts | 1,960 |
+| Fontsource-only packages | 137 |
+| SIL International | 63 |
+| Additional Fontshare families | 67 |
+| Google Material Icons / Symbols | 8 |
 
+The 67 additional Fontshare records are deduplicated against the existing catalog. Fontshare licensing is preserved: 64 ITF Free Font License records are preview/embed-only; 3 additional SIL OFL records can be packaged locally. Always check the upstream licence before redistribution or commercial use.
 
-## Static API routes
-Deploy `api-site/` as a second Cloudflare Pages project (root directory `api-site`, no build command, output directory `.`) and attach `fonts.api.aweconnect.dpdns.org`. Keep the main UI Pages project rooted at repository root for `fonts.aweconnect.dpdns.org`. API documentation and embed example are in `api-site/README.md`.
+Bunny Fonts is offered as a privacy-focused, Google Fonts-compatible alternative delivery provider for the 1,960 Google families. It does not add duplicate family records.
 
-The main Pages project serves both the website and `/v1/*` static API routes. The `fonts.api.aweconnect.dpdns.org` custom domain is attached to the same Pages project so one deployment updates both UI and API. Build command remains empty; no Workers or Functions are required.
+## Features
 
+- Search across family names, designers, tags, categories, scripts and licences.
+- Filter by source, writing system, category and variable-font availability.
+- Sort by name, recent update, popularity metadata or variable-font status.
+- Real font previews, script-aware specimens and local saved favourites.
+- Compare up to four families side by side.
+- Material Symbols variable axes: optical size, weight, fill and grade.
+- Language packs and browser-local ZIP assembly for files permitted by their licences.
+- Font Studio: local drawing/import workflow and local exports. User artwork is not uploaded.
+- Static API and embed loader; no account, API key, database, Worker or Functions.
 
-## Global source directory and multilingual studio
-The source directory indexes every platform supplied in the project brief. Only fonts with redistribution rights are mirrored in the downloadable catalogue; commercial and mixed archives remain linked and are not scraped or republished without permission. The library preview uses script-specific specimen strings and explicit font loading. The local studio offers glyph grids for 30+ writing systems and generates self-contained CSS `@font-face` embeds using a data URL from a locally exported TTF. Complex-script shaping (ligatures, contextual forms and mark positioning) requires a full OpenType shaping editor; this pixel-grid tool is a local glyph prototyping studio.
+## Pages
 
-Fontshare source integration adds 67 additional families with source-native CSS delivery, designer/style metadata, and license-aware download controls.
+- `/` — home
+- `/fonts.html` — font discovery
+- `/font.html?id=family-id` — specimen and family details
+- `/compare.html` — side-by-side comparison
+- `/packs.html` — language packs
+- `/studio.html` — local font studio
+- `/sources.html` — source directory
+- `/developers.html` — API and embed documentation
 
-API v5 options: `data-font`, `data-weights`, `data-selector`, `data-apply`, `data-size`, `data-line-height`, `data-letter-spacing`.
+## Static API
+
+The root Pages project serves the API from `/v1/` so the UI and catalog are updated together in one deployment:
+
+- `/v1/catalog.json`
+- `/v1/sources.json`
+- `/v1/health.json`
+- `/v1/embed.v5.js`
+- `/v1/openapi.json`
+
+The API custom hostname is `fonts.api.aweconnect.dpdns.org`. The same project also serves the main website at `fonts.aweconnect.dpdns.org`. The legacy `api-site/` directory remains as a synchronized source mirror and rollback reference.
+
+Example:
+
+```html
+<script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v5.js" data-font="Inter" data-weights="400;700"></script>
+```
+
+For supported Google families, add `data-provider="bunny"` to use the Bunny Fonts privacy CDN.
+
+## Cloudflare Pages
+
+- Root directory: `/`
+- Build command: empty (static assets only)
+- Build output directory: `/`
+- No Workers or Functions.
+- Automatic Git deployments remain disabled; the release is initiated manually once.
