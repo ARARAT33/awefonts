@@ -55,3 +55,14 @@ Static assets only; root directory `/`; build command empty; no Workers or Funct
 ## Full-corpus import pipeline
 
 Use `scripts/sync-global-font-corpus.mjs` to import local upstream snapshots after downloading them. It verifies that each record has a family ID, source URL, explicit licence, and real local font binaries; computes SHA-256 hashes; records exact language tags; and reports identical binaries and rejected metadata. It does not invent or infer language coverage. See [font corpus import contract](docs/font-corpus-import.md). This is an ingestion tool, not evidence that all upstream repositories have already been downloaded.
+
+### Source snapshot workflow
+
+For an actual Google Fonts binary snapshot, run the sparse downloader locally (Git required):
+
+```sh
+node scripts/fetch-google-fonts.mjs --out ./upstream-fonts/google-fonts --limit 100
+node scripts/sync-global-font-corpus.mjs --fonts ./upstream-fonts/google-fonts
+```
+
+Use `--families "Noto Sans,Roboto"` for exact families or `--all` for the full upstream collection (large download). The downloader pins and records the upstream Git commit, preserves per-family licence metadata, and does not infer language support from subset names. Importing and committing the resulting binaries is a separate, size- and licence-reviewed step; this branch does not yet contain a bulk mirror of the Google Fonts binaries.
