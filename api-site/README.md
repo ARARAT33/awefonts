@@ -15,7 +15,7 @@ The API hostname must point to this separate Pages project, not the main UI proj
 
 ## Embed a font
 ```html
-<script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v3.js" data-font="Inter" data-weights="400;700"></script>
+<script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v5.js" data-font="Inter" data-weights="400;700"></script>
 <style>body { font-family: "Inter", sans-serif; }</style>
 ```
 
@@ -29,11 +29,11 @@ To apply the first font automatically:
 <script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v3.js" data-font="Inter" data-apply="true" data-selector=".article"></script>
 ```
 
-`data-font` accepts a catalog family name or family id. Google Fonts are loaded from Google Fonts, Fontsource families from Fontsource, and SIL families from their published WOFF2 files. Font binaries are not proxied or mirrored by AWEFonts.
+`data-font` accepts a catalog family name or family id. Google Fonts are loaded from Google Fonts, Fontsource families from Fontsource, SIL families from their published WOFF2 files, and Fontshare families from Fontshare CSS. SIL OFL Fontshare families can be packaged locally; ITF FFL Fontshare families are preview/embed-only and link to the official source. Font binaries are not proxied or mirrored by AWEFonts.
 
 ## Endpoints
 - `/v1/catalog.json` — full catalog metadata
-- `/v1/embed.v3.js` — browser-side embed loader
+- `/v1/embed.v5.js` — browser-side embed loader
 - `/v1/health.json` — static API build/version information
 
 All API files are static. There are no Workers, Functions, server-side code, database, login or API keys. The loader fetches the catalog in the visitor's browser and adds the upstream font stylesheet.
