@@ -35,7 +35,7 @@ $('copyEmbed').onclick=()=>{if(!$('embedCode').value){toast('Generate the embed 
   const rows=items.slice(0,S.page*100);
   $('languageCount').textContent=items.length.toLocaleString()+' profiles · '+doc.languageCount.toLocaleString()+' language codes · '+doc.scriptCount+' scripts · '+Number(doc.historicalProfileCount||0).toLocaleString()+' source-marked historical profiles · '+Number(doc.exemplarProfileCount||0).toLocaleString()+' sourced exemplars';
   $('languageGrid').innerHTML=rows.map(x=>{
-   const cv=cmapProfiles.get(x.id),matched=cv?.completeFamilyIds||[];
+   const cv=cmapProfiles.get(x.id),matched=cv?.topFamilyIds||cv?.completeFamilyIds||[];
    const coverage=cv?'<small>'+Number(cv.completeFamilyCount||0).toLocaleString()+' font families match '+(cv.evidenceType==='language-exemplar'?'the full sourced exemplar':'the sample text only')+' ('+Number(cv.requiredCharacterCount||0)+' required codepoints)</small>'+(matched.length?'<p class="language-font-links">'+fontLinks(matched)+'</p>':''):'<small>'+(x.exemplarType==='none'?'No usable sourced character set for cmap testing':'Glyph coverage not yet published')+'</small>';
    const population=x.population>0?'Population evidence: '+Number(x.population).toLocaleString():'Population estimate: not reported';
    return '<article class="language-card"><b>'+esc(x.preferredName||x.name)+'</b><small>'+esc(x.code)+' · '+esc(x.scriptName)+' · '+esc(x.id)+(x.historical===true?' · SOURCE-MARKED HISTORICAL':'')+'</small>'+(x.autonym?'<p>'+esc(x.autonym)+'</p>':'')+'<small>'+esc(population)+'</small>'+coverage+'<p>'+esc((S.scripts.find(s=>s.id===x.script)?.characters||[]).slice(0,18).join(' '))+'</p><a class="btn" href="/fonts.html?language='+encodeURIComponent(x.id)+'">Browse script candidates ↗</a></article>';
@@ -57,7 +57,7 @@ $('copyEmbed').onclick=()=>{if(!$('embedCode').value){toast('Generate the embed 
    $('registryCount').textContent=items.length.toLocaleString()+' Glottolog language-level records · '+registryRelease+' · '+Number(rd.cmapCoverage?.glottologLanguagesWithAnyCompleteMatch||0).toLocaleString()+' records with cmap matches';
    $('registryGrid').innerHTML=rows.map(x=>{
     const scripts=(x.scriptCodes||[]).map(code=>S.languages.find(p=>p.script===code)?.scriptName||code);
-    const ids=x.fontFamilyIds||[];
+    const ids=x.topFontFamilyIds||x.fontFamilyIds||[];
     const coverageLabel=x.fontCoverage==='cmap-exemplar-profile-match'?'Sourced exemplar: cmap matched':x.fontCoverage==='multi-script-profile-matches'?'Multiple script profiles matched; see each profile':x.fontCoverage==='sample-text-only-cmap-match'?'Sample text only; not full orthography':x.fontCoverage==='no-complete-cmap-match'?'No complete cmap match':'Unverified';
     const population=x.population>0?'Population evidence: '+Number(x.population).toLocaleString():'Population estimate: not reported';
     return '<article class="language-card"><b>'+esc(x.name)+'</b><small>GLOTTOCODE '+esc(x.id)+' · ISO 639-3 '+esc(x.iso6393||'not assigned')+(x.historical===true?' · SOURCE-MARKED HISTORICAL':'')+'</small><p>'+esc(scripts.join(' · ')||'Script not linked')+'</p><small>'+esc(population)+'</small><small>'+esc(coverageLabel)+' · '+Number(x.fontFamilyCount||0).toLocaleString()+' matching families</small>'+(ids.length?'<p class="language-font-links">'+fontLinks(ids)+'</p>':'')+'<small>Extinction status: '+esc(x.extinctionStatus||'unknown')+'</small></article>';
