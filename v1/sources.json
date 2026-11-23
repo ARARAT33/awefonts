@@ -1,0 +1,615 @@
+{
+  "name": "AWEFonts Global Source Directory",
+  "version": "1.0.0",
+  "generatedAt": "2026-11-23",
+  "total": 97,
+  "groups": [
+    {
+      "category": "Open-source catalogues",
+      "sources": [
+        {
+          "name": "Google Fonts",
+          "url": "https://fonts.google.com",
+          "kind": "open-catalog",
+          "mirrorStatus": "open-catalog-import"
+        },
+        {
+          "name": "Google Fonts GitHub",
+          "url": "https://github.com/google/fonts",
+          "kind": "open-catalog",
+          "mirrorStatus": "open-catalog-import"
+        },
+        {
+          "name": "Google Noto Fonts",
+          "url": "https://fonts.google.com/noto",
+          "kind": "open-catalog",
+          "mirrorStatus": "open-catalog-import"
+        },
+        {
+          "name": "Noto Fonts GitHub",
+          "url": "https://notofonts.github.io",
+          "kind": "open-catalog",
+          "mirrorStatus": "open-catalog-import"
+        },
+        {
+          "name": "SIL International Fonts",
+          "url": "https://software.sil.org/fonts",
+          "kind": "open-catalog",
+          "mirrorStatus": "open-catalog-import"
+        },
+        {
+          "name": "Font Library",
+          "url": "https://fontlibrary.org",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Font Squirrel",
+          "url": "https://www.fontsquirrel.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontshare",
+          "url": "https://www.fontshare.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontshare API",
+          "url": "https://api.fontshare.com/v2/fonts?limit=100&offset=0",
+          "kind": "mixed-open",
+          "mirrorStatus": "100 families indexed; SIL OFL downloadable, ITF FFL official embed only"
+        },
+        {
+          "name": "Fontsource",
+          "url": "https://fontsource.org",
+          "kind": "open-catalog",
+          "mirrorStatus": "open-catalog-import"
+        },
+        {
+          "name": "Open Foundry",
+          "url": "https://open-foundry.com",
+          "kind": "curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Velvetyne Type Foundry",
+          "url": "https://velvetyne.fr",
+          "kind": "open-curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "The League of Moveable Type",
+          "url": "https://www.theleagueofmoveabletype.com",
+          "kind": "open-curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Omnibus-Type",
+          "url": "https://www.omnibus-type.com",
+          "kind": "open-curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Uncut.wtf",
+          "url": "https://uncut.wtf",
+          "kind": "curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Collletttivo",
+          "url": "https://www.collletttivo.it",
+          "kind": "open-curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Tupitype",
+          "url": "https://tupitype.com",
+          "kind": "curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FreeFaces",
+          "url": "https://www.freefaces.gallery",
+          "kind": "curated",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontesk",
+          "url": "https://fontesk.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Befonts",
+          "url": "https://befonts.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Bunny Fonts",
+          "url": "https://fonts.bunny.net/",
+          "kind": "privacy-font-cdn",
+          "mirrorStatus": "Google Fonts API v1-compatible alternative CDN; same Google family set"
+        },
+        {
+          "name": "Google Material Design Icons",
+          "url": "https://github.com/google/material-design-icons",
+          "kind": "Apache-2.0 icon-font-library",
+          "mirrorStatus": "8 Material Symbols / Material Icons families indexed"
+        }
+      ]
+    },
+    {
+      "category": "Large archives & discovery",
+      "sources": [
+        {
+          "name": "FontSpace",
+          "url": "https://www.fontspace.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "DaFont",
+          "url": "https://www.dafont.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "1001 Fonts",
+          "url": "https://www.1001fonts.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "1001 Free Fonts",
+          "url": "https://www.1001freefonts.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Abstract Fonts",
+          "url": "https://www.abstractfonts.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "UrbanFonts",
+          "url": "https://www.urbanfonts.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FFonts",
+          "url": "https://www.ffonts.net",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FontGet",
+          "url": "https://www.fontget.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FontZone",
+          "url": "https://fontzone.net",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fonts2u",
+          "url": "https://www.fonts2u.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "AllFont",
+          "url": "https://allfont.net",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "CufonFonts",
+          "url": "https://www.cufonfonts.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "DafontFree",
+          "url": "https://www.dafontfree.co",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Dafont101",
+          "url": "https://www.dafont101.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FontStruct",
+          "url": "https://fontstruct.com",
+          "kind": "community",
+          "mirrorStatus": "source-index-only"
+        }
+      ]
+    },
+    {
+      "category": "Professional & commercial",
+      "sources": [
+        {
+          "name": "MyFonts",
+          "url": "https://www.myfonts.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fonts.com",
+          "url": "https://www.fonts.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Monotype",
+          "url": "https://www.monotype.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Adobe Fonts",
+          "url": "https://fonts.adobe.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Linotype",
+          "url": "https://www.linotype.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FontShop",
+          "url": "https://www.fontshop.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Creative Market Fonts",
+          "url": "https://creativemarket.com/fonts",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Envato Elements Fonts",
+          "url": "https://elements.envato.com/fonts",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "YouWorkForThem",
+          "url": "https://www.youworkforthem.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Type Network",
+          "url": "https://typenetwork.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Future Fonts",
+          "url": "https://www.futurefonts.xyz",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "TypeTogether",
+          "url": "https://www.type-together.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Commercial Type",
+          "url": "https://commercialtype.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Grilli Type",
+          "url": "https://www.grillitype.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Klim Type Foundry",
+          "url": "https://klim.co.nz",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Production Type",
+          "url": "https://www.productiontype.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Dalton Maag",
+          "url": "https://www.daltonmaag.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontfabric",
+          "url": "https://www.fontfabric.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Pangram Pangram",
+          "url": "https://pangrampangram.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Dinamo",
+          "url": "https://abcdinamo.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Atipo Foundry",
+          "url": "https://www.atipofoundry.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Hanken Design Co.",
+          "url": "https://www.hankendesign.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Typedepot",
+          "url": "https://www.typedepot.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Mark Simonson Studio",
+          "url": "https://www.marksimonson.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "House Industries",
+          "url": "https://houseind.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Hoefler&Co",
+          "url": "https://www.typography.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Tiro Typeworks",
+          "url": "https://www.tiro.com",
+          "kind": "commercial",
+          "mirrorStatus": "source-index-only"
+        }
+      ]
+    },
+    {
+      "category": "Regional & script specialists",
+      "sources": [
+        {
+          "name": "Fonter.am",
+          "url": "https://fonter.am",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Tarumian.am",
+          "url": "https://tarumian.am",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Armenian Fonts",
+          "url": "https://armenianfonts.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fonts.ge",
+          "url": "https://fonts.ge",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "ParaType",
+          "url": "https://www.paratype.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Rentafont",
+          "url": "https://rentafont.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Nomail",
+          "url": "https://nomail.com.ua",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fonts-Online",
+          "url": "https://fonts-online.ru",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Cyrillic.ru",
+          "url": "https://cyrillic.ru",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Arfonts",
+          "url": "https://www.arfonts.net",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontyab",
+          "url": "https://fontyab.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "29LT",
+          "url": "https://www.29lt.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "ArabiType",
+          "url": "https://arabitype.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Diwan Type",
+          "url": "https://www.diwan.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FounderType",
+          "url": "https://www.foundertype.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Morisawa",
+          "url": "https://www.morisawa.co.jp",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontworks",
+          "url": "https://fontworks.co.jp",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "DynaComware",
+          "url": "https://www.dynacw.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "SandollCloud",
+          "url": "https://www.sandollcloud.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Noonnu",
+          "url": "https://noonnu.cc",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Indian Type Foundry",
+          "url": "https://www.indiantypefoundry.com",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Ek Type",
+          "url": "https://www.ektype.in",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "AlefAlefAlef",
+          "url": "https://alefalefalef.co.il",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fontbit",
+          "url": "https://www.fontbit.co.il",
+          "kind": "regional",
+          "mirrorStatus": "source-index-only"
+        }
+      ]
+    },
+    {
+      "category": "Tools & typography research",
+      "sources": [
+        {
+          "name": "Fontspring",
+          "url": "https://www.fontspring.com",
+          "kind": "mixed",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Fonts In Use",
+          "url": "https://fontsinuse.com",
+          "kind": "reference",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Identifont",
+          "url": "http://www.identifont.com",
+          "kind": "tool",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "WhatTheFont",
+          "url": "https://www.myfonts.com/pages/whatthefont",
+          "kind": "tool",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "WhatFontIs",
+          "url": "https://www.whatfontis.com",
+          "kind": "tool",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "FontForge",
+          "url": "https://fontforge.org",
+          "kind": "tool",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Glyphr Studio",
+          "url": "https://www.glyphrstudio.com",
+          "kind": "tool",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "BirdFont",
+          "url": "https://birdfont.org",
+          "kind": "tool",
+          "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Unicode Charts",
+          "url": "https://www.unicode.org/charts",
+          "kind": "reference",
+          "mirrorStatus": "source-index-only"
+        }
+      ]
+    }
+  ]
+}

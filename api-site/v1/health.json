@@ -1,1 +1,23 @@
-{"name":"AWEFonts Static Font API","version":"1.2.0","catalogCount":2168,"sources":["google","fontsource","sil"],"generatedAt":"2026-11-22","ui":false,"deploymentTrigger":"API project path filters fixed"}
+{
+  "name": "AWEFonts Static Font API",
+  "version": "2.0.0",
+  "catalogCount": 2235,
+  "sourceCounts": {
+    "google": 1960,
+    "fontsource": 145,
+    "sil": 63,
+    "fontshare": 67,
+    "google-icons": 0
+  },
+  "sources": [
+    "google",
+    "fontsource",
+    "sil",
+    "fontshare",
+    "google-icons",
+    "bunny"
+  ],
+  "generatedAt": "2026-11-23",
+  "ui": true,
+  "deploymentMode": "shared static Cloudflare Pages project; build command empty"
+}

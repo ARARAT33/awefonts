@@ -2,7 +2,7 @@
   "name": "AWEFonts Global Source Directory",
   "version": "1.0.0",
   "generatedAt": "2026-11-23",
-  "total": 95,
+  "total": 97,
   "groups": [
     {
       "category": "Open-source catalogues",
@@ -126,6 +126,18 @@
           "url": "https://befonts.com",
           "kind": "mixed",
           "mirrorStatus": "source-index-only"
+        },
+        {
+          "name": "Bunny Fonts",
+          "url": "https://fonts.bunny.net/",
+          "kind": "privacy-font-cdn",
+          "mirrorStatus": "Google Fonts API v1-compatible alternative CDN; same Google family set"
+        },
+        {
+          "name": "Google Material Design Icons",
+          "url": "https://github.com/google/material-design-icons",
+          "kind": "Apache-2.0 icon-font-library",
+          "mirrorStatus": "8 Material Symbols / Material Icons families indexed"
         }
       ]
     },

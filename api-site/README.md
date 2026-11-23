@@ -1,39 +1,12 @@
-# AWEFonts API-only static site
+# AWEFonts static API
 
-This directory is deployed as a **separate Cloudflare Pages project** for `https://fonts.api.aweconnect.dpdns.org`. It contains no website UI.
+The API is served by the same Cloudflare Pages project as the AWEFonts UI. Static API assets are mirrored under the repository root at `/v1/` so one deployment updates the interface and catalog together. The legacy `api-site/` directory is retained as a source mirror and rollback reference, not as a separate required deployment.
 
-## Cloudflare Pages setup
-- Create a second Pages project connected to this same GitHub repository.
-- Production branch currently remains `feat/full-font-library-static-multipage-packs`; automatic production and preview deployments are disabled. The new enhancement branch is not deployed.
-- Root directory: `api-site`.
-- Build command: leave empty.
-- Build output directory: `.`.
-- Attach custom domain: `fonts.api.aweconnect.dpdns.org`.
-- Keep the main AWEFonts Pages project rooted at repository root and attach `fonts.aweconnect.dpdns.org`.
+Endpoints: `/v1/catalog.json`, `/v1/sources.json`, `/v1/health.json`, `/v1/embed.v5.js`, `/v1/openapi.json`.
 
-The API hostname must point to this separate Pages project, not the main UI project.
-
-## Embed a font
+Embed:
 ```html
 <script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v5.js" data-font="Inter" data-weights="400;700"></script>
-<style>body { font-family: "Inter", sans-serif; }</style>
 ```
 
-Multiple fonts are supported with comma-separated family names:
-```html
-<script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v3.js" data-font="Inter, Noto Sans Armenian"></script>
-```
-
-To apply the first font automatically:
-```html
-<script src="https://fonts.api.aweconnect.dpdns.org/v1/embed.v3.js" data-font="Inter" data-apply="true" data-selector=".article"></script>
-```
-
-`data-font` accepts a catalog family name or family id. Google Fonts are loaded from Google Fonts, Fontsource families from Fontsource, SIL families from their published WOFF2 files, and Fontshare families from Fontshare CSS. SIL OFL Fontshare families can be packaged locally; ITF FFL Fontshare families are preview/embed-only and link to the official source. Font binaries are not proxied or mirrored by AWEFonts.
-
-## Endpoints
-- `/v1/catalog.json` — full catalog metadata
-- `/v1/embed.v5.js` — browser-side embed loader
-- `/v1/health.json` — static API build/version information
-
-All API files are static. There are no Workers, Functions, server-side code, database, login or API keys. The loader fetches the catalog in the visitor's browser and adds the upstream font stylesheet.
+For Google families, `data-provider="bunny"` selects the Bunny Fonts privacy CDN when the family is available there. Fontshare ITF FFL records remain preview/embed-only; downloadable packages are restricted by the recorded licence.
