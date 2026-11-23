@@ -73,9 +73,9 @@ jobs:
         run: git clone --depth 1 https://github.com/googlefonts/lang.git /tmp/awefonts-google-lang
       - name: Import historical flags, population and language exemplars
         run: |
-          python scripts/import-google-fonts-language-data.py \\
-            --root /tmp/awefonts-google-lang/Lib/gflanguages/data/languages \\
-            --revision "$(git -C /tmp/awefonts-google-lang rev-parse HEAD)" \\
+          python scripts/import-google-fonts-language-data.py \
+            --root /tmp/awefonts-google-lang/Lib/gflanguages/data/languages \
+            --revision "$(git -C /tmp/awefonts-google-lang rev-parse HEAD)" \
             --minimum 1600
       - name: Build verified language-level registry
         run: |
