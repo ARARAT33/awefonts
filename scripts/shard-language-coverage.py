@@ -54,11 +54,13 @@ def make_shards(items, root, folder, prefix, chunk_size, kind, summary_mode):
         shards.append({"id":shard_id,"path":rel,"url":url,"count":len(chunk),"bytes":size,"firstId":chunk[0].get("id"),"lastId":chunk[-1].get("id")})
         for item in chunk:
             if summary_mode=="registry":
-                summary={k:v for k,v in item.items() if k not in ("fontFamilyIds","fontCoverageByProfile")}
+                summary={k:v for k,v in item.items() if k not in ("fontFamilyIds","fontCoverageByProfile","sampleTextFamilyIds")}
                 summary["topFontFamilyIds"]=(item.get("fontFamilyIds") or [])[:8]
+                summary["topSampleTextFamilyIds"]=(item.get("sampleTextFamilyIds") or [])[:8]
             else:
-                summary={k:v for k,v in item.items() if k not in ("completeFamilyIds","thresholdQualifiedFamilyIds","bestPartial","completeProviderFamilyIds","thresholdQualifiedProviderFamilyIds")}
+                summary={k:v for k,v in item.items() if k not in ("completeFamilyIds","thresholdQualifiedFamilyIds","bestPartial","completeProviderFamilyIds","thresholdQualifiedProviderFamilyIds","sampleTextFamilyIds","sampleTextProviderFamilyIds","sampleTextThresholdFamilyIds","sampleTextThresholdProviderFamilyIds")}
                 summary["topFamilyIds"]=(item.get("completeFamilyIds") or [])[:8]
+                summary["topSampleTextFamilyIds"]=(item.get("sampleTextFamilyIds") or [])[:8]
                 summary["topThresholdQualifiedFamilyIds"]=(item.get("thresholdQualifiedFamilyIds") or [])[:8]
                 summary["bestPartialPreview"]=(item.get("bestPartial") or [])[:5]
             summary["detailsShard"]=url
