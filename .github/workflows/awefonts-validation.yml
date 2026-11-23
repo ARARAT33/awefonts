@@ -76,9 +76,9 @@ jobs:
           python scripts/import-google-fonts-language-data.py \
             --root /tmp/awefonts-google-lang/Lib/gflanguages/data/languages \
             --revision "$(git -C /tmp/awefonts-google-lang rev-parse HEAD)" \
-            --minimum 1600 \\
-            --catalog v1/catalog.json \\
-            --catalog-mirror api-site/v1/catalog.json \\
+            --minimum 1600 \
+            --catalog v1/catalog.json \
+            --catalog-mirror api-site/v1/catalog.json \
             --assets-index v1/assets-index.json
       - name: Build verified language-level registry
         run: |
