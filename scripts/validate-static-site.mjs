@@ -91,7 +91,12 @@ for(const path of ["catalog.json","coverage-targets.json","css-index.json","heal
     if(!x.equals(y))errors.push("Static API mirror mismatch: "+a+" vs "+b);
   }
 }
-if(fileSet.has("v1/language-registry.json")){\n  const registry=await readJson("v1/language-registry.json");\n  if(registry.count!==registry.languages?.length||registry.count<7000)errors.push("Glottolog language registry count is invalid or below 7,000.");\n  if(health.languageRegistryCount!==registry.count)errors.push("Health languageRegistryCount does not match the Glottolog registry.");\n}\nfor(const p of allFiles.filter(p=>p.endsWith(".json"))){
+if(fileSet.has("v1/language-registry.json")){
+  const registry=await readJson("v1/language-registry.json");
+  if(registry.count!==registry.languages?.length||registry.count<7000)errors.push("Glottolog language registry count is invalid or below 7,000.");
+  if(health.languageRegistryCount!==registry.count)errors.push("Health languageRegistryCount does not match the Glottolog registry.");
+}
+for(const p of allFiles.filter(p=>p.endsWith(".json"))){
   try{await readJson(p);}catch(e){errors.push("Invalid JSON "+p+": "+e.message);}
 }
 if(allFiles.some(p=>p.startsWith("functions/"))||fileSet.has("_worker.js"))errors.push("Unexpected Pages Functions/Worker entry point detected.");
