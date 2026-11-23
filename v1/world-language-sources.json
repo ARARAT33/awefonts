@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-23",
+  "policy": "Registries, language metadata, font repositories and character standards are separate source classes. A language record is not a font record.",
+  "languageRegistries": [
+    {
+      "id": "glottolog",
+      "name": "Glottolog",
+      "url": "https://glottolog.org/meta/downloads",
+      "format": "languoid.csv",
+      "fields": [
+        "id",
+        "name",
+        "level",
+        "parent_id",
+        "latitude",
+        "longitude"
+      ],
+      "vitality": "not supplied by the base languoid table; keep unknown unless a separately sourced status field exists"
+    },
+    {
+      "id": "googlefonts-lang",
+      "name": "Google Fonts language data",
+      "url": "https://github.com/googlefonts/lang",
+      "format": "JSON/Python source",
+      "fields": [
+        "language code",
+        "autonym",
+        "population",
+        "region",
+        "exemplar characters",
+        "sample text",
+        "historical",
+        "sources"
+      ],
+      "vitality": "historical flag may be used only for the exact language record"
+    },
+    {
+      "id": "unicode-cldr",
+      "name": "Unicode CLDR",
+      "url": "https://github.com/unicode-org/cldr",
+      "format": "JSON/XML",
+      "fields": [
+        "locale",
+        "exemplar characters",
+        "script",
+        "display names"
+      ],
+      "vitality": "not a vitality registry"
+    }
+  ],
+  "fontRepositories": [
+    {
+      "id": "google-fonts",
+      "name": "Google Fonts",
+      "url": "https://github.com/google/fonts",
+      "format": "METADATA.pb + TTF/OTF",
+      "license": "per-family; commonly OFL, but verify every family",
+      "redistribution": "allowed only under the family licence"
+    },
+    {
+      "id": "fontsource",
+      "name": "Fontsource",
+      "url": "https://github.com/fontsource/fontsource",
+      "format": "family metadata and package sources",
+      "license": "per-family",
+      "redistribution": "only source files with explicit redistribution rights"
+    },
+    {
+      "id": "sil",
+      "name": "SIL International",
+      "url": "https://software.sil.org/fonts/",
+      "format": "family download pages and source archives",
+      "license": "per-family",
+      "redistribution": "check SIL family licence and reserved font names"
+    },
+    {
+      "id": "noto",
+      "name": "Noto Fonts",
+      "url": "https://github.com/notofonts",
+      "format": "repository metadata and font binaries",
+      "license": "per-repository",
+      "redistribution": "check repository licence"
+    },
+    {
+      "id": "ofl",
+      "name": "Open Font Library",
+      "url": "https://fontlibrary.org",
+      "format": "font packages and metadata",
+      "license": "per-family",
+      "redistribution": "verify individual project licence"
+    }
+  ],
+  "characterEvidence": [
+    "explicit upstream language tags",
+    "font cmap coverage against a language exemplar character set",
+    "reviewed specialist-language override"
+  ],
+  "nonEvidence": [
+    "shared Unicode script alone",
+    "generic Latin subset",
+    "family display name",
+    "provider category",
+    "same font in another weight, style, subset, file format or mirror"
+  ],
+  "statusRules": [
+    "historical or extinct status must be imported from a cited linguistic source; do not infer it from missing speakers or an old script",
+    "unknown status remains unknown",
+    "a language with no known font remains in the registry with a zero-font coverage record"
+  ]
+}
