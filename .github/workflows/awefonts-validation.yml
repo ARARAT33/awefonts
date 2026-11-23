@@ -82,7 +82,8 @@ jobs:
           python scripts/build-glottolog-registry.py \
             --csv /tmp/awefonts-glottolog/glottolog_languoid.csv \
             --manifest /tmp/awefonts-glottolog/glottolog-download-manifest.json \
-            --minimum 7000
+            --minimum 7000 \
+            --profiles v1/language-evidence.json
       - name: Validate generated registry and API mirrors
         run: node scripts/validate-static-site.mjs
       - name: Commit updated registry when source data changes

@@ -91,7 +91,13 @@ for(const path of ["catalog.json","coverage-targets.json","css-index.json","heal
     if(!x.equals(y))errors.push("Static API mirror mismatch: "+a+" vs "+b);
   }
 }
-if(fileSet.has("v1/language-evidence.json")){\n  const evidence=await readJson("v1/language-evidence.json");\n  if(evidence.profileCount!==evidence.languages?.length||evidence.profileCount<1600)errors.push("Google Fonts language evidence profile count is invalid.");\n  if(health.languageEvidenceProfileCount!==evidence.profileCount)errors.push("Health languageEvidenceProfileCount does not match language evidence.");\n  if(health.historicalLanguageProfileCount!==evidence.historicalProfileCount)errors.push("Health historicalLanguageProfileCount does not match language evidence.");\n}\nif(fileSet.has("v1/language-registry.json")){
+if(fileSet.has("v1/language-evidence.json")){
+  const evidence=await readJson("v1/language-evidence.json");
+  if(evidence.profileCount!==evidence.languages?.length||evidence.profileCount<1600)errors.push("Google Fonts language evidence profile count is invalid.");
+  if(health.languageEvidenceProfileCount!==evidence.profileCount)errors.push("Health languageEvidenceProfileCount does not match language evidence.");
+  if(health.historicalLanguageProfileCount!==evidence.historicalProfileCount)errors.push("Health historicalLanguageProfileCount does not match language evidence.");
+}
+if(fileSet.has("v1/language-registry.json")){
   const registry=await readJson("v1/language-registry.json");
   if(registry.count!==registry.languages?.length||registry.count<7000)errors.push("Glottolog language registry count is invalid or below 7,000.");
   if(health.languageRegistryCount!==registry.count)errors.push("Health languageRegistryCount does not match the Glottolog registry.");
