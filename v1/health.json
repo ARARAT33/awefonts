@@ -4,7 +4,7 @@
   "catalogCount": 2204,
   "fontAssetCount": 103073,
   "fontFaceRecords": 99159,
-  "binaryFontFiles": 3914,
+  "binaryFontFiles": 0,
   "languageCount": 1404,
   "languageScriptProfiles": 1695,
   "scriptCount": 172,
@@ -18,8 +18,9 @@
   "generatedAt": "2026-11-23",
   "deploymentMode": "static assets only; no build, Workers or Functions",
   "apiHost": "fonts.api.aweconnect.dpdns.org",
-  "inventoryNote": "The catalog contains 2,204 distinct font families. Resource records, face/subset records and binary-file records are separate units. The Glottolog 5.4 registry contains 8,623 language-level entries; 1,404 language codes and 1,695 language-script profiles are separate indexes. Registry presence does not prove font coverage.",
+  "inventoryNote": "The catalog contains 2,204 distinct font families. The 3,914 binary-file records are upstream references, not bundled font binaries; this repository currently contains zero .woff/.woff2/.ttf/.otf files. The Glottolog 5.4 registry contains 8,623 language-level entries; 1,404 language codes and 1,695 language-script profiles are separate indexes. Registry presence does not prove font coverage.",
   "languageRegistryCount": 8623,
   "languageRegistryRelease": "5.4",
-  "languageRegistrySource": "Glottolog"
+  "languageRegistrySource": "Glottolog",
+  "binaryFileReferences": 3914
 }
