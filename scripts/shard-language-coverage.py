@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shard large language coverage datasets into deploy-safe static JSON assets."""
+"""Shard large language coverage datasets into deploy-safe static JSON assets. Schema v2."""
 import argparse
 import json
 import shutil
