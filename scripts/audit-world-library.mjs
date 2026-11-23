@@ -12,6 +12,15 @@ const uniq=a=>new Set(a.filter(Boolean)).size;
 report.familyRecords=fonts.length;report.uniqueFamilies=uniq(fonts.map(f=>norm(f.family||f.name)));
 report.uniqueIds=uniq(fonts.map(f=>String(f.id??"")));
 report.duplicateFamilyRecords=fonts.length-report.uniqueFamilies;report.duplicateIds=fonts.length-report.uniqueIds;
+const duplicateNameMap=new Map();
+for(const f of fonts){
+ const key=norm(f.family||f.name);
+ if(!key)continue;
+ const list=duplicateNameMap.get(key)||[];
+ list.push({id:f.id||null,family:f.family||f.name||null,source:f.source||null,designer:f.designer||null,foundry:f.foundry||null,canonicalId:f.canonicalId||null,license:f.license||null});
+ duplicateNameMap.set(key,list);
+}
+report.duplicateFamilyGroups=[...duplicateNameMap.values()].filter(group=>group.length>1).map(group=>({family:group[0].family,records:group})).slice(0,100);
 if(!fonts.length)errors.push("No catalog font records.");
 if(catalog.count!=null&&catalog.count!==fonts.length)errors.push("Catalog count mismatch.");
 if(report.duplicateFamilyRecords)warnings.push("Repeated normalized display names exist across family records; review designer/foundry identity before treating them as duplicates.");
