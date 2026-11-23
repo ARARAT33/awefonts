@@ -68,6 +68,20 @@ for(const [key,expected] of Object.entries({
 }
 if(cssIndex.count!=null&&cssIndex.count!==counts.cssPresets)errors.push("CSS preset count metadata mismatch.");
 const cssFiles=allFiles.filter(p=>p.startsWith("api/css/")&&p.endsWith(".css"));
+const deployedCssFiles=allFiles.filter(p=>p.startsWith("api-site/api/css/")&&p.endsWith(".css"));
+if(deployedCssFiles.length!==counts.cssPresets)errors.push("Deployed API CSS file count does not match CSS index ("+deployedCssFiles.length+" vs "+counts.cssPresets+").");
+for(const item of cssIndex.items||[]){
+  const source="api/css/"+item.id+".css";
+  const deployed="api-site/api/css/"+item.id+".css";
+  if(item.href!=="/api/css/"+item.id+".css")errors.push("Unexpected CSS preset URL for "+item.id+": "+item.href);
+  if(!fileSet.has(source))errors.push("Missing source CSS preset: "+source);
+  if(!fileSet.has(deployed))errors.push("Missing deployed API CSS preset: "+deployed);
+  else if(fileSet.has(source)){
+    const [a,b]=await Promise.all([readFile(resolve(root,source)),readFile(resolve(root,deployed))]);
+    if(!a.equals(b))errors.push("Deployed CSS preset differs from source: "+source);
+  }
+}
+
 if(counts.cssPresets!==null&&cssFiles.length!==counts.cssPresets)errors.push("CSS preset index and CSS file count differ ("+counts.cssPresets+" vs "+cssFiles.length+").");
 for(const f of cssFiles)if((await readFile(resolve(root,f),"utf8")).trim().length===0)errors.push("Empty CSS preset: "+f);
 
