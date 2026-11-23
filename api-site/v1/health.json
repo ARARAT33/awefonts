@@ -22,5 +22,16 @@
   "languageRegistryCount": 8623,
   "languageRegistryRelease": "5.4",
   "languageRegistrySource": "Glottolog",
-  "binaryFileReferences": 3914
+  "binaryFileReferences": 3914,
+  "googleFontsRelease": {
+    "tag": "font-corpus-google-2026-11",
+    "familyCount": 1992,
+    "binaryFileCount": 3719,
+    "totalBytes": 2356676768,
+    "sourceRevision": "06bfe0d62a98375cb09c942fa18e68bd32cff057",
+    "duplicateRecordsRemoved": 2,
+    "rejectedFamilyCount": 7,
+    "releaseUrl": "https://github.com/ARARAT33/awefonts/releases/tag/font-corpus-google-2026-11",
+    "manifestUrl": "https://github.com/ARARAT33/awefonts/releases/download/font-corpus-google-2026-11/google-fonts-corpus-manifest.json"
+  }
 }

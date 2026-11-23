@@ -35,6 +35,10 @@ tar -xzf google-fonts.tar.gz
 
 The archive contains one directory per accepted family, the original font binaries, a family metadata file, the upstream licence text, and a corpus manifest. It excludes the temporary upstream Git checkout.
 
+## Published snapshot (2026-11-23)
+
+The first full Google Fonts import is published at [GitHub Release](https://github.com/ARARAT33/awefonts/releases/tag/font-corpus-google-2026-11): **1,992 verified families, 3,719 unique binary files, 2,356,676,768 uncompressed bytes**. The source is pinned to `06bfe0d62a98375cb09c942fa18e68bd32cff057`. The accepted licence summary is 1,989 OFL-1.1 families and 3 Ubuntu-Font-1.0 families. Two duplicate records were removed and seven families were rejected by the strict metadata/licence/binary checks. See `/v1/corpora/google-fonts.json` for the exact archive-part SHA-256 and manifest links.
+
 ## What this does not claim
 
 - Google Fonts is one major open-font source, not every font ever created.
