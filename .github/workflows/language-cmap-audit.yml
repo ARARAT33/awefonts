@@ -5,7 +5,6 @@ on:
     branches:
       - feat/awefonts-world-library-2026
     paths:
-      - ".github/workflows/language-cmap-audit.yml"
       - "scripts/validate-language-cmap.py"
       - "scripts/link-cmap-coverage.py"
       - "v1/language-evidence.json"
@@ -76,13 +75,5 @@ jobs:
         if: always()
         run: |
           if [ -f ./work/language-cmap-coverage.json ]; then
-            python - <<'PY'
-            import json
-            d=json.load(open("./work/language-cmap-coverage.json",encoding="utf-8"))
-            print("Font families inspected:",d.get("familyCountInspected"))
-            print("Language profiles checked:",d.get("languageCountChecked"))
-            print("Formal exemplar profiles:",d.get("exemplarLanguageCountChecked"))
-            print("Sample-text-only profiles:",d.get("sampleTextLanguageCountChecked"))
-            print("Rejected profiles:",d.get("languageCountRejected"))
-            PY
+            python -c 'import json; d=json.load(open("./work/language-cmap-coverage.json",encoding="utf-8")); print("Font families inspected:",d.get("familyCountInspected")); print("Language profiles checked:",d.get("languageCountChecked")); print("Formal exemplar profiles:",d.get("exemplarLanguageCountChecked")); print("Sample-text-only profiles:",d.get("sampleTextLanguageCountChecked")); print("Rejected profiles:",d.get("languageCountRejected"))' >> "$GITHUB_STEP_SUMMARY"
           fi
