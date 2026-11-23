@@ -6,7 +6,6 @@ on:
       - feat/awefonts-world-library-2026
     paths:
       - "scripts/validate-language-cmap.py"
-      - "scripts/link-cmap-coverage.py"
       - "v1/language-evidence.json"
       - "v1/corpora/google-fonts.json"
   workflow_dispatch:
