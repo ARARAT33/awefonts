@@ -65,11 +65,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin feat/awefonts-world-library-2026
-          git rebase origin/feat/awefonts-world-library-2026
           git add v1/language-cmap-coverage.json api-site/v1/language-cmap-coverage.json v1/language-registry.json api-site/v1/language-registry.json v1/health.json api-site/v1/health.json
           if ! git diff --cached --quiet; then
             git commit -m "data: publish cmap-verified language font coverage [skip ci]"
+            git fetch origin feat/awefonts-world-library-2026
+            git rebase origin/feat/awefonts-world-library-2026
             git push origin HEAD:feat/awefonts-world-library-2026
           fi
       - name: Publish coverage summary

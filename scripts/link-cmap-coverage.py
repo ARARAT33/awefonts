@@ -39,6 +39,16 @@ def main():
     languages_with_any=0
     languages_with_exemplar=0
     languages_with_sample_only=0
+    for record in coverage.get("languages",[]):
+        original=record.get("completeFamilyIds") or []
+        record["completeProviderFamilyIds"]=original
+        record["completeFamilyIds"]=sorted({catalog_ids.get(x,x) for x in original})
+        threshold=record.get("thresholdQualifiedFamilyIds") or []
+        record["thresholdQualifiedProviderFamilyIds"]=threshold
+        record["thresholdQualifiedFamilyIds"]=sorted({catalog_ids.get(x,x) for x in threshold})
+        for partial in record.get("bestPartial",[]):
+            partial["providerFamilyId"]=partial.get("familyId")
+            partial["familyId"]=catalog_ids.get(partial.get("familyId"),partial.get("familyId"))
     for language in registry.get("languages",[]):
         profile_ids=language.get("googleFontsProfileIds") or []
         by_profile=[]
